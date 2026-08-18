@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "title": "BioFuture 2026",
+    "date": "2026-10-27",
+    "category": "biotech-longevity",
+    "link": "https://biofuture.com/content/"
+  },
+  {
+    "title": "Megha Majumdar in Conversation with Kiran Desai",
+    "date": "2026-09-15",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/07/19/megha-majumdar-a-guardian-and-a-thief-book-event/"
+  },
+  {
+    "title": "Brooklyn Book Festival",
+    "date": "2026-09-20",
+    "category": "literary-booktok",
+    "link": "https://brooklynbookfestival.org"
+  },
+  {
+    "title": "Booker Prize Shortlist Ceremony",
+    "date": "2026-09-22",
+    "category": "literary-booktok",
+    "link": "https://thebookerprizes.com"
+  },
+  {
+    "title": "Hernán Diaz: Ply",
+    "date": "2026-10-15",
+    "category": "literary-booktok",
+    "link": "https://www.strandbooks.com/events.html"
+  },
+  {
+    "title": "NY Jewish Book Festival",
+    "date": "2026-11-15",
+    "category": "literary-booktok",
+    "link": "https://mjhnyc.org/events/2026-new-york-jewish-book-festival/"
+  },
+  {
+    "title": "VIRGOAT 2026: The Unlimited Virgo Celebration",
+    "date": "2026-08-28",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/virgoat-2026-the-unlimited-virgo-celebration-nyc-free-wrsvp-tickets-1994112903374"
+  },
+  {
+    "title": "Healing Arts Festival & Psychic Fair",
+    "date": "2026-09-12",
+    "category": "occult-esoteric",
+    "link": "https://www.questbookshopnyc.com/event-details-registration/healing-arts-festival-psychic-fair-12"
+  },
+  {
+    "title": "Tarot! Renaissance Symbols, Modern Visions (closes)",
+    "date": "2026-10-04",
+    "category": "occult-esoteric",
+    "link": "https://www.nyctourism.com/events/tarot-renaissance-symbols/"
+  },
+  {
+    "title": "Cleveland Gaming Classic",
+    "date": "2026-09-11",
+    "category": "retro-gaming",
+    "link": "https://www.gamecleveland.com/"
+  },
+  {
+    "title": "Retro World Expo",
+    "date": "2026-09-13",
+    "category": "retro-gaming",
+    "link": "https://retroworldexpo.com/"
+  },
+  {
+    "title": "Portland Retro Gaming Expo",
+    "date": "2026-10-09",
+    "category": "retro-gaming",
+    "link": "https://www.retrogamingexpo.com/"
+  },
+  {
+    "title": "Houston Arcade Expo",
+    "date": "2026-11-13",
+    "category": "retro-gaming",
+    "link": "https://en.wikipedia.org/wiki/Houston_Arcade_Expo"
+  },
+  {
+    "title": "San Francisco Pen Show",
+    "date": "2026-08-27",
+    "category": "pen-stationery",
+    "link": "https://sanfranciscopenshow.com/"
+  },
+  {
+    "title": "Dallas Pen Show",
+    "date": "2026-09-24",
+    "category": "pen-stationery",
+    "link": "https://dallaspenshow.com/"
+  },
+  {
+    "title": "Detroit Pen Show",
+    "date": "2026-10-02",
+    "category": "pen-stationery",
+    "link": "https://detroitpenshow.com/"
+  },
+  {
+    "title": "Colorado Pen Show",
+    "date": "2026-10-09",
+    "category": "pen-stationery",
+    "link": "https://www.coloradopenshow.com/"
+  },
+  {
+    "title": "Ohio Pen Show",
+    "date": "2026-12-03",
+    "category": "pen-stationery",
+    "link": "https://theohiopenshow.com/"
+  }
+]
