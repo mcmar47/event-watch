@@ -106,5 +106,41 @@
     "date": "2026-12-03",
     "category": "pen-stationery",
     "link": "https://theohiopenshow.com/"
+  },
+  {
+    "title": "NYSCF Conference (Stem Cell & Regenerative Medicine)",
+    "date": "2026-09-23",
+    "category": "biotech-longevity",
+    "link": "https://conference.nyscf.org/"
+  },
+  {
+    "title": "NewYorkBIO Innovation Summit",
+    "date": "2026-09-30",
+    "category": "biotech-longevity",
+    "link": "https://newyorkbio.glueup.com/event/newyorkbio-innovation-summit-2026-184931/"
+  },
+  {
+    "title": "Next Gen Bio Tech 2026 Webinar",
+    "date": "2026-08-28",
+    "category": "biotech-longevity",
+    "link": "https://nextgenbiotechconference.com/"
+  },
+  {
+    "title": "NEWLIFE Conference & Expo",
+    "date": "2026-11-07",
+    "category": "biotech-longevity",
+    "link": "https://newlifeexpo.com/"
+  },
+  {
+    "title": "Albany Book Festival",
+    "date": "2026-09-26",
+    "category": "literary-booktok",
+    "link": "https://www.albanybookfestival.com/"
+  },
+  {
+    "title": "Rochester Children and Teens Book Festival",
+    "date": "2026-11-07",
+    "category": "literary-booktok",
+    "link": "https://www.rcbfest.com/"
   }
 ]
