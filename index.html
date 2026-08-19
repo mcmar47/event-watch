@@ -143,8 +143,9 @@
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     gap: 4px;
+    max-width: 100%;
   }
   .weekday {
     text-align: center;
@@ -158,6 +159,7 @@
     border: 1px solid var(--border);
     border-radius: 8px;
     min-height: 74px;
+    min-width: 0;
     padding: 4px;
     cursor: default;
     display: flex;
@@ -188,6 +190,7 @@
     flex-direction: column;
     gap: 2px;
     overflow: hidden;
+    min-width: 0;
   }
   .chip {
     font-size: 0.65rem;
@@ -199,6 +202,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    min-width: 0;
+    max-width: 100%;
   }
   .chip.past { background: #ececee; color: var(--past); }
   .more-chip {
