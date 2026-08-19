@@ -72,12 +72,42 @@
   .toggles {
     display: flex;
     align-items: center;
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: 14px;
     margin-bottom: 20px;
     font-size: 0.85rem;
     color: var(--text-muted);
   }
   .toggles label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+  .location-search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .location-search input {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-size: 0.85rem;
+    width: 160px;
+    max-width: 50vw;
+    color: var(--text);
+    background: var(--panel-bg);
+  }
+  .location-search input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .location-search .clear-btn {
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0 2px;
+    display: none;
+  }
+  .location-search .clear-btn.visible { display: inline; }
 
   .month-nav {
     display: flex;
@@ -205,6 +235,15 @@
     color: var(--text-muted);
     margin: 0 0 6px;
   }
+  .event-item .loc-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 2px 7px;
+    border-radius: 999px;
+    background: #eef1f5;
+    color: #5a6472;
+    margin-right: 6px;
+  }
   .event-item .cat-badge {
     display: inline-block;
     font-size: 0.7rem;
@@ -239,6 +278,11 @@
   <div class="filters" id="filters"></div>
   <div class="toggles">
     <label><input type="checkbox" id="upcoming-only"> Upcoming only</label>
+    <div class="location-search">
+      <label for="location-filter">Location</label>
+      <input type="text" id="location-filter" placeholder="e.g. NYC, Denver, Virtual">
+      <button type="button" class="clear-btn" id="location-clear" aria-label="Clear location filter">&times;</button>
+    </div>
   </div>
 
   <div class="month-nav">
@@ -272,6 +316,7 @@
     activeCategories: new Set(),
     categoryColor: {},
     upcomingOnly: false,
+    locationQuery: '',
     viewDate: startOfMonth(new Date()),
     selectedDayKey: null,
   };
@@ -280,6 +325,8 @@
     updatedLine: document.getElementById('updated-line'),
     filters: document.getElementById('filters'),
     upcomingOnlyBox: document.getElementById('upcoming-only'),
+    locationFilter: document.getElementById('location-filter'),
+    locationClear: document.getElementById('location-clear'),
     monthLabel: document.getElementById('month-label'),
     grid: document.getElementById('calendar-grid'),
     emptyBanner: document.getElementById('empty-banner'),
@@ -310,6 +357,7 @@
         date: e.date,
         category: e.category || 'uncategorized',
         link: e.link || null,
+        location: e.location || null,
       }));
       state.categories = Array.from(new Set(state.events.map(e => e.category))).sort();
       state.categories.forEach((c, i) => { state.categoryColor[c] = PALETTE[i % PALETTE.length]; });
@@ -345,9 +393,11 @@
   }
 
   function eventsMatchingFilters() {
+    const query = state.locationQuery.trim().toLowerCase();
     return state.events.filter(e => {
       if (!state.activeCategories.has(e.category)) return false;
       if (state.upcomingOnly && isPastDate(e.date)) return false;
+      if (query && !(e.location || '').toLowerCase().includes(query)) return false;
       return true;
     });
   }
@@ -457,7 +507,7 @@
     const items = dayEvents.map(e => `
       <div class="event-item${past ? ' past' : ''}">
         <p class="title">${escapeHtml(e.title)}</p>
-        <p class="meta"><span class="cat-badge">${escapeHtml(titleCase(e.category))}</span>${escapeHtml(e.date)}</p>
+        <p class="meta"><span class="cat-badge">${escapeHtml(titleCase(e.category))}</span>${e.location ? `<span class="loc-badge">${escapeHtml(e.location)}</span>` : ''}${escapeHtml(e.date)}</p>
         ${e.link ? `<a class="source-link" href="${escapeAttr(e.link)}" target="_blank" rel="noopener noreferrer">View source →</a>` : ''}
       </div>
     `).join('');
@@ -483,6 +533,18 @@
   });
   els.upcomingOnlyBox.addEventListener('change', (e) => {
     state.upcomingOnly = e.target.checked;
+    render();
+  });
+  els.locationFilter.addEventListener('input', (e) => {
+    state.locationQuery = e.target.value;
+    els.locationClear.classList.toggle('visible', state.locationQuery.length > 0);
+    render();
+  });
+  els.locationClear.addEventListener('click', () => {
+    state.locationQuery = '';
+    els.locationFilter.value = '';
+    els.locationClear.classList.remove('visible');
+    els.locationFilter.focus();
     render();
   });
 
