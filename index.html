@@ -513,7 +513,7 @@
       <div class="event-item${past ? ' past' : ''}">
         <p class="title">${escapeHtml(e.title)}</p>
         <p class="meta"><span class="cat-badge">${escapeHtml(titleCase(e.category))}</span>${e.location ? `<span class="loc-badge">${escapeHtml(e.location)}</span>` : ''}${escapeHtml(e.date)}</p>
-        ${e.link ? `<a class="source-link" href="${escapeAttr(e.link)}" target="_blank" rel="noopener noreferrer">View source →</a>` : ''}
+        ${e.link && isSafeUrl(e.link) ? `<a class="source-link" href="${escapeAttr(e.link)}" target="_blank" rel="noopener noreferrer">View source →</a>` : ''}
       </div>
     `).join('');
     els.panel.innerHTML = `<h3>${key}</h3>${items}`;
@@ -523,6 +523,7 @@
     return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
   function escapeAttr(s) { return escapeHtml(s); }
+  function isSafeUrl(s) { return s && /^https?:\/\//i.test(s); }
 
   els.prevBtn.addEventListener('click', () => {
     state.viewDate = new Date(state.viewDate.getFullYear(), state.viewDate.getMonth() - 1, 1);
