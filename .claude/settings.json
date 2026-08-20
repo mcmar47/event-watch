@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "mcp__Gmail__send_message",
+      "Bash(date*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push origin *)",
+      "Bash(git push -u origin *)",
+      "Read(./seen-events.json)",
+      "Edit(./seen-events.json)"
+    ],
+    "deny": [
+      "Bash(git push*--force*)",
+      "Bash(git push*--force-with-lease*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean*)",
+      "Bash(rm -rf*)",
+      "Bash(rm -f*)"
+    ]
+  }
+}
