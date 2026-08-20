@@ -36,9 +36,11 @@
     <key>StandardErrorPath</key>
     <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch.err.log</string>
 
-    <!-- Daily at 9:00 AM local time. See README notes below for other cadences. -->
+    <!-- Every Thursday at 9:00 AM local time. Weekday: 0=Sunday ... 4=Thursday ... 6=Saturday. -->
     <key>StartCalendarInterval</key>
     <dict>
+        <key>Weekday</key>
+        <integer>4</integer>
         <key>Hour</key>
         <integer>9</integer>
         <key>Minute</key>
