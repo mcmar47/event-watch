@@ -124,5 +124,173 @@
     "category": "pen-stationery",
     "link": "https://theohiopenshow.com/",
     "location": "Dublin, OH"
+  },
+  {
+    "title": "C3 Davos of Healthcare™ NYC Summit",
+    "date": "2026-09-14",
+    "category": "biotech-longevity",
+    "link": "https://www.eventbrite.com/e/c3-davos-of-healthcaretm-nyc-summit-tickets-1990822324163",
+    "location": "New York, NY"
+  },
+  {
+    "title": "MedInvest Biotech & Pharma Investor Conference",
+    "date": "2026-09-15",
+    "category": "biotech-longevity",
+    "link": "https://www.medinvestconferences.com/",
+    "location": "New York, NY"
+  },
+  {
+    "title": "Mechanisms of Aging 2026",
+    "date": "2026-09-22",
+    "category": "biotech-longevity",
+    "link": "https://meetings.cshl.edu/meetings.aspx?meet=AGING",
+    "location": "Cold Spring Harbor, NY"
+  },
+  {
+    "title": "JAX-NYSCF Conference",
+    "date": "2026-09-23",
+    "category": "biotech-longevity",
+    "link": "https://conference.nyscf.org/",
+    "location": "New York, NY"
+  },
+  {
+    "title": "NewYorkBIO Innovation Summit 2026",
+    "date": "2026-09-30",
+    "category": "biotech-longevity",
+    "link": "https://newyorkbio.glueup.com/event/newyorkbio-innovation-summit-2026-184931/",
+    "location": "New York, NY"
+  },
+  {
+    "title": "ARDD 2026 (Aging Research & Drug Discovery)",
+    "date": "2026-10-01",
+    "category": "biotech-longevity",
+    "link": "https://longevity.technology/news/ardd-2026-to-relocate-to-boston/",
+    "location": "Boston, MA"
+  },
+  {
+    "title": "Lydia Mathis: Desperate Bodies Launch",
+    "date": "2026-09-15",
+    "category": "literary-booktok",
+    "link": "https://centerforfiction.org/events/",
+    "location": "New York, NY"
+  },
+  {
+    "title": "Jonathan Franzen: The Corrections 25th Anniversary with Deborah Treisman",
+    "date": "2026-09-22",
+    "category": "literary-booktok",
+    "link": "https://centerforfiction.org/events/",
+    "location": "New York, NY"
+  },
+  {
+    "title": "Albany Book Festival",
+    "date": "2026-09-26",
+    "category": "literary-booktok",
+    "link": "https://www.albanybookfestival.com/",
+    "location": "Albany, NY"
+  },
+  {
+    "title": "Day of Translation",
+    "date": "2026-09-24",
+    "category": "literary-booktok",
+    "link": "https://centerforfiction.org/event/2026-day-of-translation/",
+    "location": "Brooklyn, NY"
+  },
+  {
+    "title": "Saratoga Book Festival",
+    "date": "2026-10-01",
+    "category": "literary-booktok",
+    "link": "https://friends.sspl.org/book-festival/",
+    "location": "Saratoga Springs, NY"
+  },
+  {
+    "title": "Rochester Speakers Series: Min Jin Lee",
+    "date": "2026-10-27",
+    "category": "literary-booktok",
+    "link": "https://www.rochesterspeakers.org/buytickets",
+    "location": "Rochester, NY"
+  },
+  {
+    "title": "Booker Prize Winner Ceremony",
+    "date": "2026-11-09",
+    "category": "literary-booktok",
+    "link": "https://thebookerprizes.com/booker-prize",
+    "location": "London, UK"
+  },
+  {
+    "title": "Rochester Speakers Series: Percival Everett",
+    "date": "2027-04-06",
+    "category": "literary-booktok",
+    "link": "https://www.rochesterspeakers.org/buytickets",
+    "location": "Rochester, NY"
+  },
+  {
+    "title": "Riding the Current Trends with Astrology: Your Personal GPS",
+    "date": "2026-08-21",
+    "category": "occult-esoteric",
+    "link": "https://www.lilydaleassembly.org/allevents",
+    "location": "Lily Dale, NY"
+  },
+  {
+    "title": "Tarot 101: The Fool's Journey – Intro to the Major Arcana",
+    "date": "2026-09-19",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/tarot-101-the-fools-journey-intro-to-the-major-arcana-tickets-1993486158764",
+    "location": "Rochester, NY"
+  },
+  {
+    "title": "Tarot 102: Transformation, Shadow, and Awakening",
+    "date": "2026-10-03",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/tarot-102-transformation-shadow-and-awakening-tickets-1993486672300",
+    "location": "Rochester, NY"
+  },
+  {
+    "title": "Samhain Weekend: 3-Day Ancestral Lineage Healing Intensive",
+    "date": "2026-10-30",
+    "category": "occult-esoteric",
+    "link": "https://www.ashleywaverley.com/rochester-october-2026",
+    "location": "Rochester, NY"
+  },
+  {
+    "title": "RetroGameCon 2026",
+    "date": "2026-10-02",
+    "category": "retro-gaming",
+    "link": "https://www.retrogamecon.com/event-details/retrogamecon-2026",
+    "location": "Syracuse, NY"
+  },
+  {
+    "title": "SEGA Fan Meetup (Arcade Adventure 5) at Galloping Ghost Arcade",
+    "date": "2026-10-03",
+    "category": "retro-gaming",
+    "link": "https://segabits.com/blog/2026/08/05/save-the-date-sega-fan-meetup-at-galloping-ghost-arcade-on-saturday-october-3rd-2026/",
+    "location": "Brookfield, IL"
+  },
+  {
+    "title": "Arcade Party - Southern MD",
+    "date": "2026-10-24",
+    "category": "retro-gaming",
+    "link": "https://forums.arcade-museum.com/threads/arcade-party-southern-md-saturday-oct-24-2026.566205/",
+    "location": "Charlotte Hall, MD"
+  },
+  {
+    "title": "Paper World Stationery Expo Orlando",
+    "date": "2026-08-29",
+    "category": "pen-stationery",
+    "link": "https://lighthousepaper.com/pages/paper-world-stationery-expo-orlando-saturday-august-29th-2026",
+    "location": "Orlando, FL"
+  },
+  {
+    "title": "Orlando Pen Show 2026",
+    "date": "2026-09-10",
+    "category": "pen-stationery",
+    "link": "https://orlandopenshow.com/",
+    "location": "Orlando, FL"
+  },
+  {
+    "title": "Empire State Pen Show 2026",
+    "date": "2026-11-07",
+    "category": "pen-stationery",
+    "link": "https://espenshow.com/",
+    "location": "New York, NY"
   }
 ]
