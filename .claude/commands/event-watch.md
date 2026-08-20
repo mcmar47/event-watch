@@ -61,6 +61,14 @@ formatted — it feeds a location filter on a website, so avoid free-form
 descriptions, venue addresses, or neighborhood-level detail. If a specific
 city truly cannot be determined after checking the event page, use "Unknown".
 
+Also write a one-line description for each new event: one factual sentence
+(roughly 8-20 words, no marketing fluff) stating what the event actually is
+— e.g. "Annual expo for vintage video games, arcade cabinets, and pinball,
+with tournaments and vendor booths." or "Book signing and talk with novelist
+Barbara Kingsolver for her new novel Partita." This is the same description
+you use in the email digest bullet below — write it once and reuse it in
+both places.
+
 If new events are found:
 - Compose an email digest grouped by category. Send it as HTML (use the Gmail
   connector's htmlBody field, not plain body) styled like this:
@@ -74,8 +82,8 @@ If new events are found:
   - Keep it concise and skimmable — short bullets, not long paragraphs.
 - Send it via the Gmail connector to michael.cmar@gmail.com.
 - Append the new events to seen-events.json (title, date, category, link,
-  location) and commit the change with a message like "Add N new events from
-  [date] run", then push to the current branch.
+  location, description) and commit the change with a message like "Add N
+  new events from [date] run", then push to the current branch.
 
 If no new events are found in any category, do not send an email — just exit
 without committing.

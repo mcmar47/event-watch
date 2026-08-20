@@ -240,6 +240,12 @@
     color: var(--text-muted);
     margin: 0 0 6px;
   }
+  .event-item .description {
+    font-size: 0.88rem;
+    line-height: 1.4;
+    color: var(--text);
+    margin: 0 0 8px;
+  }
   .event-item .loc-badge {
     display: inline-block;
     font-size: 0.7rem;
@@ -363,6 +369,7 @@
         category: e.category || 'uncategorized',
         link: e.link || null,
         location: e.location || null,
+        description: e.description || null,
       }));
       state.categories = Array.from(new Set(state.events.map(e => e.category))).sort();
       state.categories.forEach((c, i) => { state.categoryColor[c] = PALETTE[i % PALETTE.length]; });
@@ -513,6 +520,7 @@
       <div class="event-item${past ? ' past' : ''}">
         <p class="title">${escapeHtml(e.title)}</p>
         <p class="meta"><span class="cat-badge">${escapeHtml(titleCase(e.category))}</span>${e.location ? `<span class="loc-badge">${escapeHtml(e.location)}</span>` : ''}${escapeHtml(e.date)}</p>
+        ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ''}
         ${e.link ? `<a class="source-link" href="${escapeAttr(e.link)}" target="_blank" rel="noopener noreferrer">View source →</a>` : ''}
       </div>
     `).join('');
