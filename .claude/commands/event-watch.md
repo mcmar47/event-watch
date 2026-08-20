@@ -5,6 +5,18 @@ description: Search for new events across all watched categories, email a digest
 Read seen-events.json in this repository first — it's a JSON array of events already
 reported in past runs, each with at least a "title" and "date" field.
 
+BACKFILL PASS: Check every existing event in seen-events.json for a missing or
+empty "location" or "description" field (older entries, or ones added when a
+different execution environment couldn't reach a source page, may be missing
+one or both). For each event with a gap, look up its source link (or search
+the web using its title/date/category if the link can't be fetched) and fill
+in the missing field(s) directly in seen-events.json, using the same "City, ST"
+/ "Virtual" format for location and the same one-line factual style for
+description described below. If you find events with gaps, edit the file and
+commit that as its own small change — e.g. "Backfill missing fields for N
+existing events" — then push, before moving on to the search below. If nothing
+is missing, skip this step entirely and don't commit anything for it.
+
 Before searching, determine today's actual current date (do not assume or guess —
 check the current date as part of this run, e.g. via the `date` shell command). Use
 that as your reference point for "future" in everything below.
