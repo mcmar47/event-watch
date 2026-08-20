@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.michaelcmar.event-watch</string>
+
+    <!-- Runs `claude -p "/event-watch" --model haiku` from the repo directory.
+         --model haiku uses the lightest-weight model to conserve quota.
+         Drop the --model args entirely to use your account's default model instead. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/claude</string>
+        <string>-p</string>
+        <string>/event-watch</string>
+        <string>--model</string>
+        <string>haiku</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/michaelcmar/Documents/Developer/event-watch</string>
+
+    <!-- launchd does not source your shell profile, so PATH must be set explicitly.
+         Run `which node` locally and add its directory here if claude fails to find node. -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/michaelcmar</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch.err.log</string>
+
+    <!-- Daily at 9:00 AM local time. See README notes below for other cadences. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+</dict>
+</plist>
