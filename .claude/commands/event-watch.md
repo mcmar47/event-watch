@@ -5,6 +5,18 @@ description: Search for new events across all watched categories, email a digest
 Read seen-events.json in this repository first — it's a JSON array of events already
 reported in past runs, each with at least a "title" and "date" field.
 
+BACKFILL PASS: Check every existing event in seen-events.json for a missing or
+empty "location" or "description" field (older entries, or ones added when a
+different execution environment couldn't reach a source page, may be missing
+one or both). For each event with a gap, look up its source link (or search
+the web using its title/date/category if the link can't be fetched) and fill
+in the missing field(s) directly in seen-events.json, using the same "City, ST"
+/ "Virtual" format for location and the same one-line factual style for
+description described below. If you find events with gaps, edit the file and
+commit that as its own small change — e.g. "Backfill missing fields for N
+existing events" — then push, before moving on to the search below. If nothing
+is missing, skip this step entirely and don't commit anything for it.
+
 Before searching, determine today's actual current date (do not assume or guess —
 check the current date as part of this run, e.g. via the `date` shell command). Use
 that as your reference point for "future" in everything below.
@@ -61,6 +73,14 @@ formatted — it feeds a location filter on a website, so avoid free-form
 descriptions, venue addresses, or neighborhood-level detail. If a specific
 city truly cannot be determined after checking the event page, use "Unknown".
 
+Also write a one-line description for each new event: one factual sentence
+(roughly 8-20 words, no marketing fluff) stating what the event actually is
+— e.g. "Annual expo for vintage video games, arcade cabinets, and pinball,
+with tournaments and vendor booths." or "Book signing and talk with novelist
+Barbara Kingsolver for her new novel Partita." This is the same description
+you use in the email digest bullet below — write it once and reuse it in
+both places.
+
 If new events are found:
 - Compose an email digest grouped by category. Send it as HTML (use the Gmail
   connector's htmlBody field, not plain body) styled like this:
@@ -74,8 +94,8 @@ If new events are found:
   - Keep it concise and skimmable — short bullets, not long paragraphs.
 - Send it via the Gmail connector to michael.cmar@gmail.com.
 - Append the new events to seen-events.json (title, date, category, link,
-  location) and commit the change with a message like "Add N new events from
-  [date] run", then push to the current branch.
+  location, description) and commit the change with a message like "Add N
+  new events from [date] run", then push to the current branch.
 
 If no new events are found in any category, do not send an email — just exit
 without committing.

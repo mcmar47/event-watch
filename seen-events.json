@@ -4,49 +4,56 @@
     "date": "2026-10-27",
     "category": "biotech-longevity",
     "link": "https://biofuture.com/content/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Biopharma and healthcare innovation conference on AI, digital medicine, and TechBio convergence, drawing 500+ attendees."
   },
   {
     "title": "Megha Majumdar in Conversation with Kiran Desai",
     "date": "2026-09-15",
     "category": "literary-booktok",
     "link": "https://www.booksigningcentral.com/2026/07/19/megha-majumdar-a-guardian-and-a-thief-book-event/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Author talk between novelists Megha Majumdar and Kiran Desai on Majumdar's novel A Guardian and a Thief."
   },
   {
     "title": "Brooklyn Book Festival",
     "date": "2026-09-20",
     "category": "literary-booktok",
     "link": "https://brooklynbookfestival.org",
-    "location": "Brooklyn, NY"
+    "location": "Brooklyn, NY",
+    "description": "Free literary festival with author panels, readings, and book signings across Downtown Brooklyn venues."
   },
   {
     "title": "Booker Prize Shortlist Ceremony",
     "date": "2026-09-22",
     "category": "literary-booktok",
     "link": "https://thebookerprizes.com",
-    "location": "London, UK"
+    "location": "London, UK",
+    "description": "Public ceremony at Southbank Centre in London announcing the Booker Prize fiction shortlist, with judges in conversation."
   },
   {
     "title": "Hernán Diaz: Ply",
     "date": "2026-10-15",
     "category": "literary-booktok",
     "link": "https://www.strandbooks.com/events.html",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Author talk and signing with Pulitzer Prize winner Hernán Diaz for his new novel Ply."
   },
   {
     "title": "NY Jewish Book Festival",
     "date": "2026-11-15",
     "category": "literary-booktok",
     "link": "https://mjhnyc.org/events/2026-new-york-jewish-book-festival/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Festival of panel discussions and author talks on Jewish literature and culture, plus a Hanukkah gift bazaar."
   },
   {
     "title": "VIRGOAT 2026: The Unlimited Virgo Celebration",
     "date": "2026-08-28",
     "category": "occult-esoteric",
     "link": "https://www.eventbrite.com/e/virgoat-2026-the-unlimited-virgo-celebration-nyc-free-wrsvp-tickets-1994112903374",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Zodiac-themed rooftop nightlife party in NYC celebrating Virgo season, free entry with RSVP."
   },
   {
     "title": "Full Moon Eclipse in Pisces Astro Workshop",
@@ -60,147 +67,168 @@
     "date": "2026-09-12",
     "category": "occult-esoteric",
     "link": "https://www.questbookshopnyc.com/event-details-registration/healing-arts-festival-psychic-fair-12",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Fair of tarot readers, astrologers, and energy healers offering readings and wellness services at Quest Bookshop."
   },
   {
     "title": "Tarot! Renaissance Symbols, Modern Visions (closes)",
     "date": "2026-10-04",
     "category": "occult-esoteric",
     "link": "https://www.nyctourism.com/events/tarot-renaissance-symbols/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Closing weekend of a Morgan Library exhibition tracing tarot imagery from Renaissance decks to modern and contemporary art."
   },
   {
     "title": "Cleveland Gaming Classic",
     "date": "2026-09-11",
     "category": "retro-gaming",
     "link": "https://www.gamecleveland.com/",
-    "location": "Cleveland, OH"
+    "location": "Cleveland, OH",
+    "description": "Ohio's largest retro and arcade gaming convention, with free-play cabinets, pinball, esports tournaments, and cosplay."
   },
   {
     "title": "Retro World Expo",
     "date": "2026-09-13",
     "category": "retro-gaming",
     "link": "https://retroworldexpo.com/",
-    "location": "Hartford, CT"
+    "location": "Hartford, CT",
+    "description": "Annual Hartford convention for video games, music, and tabletop gaming, with a vendor marketplace and free-play arcade."
   },
   {
     "title": "Portland Retro Gaming Expo",
     "date": "2026-10-09",
     "category": "retro-gaming",
     "link": "https://www.retrogamingexpo.com/",
-    "location": "Portland, OR"
+    "location": "Portland, OR",
+    "description": "Classic video game convention with a massive free-play arcade, vendor floor, and guest speakers at Oregon Convention Center."
   },
   {
     "title": "Houston Arcade Expo",
     "date": "2026-11-13",
     "category": "retro-gaming",
     "link": "https://en.wikipedia.org/wiki/Houston_Arcade_Expo",
-    "location": "Houston, TX"
+    "location": "Houston, TX",
+    "description": "Long-running Houston convention with free-play classic arcade, pinball, and console games, tournaments, and a swap meet."
   },
   {
     "title": "San Francisco Pen Show",
     "date": "2026-08-27",
     "category": "pen-stationery",
     "link": "https://sanfranciscopenshow.com/",
-    "location": "San Francisco, CA"
+    "location": "San Francisco, CA",
+    "description": "Multi-day fountain pen show near SFO with exhibitors, workshops, and pen makers showcasing fine writing instruments."
   },
   {
     "title": "Dallas Pen Show",
     "date": "2026-09-24",
     "category": "pen-stationery",
     "link": "https://dallaspenshow.com/",
-    "location": "Dallas, TX"
+    "location": "Dallas, TX",
+    "description": "Multi-day expo for fountain pen, ink, and paper collectors and dealers, with demonstrations and nib services."
   },
   {
     "title": "Detroit Pen Show",
     "date": "2026-10-02",
     "category": "pen-stationery",
     "link": "https://detroitpenshow.com/",
-    "location": "Southfield, MI"
+    "location": "Southfield, MI",
+    "description": "Regional show for pen and stationery collectors to buy, sell, and showcase writing instruments and accessories."
   },
   {
     "title": "Colorado Pen Show",
     "date": "2026-10-09",
     "category": "pen-stationery",
     "link": "https://www.coloradopenshow.com/",
-    "location": "Denver, CO"
+    "location": "Denver, CO",
+    "description": "Denver pen show with workshops, classes, and a marketplace of vintage and modern fountain pens."
   },
   {
     "title": "Ohio Pen Show",
     "date": "2026-12-03",
     "category": "pen-stationery",
     "link": "https://theohiopenshow.com/",
-    "location": "Dublin, OH"
+    "location": "Dublin, OH",
+    "description": "Multi-day fountain pen show in Dublin, Ohio with seminars, pen auctions, on-site repairs, and a vendor marketplace."
   },
   {
     "title": "C3 Davos of Healthcare™ NYC Summit",
     "date": "2026-09-14",
     "category": "biotech-longevity",
     "link": "https://www.eventbrite.com/e/c3-davos-of-healthcaretm-nyc-summit-tickets-1990822324163",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Healthcare leadership summit convening 500+ investors, clinicians, and policymakers on AI, biotech, and disease research."
   },
   {
     "title": "MedInvest Biotech & Pharma Investor Conference",
     "date": "2026-09-15",
     "category": "biotech-longevity",
     "link": "https://www.medinvestconferences.com/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Investor conference featuring biotech and pharma companies presenting across oncology, immunology, and other therapeutic areas."
   },
   {
     "title": "Mechanisms of Aging 2026",
     "date": "2026-09-22",
     "category": "biotech-longevity",
     "link": "https://meetings.cshl.edu/meetings.aspx?meet=AGING",
-    "location": "Cold Spring Harbor, NY"
+    "location": "Cold Spring Harbor, NY",
+    "description": "Cold Spring Harbor Laboratory scientific meeting on aging biology, with invited talks and poster sessions from leading researchers."
   },
   {
     "title": "JAX-NYSCF Conference",
     "date": "2026-09-23",
     "category": "biotech-longevity",
     "link": "https://conference.nyscf.org/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Translational stem cell research conference marking 20 years since the discovery of iPSCs, with 125+ scientific presentations."
   },
   {
     "title": "NewYorkBIO Innovation Summit 2026",
     "date": "2026-09-30",
     "category": "biotech-longevity",
     "link": "https://newyorkbio.glueup.com/event/newyorkbio-innovation-summit-2026-184931/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Full-day summit of panels and fireside chats connecting biotech investors, entrepreneurs, and industry leaders."
   },
   {
     "title": "ARDD 2026 (Aging Research & Drug Discovery)",
     "date": "2026-10-01",
     "category": "biotech-longevity",
     "link": "https://longevity.technology/news/ardd-2026-to-relocate-to-boston/",
-    "location": "Boston, MA"
+    "location": "Boston, MA",
+    "description": "World's largest longevity biotechnology conference, convening researchers and pharma executives on aging science."
   },
   {
     "title": "Lydia Mathis: Desperate Bodies Launch",
     "date": "2026-09-15",
     "category": "literary-booktok",
     "link": "https://centerforfiction.org/events/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Book launch conversation with debut author Lydia Mathis on her short story collection Desperate Bodies."
   },
   {
     "title": "Jonathan Franzen: The Corrections 25th Anniversary with Deborah Treisman",
     "date": "2026-09-22",
     "category": "literary-booktok",
     "link": "https://centerforfiction.org/events/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Anniversary discussion of Jonathan Franzen's novel The Corrections, moderated by New Yorker editor Deborah Treisman."
   },
   {
     "title": "Albany Book Festival",
     "date": "2026-09-26",
     "category": "literary-booktok",
     "link": "https://www.albanybookfestival.com/",
-    "location": "Albany, NY"
+    "location": "Albany, NY",
+    "description": "Free literary festival at University at Albany with author panels, a marketplace of 60+ local authors, and children's activities."
   },
   {
     "title": "Day of Translation",
     "date": "2026-09-24",
     "category": "literary-booktok",
     "link": "https://centerforfiction.org/event/2026-day-of-translation/",
-    "location": "Brooklyn, NY"
+    "location": "Brooklyn, NY",
+    "description": "Annual conference of panels and conversations on literary translation, hosted by the Center for the Art of Translation."
   },
   {
     "title": "Pagan Sky (Poems 2000 – 2025) and Heartmoor Poetry Reading",
@@ -214,91 +242,104 @@
     "date": "2026-10-01",
     "category": "literary-booktok",
     "link": "https://friends.sspl.org/book-festival/",
-    "location": "Saratoga Springs, NY"
+    "location": "Saratoga Springs, NY",
+    "description": "Community-wide book festival with author talks, readings, and workshops across downtown Saratoga Springs venues."
   },
   {
     "title": "Rochester Speakers Series: Min Jin Lee",
     "date": "2026-10-27",
     "category": "literary-booktok",
     "link": "https://www.rochesterspeakers.org/buytickets",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Author talk with National Book Award finalist Min Jin Lee on her forthcoming novel American Hagwon."
   },
   {
     "title": "Booker Prize Winner Ceremony",
     "date": "2026-11-09",
     "category": "literary-booktok",
     "link": "https://thebookerprizes.com/booker-prize",
-    "location": "London, UK"
+    "location": "London, UK",
+    "description": "Ceremony at Old Billingsgate in London announcing the winner of the Booker Prize for fiction."
   },
   {
     "title": "Rochester Speakers Series: Percival Everett",
     "date": "2027-04-06",
     "category": "literary-booktok",
     "link": "https://www.rochesterspeakers.org/buytickets",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Author talk with Pulitzer Prize and National Book Award winner Percival Everett, author of James."
   },
   {
     "title": "Riding the Current Trends with Astrology: Your Personal GPS",
     "date": "2026-08-21",
     "category": "occult-esoteric",
     "link": "https://www.lilydaleassembly.org/allevents",
-    "location": "Lily Dale, NY"
+    "location": "Lily Dale, NY",
+    "description": "Astrology panel at Lily Dale featuring Rachel Lang, Anne Ortelee, and Rick Levine on astrology as a practical tool."
   },
   {
     "title": "Tarot 101: The Fool's Journey – Intro to the Major Arcana",
     "date": "2026-09-19",
     "category": "occult-esoteric",
     "link": "https://www.eventbrite.com/e/tarot-101-the-fools-journey-intro-to-the-major-arcana-tickets-1993486158764",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Beginner tarot workshop introducing the Major Arcana through an art-therapy lens, using the Fool's Journey framework."
   },
   {
     "title": "Tarot 102: Transformation, Shadow, and Awakening",
     "date": "2026-10-03",
     "category": "occult-esoteric",
     "link": "https://www.eventbrite.com/e/tarot-102-transformation-shadow-and-awakening-tickets-1993486672300",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Intermediate tarot workshop on the second half of the Major Arcana, focused on shadow work and personal transformation."
   },
   {
     "title": "Samhain Weekend: 3-Day Ancestral Lineage Healing Intensive",
     "date": "2026-10-30",
     "category": "occult-esoteric",
     "link": "https://www.ashleywaverley.com/rochester-october-2026",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Three-day ancestral lineage healing retreat in Rochester led by Ashley Waverley and Teagan West over Samhain weekend."
   },
   {
     "title": "RetroGameCon 2026",
     "date": "2026-10-02",
     "category": "retro-gaming",
     "link": "https://www.retrogamecon.com/event-details/retrogamecon-2026",
-    "location": "Syracuse, NY"
+    "location": "Syracuse, NY",
+    "description": "Upstate NY's largest video game expo, with exhibitor tables, panels, tournaments, and free-play retro gaming."
   },
   {
     "title": "SEGA Fan Meetup (Arcade Adventure 5) at Galloping Ghost Arcade",
     "date": "2026-10-03",
     "category": "retro-gaming",
     "link": "https://segabits.com/blog/2026/08/05/save-the-date-sega-fan-meetup-at-galloping-ghost-arcade-on-saturday-october-3rd-2026/",
-    "location": "Brookfield, IL"
+    "location": "Brookfield, IL",
+    "description": "SEGA fan meetup at the world's largest arcade, with impromptu tournaments and free play for SEGA enthusiasts."
   },
   {
     "title": "Arcade Party - Southern MD",
     "date": "2026-10-24",
     "category": "retro-gaming",
     "link": "https://forums.arcade-museum.com/threads/arcade-party-southern-md-saturday-oct-24-2026.566205/",
-    "location": "Charlotte Hall, MD"
+    "location": "Charlotte Hall, MD",
+    "description": "Casual BYOB gathering of arcade and pinball collectors in Charlotte Hall, Maryland, organized via the Arcade Museum forums."
   },
   {
     "title": "Paper World Stationery Expo Orlando",
     "date": "2026-08-29",
     "category": "pen-stationery",
     "link": "https://lighthousepaper.com/pages/paper-world-stationery-expo-orlando-saturday-august-29th-2026",
-    "location": "Orlando, FL"
+    "location": "Orlando, FL",
+    "description": "Stationery expo with 50+ vendors of planners, pens, washi tape, and paper goods, plus journaling and craft workshops."
   },
   {
     "title": "Orlando Pen Show 2026",
     "date": "2026-09-10",
     "category": "pen-stationery",
     "link": "https://orlandopenshow.com/",
-    "location": "Orlando, FL"
+    "location": "Orlando, FL",
+    "description": "Multi-day fountain pen show with 100+ vendor tables, educational classes, and a charity pen auction."
   },
   {
     "title": "Learning to Read Tarot with Sasha Graham",
@@ -312,49 +353,56 @@
     "date": "2026-11-07",
     "category": "pen-stationery",
     "link": "https://espenshow.com/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "East Coast fountain pen show at the New York Hilton Midtown with 100+ vendors of pens, inks, and stationery."
   },
   {
     "title": "Baird Global Healthcare Conference 2026",
     "date": "2026-09-15",
     "category": "biotech-longevity",
     "link": "https://www.bairdconferences.com/our-conferences/2026/09/global-healthcare-conference-2026/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Baird's flagship invitation-only healthcare investor conference, bringing together nearly 100 pharma, biotech, and device companies."
   },
   {
     "title": "ROTH 5th Annual Healthcare Opportunities Conference",
     "date": "2026-09-29",
     "category": "biotech-longevity",
     "link": "https://www.roth.com/conferences/upcoming-conferences",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Healthcare industry conference with keynotes and panels on medical technology, policy reform, and patient outcomes."
   },
   {
     "title": "Wolfe Research Healthcare Conference (7th Annual)",
     "date": "2026-11-09",
     "category": "biotech-longevity",
     "link": "https://www.wolferesearch.com/eventsandconferences/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Multi-day investor conference where major healthcare and pharma companies present to analysts and institutional investors."
   },
   {
     "title": "Mitochondrial Health and Healthspan: Brain Metabolism and Bioenergetics",
     "date": "2026-11-11",
     "category": "biotech-longevity",
     "link": "https://www.nyas.org/shaping-science/events/mitochondrial-health-and-healthspan-brain-metabolism-and-bioenergetics/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "NYAS symposium on mitochondrial biology's role in brain aging, cognitive decline, and neuropsychiatric disease."
   },
   {
     "title": "Book Signing with Myla Rose",
     "date": "2026-08-22",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/2790?view=grid",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Book signing with romantasy author Myla Rose at Barnes & Noble."
   },
   {
     "title": "Jonathan Graziano Author Event: Milton Makes a Move",
     "date": "2026-08-23",
     "category": "literary-booktok",
     "link": "https://thesirenandthesea.com/events",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Author event with Jonathan Graziano, creator of Noodle and the No Bones Day, for his new picture book Milton Makes a Move."
   },
   {
     "title": "Cacao Circle: Journey of Ancestral Reconnection",
@@ -368,35 +416,40 @@
     "date": "2026-08-29",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Victor, NY"
+    "location": "Victor, NY",
+    "description": "Book signing with fiction writer Tessa Yang, author of the story collection The Jellyfish Problem."
   },
   {
     "title": "Book Signing with Kevin Brown",
     "date": "2026-08-29",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/2790?view=grid",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Book signing with author Kevin Brown at Barnes & Noble."
   },
   {
     "title": "Author Signing with Mackenzie Reed",
     "date": "2026-09-12",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Victor, NY"
+    "location": "Victor, NY",
+    "description": "Book signing with young-adult author Mackenzie Reed, known for The Rosewood Hunt and The Wilde Trials."
   },
   {
     "title": "Author Signing with Sean Mejias",
     "date": "2026-09-19",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Victor, NY"
+    "location": "Victor, NY",
+    "description": "Book signing with Rochester author Sean Mejias for his debut novel When The City Is Safe Again."
   },
   {
     "title": "Author Signing with Corwin Michaels",
     "date": "2026-09-26",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Victor, NY"
+    "location": "Victor, NY",
+    "description": "Book signing with fantasy author Corwin Michaels, known for the Dreamon War Saga."
   },
   {
     "title": "Chappaqua Children's Book Festival",
@@ -410,125 +463,143 @@
     "date": "2026-08-20",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Virtual"
+    "location": "Virtual",
+    "description": "Virtual B&N Midday Mystery talk with Brazilian thriller writer Raphael Montes on his novel The Secret Dinner."
   },
   {
     "title": "Barnes & Noble and Waterstones Present: Madeline Miller",
     "date": "2026-09-29",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Virtual"
+    "location": "Virtual",
+    "description": "Virtual event with Madeline Miller in conversation with Ann Patchett about her new short story Mestra."
   },
   {
     "title": "Ann Cleeves celebrates The Dying Light with Mick Herron (#BNMiddayMystery)",
     "date": "2026-09-29",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Virtual"
+    "location": "Virtual",
+    "description": "Virtual B&N Midday Mystery talk with crime novelist Ann Cleeves and Mick Herron on her new Matthew Venn mystery The Dying Light."
   },
   {
     "title": "Barbara Kingsolver discusses Partita (Poured Over)",
     "date": "2026-10-06",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Virtual"
+    "location": "Virtual",
+    "description": "Livestreamed B&N Poured Over event with novelist Barbara Kingsolver on her new novel Partita."
   },
   {
     "title": "Bonnie Garmus discusses Peck & Peck (Poured Over)",
     "date": "2026-10-13",
     "category": "literary-booktok",
     "link": "https://stores.barnesandnoble.com/store/3473?view=grid",
-    "location": "Virtual"
+    "location": "Virtual",
+    "description": "Livestreamed B&N Poured Over event with Bonnie Garmus, author of Lessons in Chemistry, on her new novel Peck & Peck."
   },
   {
     "title": "Rochester Children and Teens Book Festival (29th annual)",
     "date": "2026-11-07",
     "category": "literary-booktok",
     "link": "https://www.rcbfest.com/",
-    "location": "Rochester, NY"
+    "location": "Rochester, NY",
+    "description": "Free festival with 50+ children's and teen authors and illustrators doing readings, signings, and activities."
   },
   {
     "title": "Julia Alvarez: Lifetime of Excellence in Fiction Award (Center for Fiction Benefit)",
     "date": "2026-12-08",
     "category": "literary-booktok",
     "link": "https://centerforfiction.org/grants-awards/lifetime-of-excellence-in-fiction-award/",
-    "location": "New York, NY"
+    "location": "New York, NY",
+    "description": "Center for Fiction awards benefit honoring novelist Julia Alvarez with its Lifetime of Excellence in Fiction Award."
   },
   {
     "title": "Rick Levine: Exploring the Spiritual Dimensions of Astrology",
     "date": "2026-08-20",
     "category": "occult-esoteric",
     "link": "https://www.lilydaleassembly.org/event-details/rick-levine-exploring-the-spiritual-dimensions-of-astrology-why-is-it-useful-to-develop-a-personal-relationship-with",
-    "location": "Lily Dale, NY"
+    "location": "Lily Dale, NY",
+    "description": "Full-day workshop with veteran astrologer Rick Levine on developing a personal, spiritual relationship with astrology."
   },
   {
     "title": "The Tarot Revealed: Insights for the Intermediate Seeker with Susan Stush",
     "date": "2026-08-21",
     "category": "occult-esoteric",
     "link": "https://www.lilydaleassembly.org/events-catalog",
-    "location": "Lily Dale, NY"
+    "location": "Lily Dale, NY",
+    "description": "Intermediate-level tarot class at Lily Dale taught by astrologer and tarot teacher Susan Stush."
   },
   {
     "title": "Kenneth Miller: The Ascendant — Key to Every Door, Door to Every Experience!",
     "date": "2026-08-21",
     "category": "occult-esoteric",
     "link": "https://www.lilydaleassembly.org/event-details/kenneth-miller-the-ascendant-key-to-every-door-door-to-every-experience",
-    "location": "Lily Dale, NY"
+    "location": "Lily Dale, NY",
+    "description": "Lily Dale astrology workshop with Kenneth Miller on interpreting a birth chart's Ascendant."
   },
   {
     "title": "NCGR-NYC 2026 Annual Membership Meeting: Chiron: The Path Toward Wholeness",
     "date": "2026-09-25",
     "category": "occult-esoteric",
     "link": "https://www.astrologynyc.org/events",
-    "location": "Virtual"
+    "location": "Virtual",
+    "description": "NCGR-NYC chapter's annual membership meeting, featuring a lecture on the astrological significance of Chiron."
   },
   {
     "title": "NCGR-NYC 2026 Fall Conference: Astronomy of Astrology",
     "date": "2026-11-15",
     "category": "occult-esoteric",
     "link": "https://www.astrologynyc.org/events",
-    "location": "Unknown"
+    "location": "Unknown",
+    "description": "NCGR-NYC chapter's fall conference on the astronomical foundations underlying astrological practice."
   },
   {
     "title": "Pinball Expo 2026",
     "date": "2026-10-14",
     "category": "retro-gaming",
     "link": "https://pinballexpo.com/",
-    "location": "Schaumburg, IL"
+    "location": "Schaumburg, IL",
+    "description": "Longest-running pinball convention, with hundreds of machines on free play, tournaments, seminars, and factory tours."
   },
   {
     "title": "Detroit Retro Gaming Show 2026",
     "date": "2026-11-07",
     "category": "retro-gaming",
     "link": "https://www.detroitretrogamingshow.com/event-details/detroit-retro-gaming-show-2026",
-    "location": "Southfield, MI"
+    "location": "Southfield, MI",
+    "description": "Family-friendly Michigan retro gaming con with a full arcade of consoles, pinball, and cabinets, plus vendors."
   },
   {
     "title": "Commonwealth Pen Show",
     "date": "2026-09-19",
     "category": "pen-stationery",
     "link": "https://commonwealthpenshow.com/",
-    "location": "Somerville, MA"
+    "location": "Somerville, MA",
+    "description": "Two-day Boston-area pen show with thousands of vintage and modern pens, inks, paper, and repair services."
   },
   {
     "title": "Miami Pen Show (35th Annual)",
     "date": "2026-10-16",
     "category": "pen-stationery",
     "link": "https://miamipenshow.com/",
-    "location": "Fort Lauderdale, FL"
+    "location": "Fort Lauderdale, FL",
+    "description": "Long-running South Florida fountain pen show with vendors of vintage and modern writing instruments."
   },
   {
     "title": "On The Paper Trail Live",
     "date": "2026-10-16",
     "category": "pen-stationery",
     "link": "https://vanness1938.com/blogs/news/on-the-paper-trail-live",
-    "location": "Franklin, TN"
+    "location": "Franklin, TN",
+    "description": "Debut live event from the On The Paper Trail podcast hosts, with pen and stationery vendors, classes, and meetups."
   },
   {
     "title": "California Pen Show 2027",
     "date": "2027-02-19",
     "category": "pen-stationery",
     "link": "https://www.capenshow.com/",
-    "location": "Torrance, CA"
+    "location": "Torrance, CA",
+    "description": "Premier LA-area pen and stationery expo with vendors of fine writing instruments, inks, and paper."
   }
 ]
