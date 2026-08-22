@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.michaelcmar.event-watch-opencode</string>
+
+    <!-- Runs `opencode run` with the auto flag against the /event-watch
+         command, from the repo directory. The auto flag auto-approves the
+         permission prompts (bash, edit, write) that opencode would otherwise
+         stop and ask about interactively — needed since nothing is watching
+         this when launchd fires it. It only changes prompts that would
+         otherwise ask; it does not override any explicit "deny" rule in
+         opencode.json (there are none here).
+
+         Before enabling this job, run the same command by hand once from a
+         terminal (omit the auto flag, so you can watch it) to confirm:
+           - `opencode auth login` has been run once to connect the OpenRouter
+             provider (stores the API key in opencode's own credential store,
+             not in this repo, so it's never committed).
+           - The Gmail MCP server's one-time OAuth consent has been completed
+             (see README/chat notes for the exact command) so its refresh
+             token is cached under ~/.gmail-mcp/ and future runs need no
+             browser interaction.
+         Update the path below to match `which opencode` on your machine if
+         it's not at /usr/local/bin/opencode. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/opencode</string>
+        <string>run</string>
+        <string>--auto</string>
+        <string>/event-watch</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/michaelcmar/Documents/Developer/event-watch</string>
+
+    <!-- launchd does not source your shell profile, so PATH must be set explicitly.
+         Run `which node` and `which opencode` locally and add their directories
+         here if the job fails to find either.
+
+         OPENCODE_ENABLE_EXA turns on opencode's built-in websearch/webfetch
+         tools (Exa-hosted, no separate API key needed); they're off by
+         default. Do NOT put OPENROUTER_API_KEY or any Gmail credential here;
+         both are meant to live in their own local credential stores set up
+         via the one-time interactive steps above, not in this plist (which
+         could end up committed to the repo alongside the others). -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/michaelcmar</string>
+        <key>OPENCODE_ENABLE_EXA</key>
+        <string>true</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch-opencode.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch-opencode.err.log</string>
+
+    <!-- Every day at 9:00 AM local time (daily instead of weekly, since
+         OpenRouter billing has no weekly-quota reason to hold back). -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+</dict>
+</plist>
