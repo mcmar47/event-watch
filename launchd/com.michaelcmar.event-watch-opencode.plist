@@ -5,39 +5,34 @@
     <key>Label</key>
     <string>com.michaelcmar.event-watch-opencode</string>
 
-    <!-- Runs `opencode run` with the auto flag against the /event-watch
-         command, from the repo directory. The auto flag auto-approves the
-         permission prompts (bash, edit, write) that opencode would otherwise
-         stop and ask about interactively — needed since nothing is watching
-         this when launchd fires it. It only changes prompts that would
-         otherwise ask; it does not override any explicit "deny" rule in
-         opencode.json (there are none here).
+    <!-- Runs run-event-watch-opencode.sh, which itself calls opencode run
+         with the model and prompt body pulled from the command file,
+         plus the auto flag. It's a wrapper instead of a plain
+         `opencode run` against the /event-watch command because opencode
+         run does not resolve custom slash commands (open upstream bug)
+         — see the comment at the top of that script for details. If that
+         ever gets fixed upstream, this plist can point straight at
+         opencode again.
 
-         Before enabling this job, run the same command by hand once from a
-         terminal (omit the auto flag, so you can watch it) to confirm:
+         Before enabling this job, confirm:
            - `opencode auth login` has been run once to connect the OpenRouter
              provider (stores the API key in opencode's own credential store,
              not in this repo, so it's never committed).
            - The Gmail MCP server's one-time OAuth consent has been completed
-             (see README/chat notes for the exact command) so its refresh
-             token is cached under ~/.gmail-mcp/ and future runs need no
-             browser interaction.
-         Update the path below to match `which opencode` on your machine if
-         it's not at /usr/local/bin/opencode. -->
+             so its refresh token is cached under ~/.gmail-mcp/ and future
+             runs need no browser interaction.
+         Update the paths below if this repo or the opencode binary ever move. -->
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/opencode</string>
-        <string>run</string>
-        <string>--auto</string>
-        <string>/event-watch</string>
+        <string>/Users/michaelcmar/Projects/event-watch/launchd/run-event-watch-opencode.sh</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/michaelcmar/Documents/Developer/event-watch</string>
+    <string>/Users/michaelcmar/Projects/event-watch</string>
 
     <!-- launchd does not source your shell profile, so PATH must be set explicitly.
-         Run `which node` and `which opencode` locally and add their directories
-         here if the job fails to find either.
+         Run `which node` locally and add its directory here if the job fails to
+         find it (opencode needs it to spawn the Gmail MCP server via npx).
 
          OPENCODE_ENABLE_EXA turns on opencode's built-in websearch/webfetch
          tools (Exa-hosted, no separate API key needed); they're off by
@@ -56,17 +51,16 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch-opencode.out.log</string>
+    <string>/Users/michaelcmar/Projects/event-watch/logs/event-watch-opencode.out.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/michaelcmar/Documents/Developer/event-watch/logs/event-watch-opencode.err.log</string>
+    <string>/Users/michaelcmar/Projects/event-watch/logs/event-watch-opencode.err.log</string>
 
-    <!-- Every day at 9:00 AM local time (daily instead of weekly, since
-         OpenRouter billing has no weekly-quota reason to hold back). -->
+    <!-- Every day at 6:00 AM local time. -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>9</integer>
+        <integer>6</integer>
         <key>Minute</key>
         <integer>0</integer>
     </dict>
