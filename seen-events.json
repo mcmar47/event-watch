@@ -606,5 +606,165 @@
     "link": "https://www.capenshow.com/",
     "location": "Torrance, CA",
     "description": "Premier LA-area pen and stationery expo with vendors of fine writing instruments, inks, and paper."
+  },
+  {
+    "title": "Translational Longevity Summit (Boston Longevity Week)",
+    "date": "2026-10-07",
+    "category": "biotech-longevity",
+    "link": "https://healthspanaction.org/translational-longevity-summit/",
+    "location": "Boston, MA",
+    "description": "Five-day longevity medicine summit at Harvard Enterprise Research Campus during Boston Longevity Week, uniting clinicians, researchers, and investors."
+  },
+  {
+    "title": "2026 Biomarkers of Aging Conference",
+    "date": "2026-10-05",
+    "category": "biotech-longevity",
+    "link": "https://www.bostonlongevityweek.com/",
+    "location": "Boston, MA",
+    "description": "Conference on standardized biomarkers for measuring biological aging, hosted at Harvard Medical School during Boston Longevity Week."
+  },
+  {
+    "title": "JLF New York 2026 (Jaipur Literature Festival)",
+    "date": "2026-09-30",
+    "category": "literary-booktok",
+    "link": "https://asiasociety.org/new-york/events/jlf-new-york-2026",
+    "location": "New York, NY",
+    "description": "Tenth annual Jaipur Literature Festival New York edition at Asia Society, with prominent writers, thinkers, and panel conversations."
+  },
+  {
+    "title": "The Two Saddest Kitchens: A Comics Conversation",
+    "date": "2026-10-07",
+    "category": "literary-booktok",
+    "link": "https://www.mcny.org/event/two-saddest-kitchens",
+    "location": "New York, NY",
+    "description": "Book launch talk and signing with cartoonists Roz Chast and Jason Adam Katzenstein on their graphic novel The Two Saddest Kitchens."
+  },
+  {
+    "title": "Brooklyn Books & Booze Author Book Fair",
+    "date": "2026-09-19",
+    "category": "literary-booktok",
+    "link": "https://randeedawn.com/bonus/brooklyn-books-booze/brooklyn-books-booze-author-book-fair/",
+    "location": "Brooklyn, NY",
+    "description": "Second annual author book fair at Industry City featuring 30+ indie authors, panels, and an agent pitching session."
+  },
+  {
+    "title": "Domino Park Book Swap",
+    "date": "2026-08-30",
+    "category": "literary-booktok",
+    "link": "https://somo.social/e/domino-park-book-swap-830",
+    "location": "Brooklyn, NY",
+    "description": "Free community book swap on the East River waterfront hosted by Lit Club NYC and OddFellows Ice Cream."
+  },
+  {
+    "title": "Scientific American Panel: Science in Fiction",
+    "date": "2026-09-22",
+    "category": "literary-booktok",
+    "link": "https://greenlightbookstore.com/event/2026-09-22/scientific-american-panel-science-fiction",
+    "location": "Brooklyn, NY",
+    "description": "Scientific American panel on science in fiction with authors Heather Frances, Isabel J. Kim, Matthew Kressel, and Sarah G. Pierce."
+  },
+  {
+    "title": "R-SPEC September Roundtable: Are Media Events Driving Speculative Fiction?",
+    "date": "2026-09-01",
+    "category": "literary-booktok",
+    "link": "http://r-spec.org/",
+    "location": "Pittsford, NY",
+    "description": "Rochester speculative fiction group's monthly roundtable discussing whether media events are driving current speculative fiction narratives."
+  },
+  {
+    "title": "HERETIC: Gathering of Ritual, Ruin & Reverie",
+    "date": "2026-09-25",
+    "category": "occult-esoteric",
+    "link": "https://www.moonserpentandbone.com/",
+    "location": "Newburgh, NY",
+    "description": "Three-day occult gathering in Newburgh with an oddities and curiosities market, ritual arts, an art exhibition, and dark performance."
+  },
+  {
+    "title": "The 100-Year Houdini Séance",
+    "date": "2026-10-31",
+    "category": "occult-esoteric",
+    "link": "https://houdini.nyc/",
+    "location": "New York, NY",
+    "description": "Centennial Houdini séances at his former New York home on the 100th anniversary of his death, led by medium Jodi-Lynn."
+  },
+  {
+    "title": "Community Day at My Little Magic Shop",
+    "date": "2026-10-31",
+    "category": "occult-esoteric",
+    "link": "https://www.universe.com/events/community-day-tickets-8VN4YX",
+    "location": "New York, NY",
+    "description": "Monthly open-house at My Little Magic Shop offering pay-what-you-can tarot, astrology, and energy healing mini-sessions."
+  },
+  {
+    "title": "Rosicrucian Open Meeting: Alchemy and Transformation",
+    "date": "2026-10-18",
+    "category": "occult-esoteric",
+    "link": "https://www.rosicrucian.org/events/open-meeting-10-18-2026-new-york-ny",
+    "location": "New York, NY",
+    "description": "Free Rosicrucian open salon meeting in New York on the spiritual path of the alchemist, with discussion and a mystical exercise."
+  },
+  {
+    "title": "TORG Gaming Expo 2026",
+    "date": "2026-11-14",
+    "category": "retro-gaming",
+    "link": "https://www.torgevents.com/",
+    "location": "Columbus, OH",
+    "description": "Ohio's largest gaming expo dedicated to video game history, with free play, tournaments, and vendors at Greater Columbus Convention Center."
+  },
+  {
+    "title": "Toronto Game Expo 2026",
+    "date": "2026-11-07",
+    "category": "retro-gaming",
+    "link": "https://www.torontogameexpo.ca/",
+    "location": "Toronto, ON",
+    "description": "Two-day gaming convention at Exhibition Place's Better Living Centre with retro gaming, tournaments, and vendors."
+  },
+  {
+    "title": "PLAY Expo Blackpool 2026",
+    "date": "2026-10-03",
+    "category": "retro-gaming",
+    "link": "https://www.eventbrite.co.uk/e/play-expo-blackpool-2026-tickets-1756627673659",
+    "location": "Blackpool, UK",
+    "description": "UK's longest-running arcade, indie, and retro gaming expo with free-play retro consoles, arcade cabinets, and pinball."
+  },
+  {
+    "title": "Tales of Summer: Moonrise Kingdom Screening",
+    "date": "2026-08-25",
+    "category": "wes-anderson",
+    "link": "https://uptownfilm.org/event/tales-of-summer-moonrise-kingdom/2026-08-25/",
+    "location": "New York, NY",
+    "description": "Summer film series screening of Wes Anderson's Moonrise Kingdom at JCC Manhattan, co-presented with Uptown Film Center."
+  },
+  {
+    "title": "LEFFEST 2026: Retrospective Wes Anderson",
+    "date": "2026-11-06",
+    "category": "wes-anderson",
+    "link": "https://leffest.com/en/sections/wes-anderson",
+    "location": "Lisbon, Portugal",
+    "description": "Wes Anderson retrospective and curated favorite selections screening at the 20th Lisbon Film Festival (LEFFEST)."
+  },
+  {
+    "title": "Tokyo International Pen Show 2026",
+    "date": "2026-11-21",
+    "category": "pen-stationery",
+    "link": "https://tokyo-international-penshow.com/",
+    "location": "Tokyo, Japan",
+    "description": "Three-day international pen show at Tokyo Metropolitan Industrial Trade Center with vendors, makers, and collector meetups."
+  },
+  {
+    "title": "Paper World Stationery Expo Las Vegas",
+    "date": "2026-11-07",
+    "category": "pen-stationery",
+    "link": "https://www.paperworldstationeryexpo.com/",
+    "location": "Las Vegas, NV",
+    "description": "Stationery pop-up expo in Las Vegas with planners, pens, washi tape, paper goods, and creative workshops."
+  },
+  {
+    "title": "London Autumn Pen Show",
+    "date": "2026-10-10",
+    "category": "pen-stationery",
+    "link": "https://www.wellappointeddesk.com/pen-show-schedule/",
+    "location": "London, UK",
+    "description": "Autumn pen show in London featuring vintage and modern fountain pens, inks, and stationery vendors."
   }
 ]
