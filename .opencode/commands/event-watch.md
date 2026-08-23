@@ -83,22 +83,54 @@ you use in the email digest bullet below — write it once and reuse it in
 both places.
 
 If new events are found:
-- Compose an email digest grouped by category, as an HTML email body (not
-  plain text) styled like this:
+- Write the new events (title, date, category, link, location, description)
+  to a temporary JSON file (e.g. new-events.json). This is the single source
+  of truth for the digest — get the facts right here once, and never retype
+  or paraphrase them again anywhere below.
+- Generate the email body by WRITING AND RUNNING A SCRIPT (Python or Node)
+  that reads that JSON and mechanically formats it into HTML, grouped by
+  category:
   - A bold heading per category, optionally prefixed with a relevant emoji
     (e.g. 🧬 Biotech & Longevity, 📚 Literary / BookTok, 🔮 Occult & Esoteric,
     🕹️ Retro Gaming, 🎬 Wes Anderson, 🖋️ Pen & Stationery).
   - Each event as a bullet: bolded event name, then date, location (or
-    "virtual"), and a one-line description.
+    "Virtual"), and a one-line description.
   - The source link as hyperlinked text (e.g. a "Link" or the event/venue name
     as the anchor), never a bare pasted URL.
   - Keep it concise and skimmable — short bullets, not long paragraphs.
-- Send it using the Gmail MCP server's send-email tool, addressed to
-  michael.cmar@gmail.com, passing the HTML body as the message's HTML content
-  (not the plain-text body field).
-- Append the new events to seen-events.json (title, date, category, link,
-  location, description) and commit the change with a message like "Add N
-  new events from [date] run", then push to the current branch.
+  Do NOT hand-type the digest prose directly into the email tool call or any
+  chat output — free-generating long HTML by hand is exactly what causes
+  garbled words, wrong facts, and truncated/dropped sections. The script must
+  copy every field verbatim from the JSON, not re-type it. If a plain-text
+  body is also needed, generate it the same way, from the same JSON, via the
+  same script.
+- Before sending, write and run a separate validation script that checks the
+  generated HTML against new-events.json and prints either PASS or a specific
+  list of failures:
+  - the HTML contains a closing `</body></html>` (i.e. it isn't truncated)
+  - every event's title and its exact date string both appear verbatim in the
+    HTML
+  - the number of category headings in the HTML equals the number of distinct
+    categories present in new-events.json
+  If validation fails, fix the GENERATOR SCRIPT and regenerate — never
+  hand-edit the HTML output directly. Re-run validation after every
+  regeneration. If you cannot get a clean PASS after 2 regeneration attempts,
+  stop: do not send anything and do not modify seen-events.json. Print a clear
+  summary of what failed so it's visible in the run log for manual follow-up.
+- Once validation prints PASS, send the email exactly ONCE using the Gmail
+  MCP server's send-email tool, addressed to michael.cmar@gmail.com, passing
+  the HTML body as the message's HTML content (not the plain-text body
+  field). Never send more than one digest email in a run, and never send a
+  "fixed" follow-up or duplicate if something looks off after sending — that
+  makes the inbox worse, not better. If the send tool call itself errors
+  (e.g. network/auth error), you may retry the identical send once; if it
+  still fails, stop and report the error rather than trying alternate
+  content.
+- Only after the single validated send succeeds: append the new events to
+  seen-events.json (title, date, category, link, location, description) and
+  commit the change with a message like "Add N new events from [date] run",
+  then push to the current branch. Delete the temporary JSON file and any
+  generator/validation scripts before finishing.
 
 If no new events are found in any category, do not send an email — just exit
 without committing.
