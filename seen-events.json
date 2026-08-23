@@ -766,5 +766,173 @@
     "link": "https://www.wellappointeddesk.com/pen-show-schedule/",
     "location": "London, UK",
     "description": "Autumn pen show in London featuring vintage and modern fountain pens, inks, and stationery vendors."
+  },
+  {
+    "title": "AI x Biology Summit 2026",
+    "date": "2026-10-21",
+    "category": "biotech-longevity",
+    "link": "https://aisummit2026.nygenome.org/",
+    "location": "New York, NY",
+    "description": "One-day summit at the New York Genome Center on applying artificial intelligence to experimental biology, with talks and panels."
+  },
+  {
+    "title": "Galien Forum 2026",
+    "date": "2026-10-29",
+    "category": "biotech-longevity",
+    "link": "https://www.galienfoundation.org/galien-forum-2026",
+    "location": "New York, NY",
+    "description": "Full-day forum at the New York Academy of Medicine with Nobel laureates and industry leaders discussing pressing health issues."
+  },
+  {
+    "title": "Alex Sanchez: Rainbow Boys 25th Anniversary",
+    "date": "2026-09-30",
+    "category": "literary-booktok",
+    "link": "https://ampersandbooks.org/event/2026-09-30/alex-sanchez-rainbow-boys-25th-anniversary",
+    "location": "Rochester, NY",
+    "description": "Anniversary reading and conversation for Alex Sanchez's debut YA novel Rainbow Boys, with Linda Sue Park, at Writers & Books."
+  },
+  {
+    "title": "Booker Prize 2026 Shortlist at Cheltenham Literature Festival",
+    "date": "2026-10-10",
+    "category": "literary-booktok",
+    "link": "https://thebookerprizes.com/events-whats-on-and-dates-for-your-diary",
+    "location": "Cheltenham, UK",
+    "description": "Cheltenham Literature Festival session introducing the six Booker Prize shortlisted books and their authors."
+  },
+  {
+    "title": "Rochester Reads 25th Anniversary: Omar El Akkad & Sonja Livingston",
+    "date": "2026-11-10",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/rochester-reads/",
+    "location": "Rochester, NY",
+    "description": "Keynote address and conversation with Omar El Akkad and Sonja Livingston at St. John Fisher University marking Rochester Reads' 25th year."
+  },
+  {
+    "title": "Secret Rochester: The Wild, Weird & Obscure with Robin Flanigan",
+    "date": "2026-10-29",
+    "category": "literary-booktok",
+    "link": "https://greecepl.librarycalendar.com/event/hold-secret-rochester-wild-weird-obscure-73013",
+    "location": "Rochester, NY",
+    "description": "Author Robin Flanigan discusses her guide to the city's weird and obscure history at the Greece Public Library."
+  },
+  {
+    "title": "Lane Dworkin Authors + Innovators Festival (Jewish Book Festival)",
+    "date": "2026-10-29",
+    "category": "literary-booktok",
+    "link": "https://jccrochester.org/arts-culture/jewish-book-festival/",
+    "location": "Rochester, NY",
+    "description": "JCC Rochester festival of Jewish authors and community innovators with programming over late October through mid-November."
+  },
+  {
+    "title": "Bill Pugin: Fly on the Wall",
+    "date": "2026-10-17",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/product/bill-pugin/",
+    "location": "Rochester, NY",
+    "description": "Memoir reading and talk with sign-language interpreter Bill Pugin on his book Fly on the Wall at Writers & Books."
+  },
+  {
+    "title": "Mystic Market at ARTISANworks",
+    "date": "2026-09-25",
+    "category": "occult-esoteric",
+    "link": "https://newsidequest.com/rochester/events/mystic-market-a-prelude-to-spooky-season",
+    "location": "Rochester, NY",
+    "description": "Mystical makers market with crystals, candles, and ritual tools plus tarot, psychic, and mediumship readings at ARTISANworks."
+  },
+  {
+    "title": "NYSF Full Moon Market",
+    "date": "2026-09-26",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/nysf-full-moon-market-tickets-1988406211505",
+    "location": "Bohemia, NY",
+    "description": "Evening market of tarot readers, healers, and metaphysical vendors with food, hosted by the New York Solar Faire on Long Island."
+  },
+  {
+    "title": "The Para Curiosities Supernatural Summit",
+    "date": "2026-10-03",
+    "category": "occult-esoteric",
+    "link": "https://happeningnext.com/event/the-para-curiosities-supernatural-summit-eid3a0dox51f3",
+    "location": "Binghamton, NY",
+    "description": "One-day summit at Phelps Mansion Museum pairing paranormal teams and vendors with macabre presentations and readings."
+  },
+  {
+    "title": "New Moon in Libra Astro Workshop",
+    "date": "2026-10-10",
+    "category": "occult-esoteric",
+    "link": "https://www.universe.com/events/new-moon-in-libra-astro-workshop-tickets-8PYV4G",
+    "location": "New York, NY",
+    "description": "Ninety-minute astrology workshop on the New Moon in Libra with chart exploration and a ritual kit at My Little Magic Shop."
+  },
+  {
+    "title": "Ritual Candle Work: Carving, Sigils & Moon Phases",
+    "date": "2026-10-28",
+    "category": "occult-esoteric",
+    "link": "https://www.universe.com/events/ritual-candle-work-carving-sigils-moon-phases-tickets-SG74N5",
+    "location": "New York, NY",
+    "description": "Hands-on workshop on candle carving, sigil crafting, and moon-phase timing at My Little Magic Shop, with a take-home gift bag."
+  },
+  {
+    "title": "Celestial Reclamation Retreat",
+    "date": "2026-10-31",
+    "category": "occult-esoteric",
+    "link": "https://www.lizacolpa.com/retreat",
+    "location": "Brooklyn, NY",
+    "description": "Five-hour witchy wellness retreat in Brooklyn blending yoga, meditation, folk magic, tarot, and astrology for small groups."
+  },
+  {
+    "title": "Samhain at The Awen Center",
+    "date": "2026-11-07",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/samhain-at-the-awen-center-tickets-1982088623459",
+    "location": "Jefferson, NY",
+    "description": "Druid Samhain ritual marking the start of the dark season, with a campfire gathering and ancestral shrine at The Awen Center."
+  },
+  {
+    "title": "New Moon in Scorpio Astro Workshop",
+    "date": "2026-11-09",
+    "category": "occult-esoteric",
+    "link": "https://www.universe.com/events/new-moon-in-scorpio-astro-workshop-tickets-9RV1NT",
+    "location": "New York, NY",
+    "description": "Ninety-minute astrology workshop on the transformative New Moon in Scorpio, with a shadow ritual and ritual kit at My Little Magic Shop."
+  },
+  {
+    "title": "Full Moon in Gemini Astro Workshop",
+    "date": "2026-11-24",
+    "category": "occult-esoteric",
+    "link": "https://www.universe.com/events/full-moon-in-gemini-astro-workshop-tickets-GT36HZ",
+    "location": "New York, NY",
+    "description": "Evening astrology workshop on the Full Moon in Gemini with journaling, a release ritual, and a ritual kit at My Little Magic Shop."
+  },
+  {
+    "title": "RetroCon UK",
+    "date": "2026-11-21",
+    "category": "retro-gaming",
+    "link": "https://retroconuk.com/",
+    "location": "Birmingham, UK",
+    "description": "Retro festival at the NEC Birmingham with a retro arcade, video game tournaments, live stage acts, and collectibles."
+  },
+  {
+    "title": "Analog Fest 2026",
+    "date": "2026-11-15",
+    "category": "retro-gaming",
+    "link": "https://www.mavideogames.com/",
+    "location": "Dedham, MA",
+    "description": "Vinyl record and video game show in Dedham with over 80 vendor tables of retro games, VHS, vinyl, and collectibles."
+  },
+  {
+    "title": "World of Commodore 2026",
+    "date": "2026-12-05",
+    "category": "retro-gaming",
+    "link": "https://woc.tpug.ca/",
+    "location": "Mississauga, ON",
+    "description": "Two-day Commodore retro-computing show with 40+ vendor tables, presentations, and a silent auction at a Mississauga hotel."
+  },
+  {
+    "title": "Scriptus Toronto Pen Show",
+    "date": "2026-10-25",
+    "category": "pen-stationery",
+    "link": "https://www.scriptusinc.com/",
+    "location": "Toronto, ON",
+    "description": "Free one-day Toronto fountain pen and stationery show with vendors of pens, inks, and paper at the Reference Library."
   }
 ]
