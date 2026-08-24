@@ -59,18 +59,23 @@ extra rounds of searching multiply the token cost of the whole run because
 every prior search result stays in context for the rest of it. Only surface
 events with a concrete date.
 
-CRITICAL DATE CHECK: For every candidate event, verify its date against today's
-actual current date before including it anywhere. Discard any event whose date
-is today or earlier — it must be strictly in the future. Search results and
-cached pages frequently surface events from a past year that only look current
-(e.g. a recurring annual event's last occurrence, or an old announcement page
-still ranking in search). Do not trust a result just because it looks recent or
-because the page was indexed recently — check the actual event date printed on
-the page against today's date explicitly, and if the date is ambiguous or you
-can't confirm the year, discard the event rather than guessing.
+CRITICAL DATE CHECK: search results and cached pages frequently surface events
+from a past year that only look current (e.g. a recurring annual event's last
+occurrence, or an old announcement page still ranking in search). For every
+candidate, extract the actual event date printed on the source page — do not
+trust a result just because it looks recent or was indexed recently, and if
+the date is ambiguous or you can't confirm the year, extract nothing (you'll
+still discard it below since an unparseable date fails the future check).
+Once you have a candidate list with dates for a category, call the
+`filter_future_events` tool with all of them — it checks each against the
+actual server clock (not a shell command or your own arithmetic) and returns
+keep=true/false with a reason. Drop every candidate it returns keep=false for.
 
-Compare every remaining (confirmed-future) event against seen-events.json by
-title + date. Only keep events NOT already in that file.
+Call the `check_dedup` tool with the remaining (confirmed-future) candidates
+for a category — it compares against seen-events.json by normalized title+date
+and returns which are genuinely new. Only keep the ones it returns as new; it
+already handles whitespace/case differences, so don't second-guess its result
+by eye.
 
 For each new event, also determine its location: a short "City, ST" (or
 "City, Country" outside the US) for in-person events, or the literal string
@@ -87,64 +92,42 @@ Barbara Kingsolver for her new novel Partita." This is the same description
 you use in the email digest bullet below — write it once and reuse it in
 both places.
 
-If new events are found:
-- Write the new events (title, date, category, link, location, description)
-  to a temporary JSON file (e.g. new-events.json). This is the single source
-  of truth for the digest — get the facts right here once, and never retype
-  or paraphrase them again anywhere below.
-- Generate the email body by WRITING AND RUNNING A SCRIPT (Python or Node)
-  that reads that JSON and mechanically formats it into HTML, grouped by
-  category:
-  - A bold heading per category, optionally prefixed with a relevant emoji
-    (e.g. 🧬 Biotech & Longevity, 📚 Literary / BookTok, 🔮 Occult & Esoteric,
-    🕹️ Retro Gaming, 🎬 Wes Anderson, 🖋️ Pen & Stationery).
-  - Each event as a bullet: bolded event name, then date, location (or
-    "Virtual"), and a one-line description.
-  - The source link as hyperlinked text (e.g. a "Link" or the event/venue name
-    as the anchor), never a bare pasted URL.
-  - Keep it concise and skimmable — short bullets, not long paragraphs.
-  Do NOT hand-type the digest prose directly into the email tool call or any
-  chat output — free-generating long HTML by hand is exactly what causes
-  garbled words, wrong facts, and truncated/dropped sections. The script must
-  copy every field verbatim from the JSON, not re-type it. The same script
-  must also generate a plain-text version from the same JSON (not hand-typed,
-  not a placeholder blurb) — the send tool requires a non-empty `body` field
-  and, depending on `mimeType`, may send it as the entire email instead of
-  `htmlBody`, so it needs to be a real, complete rendition of the digest.
-- Before sending, write and run a separate validation script that checks the
-  generated HTML against new-events.json and prints either PASS or a specific
-  list of failures:
-  - the HTML contains a closing `</body></html>` (i.e. it isn't truncated)
-  - every event's title and its exact date string both appear verbatim in the
-    HTML
-  - the number of category headings in the HTML equals the number of distinct
-    categories present in new-events.json
-  If validation fails, fix the GENERATOR SCRIPT and regenerate — never
-  hand-edit the HTML output directly. Re-run validation after every
-  regeneration. If you cannot get a clean PASS after 2 regeneration attempts,
-  stop: do not send anything and do not modify seen-events.json. Print a clear
-  summary of what failed so it's visible in the run log for manual follow-up.
-- Once validation prints PASS, send the email exactly ONCE using the Gmail
-  MCP server's send-email tool, addressed to michael.cmar@gmail.com, with
-  BOTH the generated HTML in `htmlBody` AND the generated plain text in
-  `body` (this tool requires `body`; it cannot be omitted or left empty),
-  AND `mimeType` set explicitly to `"multipart/alternative"`. This is not
-  optional: this Gmail MCP server defaults `mimeType` to `"text/plain"` when
-  it isn't given, and whenever `mimeType` resolves to `"text/plain"` it
-  discards `htmlBody` completely and sends only `body` as the whole email —
-  silently, with no error. Omitting `mimeType` or leaving it as
-  `"text/plain"` will send a broken email even with a perfectly valid
-  `htmlBody`. Never send more than one digest email in a run, and never send
-  a "fixed" follow-up or duplicate if something looks off after sending —
-  that makes the inbox worse, not better. If the send tool call itself
-  errors (e.g. network/auth error), you may retry the identical send once; if
-  it still fails, stop and report the error rather than trying alternate
+If new events are found, assemble the final list (title, date, category, link,
+location, description for each) and use the following tools rather than
+hand-writing scripts or prose for any of these steps — they're fixed,
+deterministic code, not something to reimplement:
+
+- Call `render_digest` with the full events list. It groups by category in a
+  fixed order, generates both the HTML and the plain-text version from the
+  same data, and returns `{html, text, eventCount, categoryCount}`. It also
+  writes new-events.json to the repo as a record of what's being sent — you
+  don't need to write that file yourself.
+- Call `validate_digest` with the returned `html`, `text` (as `body`), and the
+  events list, as a final self-check before sending. `render_digest`'s output
+  should already pass; if `validate_digest` reports failures anyway, that
+  means the events list you built has a problem (e.g. a field that doesn't
+  match what you searched) — fix the events list and re-render, don't
+  hand-edit the HTML or text directly. If you can't get a clean pass after 2
+  attempts, stop: do not send anything and do not modify seen-events.json.
+- Once validation passes, send the email exactly ONCE using the Gmail MCP
+  server's send-email tool, addressed to michael.cmar@gmail.com, with the
+  `render_digest` output's `html` as `htmlBody`, its `text` as `body` (this
+  tool requires `body`; it cannot be omitted or left empty), AND `mimeType`
+  set explicitly to `"multipart/alternative"`. This is not optional: this
+  Gmail MCP server defaults `mimeType` to `"text/plain"` when it isn't given,
+  and whenever `mimeType` resolves to `"text/plain"` it discards `htmlBody`
+  completely and sends only `body` as the whole email — silently, with no
+  error. Never send more than one digest email in a run, and never send a
+  "fixed" follow-up or duplicate if something looks off after sending — that
+  makes the inbox worse, not better. If the send tool call itself errors
+  (e.g. network/auth error), you may retry the identical send once; if it
+  still fails, stop and report the error rather than trying alternate
   content.
-- Only after the single validated send succeeds: append the new events to
-  seen-events.json (title, date, category, link, location, description) and
-  commit the change with a message like "Add N new events from [date] run",
-  then push to the current branch. Delete the temporary JSON file and any
-  generator/validation scripts before finishing.
+- Only after the single validated send succeeds: call `append_seen_events`
+  with the same events list. It appends to seen-events.json (skipping any
+  exact duplicates as a final safety net) and deletes new-events.json for
+  you. Then commit seen-events.json with a message like "Add N new events
+  from [date] run" and push to the current branch.
 
 If no new events are found in any category, do not send an email — just exit
 without committing.
