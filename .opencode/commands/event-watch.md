@@ -52,7 +52,12 @@ Search the web for newly announced events in these categories:
    maker pop-ups, in NYC, Rochester NY/upstate NY, or nationally notable ones.
 
 For each category, run separate targeted searches — don't combine them into one
-query. Only surface events with a concrete date.
+query. Cap it at 2-3 targeted searches per category (plus the direct page
+checks listed above for literary/BookTok): if that isn't turning up enough
+candidates, move on with what you have rather than continuing to search —
+extra rounds of searching multiply the token cost of the whole run because
+every prior search result stays in context for the rest of it. Only surface
+events with a concrete date.
 
 CRITICAL DATE CHECK: For every candidate event, verify its date against today's
 actual current date before including it anywhere. Discard any event whose date
@@ -101,9 +106,7 @@ If new events are found:
   Do NOT hand-type the digest prose directly into the email tool call or any
   chat output — free-generating long HTML by hand is exactly what causes
   garbled words, wrong facts, and truncated/dropped sections. The script must
-  copy every field verbatim from the JSON, not re-type it. If a plain-text
-  body is also needed, generate it the same way, from the same JSON, via the
-  same script.
+  copy every field verbatim from the JSON, not re-type it.
 - Before sending, write and run a separate validation script that checks the
   generated HTML against new-events.json and prints either PASS or a specific
   list of failures:
@@ -119,12 +122,16 @@ If new events are found:
   summary of what failed so it's visible in the run log for manual follow-up.
 - Once validation prints PASS, send the email exactly ONCE using the Gmail
   MCP server's send-email tool, addressed to michael.cmar@gmail.com, passing
-  the HTML body as the message's HTML content (not the plain-text body
-  field). Never send more than one digest email in a run, and never send a
-  "fixed" follow-up or duplicate if something looks off after sending — that
-  makes the inbox worse, not better. If the send tool call itself errors
-  (e.g. network/auth error), you may retry the identical send once; if it
-  still fails, stop and report the error rather than trying alternate
+  the generated HTML as the `htmlBody` field. Do NOT also pass a `body`
+  (plain-text) field — some mail clients render `body` instead of `htmlBody`
+  when both are present, so a `body` field turns the whole email into
+  whatever placeholder or summary text you put there and hides the real
+  digest. `htmlBody` alone is sufficient; do not add a plain-text version
+  "just in case". Never send more than one digest email in a run, and never
+  send a "fixed" follow-up or duplicate if something looks off after sending
+  — that makes the inbox worse, not better. If the send tool call itself
+  errors (e.g. network/auth error), you may retry the identical send once; if
+  it still fails, stop and report the error rather than trying alternate
   content.
 - Only after the single validated send succeeds: append the new events to
   seen-events.json (title, date, category, link, location, description) and
