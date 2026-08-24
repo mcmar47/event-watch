@@ -1214,5 +1214,133 @@
     "link": "https://www.southernfriedgamingexpo.com/",
     "location": "Atlanta, GA",
     "description": "Atlanta expo featuring 400+ arcade and pinball machines, retro consoles, and tabletop gaming."
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-03",
+    "description": "Physician-led women's longevity medicine summit in New York City covering hormones, metabolism, and healthspan education.",
+    "link": "https://www.herlongevity.org/",
+    "location": "New York, NY",
+    "title": "Her Longevity Summit"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-09-19",
+    "description": "Expo pairing a public wellness weekend with a longevity medicine and biohacking congress in New York City.",
+    "link": "https://www.vivavitaexpos.com/new-york-2026-tickets/",
+    "location": "New York, NY",
+    "title": "VIVAVITA Future Human New York"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-27",
+    "description": "Three-day conference on deploying AI across drug discovery and development, drawing 1,000+ pharma professionals.",
+    "link": "https://www.aidrivendrugdevelopment.com/",
+    "location": "Boston, MA",
+    "title": "AI Drug Discovery & Development Summit 2026"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-24",
+    "description": "Book signing with ecologist Thomas Crowther for his new book Nature's Echo at Barnes & Noble Fifth Avenue.",
+    "link": "https://www.eventbrite.com/e/signing-with-thomas-crowther-for-natures-echo-bn-5th-ave-nyc-tickets-1992053644074",
+    "location": "New York, NY",
+    "title": "Thomas Crowther signing for Nature's Echo at B&N 5th Ave"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-10",
+    "description": "Poetry reading and conversation with poet Carolyn Forche on Otherwhere, with Kevin Young, at Greenlight Bookstore.",
+    "link": "https://greenlightbookstore.com/event/2026-09-10/carolyn-forche-kevin-young",
+    "location": "Brooklyn, NY",
+    "title": "Carolyn Forche with Kevin Young"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-06",
+    "description": "Discussion and signing for Maureen Johnson's mystery Velvet Knife at Barnes & Noble Carle Place.",
+    "link": "https://stores.barnesandnoble.com/event/9780062218727-0",
+    "location": "Carle Place, NY",
+    "title": "Maureen Johnson discusses & signs Velvet Knife"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-26",
+    "description": "Launch reading and discussion of Andrew Felsher's novel Child Boss with Nicole Maloof at Word Up Community Bookshop.",
+    "link": "https://wordupbooks.com/event/2026-09-26/andrew-felsher-child-boss-book-launch",
+    "location": "New York, NY",
+    "title": "Andrew Felsher's Child Boss Book Launch"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-28",
+    "description": "Launch event for Deesha Philyaw's novel The True Confessions of First Lady Freeman, in conversation with Cleyvis Natera.",
+    "link": "https://www.eventbrite.com/e/deesha-philyaw-launches-the-true-confessions-of-first-lady-freeman-tickets-1992695542008",
+    "location": "Brooklyn, NY",
+    "title": "Deesha Philyaw Launches The True Confessions of First Lady Freeman"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-26",
+    "description": "One-day Rochester fair of book artists, photographers, and indie publishers exhibiting and selling their work at RIT's City Art Space.",
+    "link": "https://www.rit.edu/cityartspace/exhibitions/roc-indie-book-zine-fair-2026",
+    "location": "Rochester, NY",
+    "title": "Roc Indie Book & Zine Fair 2026"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-10",
+    "description": "Ninety-minute New Moon in Virgo astrology workshop with chart exploration, a ritual, and a take-home kit at My Little Magic Shop.",
+    "link": "https://www.universe.com/events/new-moon-in-virgo-astro-workshop-tickets-VSFHQZ",
+    "location": "New York, NY",
+    "title": "New Moon in Virgo Astro Workshop"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-26",
+    "description": "Ninety-minute workshop at My Little Magic Shop on the fiery Full Moon in Aries, with empowerment ritual and a ritual kit.",
+    "link": "https://www.universe.com/events/full-moon-in-aries-astro-workshop",
+    "location": "New York, NY",
+    "title": "Full Moon in Aries Astro Workshop"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-01",
+    "description": "Morgan Library after-hours evening with tarot-themed programming tied to its Tarot! Renaissance Symbols exhibition.",
+    "link": "https://www.themorgan.org/exhibitions/tarot",
+    "location": "New York, NY",
+    "title": "Morgan After Hours: Divine Splendor"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-18",
+    "description": "Symposium at the Morgan Library exploring tarot imagery from Renaissance decks to modern and contemporary art.",
+    "link": "https://www.themorgan.org/exhibitions/tarot",
+    "location": "New York, NY",
+    "title": "Tarot! Renaissance Symbols Symposium"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-12-05",
+    "description": "One-day retro video game, trading cards, and nostalgia expo at the Fashion Outlets of Niagara Falls.",
+    "link": "https://goldensaucergaming.com/pages/gsg-expo-26",
+    "location": "Niagara Falls, NY",
+    "title": "Golden Saucer Gaming Expo 2026"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-31",
+    "description": "UK's biggest retro gaming market with exhibitors selling retro games, consoles, and arcade memorabilia.",
+    "link": "https://www.oxfordgamingmarket.com/",
+    "location": "Oxford, UK",
+    "title": "Oxford Gaming Market"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-27",
+    "description": "Two-day pen show in Singapore for fountain pen and stationery collectors and dealers.",
+    "link": "https://www.fountainpenday.com/pages/pen-show-schedule",
+    "location": "Singapore",
+    "title": "Singapore Pen Show"
   }
 ]
