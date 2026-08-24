@@ -13,6 +13,10 @@
 import { tool } from "@opencode-ai/plugin/tool"
 import { readFile, writeFile, unlink } from "node:fs/promises"
 import path from "node:path"
+import os from "node:os"
+
+const GMAIL_MCP_DIR = path.join(os.homedir(), ".gmail-mcp")
+const DIGEST_RECIPIENT = "michael.cmar@gmail.com"
 
 const CATEGORY_LABELS = {
   "biotech-longevity": "🧬 Biotech & Longevity",
@@ -118,6 +122,110 @@ function validateDigestContent(html, body, events) {
   }
 
   return { pass: failures.length === 0, failures }
+}
+
+function encodeEmailHeader(text) {
+  if (/[^\x00-\x7F]/.test(text)) {
+    return "=?UTF-8?B?" + Buffer.from(text, "utf8").toString("base64") + "?="
+  }
+  return text
+}
+
+function buildRawMimeMessage({ to, subject, text, html }) {
+  const boundary = `----=_NextPart_${Math.random().toString(36).slice(2)}`
+  const parts = [
+    "From: me",
+    `To: ${to}`,
+    `Subject: ${encodeEmailHeader(subject)}`,
+    "MIME-Version: 1.0",
+    `Content-Type: multipart/alternative; boundary="${boundary}"`,
+    "",
+    `--${boundary}`,
+    "Content-Type: text/plain; charset=UTF-8",
+    "Content-Transfer-Encoding: 7bit",
+    "",
+    text,
+    "",
+    `--${boundary}`,
+    "Content-Type: text/html; charset=UTF-8",
+    "Content-Transfer-Encoding: 7bit",
+    "",
+    html,
+    "",
+    `--${boundary}--`,
+  ]
+  return parts.join("\r\n")
+}
+
+// Refreshes against the same OAuth credentials the Gmail MCP server
+// (@gongrzhe/server-gmail-autoauth-mcp) already manages at ~/.gmail-mcp/ —
+// no separate auth setup. This bypasses that MCP server's own tool call for
+// sending, though, because the actual failure mode we're fixing isn't in the
+// MCP server: it's the model having to regenerate a previous tool's HTML
+// output as text to pass it into a second tool call. One tool doing render
+// + send atomically, reading straight from disk, removes that hand-off
+// entirely.
+async function refreshGmailAccessToken() {
+  const keysRaw = await readFile(
+    path.join(GMAIL_MCP_DIR, "gcp-oauth.keys.json"),
+    "utf8"
+  )
+  const keys = JSON.parse(keysRaw).installed
+  const credsPath = path.join(GMAIL_MCP_DIR, "credentials.json")
+  const creds = JSON.parse(await readFile(credsPath, "utf8"))
+
+  const res = await fetch(keys.token_uri, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      client_id: keys.client_id,
+      client_secret: keys.client_secret,
+      refresh_token: creds.refresh_token,
+      grant_type: "refresh_token",
+    }),
+  })
+  if (!res.ok) {
+    throw new Error(
+      `Gmail OAuth token refresh failed: ${res.status} ${await res.text()}`
+    )
+  }
+  const data = await res.json()
+  await writeFile(
+    credsPath,
+    JSON.stringify(
+      {
+        ...creds,
+        access_token: data.access_token,
+        expiry_date: Date.now() + data.expires_in * 1000,
+      },
+      null,
+      2
+    ),
+    "utf8"
+  )
+  return data.access_token
+}
+
+async function sendGmailMessage({ to, subject, text, html }) {
+  const accessToken = await refreshGmailAccessToken()
+  const raw = buildRawMimeMessage({ to, subject, text, html })
+  const rawEncoded = Buffer.from(raw, "utf8").toString("base64url")
+
+  const res = await fetch(
+    "https://gmail.googleapis.com/gmail/v1/users/me/messages/send",
+    {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ raw: rawEncoded }),
+    }
+  )
+  if (!res.ok) {
+    throw new Error(`Gmail send failed: ${res.status} ${await res.text()}`)
+  }
+  return await res.json()
 }
 
 export const EventWatchTools = async () => {
@@ -229,6 +337,60 @@ export const EventWatchTools = async () => {
         },
         execute: async ({ html, body, events }) => {
           return JSON.stringify(validateDigestContent(html, body, events), null, 2)
+        },
+      }),
+
+      send_digest_email: tool({
+        description:
+          "Send the digest email directly to michael.cmar@gmail.com. Reads new-events.json itself (written by render_digest) and renders + sends in one step via the Gmail API — the HTML/text content never passes back through you as text, so it can't get corrupted by retyping. Only pass a subject; do not attempt to construct or pass htmlBody/body yourself, and do not use the Gmail MCP send-email tool for the digest — use this instead. Call append_seen_events after this succeeds.",
+        args: {
+          subject: tool.schema.string(),
+        },
+        execute: async ({ subject }, context) => {
+          const filePath = path.join(context.directory, "new-events.json")
+          let raw
+          try {
+            raw = await readFile(filePath, "utf8")
+          } catch (err) {
+            if (err.code === "ENOENT") {
+              throw new Error(
+                "new-events.json not found — call render_digest first."
+              )
+            }
+            throw err
+          }
+          const events = JSON.parse(raw)
+          if (!Array.isArray(events) || events.length === 0) {
+            throw new Error("new-events.json is empty or invalid — nothing to send.")
+          }
+
+          const today = new Date().toISOString().slice(0, 10)
+          const { html, text } = renderDigestContent(events, today)
+          const validation = validateDigestContent(html, text, events)
+          if (!validation.pass) {
+            throw new Error(
+              "Refusing to send: rendered digest failed validation — " +
+                validation.failures.join("; ")
+            )
+          }
+
+          const result = await sendGmailMessage({
+            to: DIGEST_RECIPIENT,
+            subject,
+            text,
+            html,
+          })
+
+          return JSON.stringify(
+            {
+              messageId: result.id,
+              threadId: result.threadId,
+              eventCount: events.length,
+              categoryCount: new Set(events.map((e) => e.category)).size,
+            },
+            null,
+            2
+          )
         },
       }),
 

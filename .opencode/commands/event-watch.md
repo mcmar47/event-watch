@@ -99,35 +99,29 @@ deterministic code, not something to reimplement:
 
 - Call `render_digest` with the full events list. It groups by category in a
   fixed order, generates both the HTML and the plain-text version from the
-  same data, and returns `{html, text, eventCount, categoryCount}`. It also
-  writes new-events.json to the repo as a record of what's being sent — you
-  don't need to write that file yourself.
-- Call `validate_digest` with the returned `html`, `text` (as `body`), and the
-  events list, as a final self-check before sending. `render_digest`'s output
-  should already pass; if `validate_digest` reports failures anyway, that
-  means the events list you built has a problem (e.g. a field that doesn't
-  match what you searched) — fix the events list and re-render, don't
-  hand-edit the HTML or text directly. If you can't get a clean pass after 2
-  attempts, stop: do not send anything and do not modify seen-events.json.
-- Once validation passes, send the email exactly ONCE using the Gmail MCP
-  server's send-email tool, addressed to michael.cmar@gmail.com, with the
-  `render_digest` output's `html` as `htmlBody`, its `text` as `body` (this
-  tool requires `body`; it cannot be omitted or left empty), AND `mimeType`
-  set explicitly to `"multipart/alternative"`. This is not optional: this
-  Gmail MCP server defaults `mimeType` to `"text/plain"` when it isn't given,
-  and whenever `mimeType` resolves to `"text/plain"` it discards `htmlBody`
-  completely and sends only `body` as the whole email — silently, with no
-  error. Never send more than one digest email in a run, and never send a
-  "fixed" follow-up or duplicate if something looks off after sending — that
-  makes the inbox worse, not better. If the send tool call itself errors
-  (e.g. network/auth error), you may retry the identical send once; if it
+  same data, writes new-events.json to the repo (the source of truth for what
+  gets sent), and returns `{html, text, eventCount, categoryCount}` for your
+  own review. Use `validate_digest` on that returned output if you want an
+  explicit self-check, but its result isn't load-bearing — `send_digest_email`
+  (below) re-validates from new-events.json itself regardless.
+- Call `send_digest_email` with just a `subject` string — nothing else. It
+  reads new-events.json itself, renders and validates internally, and sends
+  directly via the Gmail API, all in one step. Do NOT construct or pass
+  `htmlBody`/`body` yourself, and do NOT use the Gmail MCP server's
+  send-email tool for this — use `send_digest_email` instead. This exists
+  specifically because retyping a long HTML digest into a second tool call is
+  what caused corrupted/blank sends in past runs — passing only a short
+  subject removes that risk entirely. Never call `send_digest_email` more
+  than once in a run, and never send a "fixed" follow-up or duplicate if
+  something looks off after sending — that makes the inbox worse, not
+  better. If it errors (e.g. network/auth error), you may retry once; if it
   still fails, stop and report the error rather than trying alternate
   content.
-- Only after the single validated send succeeds: call `append_seen_events`
-  with the same events list. It appends to seen-events.json (skipping any
-  exact duplicates as a final safety net) and deletes new-events.json for
-  you. Then commit seen-events.json with a message like "Add N new events
-  from [date] run" and push to the current branch.
+- Only after the single send succeeds: call `append_seen_events` with the
+  same events list. It appends to seen-events.json (skipping any exact
+  duplicates as a final safety net) and deletes new-events.json for you.
+  Then commit seen-events.json with a message like "Add N new events from
+  [date] run" and push to the current branch.
 
 If no new events are found in any category, do not send an email — just exit
 without committing.
