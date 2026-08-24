@@ -34,20 +34,20 @@
          Run `which node` locally and add its directory here if the job fails to
          find it (opencode needs it to spawn the Gmail MCP server via npx).
 
-         OPENCODE_ENABLE_EXA turns on opencode's built-in websearch/webfetch
-         tools (Exa-hosted, no separate API key needed); they're off by
-         default. Do NOT put OPENROUTER_API_KEY or any Gmail credential here;
-         both are meant to live in their own local credential stores set up
-         via the one-time interactive steps above, not in this plist (which
-         could end up committed to the repo alongside the others). -->
+         OPENCODE_ENABLE_EXA (turns on opencode's built-in Exa-hosted
+         websearch/webfetch tools) is set inside run-event-watch-opencode.sh
+         itself now, not here — that way it also applies when the script is
+         run manually from a terminal, not just via launchd. Do NOT put
+         OPENROUTER_API_KEY or any Gmail credential here either; both are
+         meant to live in their own local credential stores set up via the
+         one-time interactive steps above, not in this plist (which could end
+         up committed to the repo alongside the others). -->
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
         <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
         <key>HOME</key>
         <string>/Users/michaelcmar</string>
-        <key>OPENCODE_ENABLE_EXA</key>
-        <string>true</string>
     </dict>
 
     <key>StandardOutPath</key>
