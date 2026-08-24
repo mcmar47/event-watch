@@ -32,12 +32,12 @@
     "description": "Public ceremony at Southbank Centre in London announcing the Booker Prize fiction shortlist, with judges in conversation."
   },
   {
-    "title": "Hern\u00e1n Diaz: Ply",
+    "title": "Hernán Diaz: Ply",
     "date": "2026-10-15",
     "category": "literary-booktok",
     "link": "https://www.strandbooks.com/events.html",
     "location": "New York, NY",
-    "description": "Author talk and signing with Pulitzer Prize winner Hern\u00e1n Diaz for his new novel Ply."
+    "description": "Author talk and signing with Pulitzer Prize winner Hernán Diaz for his new novel Ply."
   },
   {
     "title": "NY Jewish Book Festival",
@@ -152,7 +152,7 @@
     "description": "Multi-day fountain pen show in Dublin, Ohio with seminars, pen auctions, on-site repairs, and a vendor marketplace."
   },
   {
-    "title": "C3 Davos of Healthcare\u2122 NYC Summit",
+    "title": "C3 Davos of Healthcare™ NYC Summit",
     "date": "2026-09-14",
     "category": "biotech-longevity",
     "link": "https://www.eventbrite.com/e/c3-davos-of-healthcaretm-nyc-summit-tickets-1990822324163",
@@ -232,7 +232,7 @@
     "description": "Annual conference of panels and conversations on literary translation, hosted by the Center for the Art of Translation."
   },
   {
-    "title": "Pagan Sky (Poems 2000 \u2013 2025) and Heartmoor Poetry Reading",
+    "title": "Pagan Sky (Poems 2000 – 2025) and Heartmoor Poetry Reading",
     "date": "2026-09-24",
     "category": "literary-booktok",
     "link": "https://writersandbooks.org/events/",
@@ -280,7 +280,7 @@
     "description": "Astrology panel at Lily Dale featuring Rachel Lang, Anne Ortelee, and Rick Levine on astrology as a practical tool."
   },
   {
-    "title": "Tarot 101: The Fool's Journey \u2013 Intro to the Major Arcana",
+    "title": "Tarot 101: The Fool's Journey – Intro to the Major Arcana",
     "date": "2026-09-19",
     "category": "occult-esoteric",
     "link": "https://www.eventbrite.com/e/tarot-101-the-fools-journey-intro-to-the-major-arcana-tickets-1993486158764",
@@ -536,7 +536,7 @@
     "description": "Intermediate-level tarot class at Lily Dale taught by astrologer and tarot teacher Susan Stush."
   },
   {
-    "title": "Kenneth Miller: The Ascendant \u2014 Key to Every Door, Door to Every Experience!",
+    "title": "Kenneth Miller: The Ascendant — Key to Every Door, Door to Every Experience!",
     "date": "2026-08-21",
     "category": "occult-esoteric",
     "link": "https://www.lilydaleassembly.org/event-details/kenneth-miller-the-ascendant-key-to-every-door-door-to-every-experience",
@@ -680,12 +680,12 @@
     "description": "Three-day occult gathering in Newburgh with an oddities and curiosities market, ritual arts, an art exhibition, and dark performance."
   },
   {
-    "title": "The 100-Year Houdini S\u00e9ance",
+    "title": "The 100-Year Houdini Séance",
     "date": "2026-10-31",
     "category": "occult-esoteric",
     "link": "https://houdini.nyc/",
     "location": "New York, NY",
-    "description": "Centennial Houdini s\u00e9ances at his former New York home on the 100th anniversary of his death, led by medium Jodi-Lynn."
+    "description": "Centennial Houdini séances at his former New York home on the 100th anniversary of his death, led by medium Jodi-Lynn."
   },
   {
     "title": "Community Day at My Little Magic Shop",
@@ -1078,5 +1078,141 @@
     "link": "https://phillypenshow.com/",
     "location": "Philadelphia, PA",
     "description": "Philadelphia-area fountain pen and writing show, with vendors, nib repair, and workshops."
+  },
+  {
+    "title": "Danny Ramadan discusses Crooked Teeth",
+    "date": "2026-08-25",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/08/23/danny-ramadan-crooked-teeth-book-talk/",
+    "location": "New York, NY",
+    "description": "Book talk with Syrian-Canadian author Danny Ramadan on his memoir Crooked Teeth at the Strand bookstore."
+  },
+  {
+    "title": "Matthew Futterman discusses The Cruelest Game",
+    "date": "2026-08-25",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/08/23/matthew-futterman-the-cruelest-game-book-conversation/",
+    "location": "Brooklyn, NY",
+    "description": "Book conversation on sports journalist Matthew Futterman's tennis exposé The Cruelest Game at DSK Brooklyn."
+  },
+  {
+    "title": "Isaac Fitzgerald discusses American Rambler",
+    "date": "2026-09-09",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/06/25/isaac-fitzgerald-american-rambler-book-discussion/",
+    "location": "Brooklyn, NY",
+    "description": "Book discussion with Isaac Fitzgerald on his travel memoir American Rambler at SupaDupaFresh in Brooklyn."
+  },
+  {
+    "title": "Valeria Luiselli discusses Beginning Middle End",
+    "date": "2026-09-17",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/08/02/valeria-luiselli-beginning-middle-end-book-conversation/",
+    "location": "Rhinebeck, NY",
+    "description": "Book conversation on Valeria Luiselli's new novel Beginning Middle End at Oblong Books in Rhinebeck."
+  },
+  {
+    "title": "Ariel Sullivan discusses Conform",
+    "date": "2026-09-29",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/08/02/ariel-sullivan-conform-book-launch/",
+    "location": "Brooklyn, NY",
+    "description": "Book launch conversation on Ariel Sullivan's debut dystopian romance Conform at Love & Legends bookstore."
+  },
+  {
+    "title": "Chris Bohjalian discusses The Amateur",
+    "date": "2026-10-03",
+    "category": "literary-booktok",
+    "link": "https://www.booksigningcentral.com/2026/08/23/chris-bohjalian-the-amateur-author-talk/",
+    "location": "Saratoga Springs, NY",
+    "description": "Author talk with bestselling novelist Chris Bohjalian on his new novel The Amateur at Northshire Books."
+  },
+  {
+    "title": "Intuitive Interpretation: A Tarot Workshop",
+    "date": "2026-09-04",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/intuitive-interpretation-a-tarot-workshop-tickets-1998111798176",
+    "location": "Brooklyn, NY",
+    "description": "All-level tarot reading workshop at Hive Mind Books teaching archetypes, symbolism, and storytelling."
+  },
+  {
+    "title": "Witches and Stitches Embroidery Workshop",
+    "date": "2026-09-10",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/witches-and-stitches-embroidery-workshop-tickets-1996767143277",
+    "location": "Fairport, NY",
+    "description": "Witch-themed embroidery workshop for customizing a tote bag at Lucky Penny Books & Gifts in Fairport."
+  },
+  {
+    "title": "Tarot Card Painting",
+    "date": "2026-09-30",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/tarot-card-painting-tickets-1998385145766",
+    "location": "New York, NY",
+    "description": "Pottery painting evening at Color Me Mine UWS featuring tarot card designs and mini readings."
+  },
+  {
+    "title": "Longevity, Wellness & Biohacking Expo — San Diego",
+    "date": "2026-10-24",
+    "category": "biotech-longevity",
+    "link": "https://www.apexmasterexpos.com/longevity/usa/san-diego/",
+    "location": "San Diego, CA",
+    "description": "Four-day expo uniting longevity science, wellness, biohacking, and investment in San Diego."
+  },
+  {
+    "title": "ALOS Animal Longevity Summit",
+    "date": "2026-10-01",
+    "category": "biotech-longevity",
+    "link": "https://animallongevitysummit.com/",
+    "location": "Toronto, ON",
+    "description": "Inaugural two-day summit advancing companion animal healthspan and cross-species longevity science."
+  },
+  {
+    "title": "Next Generation Longevity 2026",
+    "date": "2026-10-15",
+    "category": "biotech-longevity",
+    "link": "https://www.buildlongevity.org/",
+    "location": "Osaka, Japan",
+    "description": "Two-day global forum on healthspan medicine, clinical innovation, and AI in longevity care."
+  },
+  {
+    "title": "Paper World Stationery Expo Anaheim",
+    "date": "2026-09-19",
+    "category": "pen-stationery",
+    "link": "https://www.paperworldstationeryexpo.com/",
+    "location": "Anaheim, CA",
+    "description": "One-day stationery, pen, and paper expo with curated indie vendor shopping at Anaheim Marriott."
+  },
+  {
+    "title": "Northwest Stationery Fest",
+    "date": "2026-11-07",
+    "category": "pen-stationery",
+    "link": "https://www.nwstationeryfest.com/",
+    "location": "Portland, OR",
+    "description": "Two-day stationery fair in Portland with independent pen, paper, and ink vendors."
+  },
+  {
+    "title": "Game On Expo 2027",
+    "date": "2027-01-15",
+    "category": "retro-gaming",
+    "link": "https://gameonexpo.com/",
+    "location": "Phoenix, AZ",
+    "description": "Southwest gaming, anime, and nostalgia convention with arcade, retro championships, and cosplay."
+  },
+  {
+    "title": "TooManyGames 2027",
+    "date": "2027-06-25",
+    "category": "retro-gaming",
+    "link": "https://www.toomanygames.com/",
+    "location": "Oaks, PA",
+    "description": "Pennsylvania gaming convention with retro and modern games, tournaments, panels, and vendors."
+  },
+  {
+    "title": "Southern-Fried Gaming Expo 2027",
+    "date": "2027-07-16",
+    "category": "retro-gaming",
+    "link": "https://www.southernfriedgamingexpo.com/",
+    "location": "Atlanta, GA",
+    "description": "Atlanta expo featuring 400+ arcade and pinball machines, retro consoles, and tabletop gaming."
   }
 ]
