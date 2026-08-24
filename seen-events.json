@@ -32,12 +32,12 @@
     "description": "Public ceremony at Southbank Centre in London announcing the Booker Prize fiction shortlist, with judges in conversation."
   },
   {
-    "title": "Hernán Diaz: Ply",
+    "title": "Hern\u00e1n Diaz: Ply",
     "date": "2026-10-15",
     "category": "literary-booktok",
     "link": "https://www.strandbooks.com/events.html",
     "location": "New York, NY",
-    "description": "Author talk and signing with Pulitzer Prize winner Hernán Diaz for his new novel Ply."
+    "description": "Author talk and signing with Pulitzer Prize winner Hern\u00e1n Diaz for his new novel Ply."
   },
   {
     "title": "NY Jewish Book Festival",
@@ -152,7 +152,7 @@
     "description": "Multi-day fountain pen show in Dublin, Ohio with seminars, pen auctions, on-site repairs, and a vendor marketplace."
   },
   {
-    "title": "C3 Davos of Healthcare™ NYC Summit",
+    "title": "C3 Davos of Healthcare\u2122 NYC Summit",
     "date": "2026-09-14",
     "category": "biotech-longevity",
     "link": "https://www.eventbrite.com/e/c3-davos-of-healthcaretm-nyc-summit-tickets-1990822324163",
@@ -232,7 +232,7 @@
     "description": "Annual conference of panels and conversations on literary translation, hosted by the Center for the Art of Translation."
   },
   {
-    "title": "Pagan Sky (Poems 2000 – 2025) and Heartmoor Poetry Reading",
+    "title": "Pagan Sky (Poems 2000 \u2013 2025) and Heartmoor Poetry Reading",
     "date": "2026-09-24",
     "category": "literary-booktok",
     "link": "https://writersandbooks.org/events/",
@@ -280,7 +280,7 @@
     "description": "Astrology panel at Lily Dale featuring Rachel Lang, Anne Ortelee, and Rick Levine on astrology as a practical tool."
   },
   {
-    "title": "Tarot 101: The Fool's Journey – Intro to the Major Arcana",
+    "title": "Tarot 101: The Fool's Journey \u2013 Intro to the Major Arcana",
     "date": "2026-09-19",
     "category": "occult-esoteric",
     "link": "https://www.eventbrite.com/e/tarot-101-the-fools-journey-intro-to-the-major-arcana-tickets-1993486158764",
@@ -536,7 +536,7 @@
     "description": "Intermediate-level tarot class at Lily Dale taught by astrologer and tarot teacher Susan Stush."
   },
   {
-    "title": "Kenneth Miller: The Ascendant — Key to Every Door, Door to Every Experience!",
+    "title": "Kenneth Miller: The Ascendant \u2014 Key to Every Door, Door to Every Experience!",
     "date": "2026-08-21",
     "category": "occult-esoteric",
     "link": "https://www.lilydaleassembly.org/event-details/kenneth-miller-the-ascendant-key-to-every-door-door-to-every-experience",
@@ -680,12 +680,12 @@
     "description": "Three-day occult gathering in Newburgh with an oddities and curiosities market, ritual arts, an art exhibition, and dark performance."
   },
   {
-    "title": "The 100-Year Houdini Séance",
+    "title": "The 100-Year Houdini S\u00e9ance",
     "date": "2026-10-31",
     "category": "occult-esoteric",
     "link": "https://houdini.nyc/",
     "location": "New York, NY",
-    "description": "Centennial Houdini séances at his former New York home on the 100th anniversary of his death, led by medium Jodi-Lynn."
+    "description": "Centennial Houdini s\u00e9ances at his former New York home on the 100th anniversary of his death, led by medium Jodi-Lynn."
   },
   {
     "title": "Community Day at My Little Magic Shop",
@@ -934,5 +934,149 @@
     "link": "https://www.scriptusinc.com/",
     "location": "Toronto, ON",
     "description": "Free one-day Toronto fountain pen and stationery show with vendors of pens, inks, and paper at the Reference Library."
+  },
+  {
+    "title": "Longevity, Wellness & Biohacking Expo: New York City Edition",
+    "date": "2026-09-12",
+    "category": "biotech-longevity",
+    "link": "https://www.apexmasterexpos.com/longevity/usa/new-york/",
+    "location": "New York, NY",
+    "description": "Four-day expo dedicated to longevity science, biohacking, wellness, and human performance in New York City."
+  },
+  {
+    "title": "Global Cancer Research & Innovation Symposium (GCRIS) 2026",
+    "date": "2026-10-05",
+    "category": "biotech-longevity",
+    "link": "https://avbcc.org/gcris/",
+    "location": "New York, NY",
+    "description": "Annual symposium convening investors, biotech and pharma executives, regulators, and academic innovators around the cancer drug development lifecycle."
+  },
+  {
+    "title": "MLCB 2026 (Machine Learning in Computational Biology)",
+    "date": "2026-11-16",
+    "category": "biotech-longevity",
+    "link": "https://www.mlcb.org/",
+    "location": "New York, NY",
+    "description": "Two-day hybrid conference on machine learning and AI applied to computational biology, held at the New York Genome Center."
+  },
+  {
+    "title": "2026 National Book Awards Finalist Reading",
+    "date": "2026-11-17",
+    "category": "literary-booktok",
+    "link": "https://tickets.nyu.edu/nba2026",
+    "location": "New York, NY",
+    "description": "The evening-before-awards reading at NYU Skirball where National Book Award finalists in fiction, nonfiction, poetry, translated literature, and young people's literature read from their honored works."
+  },
+  {
+    "title": "Renee Watson: Everything New Again book launch",
+    "date": "2026-10-13",
+    "category": "literary-booktok",
+    "link": "https://wordupbooks.com/event/2026-10-13-book-launch-renee-watson-everything-new-again/",
+    "location": "New York, NY",
+    "description": "Evening launch and signing for Newbery Medalist Renee Watson's new YA novel Everything New Again at Word Up, co-hosted with the Harlem School of the Arts."
+  },
+  {
+    "title": "The New Yorker Festival 2026",
+    "date": "2026-10-23",
+    "category": "literary-booktok",
+    "link": "https://festival.newyorker.com/",
+    "location": "New York, NY",
+    "description": "Three-day festival of conversations, performances, and screenings hosted by New Yorker editors and writers across venues in Manhattan."
+  },
+  {
+    "title": "Peyton Corinne discusses UNDONE at B&N Union Square",
+    "date": "2026-10-22",
+    "category": "literary-booktok",
+    "link": "https://www.eventbrite.com/e/peyton-corinne-discusses-undone-at-bn-union-square-tickets-1992435742942/",
+    "location": "New York, NY",
+    "description": "Discussion and signing for the USA Today bestselling romance author's new novel Undone at Barnes & Noble Union Square."
+  },
+  {
+    "title": "Taylor Grothe event for Lethal Kiss at The Ripped Bodice",
+    "date": "2026-10-22",
+    "category": "literary-booktok",
+    "link": "https://www.eventbrite.com/e/taylor-grothe-brooklyn-event-for-lethal-kiss-tickets-199469670542/",
+    "location": "Brooklyn, NY",
+    "description": "Brooklyn bookshop event celebrating the release of horror-romance Lethal Kiss with author Taylor Grothe in conversation."
+  },
+  {
+    "title": "Livonia Chow Mein: A Novel (CUNY)",
+    "date": "2026-10-23",
+    "category": "literary-booktok",
+    "link": "https://events.cuny.edu/cec/livonia-chow-mein-a-novel/",
+    "location": "New York, NY",
+    "description": "CUNY event reading and discussion with author Abigail Savitch-Lew on her debut novel Livonia Chow Mein."
+  },
+  {
+    "title": "WS METAL: A Polaris Yoga School Training",
+    "date": "2026-11-10",
+    "category": "occult-esoteric",
+    "link": "https://www.polarisyoga.com/ws-metal/",
+    "location": "New York, NY",
+    "description": "Three-day immersive witchy weekend of astrology, tarot, and Polaris yoga study taught by a line-up of NYC occult teachers."
+  },
+  {
+    "title": "Aliza Kelly's Haunted Tea Party",
+    "date": "2026-10-21",
+    "category": "occult-esoteric",
+    "link": "https://www.broadwayworld.com/cabaret/regional/Aliza-Kelly-s-Haunted-Tea-Party-The-Spooky-Season-Astrology-Tour-New-York",
+    "location": "New York, NY",
+    "description": "Spooky-season astrology cabaret and tea party with astrologer Aliza Kelly at Joe's Pub."
+  },
+  {
+    "title": "NYSF Spooky Happenings Market",
+    "date": "2026-10-24",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/nysf-spooky-happenings-market-tickets-1979830272641/",
+    "location": "Deer Park, NY",
+    "description": "Outdoor spooky-season market with 100+ vendors, tarot and psychic readers, curiosities, crystals, and oddities."
+  },
+  {
+    "title": "Witches & Warlocks Weekend Out",
+    "date": "2026-10-11",
+    "category": "occult-esoteric",
+    "link": "https://www.iloveportjeff.com/events/witches-and-warlocks-weekend-out/",
+    "location": "Port Jefferson, NY",
+    "description": "Village fall festival with tarot and aura readers, vendors, and activities throughout Port Jefferson."
+  },
+  {
+    "title": "RetroCon 2026",
+    "date": "2026-09-12",
+    "category": "retro-gaming",
+    "link": "https://retrocons.com/",
+    "location": "Oaks, PA",
+    "description": "Weekend retro pop-culture convention of 70s-2000s games, toys, comics, and arcades at the Greater Philadelphia Expo Center."
+  },
+  {
+    "title": "Pittsburgh Gaming Expo 2026",
+    "date": "2026-10-02",
+    "category": "retro-gaming",
+    "link": "https://www.pittsburghgamingexpo.com/",
+    "location": "Monroeville, PA",
+    "description": "Ohio Valley's longest-running interactive gaming celebration with arcade, pinball, retro consoles, tournaments, cosplay and a vendor hall."
+  },
+  {
+    "title": "The Royal Tenenbaums 25th Anniversary Screening (YSFF)",
+    "date": "2026-10-02",
+    "category": "wes-anderson",
+    "link": "https://allevents.in/yellow-springs/ysff-presents-25th-anniversary-of-the-royal-tenenbaums/100001997801204181",
+    "location": "Yellow Springs, OH",
+    "description": "Yellow Springs Film Festival 25th anniversary screening and costume/trivia contest celebration for Wes Anderson's The Royal Tenenbaums."
+  },
+  {
+    "title": "Melbourne Pen & Stationery Show 2026",
+    "date": "2026-10-24",
+    "category": "pen-stationery",
+    "link": "https://melbpenshow.com.au/",
+    "location": "Melbourne, Australia",
+    "description": "Australia's annual two-day festival market and fair for fountain pens, inks, art materials, plus calligraphy and stationery workshops."
+  },
+  {
+    "title": "Philly Pen Show 2027",
+    "date": "2027-01-15",
+    "category": "pen-stationery",
+    "link": "https://phillypenshow.com/",
+    "location": "Philadelphia, PA",
+    "description": "Philadelphia-area fountain pen and writing show, with vendors, nib repair, and workshops."
   }
 ]
