@@ -106,7 +106,11 @@ If new events are found:
   Do NOT hand-type the digest prose directly into the email tool call or any
   chat output — free-generating long HTML by hand is exactly what causes
   garbled words, wrong facts, and truncated/dropped sections. The script must
-  copy every field verbatim from the JSON, not re-type it.
+  copy every field verbatim from the JSON, not re-type it. The same script
+  must also generate a plain-text version from the same JSON (not hand-typed,
+  not a placeholder blurb) — the send tool requires a non-empty `body` field
+  and, depending on `mimeType`, may send it as the entire email instead of
+  `htmlBody`, so it needs to be a real, complete rendition of the digest.
 - Before sending, write and run a separate validation script that checks the
   generated HTML against new-events.json and prints either PASS or a specific
   list of failures:
@@ -121,15 +125,18 @@ If new events are found:
   stop: do not send anything and do not modify seen-events.json. Print a clear
   summary of what failed so it's visible in the run log for manual follow-up.
 - Once validation prints PASS, send the email exactly ONCE using the Gmail
-  MCP server's send-email tool, addressed to michael.cmar@gmail.com, passing
-  the generated HTML as the `htmlBody` field. Do NOT also pass a `body`
-  (plain-text) field — some mail clients render `body` instead of `htmlBody`
-  when both are present, so a `body` field turns the whole email into
-  whatever placeholder or summary text you put there and hides the real
-  digest. `htmlBody` alone is sufficient; do not add a plain-text version
-  "just in case". Never send more than one digest email in a run, and never
-  send a "fixed" follow-up or duplicate if something looks off after sending
-  — that makes the inbox worse, not better. If the send tool call itself
+  MCP server's send-email tool, addressed to michael.cmar@gmail.com, with
+  BOTH the generated HTML in `htmlBody` AND the generated plain text in
+  `body` (this tool requires `body`; it cannot be omitted or left empty),
+  AND `mimeType` set explicitly to `"multipart/alternative"`. This is not
+  optional: this Gmail MCP server defaults `mimeType` to `"text/plain"` when
+  it isn't given, and whenever `mimeType` resolves to `"text/plain"` it
+  discards `htmlBody` completely and sends only `body` as the whole email —
+  silently, with no error. Omitting `mimeType` or leaving it as
+  `"text/plain"` will send a broken email even with a perfectly valid
+  `htmlBody`. Never send more than one digest email in a run, and never send
+  a "fixed" follow-up or duplicate if something looks off after sending —
+  that makes the inbox worse, not better. If the send tool call itself
   errors (e.g. network/auth error), you may retry the identical send once; if
   it still fails, stop and report the error rather than trying alternate
   content.
