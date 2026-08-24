@@ -32,16 +32,27 @@ Search the web for newly announced events in these categories:
    etc.), and BookTok-adjacent community events, in NYC, Rochester NY/upstate NY,
    or online.
 
-   In addition to web search, for this category also check these specific
-   event-listing pages directly and pull any qualifying future events from them:
-     - https://stores.barnesandnoble.com/store/3473?view=grid
-     - https://stores.barnesandnoble.com/store/2790?view=grid
-     - https://thesirenandthesea.com/events
-     - https://www.unreliablebooks.com/events
-   For the two Barnes & Noble store pages specifically: skip any event that is a
-   "storytime" or otherwise clearly aimed at children/toddlers (these pages mix
-   adult author events with kids' storytime) — only include adult/general-audience
-   book events from those two pages.
+   Four Rochester-area sources are worth surfacing events for but are not
+   directly fetchable — confirmed repeatedly, don't spend a fetch attempt on
+   any of these URLs, it will always fail:
+     - https://stores.barnesandnoble.com/store/3473?view=grid (Eastview Mall,
+       Victor, NY) and https://stores.barnesandnoble.com/store/2790?view=grid
+       (Pittsford, NY) — both return a hard 403 from bot protection
+       regardless of URL parameters.
+     - https://thesirenandthesea.com/events (The Siren and the Sea, South
+       Wedge, Rochester, NY) and https://www.unreliablebooks.com/events (The
+       Unreliable Narrator, N. Goodman St, Rochester, NY) — both are
+       JS-rendered single-page apps that return an empty shell to a plain
+       fetch; their third-party events platform (withfriends.co) has the same
+       problem.
+   Instead, run one targeted search per venue by name and location, e.g.
+   "Barnes & Noble Pittsford NY author event 2026", "Barnes & Noble Eastview
+   Mall Victor NY book signing 2026", "Siren and the Sea Rochester NY event",
+   "Unreliable Narrator Rochester NY event" — these four replace the old
+   direct-fetch attempts and are budgeted the same way those were: in
+   addition to, not counted against, the 2-3-searches-per-category cap above.
+   For the two Barnes & Noble locations specifically: skip any event that is
+   a "storytime" or otherwise clearly aimed at children/toddlers.
 3. Occult & esoteric — tarot, astrology, occult book fairs, esoteric shop pop-ups
    or events, in NYC, Rochester NY, or upstate NY.
 4. Retro gaming — retro gaming expos, arcade meetups, classic console/game
@@ -52,8 +63,8 @@ Search the web for newly announced events in these categories:
    maker pop-ups, in NYC, Rochester NY/upstate NY, or nationally notable ones.
 
 For each category, run separate targeted searches — don't combine them into one
-query. Cap it at 2-3 targeted searches per category (plus the direct page
-checks listed above for literary/BookTok): if that isn't turning up enough
+query. Cap it at 2-3 targeted searches per category (plus the four venue
+searches listed above for literary/BookTok): if that isn't turning up enough
 candidates, move on with what you have rather than continuing to search —
 extra rounds of searching multiply the token cost of the whole run because
 every prior search result stays in context for the rest of it. Only surface
