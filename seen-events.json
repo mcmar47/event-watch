@@ -1342,5 +1342,101 @@
     "link": "https://www.fountainpenday.com/pages/pen-show-schedule",
     "location": "Singapore",
     "title": "Singapore Pen Show"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-30",
+    "description": "Release event with New York Times bestselling rom-com author Lynn Painter discussing her new novel Trust Fall at the Strand.",
+    "link": "https://www.strandbooks.com/lynn-painter-trust-fall.html",
+    "location": "New York, NY",
+    "title": "Lynn Painter: Trust Fall"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-10",
+    "description": "Reading and conversation with flash-fiction author Diane Williams on her new collection I Liked Rex, with Merve Emre at McNally Jackson Seaport.",
+    "link": "https://www.nyrb.com/blogs/events/i-liked-rex-with-diane-williams-and-merve-emre-nyc",
+    "location": "New York, NY",
+    "title": "Diane Williams: I Liked Rex"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-14",
+    "description": "Reading and conversation celebrating the first graphic novel edition of Julia Alvarez's In the Time of the Butterflies, with illustrator Krystal Quiles.",
+    "link": "https://wordupbooks.com/event/2026-09-14/word-x-el-museo-del-barrio-presenta-julia-alvarez-krystal-quiles-time-butterflies",
+    "location": "New York, NY",
+    "title": "Julia Alvarez & Krystal Quiles: In the Time of the Butterflies Graphic Novel"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-25",
+    "description": "Meet-and-greet and signing with manga author Misako Rocks! for her new releases at Kinokuniya New York, with a drawing tutorial.",
+    "link": "https://usa.kinokuniya.com/event/2026/9/25/misako-rocks",
+    "location": "New York, NY",
+    "title": "Misako Rocks! Meet & Greet"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-08",
+    "description": "Conversation between debut novelist Grace Byron and New Yorker staff writer Alexandra Schwartz about Byron's horror debut Herculine.",
+    "link": "https://mcnallyjackson.com/event/2026-10-08/grace-byron-alexandra-schwartz",
+    "location": "New York, NY",
+    "title": "Grace Byron & Alexandra Schwartz"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-13",
+    "description": "Rochester Reads workshop at Winton Library teaching memoirist Sonja Livingston's photo-inspired approach to writing.",
+    "link": "https://writersandbooks.org/product/writing-from-photographs-winton/",
+    "location": "Rochester, NY",
+    "title": "Writing from Photographs with Sonja Livingston (Winton)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-28",
+    "description": "Rochester Reads master class at Writers & Books on crafting linked story collections, led by fiction writer Lauren Acampora.",
+    "link": "https://notaba.org/events/through-the-kaleidoscope-crafting-interlocking-stories-a-rochester-reads-master-class/",
+    "location": "Rochester, NY",
+    "title": "Through the Kaleidoscope: Crafting Interlocking Stories"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-07",
+    "description": "Conversation at Writers & Books on comics and history with author David F. Walker, covering Frederick Douglass and the Black Panther Party.",
+    "link": "https://writersandbooks.org/events/",
+    "location": "Rochester, NY",
+    "title": "David F. Walker: A Conversation about Comics and History"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-24",
+    "description": "One-day physicians-only mastermind in New York on skin, bone, and muscle advances in longevity medicine.",
+    "link": "https://longevitydocs.org/products/skin-bone-muscle-mastermind",
+    "location": "New York, NY",
+    "title": "Skin, Bone & Muscle Mastermind"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-18",
+    "description": "In-person astrology retreat at Omega Institute on the mystical 8th and 12th house themes of transformation and transcendence.",
+    "link": "https://carmenturnerschott.com/events/omega-retreat-astrology-phoenixes-angels-8th-and-12th-houses/",
+    "location": "Rhinebeck, NY",
+    "title": "OMEGA Retreat: Mysteries of the 8th & 12th Astrological Houses"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-11-22",
+    "description": "One-day retro gaming market at Doncaster Dome with traders selling games, consoles, and arcade memorabilia.",
+    "link": "https://www.doncastergamingmarket.com/",
+    "location": "Doncaster, UK",
+    "title": "Doncaster Gaming Market"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-11-29",
+    "description": "First South Wales retro gaming expo at Brangwyn Hall with free-play arcade, tournaments, and retro vendors.",
+    "link": "https://happeningnext.com/event/swansea-video-games-expo-eid1ef0l2xbsbwr",
+    "location": "Swansea, UK",
+    "title": "Swansea Video Games Expo"
   }
 ]
