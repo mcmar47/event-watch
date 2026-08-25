@@ -49,6 +49,11 @@ Search the web for newly announced events in these categories:
    Wes Anderson's films, anywhere in the US, prioritizing NYC.
 6. Pen & stationery — pen shows, stationery expos, fountain pen meetups, or
    maker pop-ups, in NYC, Rochester NY/upstate NY, or nationally notable ones.
+7. Fall / Autumn — fall festivals, apple/pumpkin picking events, corn mazes,
+   foliage tours, harvest fairs, and other autumn-season events, ONLY in
+   Rochester NY or upstate NY (unlike the other categories above, do not
+   surface NYC or virtual events for this one — skip a candidate entirely if
+   it's outside Rochester/upstate NY).
 
 For each category, run separate targeted searches — don't combine them into one
 query. Only surface events with a concrete date.
@@ -86,7 +91,7 @@ If new events are found:
   connector's htmlBody field, not plain body) styled like this:
   - A bold heading per category, optionally prefixed with a relevant emoji
     (e.g. 🧬 Biotech & Longevity, 📚 Literary / BookTok, 🔮 Occult & Esoteric,
-    🕹️ Retro Gaming, 🎬 Wes Anderson, 🖋️ Pen & Stationery).
+    🕹️ Retro Gaming, 🎬 Wes Anderson, 🖋️ Pen & Stationery, 🍂 Fall / Autumn).
   - Each event as a bullet: bolded event name, then date, location (or
     "virtual"), and a one-line description.
   - The source link as hyperlinked text (e.g. a "Link" or the event/venue name

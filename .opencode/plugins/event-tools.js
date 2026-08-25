@@ -25,6 +25,7 @@ const CATEGORY_LABELS = {
   "retro-gaming": "🕹️ Retro Gaming",
   "wes-anderson": "🎬 Wes Anderson",
   "pen-stationery": "🖋️ Pen & Stationery",
+  "fall-autumn": "🍂 Fall / Autumn",
 }
 const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS)
 
