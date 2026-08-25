@@ -49,4 +49,21 @@ if [ -z "$MODEL" ] || [ -z "$PROMPT" ]; then
   exit 1
 fi
 
-exec "$OPENCODE_BIN" run -m "$MODEL" --auto "$PROMPT"
+# Not `exec`'d (unlike before pi-ops/README.md's heartbeat mechanism existed)
+# because a heartbeat needs to be written after opencode exits, whatever its
+# exit code — see https://github.com/mcmar47/pi-ops for why. The `if` guards
+# capturing a non-zero exit code from tripping `set -e` above.
+if "$OPENCODE_BIN" run -m "$MODEL" --auto "$PROMPT"; then
+  EXIT_CODE=0
+  STATUS="success"
+else
+  EXIT_CODE=$?
+  STATUS="failure"
+fi
+
+mkdir -p "$REPO_DIR/logs"
+printf '{"timestamp": "%s", "exit_code": %s, "status": "%s"}\n' \
+  "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$EXIT_CODE" "$STATUS" \
+  > "$REPO_DIR/logs/last-run.json"
+
+exit "$EXIT_CODE"
