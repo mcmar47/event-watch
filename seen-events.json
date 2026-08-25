@@ -1438,5 +1438,125 @@
     "link": "https://happeningnext.com/event/swansea-video-games-expo-eid1ef0l2xbsbwr",
     "location": "Swansea, UK",
     "title": "Swansea Video Games Expo"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-05",
+    "description": "Academic conference on metabolism and stem cell therapy research, with paper presentations and networking in New York.",
+    "link": "https://apste.net/conf/index.php?id=100864991",
+    "location": "New York, NY",
+    "title": "International Conference on Metabolism and Stem Cell Therapy (ICMSCT - 26)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-29",
+    "description": "University of Rochester full-day conference on metabolic and mitochondrial biology, featuring the annual Sheu Lecture keynote.",
+    "link": "https://events.rochester.edu/event/mitochondria-and-metabolism-day",
+    "location": "Rochester, NY",
+    "title": "Mitochondria and Metabolism Day"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-14",
+    "description": "Two-day aging and metabolism research conference at Thomas Jefferson University on mitochondria in age-related disease.",
+    "link": "https://attend.jefferson.edu/event/trimad2026/summary",
+    "location": "Philadelphia, PA",
+    "title": "TRiMAD 2026 (Translational Research in Mitochondria/Metabolism, Aging, and Disease)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-14",
+    "description": "Just Buffalo Literary Center lecture with novelist Sigrid Nunez, author of The Friend, at Kleinhans Music Hall.",
+    "link": "https://kleinhansbuffalo.org/event/sigrid-nunez/",
+    "location": "Buffalo, NY",
+    "title": "Sigrid Nunez at BABEL"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-27",
+    "description": "Kickoff of the JCC Cover to Cover Book Festival with author Ruth Setton on her novel Zigzag Girl plus a live magic show.",
+    "link": "https://www.jccbuffalo.org/events/2026/10/27/cover-to-cover-book-festival/author-ruth-setton-with-magician-chris-wheel/",
+    "location": "Amherst, NY",
+    "title": "JCC Cover to Cover: Ruth Setton with Magician Chris Wheel"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-29",
+    "description": "Greenlight Bookstore launch of Heather Aimee O'Neill's novel The Irish Goodbye paperback, in conversation with Lynn Steger Strong.",
+    "link": "https://greenlightbookstore.com/event/2026-09-29/paperback-book-launch-heather-aimee-oneill",
+    "location": "Brooklyn, NY",
+    "title": "Heather Aimee O'Neill Paperback Book Launch"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-25",
+    "description": "Bookshop event with rom-com author Jen DeLuca launching her novel Well Versed, in conversation with Artavia Jarvis.",
+    "link": "https://therippedbodice.com/event/2026-09-25/jen-deluca-brooklyn-event-well-versed",
+    "location": "Brooklyn, NY",
+    "title": "Jen DeLuca Brooklyn Event for Well Versed"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-17",
+    "description": "Rochester Fringe music performance where audience card draws dictate the set list, presented by Sunday Stages.",
+    "link": "https://www.broadwayworld.com/central-new-york/article/Tarot-Cabaret-to-Return-to-Rochester-Fringe-Festival-20260824",
+    "location": "Rochester, NY",
+    "title": "Tarot Cabaret (Rochester Fringe Festival)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-29",
+    "description": "Pay-what-you-can astrology talk on Venus retrograde with Drew Levanti at the New York Theosophical Society.",
+    "link": "https://www.meetup.com/the-big-apple-astrology-meetup-group/events/316023219/",
+    "location": "New York, NY",
+    "title": "Death Bloom: Venus Retrograde in Scorpio & Libra"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-23",
+    "description": "Concert at the Morgan Library of music inspired by tarot, tied to its Tarot! Renaissance Symbols exhibition.",
+    "link": "https://www.themorgan.org/exhibitions/tarot",
+    "location": "New York, NY",
+    "title": "Tarot Magic in Music (Morgan Library)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-19",
+    "description": "Season-long Harvest Fest at Stokoe Farms with corn and soybean mazes, hayrides, a large petting zoo, and 40+ activities.",
+    "link": "https://stokoefarms.com/",
+    "location": "Scottsville, NY",
+    "title": "Stokoe Farms Harvest Fest"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Autumn Agricultural Fair at Genesee Country Village & Museum with harvest demonstrations, livestock, and a farmers market.",
+    "link": "https://www.gcv.org/ag-fair/",
+    "location": "Mumford, NY",
+    "title": "Genesee Country Village Agricultural Fair"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Family-friendly Finger Lakes harvest festival on Main Street with vendors, live entertainment, and fireworks over Shequaga Falls.",
+    "link": "https://watkinsglen.com/falls-harvest-festival/",
+    "location": "Montour Falls, NY",
+    "title": "Falls Harvest Festival Montour Falls"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-26",
+    "description": "Two-day Finger Lakes grape and arts festival in Naples with music, craft vendors, grape pie, and a craft beverage garden.",
+    "link": "https://www.fingerlakesconnected.com/events/naples-grape-festival-september-weekend",
+    "location": "Naples, NY",
+    "title": "Naples Grape Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Third annual Harvest Fest at Hosmer Winery on the Cayuga Lake Wine Trail with live music and fall vineyard views.",
+    "link": "https://cayugawinetrail.com/events/winery/10-10-2026",
+    "location": "Ovid, NY",
+    "title": "Hosmer Winery Harvest Fest"
   }
 ]
