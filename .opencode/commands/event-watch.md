@@ -66,6 +66,10 @@ Search the web for newly announced events in these categories:
    Rochester NY or upstate NY (unlike the other categories above, do not
    surface NYC or virtual events for this one — skip a candidate entirely if
    it's outside Rochester/upstate NY).
+8. Paranormal events — ghost tours, haunted history walks, UFO/cryptid
+   conventions, psychic or mediumship demonstrations, and other
+   paranormal-themed events, in NYC, Rochester NY, upstate NY, or available
+   virtually.
 
 For each category, run separate targeted searches — don't combine them into one
 query. Cap it at 2-3 targeted searches per category (plus the four venue
