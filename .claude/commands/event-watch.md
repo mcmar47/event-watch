@@ -21,15 +21,19 @@ Before searching, determine today's actual current date (do not assume or guess 
 check the current date as part of this run, e.g. via the `date` shell command). Use
 that as your reference point for "future" in everything below.
 
-Search the web for newly announced events in these categories:
+Search the web for newly announced events in these categories. Each category
+lists its exact `category` field value (the slug used in seen-events.json and
+recognized by the render_digest tool) — use that slug verbatim for every event
+you assign to it; never invent or guess a slug, even one that looks obviously
+derived from the category name.
 
-1. Biotech & longevity — conferences, public talks, panels, or expos on biotech,
-   aging/longevity research, or AI-in-biotech, especially in or near NYC, Rochester NY,
-   or available virtually.
-2. Literary / BookTok — book festivals, author readings/signings, literary award
-   ceremonies or shortlist announcements (Booker Prize, International Booker,
-   etc.), and BookTok-adjacent community events, in NYC, Rochester NY/upstate NY,
-   or online.
+1. Biotech & longevity (slug: `biotech-longevity`) — conferences, public talks,
+   panels, or expos on biotech, aging/longevity research, or AI-in-biotech,
+   especially in or near NYC, Rochester NY, or available virtually.
+2. Literary / BookTok (slug: `literary-booktok`) — book festivals, author
+   readings/signings, literary award ceremonies or shortlist announcements
+   (Booker Prize, International Booker, etc.), and BookTok-adjacent community
+   events, in NYC, Rochester NY/upstate NY, or online.
 
    In addition to web search, for this category also check these specific
    event-listing pages directly and pull any qualifying future events from them:
@@ -41,23 +45,25 @@ Search the web for newly announced events in these categories:
    "storytime" or otherwise clearly aimed at children/toddlers (these pages mix
    adult author events with kids' storytime) — only include adult/general-audience
    book events from those two pages.
-3. Occult & esoteric — tarot, astrology, occult book fairs, esoteric shop pop-ups
-   or events, in NYC, Rochester NY, or upstate NY.
-4. Retro gaming — retro gaming expos, arcade meetups, classic console/game
-   conventions, regionally or nationally.
-5. Wes Anderson — screenings, retrospectives, exhibits, or fan events related to
-   Wes Anderson's films, anywhere in the US, prioritizing NYC.
-6. Pen & stationery — pen shows, stationery expos, fountain pen meetups, or
-   maker pop-ups, in NYC, Rochester NY/upstate NY, or nationally notable ones.
-7. Fall / Autumn — fall festivals, apple/pumpkin picking events, corn mazes,
-   foliage tours, harvest fairs, and other autumn-season events, ONLY in
-   Rochester NY or upstate NY (unlike the other categories above, do not
-   surface NYC or virtual events for this one — skip a candidate entirely if
-   it's outside Rochester/upstate NY).
-8. Paranormal events — ghost tours, haunted history walks, UFO/cryptid
-   conventions, psychic or mediumship demonstrations, and other
-   paranormal-themed events, in NYC, Rochester NY, upstate NY, or available
-   virtually.
+3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
+   fairs, esoteric shop pop-ups or events, in NYC, Rochester NY, or upstate NY.
+4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,
+   classic console/game conventions, regionally or nationally.
+5. Wes Anderson (slug: `wes-anderson`) — screenings, retrospectives, exhibits,
+   or fan events related to Wes Anderson's films, anywhere in the US,
+   prioritizing NYC.
+6. Pen & stationery (slug: `pen-stationery`) — pen shows, stationery expos,
+   fountain pen meetups, or maker pop-ups, in NYC, Rochester NY/upstate NY, or
+   nationally notable ones.
+7. Fall / Autumn (slug: `fall-autumn`) — fall festivals, apple/pumpkin picking
+   events, corn mazes, foliage tours, harvest fairs, and other autumn-season
+   events, ONLY in Rochester NY or upstate NY (unlike the other categories
+   above, do not surface NYC or virtual events for this one — skip a candidate
+   entirely if it's outside Rochester/upstate NY).
+8. Paranormal events (slug: `paranormal-events`) — ghost tours, haunted
+   history walks, UFO/cryptid conventions, psychic or mediumship
+   demonstrations, and other paranormal-themed events, in NYC, Rochester NY,
+   upstate NY, or available virtually.
 
 For each category, run separate targeted searches — don't combine them into one
 query. Only surface events with a concrete date.
