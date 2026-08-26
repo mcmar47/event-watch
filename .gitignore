@@ -1,2 +1,7 @@
 logs/
 .claude/worktrees/
+
+# Pi-local state for the "interested" star on index.html -- see
+# server/interest-server.js's docstring for why this is deliberately kept
+# out of the scheduled agent's own git pull/commit/push cycle.
+interested.json

@@ -1,0 +1,4 @@
+{
+  "type": "module",
+  "description": "No dependencies on purpose -- see interest-server.js's docstring. Mirrors release-radar/server/package.json."
+}

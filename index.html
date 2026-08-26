@@ -273,6 +273,24 @@
     text-decoration: none;
   }
   .event-item a.source-link:hover { text-decoration: underline; }
+  .event-item .item-title-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .star-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 0;
+    flex-shrink: 0;
+    color: var(--border);
+  }
+  .star-btn.on { color: #a2760a; }
+  .chip.starred { font-weight: 700; }
 
   @media (max-width: 480px) {
     .day { min-height: 58px; }
@@ -321,6 +339,7 @@
 <script>
 (function () {
   const DATA_URL = './seen-events.json';
+  const INTERESTED_URL = './interested.json';
   const PALETTE = ['#3f5fea', '#e0433a', '#0f9d58', '#f4b400', '#a142f4', '#00acc1', '#e91e8c', '#ff7043'];
 
   const state = {
@@ -332,6 +351,7 @@
     locationQuery: '',
     viewDate: startOfMonth(new Date()),
     selectedDayKey: null,
+    interested: {},
   };
 
   const els = {
@@ -360,11 +380,40 @@
     return key < dateKey(new Date());
   }
 
+  // Matches server/interest-server.js's own keyOf() exactly -- same
+  // (title, date) pair, same normalization -- so a star survives the
+  // event's title casing/whitespace changing slightly between runs the
+  // same way seen-events.json's own dedup does.
+  function normalizeField(s) {
+    return String(s == null ? '' : s).trim().toLowerCase().replace(/\s+/g, ' ');
+  }
+  function itemKey(e) {
+    return `${normalizeField(e.title)}|${normalizeField(e.date)}`;
+  }
+
+  // Best-effort: a missing/unreadable interested.json (e.g. a fresh Pi
+  // that's never had a mark set yet) just means nothing is starred yet,
+  // not a page-load failure -- unlike DATA_URL below, this never throws.
+  async function loadMarks(url) {
+    try {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) return {};
+      const raw = await res.json();
+      return raw && typeof raw === 'object' ? raw : {};
+    } catch {
+      return {};
+    }
+  }
+
   async function loadEvents() {
     try {
-      const res = await fetch(DATA_URL, { cache: 'no-store' });
+      const [res, interested] = await Promise.all([
+        fetch(DATA_URL, { cache: 'no-store' }),
+        loadMarks(INTERESTED_URL),
+      ]);
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const raw = await res.json();
+      state.interested = interested;
       state.events = raw.filter(e => e && e.date && e.title).map(e => ({
         title: e.title,
         date: e.date,
@@ -468,11 +517,12 @@
         chipsWrap.className = 'day-chips';
         const shown = dayEvents.slice(0, 3);
         shown.forEach(e => {
+          const isStarred = !!state.interested[itemKey(e)];
           const chip = document.createElement('div');
-          chip.className = 'chip' + (past ? ' past' : '');
+          chip.className = 'chip' + (past ? ' past' : '') + (isStarred ? ' starred' : '');
           if (!past) chip.style.background = hexToBg(state.categoryColor[e.category]);
           if (!past) chip.style.color = state.categoryColor[e.category];
-          chip.textContent = e.title;
+          chip.textContent = (isStarred ? '★ ' : '') + e.title;
           chipsWrap.appendChild(chip);
         });
         if (dayEvents.length > shown.length) {
@@ -518,15 +568,50 @@
       return;
     }
     const past = key < dateKey(new Date());
-    const items = dayEvents.map(e => `
+    const items = dayEvents.map(e => {
+      const isStarred = !!state.interested[itemKey(e)];
+      return `
       <div class="event-item${past ? ' past' : ''}">
-        <p class="title">${escapeHtml(e.title)}</p>
+        <div class="item-title-row">
+          <p class="title">${escapeHtml(e.title)}</p>
+          <button type="button" class="star-btn${isStarred ? ' on' : ''}" aria-pressed="${isStarred}" title="${isStarred ? 'Remove from interested' : 'Mark as interested'}" data-title="${escapeAttr(e.title)}" data-date="${escapeAttr(e.date)}">${isStarred ? '★' : '☆'}</button>
+        </div>
         <p class="meta"><span class="cat-badge">${escapeHtml(titleCase(e.category))}</span>${e.location ? `<span class="loc-badge">${escapeHtml(e.location)}</span>` : ''}${escapeHtml(e.date)}</p>
 ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ''}
         ${e.link && isSafeUrl(e.link) ? `<a class="source-link" href="${escapeAttr(e.link)}" target="_blank" rel="noopener noreferrer">View source →</a>` : ''}
       </div>
-    `).join('');
+    `;
+    }).join('');
     els.panel.innerHTML = `<h3>${key}</h3>${items}`;
+    els.panel.querySelectorAll('.star-btn').forEach(btn => {
+      btn.addEventListener('click', () => toggleInterested({ title: btn.dataset.title, date: btn.dataset.date }));
+    });
+  }
+
+  // Optimistically flips the star immediately, then re-renders (which,
+  // via state.selectedDayKey, also re-renders the open detail panel) and
+  // confirms with the server. Reverts and alerts on failure rather than
+  // leaving the UI showing a state that didn't actually get saved.
+  async function toggleInterested(e) {
+    const key = itemKey(e);
+    const next = !state.interested[key];
+    if (next) state.interested[key] = true;
+    else delete state.interested[key];
+    render();
+
+    try {
+      const res = await fetch('/api/interested', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: e.title, date: e.date, interested: next }),
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+    } catch (err) {
+      if (next) delete state.interested[key];
+      else state.interested[key] = true;
+      render();
+      alert('Could not save that star (' + err.message + ') -- try again.');
+    }
   }
 
   function escapeHtml(s) {
