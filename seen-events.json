@@ -1702,5 +1702,69 @@
     "link": "https://www.grantcottage.org/events/2026halloween",
     "location": "Wilton, NY",
     "title": "The Haunting History of Mt. McGregor: Halloween Special"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-09",
+    "description": "Sixth annual summit at the Buck Institute uniting longevity researchers, biotech companies, and investors on aging interventions.",
+    "link": "https://longevitygl.org/longevity-summit-2026/",
+    "location": "Novato, CA",
+    "title": "The Longevity Summit 2026"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-25",
+    "description": "Two-day international literary festival at Villa Albertine with US and French authors in conversations on fiction, translation, and fantasy.",
+    "link": "https://villa-albertine.org/va/events/literary-fall-returns-to-villa-albertine-this-september/",
+    "location": "New York, NY",
+    "title": "Villa Albertine Literary Festival"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-18",
+    "description": "Three-day Black and African literature festival at Harlem Stage with writers, readings, performances, and workshops.",
+    "link": "https://www.blackandafricanlitfestny.com/register",
+    "location": "New York, NY",
+    "title": "NYBALF 2026 (Black and African Literature Festival)"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-09",
+    "description": "Two-day arcade show in York with free-play pinball and video games, tournaments, and buy/sell/trade gameroom vendors.",
+    "link": "https://www.yorkshow.com/",
+    "location": "York, PA",
+    "title": "White Rose Gameroom 2026"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-03",
+    "description": "Brooklyn retro gaming afternoon with playable classic games, vendors of games and comics, and raffles for Limited Run Games prizes.",
+    "link": "https://stayhappening.com/e/retro-games-4-ny-E118SAYC9C6VB",
+    "location": "Brooklyn, NY",
+    "title": "Retro Games 4 NY"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-13",
+    "description": "Two-day pen show in Madrid for fountain pen and stationery collectors and dealers.",
+    "link": "https://www.wellappointeddesk.com/pen-show-schedule/",
+    "location": "Madrid, Spain",
+    "title": "Madrid Pen Show"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-17",
+    "description": "Guided overnight paranormal investigation of the abandoned Mid-Orange Correctional Facility with ghost hunting equipment.",
+    "link": "https://hauntedhistorytrail.com/events/ghost-hunt-at-mid-orange-correctional-facility",
+    "location": "Warwick, NY",
+    "title": "Ghost Hunt at Mid Orange Correctional Facility"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-29",
+    "description": "One-night paranormal dinner with a psychic medium reading, a pendulum crash course, and a ghost hunt at the Bull's Head Inn.",
+    "link": "https://hauntedhistorytrail.com/events/spirits-of-the-bulls-head-a-paranormal-dinner-experience-beyond-the-veil",
+    "location": "Cobleskill, NY",
+    "title": "Spirits of the Bull's Head: A Paranormal Dinner Experience"
   }
 ]
