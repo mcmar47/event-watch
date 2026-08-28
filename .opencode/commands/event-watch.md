@@ -6,6 +6,14 @@ model: openrouter/deepseek/deepseek-v4-flash-0731
 Read seen-events.json in this repository first — it's a JSON array of events already
 reported in past runs, each with at least a "title" and "date" field.
 
+Then call `read_calibration`. It reads `interested.json` (events starred on the web page)
+and joins each mark back to its full record in seen-events.json, returning the events that
+were actually wanted. Treat those as strong positives when deciding what to surface: they
+are what someone clicked, as opposed to what this prompt predicts they would like.
+
+The block is explicit that an unmarked event carries **no** signal — an event that was
+delivered and never starred is not a rejection, especially while marks are still sparse.
+
 BACKFILL PASS: Check every existing event in seen-events.json for a missing or
 empty "location" or "description" field (older entries, or ones added when a
 different execution environment couldn't reach a source page, may be missing

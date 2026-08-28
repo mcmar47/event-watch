@@ -22,6 +22,7 @@ import {
   createValidateDigestTool,
   createSendDigestEmailTool,
   createFilterFutureEventsTool,
+  createCalibrationTool,
 } from "radar-kit"
 
 const DIGEST_RECIPIENT = "michael.cmar@gmail.com"
@@ -91,6 +92,20 @@ export const EventWatchTools = async () => {
       }),
 
       filter_future_events: createFilterFutureEventsTool(),
+
+      // Keyed the same way as check_dedup above and as
+      // server/interest-server.js writes marks. If those three ever
+      // disagree, the join finds nothing and every run reports an empty
+      // calibration block rather than failing loudly — so change them
+      // together.
+      read_calibration: createCalibrationTool({
+        seenFileName: SEEN_FILE,
+        keyFields: ["title", "date"],
+        describe: (e) =>
+          `[${CATEGORY_LABELS[e.category] ?? e.category}] ${e.title}` +
+          (e.location ? ` (${e.location})` : "") +
+          (e.description ? ` — ${e.description}` : ""),
+      }),
 
       render_digest: createRenderDigestTool({
         digestConfig,

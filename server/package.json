@@ -1,4 +1,8 @@
 {
+  "name": "event-watch-interest-server",
   "type": "module",
-  "description": "No dependencies on purpose -- see interest-server.js's docstring. Mirrors release-radar/server/package.json."
+  "description": "The atomic-write / corrupt-store / request-shell plumbing lives in radar-kit; see interest-server.js's docstring. radar-kit marks @opencode-ai/plugin as an OPTIONAL peer dependency and exposes server/markStore/seenStore on their own subpaths, so installing it here pulls exactly one package and never loads the plugin tree.",
+  "dependencies": {
+    "radar-kit": "github:mcmar47/radar-kit"
+  }
 }
