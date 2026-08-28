@@ -42,7 +42,12 @@ cd "$REPO_DIR"
 git pull --ff-only origin main
 
 MODEL=$(sed -n 's/^model: *//p' "$COMMAND_FILE" | head -1)
-PROMPT=$(awk '/^---$/{c++; next} c>=2' "$COMMAND_FILE")
+# `c>=2; /^---$/{c++}` rather than `/^---$/{c++; next} c>=2`: the old form
+# skipped EVERY line matching ^---$, not just the two frontmatter fences, so a
+# horizontal rule (or a nested YAML block) anywhere in the prompt body was
+# silently dropped from what the model actually received. Printing before
+# incrementing keeps the two fences out and everything after them in.
+PROMPT=$(awk 'c>=2; /^---$/{c++}' "$COMMAND_FILE")
 
 if [ -z "$MODEL" ] || [ -z "$PROMPT" ]; then
   echo "Failed to extract model/prompt from $COMMAND_FILE — aborting." >&2
