@@ -5,6 +5,19 @@ description: Search for new events across all watched categories, email a digest
 Read seen-events.json in this repository first — it's a JSON array of events already
 reported in past runs, each with at least a "title" and "date" field.
 
+Then read `interested.json` if it exists (it is gitignored Pi-local state and may be
+missing or empty). It maps a normalized `"<title>|<date>"` key to `true` for every event
+starred on the web page. Join each key back to its full record in seen-events.json — the
+key alone is not useful — and treat those events as strong positives: they are what someone
+actually clicked, as opposed to what this prompt predicts they would like.
+
+An event in neither list was simply never marked. That is **not** a negative signal and
+carries no information at all — do not read "delivered and never starred" as a rejection.
+
+(The opencode copy of this prompt calls a `read_calibration` tool that does this join for
+it. There is no such tool on the Claude Code path, so it is done by hand here; the intent
+and the weighting are the same.)
+
 BACKFILL PASS: Check every existing event in seen-events.json for a missing or
 empty "location" or "description" field (older entries, or ones added when a
 different execution environment couldn't reach a source page, may be missing
