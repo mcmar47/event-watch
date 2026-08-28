@@ -70,6 +70,11 @@
     border-radius: 50%;
     margin-right: 6px;
   }
+  .pill-action {
+    font-weight: 600;
+    color: var(--text-muted);
+    border-style: dashed;
+  }
 
   .toggles {
     display: flex;
@@ -441,6 +446,17 @@
 
   function renderFilters() {
     els.filters.innerHTML = '';
+
+    const allBtn = document.createElement('button');
+    allBtn.className = 'pill pill-action';
+    allBtn.textContent = 'All';
+    allBtn.addEventListener('click', () => {
+      state.activeCategories = new Set(state.categories);
+      renderFilters();
+      render();
+    });
+    els.filters.appendChild(allBtn);
+
     state.categories.forEach(cat => {
       const btn = document.createElement('button');
       btn.className = 'pill' + (state.activeCategories.has(cat) ? ' active' : '');
@@ -453,6 +469,16 @@
       });
       els.filters.appendChild(btn);
     });
+
+    const clearBtn = document.createElement('button');
+    clearBtn.className = 'pill pill-action';
+    clearBtn.textContent = 'Clear';
+    clearBtn.addEventListener('click', () => {
+      state.activeCategories = new Set();
+      renderFilters();
+      render();
+    });
+    els.filters.appendChild(clearBtn);
   }
 
   function eventsMatchingFilters() {
