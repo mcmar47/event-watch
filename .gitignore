@@ -5,3 +5,10 @@ logs/
 # server/interest-server.js's docstring for why this is deliberately kept
 # out of the scheduled agent's own git pull/commit/push cycle.
 interested.json
+
+# Crash-safety artifacts from server/interest-server.js: the temp file the
+# atomic write renames into place, and any store quarantined by readMarks()
+# after failing to parse. Both sit next to interested.json in this working
+# directory, which the scheduled agent also commits from -- so they need
+# ignoring for the same reason interested.json itself does.
+interested.json.*
