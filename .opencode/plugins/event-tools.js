@@ -15,6 +15,7 @@
 import { tool } from "@opencode-ai/plugin/tool"
 import {
   escapeHtml,
+  safeUrl,
   createCheckDedupTool,
   createAppendSeenTool,
   createRenderDigestTool,
@@ -48,7 +49,7 @@ const digestConfig = {
   renderItemHtml: (e) =>
     `<li><b>${escapeHtml(e.title)}</b> &mdash; ${escapeHtml(e.location)} &mdash; ${e.date}<br>` +
     `<i>${escapeHtml(e.description)}</i><br>` +
-    `<a href="${e.link}">${e.link}</a></li>`,
+    `<a href="${escapeHtml(safeUrl(e.link))}">${escapeHtml(e.link)}</a></li>`,
   renderItemText: (e) =>
     `- ${e.title} — ${e.location} — ${e.date}\n  ${e.description}\n  ${e.link}`,
   matchFields: [
