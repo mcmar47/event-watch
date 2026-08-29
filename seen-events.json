@@ -1846,5 +1846,165 @@
     "link": "https://allevents.in/rochester/an-evening-with-the-angels-sept-and-oct-2026/200030346451426",
     "location": "Rochester, NY",
     "title": "An Evening With the Angels"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-09-08",
+    "description": "Conference on molecular biology of aging covering cellular senescence, telomere biology, and genetic factors in longevity.",
+    "link": "https://allconferencealert.net/eventdetails.php?id=100812021",
+    "location": "New York, NY",
+    "title": "International Conference on Molecular Biology of Aging and Longevity"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-08",
+    "description": "Two-day NYSBC and ASRC symposium on integrative structural biology, combining computational and structural methods to model biomolecules.",
+    "link": "https://nysbc.org/nyc-isb26/",
+    "location": "New York, NY",
+    "title": "NYC Integrative Structural Biology Symposium"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-06",
+    "description": "Two-day pharma and biotech summit on AI-driven drug discovery, clinical development, and investor partnering.",
+    "link": "https://conferencepanel.com/ai-driven",
+    "location": "Unknown",
+    "title": "AI-Driven Drug Discovery & Biotech Partnering Summit USA"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-25",
+    "description": "Discussion with novelist Emily St. John Mandel on her new novel Exit Party, moderated by Sebastian Junger at the Strand.",
+    "link": "https://www.strandbooks.com/emily-st-john-mandel-exit-party.html",
+    "location": "New York, NY",
+    "title": "Emily St. John Mandel: Exit Party"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-02",
+    "description": "Release event with writer, director, and comedian Julio Torres discussing his new book The Perfect Gift at the Strand.",
+    "link": "https://www.strandbooks.com/julio-torres-the-perfect-gift.html",
+    "location": "New York, NY",
+    "title": "Julio Torres: The Perfect Gift"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-30",
+    "description": "Release event with actor Dan Aykroyd discussing his debut novel Soulhider, moderated by Ernest Cline at the Strand.",
+    "link": "https://www.strandbooks.com/dan-aykroyd-soulhider.html",
+    "location": "New York, NY",
+    "title": "Dan Aykroyd: Soulhider"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-21",
+    "description": "Third annual book festival at Cohoes Public Library featuring dozens of upstate authors across every genre, with signings.",
+    "link": "https://www.cohoespubliclibrary.org/upstate-writes-2026/",
+    "location": "Cohoes, NY",
+    "title": "Upstate Writes! A Book Festival"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-07",
+    "description": "Second annual festival of author talks and signings with international bestselling authors across Katonah venues.",
+    "link": "https://www.westchesterbookfest.org/events-2026",
+    "location": "Katonah, NY",
+    "title": "Westchester Book Festival"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-15",
+    "description": "Free autumn poetry festival founded by Paul Muldoon, featuring readings and workshops with Sherman Alexie, Tina Chang, and Mary Jo Salter.",
+    "link": "https://klinkharthall.org/event/2026-sharon-springs-poetry-festival/",
+    "location": "Sharon Springs, NY",
+    "title": "Sharon Springs Poetry Festival"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-31",
+    "description": "Wiccan Samhain celebration in Tompkins Square Park with a masked ritual mass, ancestral altar, and dumb supper.",
+    "link": "https://allevents.in/new-york/23rd-annual-samhain-masquerade-ritual-mass/200030482924612",
+    "location": "New York, NY",
+    "title": "23rd Annual Samhain Masquerade Ritual Mass"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-23",
+    "description": "Spooky tea party at Faerydale with a group reading by psychic medium Jennifer Brownell and a vendor fair.",
+    "link": "https://allevents.in/greenwich/6th-annual-witches-tea-party-group-reading-with-psychic-medium-jennifer-brownell/200030484484533",
+    "location": "Greenwich, NY",
+    "title": "6th Annual Witches Tea Party Group Reading"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-30",
+    "description": "Witchy night at Happy Valley Arcade Bar in Beacon with tarot readers, energy healers, live music, and a mystical marketplace.",
+    "link": "https://stayhappening.com/e/2nd-annual-veil-between-worlds-E118SB4FNU3CR",
+    "location": "Beacon, NY",
+    "title": "2nd Annual Veil Between Worlds"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-12-05",
+    "description": "Holiday retro gaming and shopping event at Cradle of Aviation with free play on 60+ arcade classics and retro consoles.",
+    "link": "https://www.eventeny.com/events/festival-of-games-2026-32538/",
+    "location": "Garden City, NY",
+    "title": "Festival of Games (Long Island Retro Gaming)"
+  },
+  {
+    "category": "wes-anderson",
+    "date": "2026-09-02",
+    "description": "25th anniversary screening of Wes Anderson's The Royal Tenenbaums as part of the Chelsea Theater's Chelsea Classics series.",
+    "link": "https://www.thechelseatheater.org/movie/the-royal-tenenbaums-2001",
+    "location": "New York, NY",
+    "title": "The Royal Tenenbaums 25th Anniversary (Chelsea Theater)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-05",
+    "description": "Western New York autumn destination with apple picking, a corn maze, giant slides, goat races, and live music on weekends.",
+    "link": "https://www.beckerfarms.com/events-1/fall-fun-on-the-farm-2026",
+    "location": "Gasport, NY",
+    "title": "Becker Farms Fall Fun on the Farm"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-12",
+    "description": "Capital Region fall festival with a 10-acre corn maze, pumpkin picking, pig races, shows, and over 50 activities.",
+    "link": "https://libertyridgefarm.com/",
+    "location": "Schaghticoke, NY",
+    "title": "Liberty Ridge Farm Fall Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-19",
+    "description": "Western New York fall festival with a five-acre corn maze, pumpkin weighing contest, and themed weekend events.",
+    "link": "https://www.greatpumpkinfarm.com/",
+    "location": "Clarence, NY",
+    "title": "Great Pumpkin Farm Fall Festival"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-22",
+    "description": "Guided paranormal investigation of Fairport's haunted DeLand House with audio recorders and other ghost-hunting equipment.",
+    "link": "https://www.eventbrite.com/e/paranormal-investigation-experience-at-the-deland-house-on-main-tickets-1993834371277",
+    "location": "Fairport, NY",
+    "title": "Paranormal Investigation Experience at The DeLand House on Main"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-02",
+    "description": "Nighttime flashlight walking tours of historic Snug Harbor telling its murder, mayhem, and haunting legends.",
+    "link": "https://snug-harbor.org/event/spooky-snug-harbor-tours/",
+    "location": "Staten Island, NY",
+    "title": "Spooky Snug Harbor Tours"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-09-19",
+    "description": "Evening walking tour through Greenwich Village's haunted history, from the Washington Square potter's field to the House of Death.",
+    "link": "https://www.vibenyctours.com/haunted-greenwich-village-tour",
+    "location": "New York, NY",
+    "title": "Haunted Greenwich Village Tour (Vibe NYC Tours)"
   }
 ]
