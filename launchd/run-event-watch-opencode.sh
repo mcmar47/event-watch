@@ -66,6 +66,28 @@ else
   STATUS="failure"
 fi
 
+# `opencode run` exits 0 even when the model abandons a run partway through
+# without raising an error. 2026-08-30: send_digest_email failed twice on an
+# expired Gmail token, the agent gave up, and opencode still exited clean --
+# so `OnFailure=` never fired and no alert went out, even though the digest
+# was built and never sent. (feed-radar grew the equivalent guard a day
+# earlier, keyed on its state.json; this repo has no such timestamp, so it
+# keys on the staging file instead.)
+#
+# render_digest writes new-events.json; append_seen_events deletes it only
+# after the digest has actually been sent and seen-events.json advanced. A
+# run that finds nothing new never calls render_digest, so the file is
+# absent then too. new-events.json still sitting here after a clean exit
+# therefore means the pipeline stopped between render and finalize -- force a
+# non-zero exit so agent-alert@event-watch.service fires.
+if [ "$EXIT_CODE" -eq 0 ] && [ -e "$REPO_DIR/new-events.json" ]; then
+  echo "event-watch: opencode exited 0 but new-events.json was left behind" \
+    "-- render_digest ran but append_seen_events did not, so the digest was" \
+    "not sent (or seen-events.json not advanced). Treating as a failed run." >&2
+  EXIT_CODE=1
+  STATUS="incomplete"
+fi
+
 mkdir -p "$REPO_DIR/logs"
 printf '{"timestamp": "%s", "exit_code": %s, "status": "%s"}\n' \
   "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$EXIT_CODE" "$STATUS" \
