@@ -68,6 +68,35 @@ const marks = createMarkStore({
   exclusive: true,
 })
 
+// The two routes differ only in which store they write and which body field
+// carries the boolean, so they're built from one description -- the same
+// shape release-radar's server uses.
+//
+// /api/ignored closes the last gap left by the 2026-08-30 change above. That
+// change gave this repo an `ignored` store and a reader for it, but the only
+// writer was the digest email's one-click link: a rejection could be recorded
+// from the inbox and never from a client. That asymmetry was also a trap,
+// because the stores are exclusive -- starring something cleared an `ignored`
+// mark that no client could see or set back.
+function toggleRoute(store) {
+  return {
+    method: "POST",
+    path: `/api/${store}`,
+    body: true,
+    handler: async ({ res, body }) => {
+      const { title, date } = body
+      const value = body[store]
+      if (!title || !date || typeof value !== "boolean") {
+        sendJson(res, 400, { error: `expected {title, date, ${store}: boolean}` })
+        return
+      }
+
+      await marks.set({ store, key: keyOf({ title, date }), value })
+      sendJson(res, 200, { ok: true, [store]: value })
+    },
+  }
+}
+
 createInterestServer({
   name: "event-watch interest-server",
   port: PORT,
@@ -79,24 +108,10 @@ createInterestServer({
       keyOf,
     }),
 
-    // The page's own star toggle. Unchanged request shape, so index.html
-    // needed no edit -- but it now also clears an `ignored` mark, since the
-    // stores are exclusive.
-    {
-      method: "POST",
-      path: "/api/interested",
-      body: true,
-      handler: async ({ res, body }) => {
-        const { title, date } = body
-        const value = body.interested
-        if (!title || !date || typeof value !== "boolean") {
-          sendJson(res, 400, { error: "expected {title, date, interested: boolean}" })
-          return
-        }
-
-        await marks.set({ store: "interested", key: keyOf({ title, date }), value })
-        sendJson(res, 200, { ok: true, interested: value })
-      },
-    },
+    // The page's own star toggle. Request shape is unchanged from when this
+    // was written out inline, so index.html needed no edit -- and it still
+    // clears an `ignored` mark, since the stores are exclusive.
+    toggleRoute("interested"),
+    toggleRoute("ignored"),
   ],
 }).listen()
