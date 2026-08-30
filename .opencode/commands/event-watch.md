@@ -140,9 +140,9 @@ deterministic code, not something to reimplement:
   (below) re-validates from new-events.json itself regardless.
 - Call `send_digest_email` with just a `subject` string — nothing else. It
   reads new-events.json itself, renders and validates internally, and sends
-  directly via the Gmail API, all in one step. Do NOT construct or pass
-  `htmlBody`/`body` yourself, and do NOT use the Gmail MCP server's
-  send-email tool for this — use `send_digest_email` instead. This exists
+  over Gmail SMTP, all in one step. Do NOT construct or pass
+  `htmlBody`/`body` yourself, and do NOT hand-send the digest any other way —
+  use `send_digest_email`. This exists
   specifically because retyping a long HTML digest into a second tool call is
   what caused corrupted/blank sends in past runs — passing only a short
   subject removes that risk entirely. Never call `send_digest_email` more

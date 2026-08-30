@@ -130,7 +130,7 @@ export const EventWatchTools = async () => {
           categoryCount: new Set(events.map((e) => e.category)).size,
         }),
         description:
-          "Send the digest email directly to michael.cmar@gmail.com. Reads new-events.json itself (written by render_digest) and renders + sends in one step via the Gmail API — the HTML/text content never passes back through you as text, so it can't get corrupted by retyping. Only pass a subject; do not attempt to construct or pass htmlBody/body yourself, and do not use the Gmail MCP send-email tool for the digest — use this instead. Call append_seen_events after this succeeds.",
+          "Send the digest email directly to michael.cmar@gmail.com. Reads new-events.json itself (written by render_digest) and renders + sends in one step over Gmail SMTP — the HTML/text content never passes back through you as text, so it can't get corrupted by retyping. Only pass a subject; do not attempt to construct or pass htmlBody/body yourself. Call append_seen_events after this succeeds.",
       }),
 
       append_seen_events: createAppendSeenTool({
