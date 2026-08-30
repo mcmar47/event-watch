@@ -1,14 +1,17 @@
 logs/
 .claude/worktrees/
 
-# Pi-local state for the "interested" star on index.html -- see
+# Pi-local state for the star / reject marks -- written by index.html's
+# toggle and by the digest email's one-click links. See
 # server/interest-server.js's docstring for why this is deliberately kept
 # out of the scheduled agent's own git pull/commit/push cycle.
 interested.json
+ignored.json
 
 # Crash-safety artifacts from server/interest-server.js: the temp file the
 # atomic write renames into place, and any store quarantined by readMarks()
-# after failing to parse. Both sit next to interested.json in this working
+# after failing to parse. Both sit next to the stores in this working
 # directory, which the scheduled agent also commits from -- so they need
-# ignoring for the same reason interested.json itself does.
+# ignoring for the same reason the stores themselves do.
 interested.json.*
+ignored.json.*

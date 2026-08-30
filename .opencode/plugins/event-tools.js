@@ -23,11 +23,34 @@ import {
   createSendDigestEmailTool,
   createFilterFutureEventsTool,
   createCalibrationTool,
+  markUrls,
 } from "radar-kit"
 
 const DIGEST_RECIPIENT = "michael.cmar@gmail.com"
 const SEEN_FILE = "seen-events.json"
 const STAGING_FILE = "new-events.json"
+
+// Base URL for the one-click star/reject links in the digest email. This is
+// the nginx vhost (port 8010), which proxies /api/ to interest-server.js --
+// NOT the interest-server's own port, which listens on 127.0.0.1 only.
+// Tailscale-only, so these links work from a phone on the tailnet and are
+// unreachable from the public internet. Pinned to the Pi's Tailscale IP
+// rather than its hostname so a host rename can't break the email's links;
+// override with EVENT_WATCH_BASE_URL if the address ever changes.
+//
+// Putting the feedback controls in the EMAIL rather than only on the web
+// page is the whole point. This repo had the star on index.html for weeks
+// and collected exactly 0 marks against 264 tracked events, because the
+// page is a place you have to decide to visit. feed-radar shipped the same
+// controls in its digest and had 11 marks within days. read_calibration is
+// the only training signal this agent has, so the controls have to live
+// where the reading happens. See radar-kit/src/oneClickMark.js.
+const FEEDBACK_BASE = process.env.EVENT_WATCH_BASE_URL || "http://100.79.18.117:8010"
+
+// The key fields here MUST stay in step with the interest-server's keyOf and
+// with read_calibration's keyFields below -- all three are ["title", "date"].
+const linksFor = (e) =>
+  markUrls({ baseUrl: FEEDBACK_BASE, params: { title: e.title, date: e.date } })
 
 const CATEGORY_LABELS = {
   "biotech-longevity": "🧬 Biotech & Longevity",
@@ -47,12 +70,27 @@ const digestConfig = {
   groupKey: (e) => e.category,
   groupOrder: CATEGORY_ORDER,
   groupLabel: (id) => CATEGORY_LABELS[id],
-  renderItemHtml: (e) =>
-    `<li><b>${escapeHtml(e.title)}</b> &mdash; ${escapeHtml(e.location)} &mdash; ${e.date}<br>` +
-    `<i>${escapeHtml(e.description)}</i><br>` +
-    `<a href="${escapeHtml(safeUrl(e.link))}">${escapeHtml(e.link)}</a></li>`,
-  renderItemText: (e) =>
-    `- ${e.title} — ${e.location} — ${e.date}\n  ${e.description}\n  ${e.link}`,
+  renderItemHtml: (e) => {
+    const links = linksFor(e)
+    return (
+      `<li><b>${escapeHtml(e.title)}</b> &mdash; ${escapeHtml(e.location)} &mdash; ${e.date}<br>` +
+      `<i>${escapeHtml(e.description)}</i><br>` +
+      `<a href="${escapeHtml(safeUrl(e.link))}">${escapeHtml(e.link)}</a><br>` +
+      // escapeHtml on the mark URLs is not optional: they carry the event
+      // title as a query param, so the URL itself contains & separators and
+      // any & from the title's own percent-encoding.
+      `<small><a href="${escapeHtml(links.interested)}">&#9733; more like this</a> &nbsp;·&nbsp; ` +
+      `<a href="${escapeHtml(links.ignored)}">&#10005; not for me</a></small></li>`
+    )
+  },
+  renderItemText: (e) => {
+    const links = linksFor(e)
+    return (
+      `- ${e.title} — ${e.location} — ${e.date}\n  ${e.description}\n  ${e.link}\n` +
+      `  more like this: ${links.interested}\n` +
+      `  not for me:     ${links.ignored}`
+    )
+  },
   matchFields: [
     { key: "title", escape: true },
     { key: "date", escape: false },
