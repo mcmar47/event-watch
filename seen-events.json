@@ -2006,5 +2006,109 @@
     "link": "https://www.vibenyctours.com/haunted-greenwich-village-tour",
     "location": "New York, NY",
     "title": "Haunted Greenwich Village Tour (Vibe NYC Tours)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-28",
+    "description": "University of Rochester CTSI event connecting research teams with translational science resources, services, and a three-minute thesis competition.",
+    "link": "https://events.rochester.edu/event/translational-science-day-2026",
+    "location": "Rochester, NY",
+    "title": "Translational Science Day 2026"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-05",
+    "description": "Annual University of Rochester symposium highlighting advances in basic, translational, and clinical cancer research.",
+    "link": "https://www.urmc.rochester.edu/cancer-institute/events/cancer-center-symposium",
+    "location": "Rochester, NY",
+    "title": "Wilmot Cancer Institute Scientific Symposium"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-13",
+    "description": "Two-day symposium at UC Berkeley on AI and machine learning in drug development, co-sponsored by the American Statistical Association.",
+    "link": "https://ww2.amstat.org/meetings/aipm/2026/",
+    "location": "Berkeley, CA",
+    "title": "AI in Pharmaceutical Medicine Symposium"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-12",
+    "description": "Two-day San Diego conference on AI, molecular design, and translational science in the earliest stages of drug discovery.",
+    "link": "https://oxfordglobal.com/discovery-development/events/discovery-development-us/drug-discovery-us",
+    "location": "San Diego, CA",
+    "title": "Drug Discovery US 2026"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-16",
+    "description": "Strand release event with education activist Malala Yousafzai on her new memoir Finding My Way, moderated by Hunter Harris.",
+    "link": "https://www.strandbooks.com/malala-yousafzai-finding-my-way.html",
+    "location": "New York, NY",
+    "title": "Malala Yousafzai: Finding My Way"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-22",
+    "description": "Strand release event with award-winning author Tananarive Due on her new novel Mazywood.",
+    "link": "https://www.strandbooks.com/tananarive-due-mazywood.html",
+    "location": "New York, NY",
+    "title": "Tananarive Due: Mazywood"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-30",
+    "description": "McNally Jackson Seaport reading and conversation between writers Grace Krilanovich and Darcey Steinke.",
+    "link": "https://mcnallyjackson.com/event/2026-09-30/grace-krilanovich-and-darcey-steinke",
+    "location": "New York, NY",
+    "title": "Grace Krilanovich and Darcey Steinke"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-13",
+    "description": "Strand release event with journalist and author Iman Hariri-Kia on her speculative rom-com novel Once in a Lifetime.",
+    "link": "https://www.strandbooks.com/iman-hariri-kia-once-in-a-lifetime.html",
+    "location": "New York, NY",
+    "title": "Iman Hariri-Kia: Once in a Lifetime"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-10",
+    "description": "One-day Manhattan psychic fair with reiki healers, psychic readers, crystals, and wellness vendors at the TRYP Hotel.",
+    "link": "https://happeningnext.com/event/times-square-nyc-healing-andamp-psychic-fair-eid3a0dtq8h9l",
+    "location": "New York, NY",
+    "title": "Times Square NYC Healing & Psychic Fair"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-13",
+    "description": "Family farm in the Catskills with pumpkin picking, a four-acre corn maze, hayrides, and fall activities on fall weekends.",
+    "link": "https://www.cunninghamfamilyfarms.com/",
+    "location": "Bethel, NY",
+    "title": "Cunningham Family Farms Fall Activities"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-10",
+    "description": "Free talk with psychic medium Amy Pulitano on the Wheel of the Year and the history of earth-based religions at Steele Memorial Library.",
+    "link": "https://www.chemunglibraries.org/event/hold-meet-medium-21249",
+    "location": "Elmira, NY",
+    "title": "Meet the Medium: Wheel of the Year"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-24",
+    "description": "Halloween-themed psychic fair at Maple Wellness in Cohocton with private mediumship readings and a basket raffle.",
+    "link": "https://allevents.in/cohocton/3rd-annual-psychic-experience/200030554809641",
+    "location": "Cohocton, NY",
+    "title": "3rd Annual Psychic Experience!"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-28",
+    "description": "Historical demonstration at Irondequoit Public Library on famous psychics and the techniques behind their claimed abilities.",
+    "link": "https://venunite.com/events/psychics-mediums-with-cris-johnson",
+    "location": "Irondequoit, NY",
+    "title": "Psychics & Mediums with Cris Johnson"
   }
 ]
