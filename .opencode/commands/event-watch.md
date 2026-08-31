@@ -38,11 +38,12 @@ derived from the category name.
 
 1. Biotech & longevity (slug: `biotech-longevity`) — conferences, public talks,
    panels, or expos on biotech, aging/longevity research, or AI-in-biotech,
-   especially in or near NYC, Rochester NY, or available virtually.
+   especially in or near Rochester NY, upstate NY, or NYC, or available
+   virtually.
 2. Literary / BookTok (slug: `literary-booktok`) — book festivals, author
    readings/signings, literary award ceremonies or shortlist announcements
    (Booker Prize, International Booker, etc.), and BookTok-adjacent community
-   events, in NYC, Rochester NY/upstate NY, or online.
+   events, in Rochester NY/upstate NY, NYC, or online.
 
    Four Rochester-area sources are worth surfacing events for but are not
    directly fetchable — confirmed repeatedly, don't spend a fetch attempt on
@@ -62,18 +63,18 @@ derived from the category name.
    Mall Victor NY book signing 2026", "Siren and the Sea Rochester NY event",
    "Unreliable Narrator Rochester NY event" — these four replace the old
    direct-fetch attempts and are budgeted the same way those were: in
-   addition to, not counted against, the 2-3-searches-per-category cap above.
+   addition to, not counted against, the 3-4-searches-per-category cap above.
    For the two Barnes & Noble locations specifically: skip any event that is
    a "storytime" or otherwise clearly aimed at children/toddlers.
 3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
-   fairs, esoteric shop pop-ups or events, in NYC, Rochester NY, or upstate NY.
+   fairs, esoteric shop pop-ups or events, in Rochester NY, upstate NY, or NYC.
 4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,
    classic console/game conventions, regionally or nationally.
 5. Wes Anderson (slug: `wes-anderson`) — screenings, retrospectives, exhibits,
    or fan events related to Wes Anderson's films, anywhere in the US,
-   prioritizing NYC.
+   prioritizing Rochester NY/upstate NY and NYC.
 6. Pen & stationery (slug: `pen-stationery`) — pen shows, stationery expos,
-   fountain pen meetups, or maker pop-ups, in NYC, Rochester NY/upstate NY, or
+   fountain pen meetups, or maker pop-ups, in Rochester NY/upstate NY, NYC, or
    nationally notable ones.
 7. Fall / Autumn (slug: `fall-autumn`) — fall festivals, apple/pumpkin picking
    events, corn mazes, foliage tours, harvest fairs, and other autumn-season
@@ -82,16 +83,26 @@ derived from the category name.
    entirely if it's outside Rochester/upstate NY).
 8. Paranormal events (slug: `paranormal-events`) — ghost tours, haunted
    history walks, UFO/cryptid conventions, psychic or mediumship
-   demonstrations, and other paranormal-themed events, in NYC, Rochester NY,
-   upstate NY, or available virtually.
+   demonstrations, and other paranormal-themed events, in Rochester NY,
+   upstate NY, NYC, or available virtually.
+
+Rochester NY and upstate NY are the priority region across every category
+above that lists more than one location — weight the search process toward
+it, not just the category text. For each such category, spend your first 1-2
+searches on a Rochester/upstate-NY-specific query (e.g. "<topic> Rochester NY
+2026", "<topic> upstate NY 2026") before broader NYC/national/virtual
+queries. If those don't turn up a Rochester/upstate NY candidate, it's worth
+one extra targeted search beyond the per-category cap below specifically to
+chase that region down before falling back to the other locations.
 
 For each category, run separate targeted searches — don't combine them into one
-query. Cap it at 2-3 targeted searches per category (plus the four venue
-searches listed above for literary/BookTok): if that isn't turning up enough
-candidates, move on with what you have rather than continuing to search —
-extra rounds of searching multiply the token cost of the whole run because
-every prior search result stays in context for the rest of it. Only surface
-events with a concrete date.
+query. Cap it at 3-4 targeted searches per category (plus the four venue
+searches listed above for literary/BookTok, and the extra Rochester/upstate NY
+search allowed above): if that isn't turning up enough candidates, move on
+with what you have rather than continuing to search — extra rounds of
+searching multiply the token cost of the whole run because every prior search
+result stays in context for the rest of it. Only surface events with a
+concrete date.
 
 CRITICAL DATE CHECK: search results and cached pages frequently surface events
 from a past year that only look current (e.g. a recurring annual event's last
