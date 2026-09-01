@@ -46,13 +46,24 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
   launchd/systemd unit's environment), specifically so a manual terminal run gets web search too,
   not just the scheduled one.
 - **The wrapper enforces a stronger success check than opencode's own exit code.** `opencode run`
-  exits 0 even when the model abandons a run partway through with no error (confirmed 2026-08-30:
-  `send_digest_email` failed twice on an expired Gmail token, the agent gave up, and the digest was
-  built but never sent, with no alert). `render_digest` writes `new-events.json` as staging;
-  `append_seen_events` deletes it only after a successful send. If the wrapper finds
-  `new-events.json` still present after a clean exit, it forces a non-zero exit so
-  `OnFailure=agent-alert@` fires — the file's mere presence means the pipeline stopped between
-  render and finalize.
+  exits 0 even when the model abandons a run partway through with no error, so the wrapper adds
+  three guards, any of which forces a non-zero exit and fires `OnFailure=agent-alert@`:
+  1. **Render-but-no-send** (confirmed 2026-08-30: `send_digest_email` failed twice on an expired
+     Gmail token, the agent gave up, digest built but never sent). `render_digest` writes
+     `new-events.json` as staging; `append_seen_events` deletes it only after a successful send.
+     `new-events.json` still present after a clean exit means the pipeline stopped between render
+     and finalize.
+  2. **Stall-before-render** (confirmed 2026-09-01: the LLM stream just stopped at an internal
+     step, opencode exited 0, nothing staged — indistinguishable from a legitimate "nothing new"
+     run). The `record_outcome` tool writes `logs/run-outcome.json` as the final action of every
+     run that reaches a real conclusion (digest sent *or* nothing new), and never on an aborted
+     one; the wrapper deletes it before the run and fails the run if it's absent after a clean
+     exit. This is why the prompt's FINAL STEP is load-bearing, not bookkeeping — and why
+     `record_outcome` is opencode-only: it backs a check that only the opencode wrapper runs, so
+     the `.claude` copy writes the same file by hand instead and the Codex copy needn't bother.
+  3. **Hang**: the opencode invocation is wrapped in `timeout 45m` (skipped if `timeout(1)` is
+     absent), since `Type=oneshot` has no default start timeout and a wedged run would otherwise
+     hold the unit open forever with no alert.
 - **Category slugs are a closed, verbatim set** — see either command file for the current eight and
   their exact `category` field values. Never invent or guess a slug; an unrecognized one breaks
   `render_digest`.

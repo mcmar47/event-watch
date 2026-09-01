@@ -168,5 +168,20 @@ deterministic code, not something to reimplement:
   Then commit seen-events.json with a message like "Add N new events from
   [date] run" and push to the current branch.
 
-If no new events are found in any category, do not send an email — just exit
-without committing.
+If no new events are found in any category, do not send an email — just skip
+straight to the FINAL STEP below without committing.
+
+FINAL STEP — always do this, and do it last, on every run that reaches a
+conclusion. Call `record_outcome` exactly once:
+
+- After a digest was sent (i.e. after `append_seen_events` and the commit/push):
+  `record_outcome` with `sent: true`, `eventCount` = the number of events sent,
+  and a one-line `note`.
+- After a run that found nothing new in any category and correctly sent nothing:
+  `record_outcome` with `sent: false`, `eventCount: 0`, and a `note` saying so.
+
+Do NOT call `record_outcome` if you are stopping early because a step failed —
+e.g. `send_digest_email` errored twice and you are aborting per the instructions
+above. In that case just report the error and stop. The scheduler treats a run
+that exits without a fresh `record_outcome` as abandoned and fires an alert;
+calling it on a failed run would suppress the alert that should fire.

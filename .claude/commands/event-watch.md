@@ -126,5 +126,15 @@ If new events are found:
   location, description) and commit the change with a message like "Add N
   new events from [date] run", then push to the current branch.
 
-If no new events are found in any category, do not send an email — just exit
-without committing.
+If no new events are found in any category, do not send an email — just skip
+to the FINAL STEP below without committing.
+
+FINAL STEP — always do this, and do it last, on every run that reaches a
+conclusion. Write `logs/run-outcome.json` (create the `logs/` directory if
+needed) containing a JSON object with an ISO-8601 `"timestamp"`, a boolean
+`"sent"` (true only if the digest email actually went out), a number
+`"eventCount"` (0 if nothing was sent), and a one-line `"note"`. This is the
+signal the scheduler wrapper uses to tell a finished run from one abandoned
+partway through — see the wrapper's `record_outcome` handling. Do NOT write
+it if you are stopping early because a step failed (e.g. the email send
+errored); leaving it unwritten is what makes the alert fire.

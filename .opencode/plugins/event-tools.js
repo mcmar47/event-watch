@@ -12,6 +12,8 @@
 // and validation. See that package's README for why each piece is or isn't
 // shared.
 
+import { mkdir, writeFile } from "node:fs/promises"
+import path from "node:path"
 import { tool } from "@opencode-ai/plugin/tool"
 import {
   escapeHtml,
@@ -178,6 +180,41 @@ export const EventWatchTools = async () => {
         argsShape: eventSchema,
         description:
           "Append new events to seen-events.json and write the file, skipping any exact duplicates as a final safety net. Use this instead of writing your own merge script. Call this only after the digest email has been sent successfully. Also deletes new-events.json (written by render_digest) as cleanup.",
+      }),
+
+      // Closes the silent-stall gap (2026-09-01): `opencode run` exits 0 even
+      // when the model abandons a run mid-pipeline — the LLM stream just
+      // stops before render_digest is ever reached. No new-events.json is
+      // left behind, so the wrapper's other guard can't see it, and it looks
+      // identical to a legitimate "nothing new today" run. The wrapper
+      // (launchd/run-event-watch-opencode.sh) deletes logs/run-outcome.json
+      // before each run and fails the run — firing agent-alert@ — if it's
+      // still absent after a clean exit. So this MUST be the last thing every
+      // completed run does, on both the digest-sent and nothing-new paths,
+      // and must NOT be called on a path that aborted because a step failed.
+      record_outcome: tool({
+        description:
+          "Record that this run reached a definite conclusion. Call exactly once, as the final action, on BOTH clean paths: after append_seen_events and the commit when a digest was sent, or at the very end of a run that found no new events and correctly sent nothing. Do NOT call it if you are stopping early because a step failed (e.g. send_digest_email errored twice) — an uncalled record_outcome is exactly how the scheduler detects an abandoned run and fires its alert.",
+        args: {
+          sent: tool.schema.boolean(),
+          eventCount: tool.schema.number(),
+          note: tool.schema.string(),
+        },
+        execute: async ({ sent, eventCount, note }, context) => {
+          const record = {
+            timestamp: new Date().toISOString(),
+            sent,
+            eventCount,
+            note,
+          }
+          await mkdir(path.join(context.directory, "logs"), { recursive: true })
+          await writeFile(
+            path.join(context.directory, "logs", "run-outcome.json"),
+            JSON.stringify(record, null, 2) + "\n",
+            "utf8"
+          )
+          return `Outcome recorded: ${JSON.stringify(record)}`
+        },
       }),
     },
   }

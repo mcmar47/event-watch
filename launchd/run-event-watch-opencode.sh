@@ -54,16 +54,43 @@ if [ -z "$MODEL" ] || [ -z "$PROMPT" ]; then
   exit 1
 fi
 
+mkdir -p "$REPO_DIR/logs"
+
+# record_outcome (an .opencode/plugins/event-tools.js tool) writes this on
+# the way out of every run that reaches a real conclusion — digest sent OR
+# nothing new found. Clear any stale copy now so the post-run check below is
+# a plain "did this run produce one" test, with no timestamp arithmetic (and
+# so no `date -r` / `stat` portability split between macOS and the Pi).
+OUTCOME_FILE="$REPO_DIR/logs/run-outcome.json"
+rm -f "$OUTCOME_FILE"
+
+# Upper bound on a single run. Real runs finish in 3–25 min; one still going
+# at 45 is hung (a wedged LLM stream that never returns), not slow. Without
+# this a hang holds the systemd unit open indefinitely — `Type=oneshot` has
+# no default start timeout — and no alert ever fires. `timeout` exits 124
+# when it trips; handled below. Skipped gracefully if timeout(1) isn't on
+# PATH (some macOS setups).
+TIMEOUT_BIN="$(command -v timeout || true)"
+RUN_CMD=("$OPENCODE_BIN" run -m "$MODEL" --auto "$PROMPT")
+if [ -n "$TIMEOUT_BIN" ]; then
+  RUN_CMD=("$TIMEOUT_BIN" --kill-after=2m 45m "${RUN_CMD[@]}")
+fi
+
 # Not `exec`'d (unlike before pi-ops/README.md's heartbeat mechanism existed)
 # because a heartbeat needs to be written after opencode exits, whatever its
 # exit code — see https://github.com/mcmar47/pi-ops for why. The `if` guards
 # capturing a non-zero exit code from tripping `set -e` above.
-if "$OPENCODE_BIN" run -m "$MODEL" --auto "$PROMPT"; then
+if "${RUN_CMD[@]}"; then
   EXIT_CODE=0
   STATUS="success"
 else
   EXIT_CODE=$?
   STATUS="failure"
+  if [ "$EXIT_CODE" -eq 124 ]; then
+    echo "event-watch: opencode run exceeded the 45m timeout and was killed" \
+      "-- treating as a hung run." >&2
+    STATUS="timeout"
+  fi
 fi
 
 # `opencode run` exits 0 even when the model abandons a run partway through
@@ -88,7 +115,23 @@ if [ "$EXIT_CODE" -eq 0 ] && [ -e "$REPO_DIR/new-events.json" ]; then
   STATUS="incomplete"
 fi
 
-mkdir -p "$REPO_DIR/logs"
+# Second silent-failure mode (2026-09-01): the model stalls mid-run — the LLM
+# stream just stops — and `opencode run` still exits 0 without ever reaching
+# render_digest. Nothing is left in new-events.json, so the guard above can't
+# see it, and it's indistinguishable from a legitimate "nothing new today"
+# run. record_outcome is the tie-breaker: the prompt calls it as the final
+# action of BOTH clean paths and never on an aborted one, and we cleared any
+# stale copy before the run. So a clean exit with no run-outcome.json means
+# the run stopped before finishing — force a non-zero exit so
+# agent-alert@event-watch.service fires.
+if [ "$EXIT_CODE" -eq 0 ] && [ ! -e "$OUTCOME_FILE" ]; then
+  echo "event-watch: opencode exited 0 but logs/run-outcome.json was not" \
+    "written -- the model never called record_outcome, so the run stopped" \
+    "before the digest pipeline completed. Treating as a failed run." >&2
+  EXIT_CODE=1
+  STATUS="incomplete"
+fi
+
 printf '{"timestamp": "%s", "exit_code": %s, "status": "%s"}\n' \
   "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$EXIT_CODE" "$STATUS" \
   > "$REPO_DIR/logs/last-run.json"
