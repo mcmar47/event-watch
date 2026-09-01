@@ -1,6 +1,6 @@
 ---
 description: Search for new events across all watched categories, email a digest, and update seen-events.json
-model: openrouter/deepseek/deepseek-v4-flash-0731
+model: openrouter/z-ai/glm-5.3-flash
 ---
 
 Read seen-events.json in this repository first — it's a JSON array of events already
