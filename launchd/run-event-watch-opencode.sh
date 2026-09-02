@@ -49,6 +49,10 @@ MODEL=$(sed -n 's/^model: *//p' "$COMMAND_FILE" | head -1)
 # incrementing keeps the two fences out and everything after them in.
 PROMPT=$(awk 'c>=2; /^---$/{c++}' "$COMMAND_FILE")
 
+# radar-kit's digest scorecard footer labels each run with the model that
+# produced it; sourcing it from the same frontmatter line keeps them in step.
+export DIGEST_MODEL="$MODEL"
+
 if [ -z "$MODEL" ] || [ -z "$PROMPT" ]; then
   echo "Failed to extract model/prompt from $COMMAND_FILE — aborting." >&2
   exit 1

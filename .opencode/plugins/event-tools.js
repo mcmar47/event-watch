@@ -148,6 +148,7 @@ export const EventWatchTools = async () => {
       }),
 
       render_digest: createRenderDigestTool({
+        scorecard: { noun: "events" },
         digestConfig,
         stagingFileName: STAGING_FILE,
         argsShape: eventSchema,
@@ -163,6 +164,7 @@ export const EventWatchTools = async () => {
       }),
 
       send_digest_email: createSendDigestEmailTool({
+        scorecard: { noun: "events" },
         digestConfig,
         stagingFileName: STAGING_FILE,
         digestRecipient: DIGEST_RECIPIENT,
