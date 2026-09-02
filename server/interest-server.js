@@ -91,7 +91,12 @@ function toggleRoute(store) {
         return
       }
 
-      await marks.set({ store, key: keyOf({ title, date }), value })
+      // Optional source tag: a bare POST from the page is "web", the iOS
+      // client sends "app". The email's one-click links use the GET route,
+      // which tags itself "email".
+      const via = typeof body.via === "string" && body.via ? body.via : "web"
+
+      await marks.set({ store, key: keyOf({ title, date }), value, via })
       sendJson(res, 200, { ok: true, [store]: value })
     },
   }
