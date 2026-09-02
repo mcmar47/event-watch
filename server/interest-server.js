@@ -45,6 +45,7 @@ import { fileURLToPath } from "node:url"
 import { createInterestServer, sendJson } from "radar-kit/server"
 import { createMarkStore } from "radar-kit/markStore"
 import { createOneClickMarkRoute } from "radar-kit/oneClickMark"
+import { createHealthRoute } from "radar-kit/health"
 import { makeKeyFn } from "radar-kit/seenStore"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -106,6 +107,10 @@ createInterestServer({
   name: "event-watch interest-server",
   port: PORT,
   routes: [
+    // Liveness probe for pi-ops' watchdog — this is a long-running
+    // service, which neither of its oneshot-oriented mechanisms covers.
+    createHealthRoute({ name: "event-watch interest-server" }),
+
     // One-click links from the digest email.
     createOneClickMarkRoute({
       marks,
