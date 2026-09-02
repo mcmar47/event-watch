@@ -1,5 +1,6 @@
 logs/
 .claude/worktrees/
+node_modules/
 
 # Pi-local state for the star / reject marks -- written by index.html's
 # toggle and by the digest email's one-click links. See
