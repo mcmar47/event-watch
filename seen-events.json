@@ -2710,5 +2710,165 @@
     "link": "https://www.tiffanyrice.com/events/",
     "location": "New York, NY",
     "title": "Spirits Night Out with Tiffany Rice"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-14",
+    "description": "Two-day virtual conference uniting researchers, clinicians, and policymakers on aging science and healthy longevity interventions.",
+    "link": "https://g-arc.org/",
+    "location": "Virtual",
+    "title": "Global Aging Research Conference 2026 (G-ARC 2026)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-22",
+    "description": "Hybrid geroscience meeting at UBC on translating aging biology into clinical practice and health policy, with virtual attendance available.",
+    "link": "https://event.fourwaves.com/ctgn-2026/pages",
+    "location": "Vancouver, Canada",
+    "title": "3rd Scientific Meeting of the Canadian Translational Geroscience Network"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-12",
+    "description": "Talk with National Book Award winner William Alexander on his speculative fiction, including Goblin Secrets and the novel Sunward.",
+    "link": "https://newsidequest.com/albany/events/william-alexander",
+    "location": "Albany, NY",
+    "title": "William Alexander"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-08",
+    "description": "Conversation with author Rachel Greenfield on her biography Rose Knox, with writer Amy Reading, at the Stissing Center.",
+    "link": "https://www.thestissingcenter.org/events-list/rose-knox-2026",
+    "location": "Pine Plains, NY",
+    "title": "Writers & Readers Series: Rose Knox"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-17",
+    "description": "Fifth-anniversary bazaar and in-store celebration at Poughkeepsie's Witchcraft District metaphysical shop.",
+    "link": "https://stayhappening.com/e/witchcraft-district-bazaar-andamp-aoy-5th-anniversary-celebration-and-in-store-shopping-experience-E2ISYPL0H1R",
+    "location": "Poughkeepsie, NY",
+    "title": "Witchcraft District Bazaar & AoY 5th Anniversary Celebration"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-19",
+    "description": "Winter solstice celebration at the Chapel of Sacred Mirrors with ceremony, live music, visionary art, and tarot readers.",
+    "link": "https://stayhappening.com/e/2026-winter-solstice-celestial-celebration-andamp-dec-full-moon-299-E2ISYLSMHD3",
+    "location": "Wappingers Falls, NY",
+    "title": "2026 Winter Solstice Celestial Celebration & Dec Full Moon #299"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-19",
+    "description": "Rosicrucian open weekend with a winter symposium, Festival of Light ceremony, and healing circle at its NYC cultural center.",
+    "link": "https://www.rosicrucian.org/events/mystical-weekend-rosicrucian-cultural-center-12-19-26-new-york-ny",
+    "location": "New York, NY",
+    "title": "Mystical Weekend at the Rosicrucian Cultural Center"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-23",
+    "description": "Free three-day Halloween festival with oddities, steampunk, and fantasy vendors at Blackthorne Resort in the Catskills.",
+    "link": "https://catskillshalloween.com/",
+    "location": "East Durham, NY",
+    "title": "Catskills Halloween Festival & Vendor Market"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-12-26",
+    "description": "Free-to-play arcade of classics like Galaga and pinball at Rochester's Roc Holiday Village, December 26-28.",
+    "link": "https://rocholidayvillage.com/the-rec-room/",
+    "location": "Rochester, NY",
+    "title": "The Rec Room at Roc Holiday Village"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2027-02-19",
+    "description": "Three-day gaming and anime convention with retro arcades, consoles, tabletop gaming, and vendors in Puyallup.",
+    "link": "https://www.wagamingexpo.com/",
+    "location": "Puyallup, WA",
+    "title": "Washington State Gaming Expo 2027"
+  },
+  {
+    "category": "wes-anderson",
+    "date": "2026-11-14",
+    "description": "Pay-what-you-can screenings of Wes Anderson's Fantastic Mr. Fox, November 14 and 15, at Coral Gables Art Cinema.",
+    "link": "https://305hive.com/event/fantastic-mr-fox/2026-11-14/",
+    "location": "Coral Gables, FL",
+    "title": "Fantastic Mr. Fox Screening (Coral Gables Art Cinema)"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-02-28",
+    "description": "Spring edition of London's long-established pen show with 200+ pen dealers at Novotel London West.",
+    "link": "https://ukpenshows.co.uk/uk-pen-show-events/london-spring-pen-show/",
+    "location": "London, UK",
+    "title": "London Spring Pen Show"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Fall harvest festival at 20 Deep Winery near Rochester with local artisans, wine, and family-friendly activities.",
+    "link": "https://rochestermomcollective.com/event/harvest-fest-at-20-deep-winery/",
+    "location": "Honeoye Falls, NY",
+    "title": "Harvest Fest at 20 Deep Winery"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-18",
+    "description": "Season-long display of 7,000+ hand-carved illuminated jack o'lanterns at Van Cortlandt Manor, September 18 through November 8.",
+    "link": "https://hauntedhistorytrail.com/events/the-great-jack-olantern-blaze",
+    "location": "Croton-on-Hudson, NY",
+    "title": "The Great Jack O'Lantern Blaze"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-27",
+    "description": "Weekend harvest festivals at Fishkill Farms with apple picking, wagon rides, a corn maze, live music, and cider donuts.",
+    "link": "https://insideandoutupstateny.com/event/fall-harvest-festivals-fishkill-farms-6/",
+    "location": "Hopewell Junction, NY",
+    "title": "Fishkill Farms Fall Harvest Festivals"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-25",
+    "description": "Fall-season outdoor movie screenings paired with moonlight walks through Pick'n Patch's corn maze.",
+    "link": "https://hauntedhistorytrail.com/events/movie-nights-moonlight-maze-665d40fc",
+    "location": "Trumansburg, NY",
+    "title": "Movie Nights & Moonlight Maze (Pick'n Patch)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-09-05",
+    "description": "Evening paranormal investigation of Binghamton's historic Roberson Mansion with the Empirical Paranormal team.",
+    "link": "https://hauntedhistorytrail.com/events/an-evening-with-empirical-paranormal-at-roberson-mansion",
+    "location": "Binghamton, NY",
+    "title": "An Evening with Empirical Paranormal at Roberson Mansion"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-09-19",
+    "description": "Full-day paranormal convention with guest speakers, live investigations, and vendors at Empty Pockets Ranch in Cobleskill.",
+    "link": "https://hauntedhistorytrail.com/events/haunted-history-paracon",
+    "location": "Cobleskill, NY",
+    "title": "Haunted History Paracon"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-09-19",
+    "description": "Evening with TV's Paranormal Couple, Satori Hawes and Cody Des Biens, inside haunted Rolling Hills Asylum.",
+    "link": "https://hauntedhistorytrail.com/events/celebrity-event-the-paranormal-couple-satori-hawes-cody-des-biens",
+    "location": "East Bethany, NY",
+    "title": "The Paranormal Couple: Satori Hawes & Cody Des Biens (Rolling Hills Asylum)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-11-19",
+    "description": "Evening paranormal investigation of Fairport's DeLand House led by Rochester Candlelight Ghost Walks with ghost-hunting equipment.",
+    "link": "https://www.eventbrite.com/e/paranormal-investigation-experience-at-the-deland-house-on-main-tickets-1993834581907",
+    "location": "Fairport, NY",
+    "title": "Paranormal Investigation Experience at The DeLand House on Main"
   }
 ]
