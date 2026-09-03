@@ -2,6 +2,14 @@ logs/
 .claude/worktrees/
 node_modules/
 
+# server/ has one dep, radar-kit, pinned only by `github:mcmar47/radar-kit`
+# (no tag). A committed lock pins a COMMIT, and a stale one (this file sat
+# at radar-kit 1.2.0 while interest-server.js grew imports only 1.7 exports)
+# makes a disaster-recovery `npm install` resolve a broken old radar-kit.
+# update-radar-kit.sh installs HEAD across the fleet anyway, so let a fresh
+# install resolve HEAD too. Matches job-radar/server, which never tracked one.
+server/package-lock.json
+
 # Pi-local state for the star / reject marks -- written by index.html's
 # toggle and by the digest email's one-click links. See
 # server/interest-server.js's docstring for why this is deliberately kept
