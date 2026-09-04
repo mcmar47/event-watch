@@ -41,6 +41,31 @@ cd "$REPO_DIR"
 # machine.
 git pull --ff-only origin main
 
+# Pre-fetch the four Rochester bookstore sources (B&N Pittsford/Eastview, The
+# Siren and the Sea, The Unreliable Narrator) that a plain web fetch can't
+# read — B&N embeds its calendar in an RSC payload that WebFetch's markdown
+# conversion discards; the two indie shops are JS SPAs backed by Bookmanager's
+# API. scripts/fetch-venues.mjs pulls all four and writes venue-events.json,
+# which the prompt reads instead of running blind name-searches for them.
+#
+# Non-fatal on purpose: if the pre-fetch fails, the prompt still has a
+# fallback ("if venue-events.json is missing or a venue shows ok:false, run a
+# name search for that venue"), so a bad run here just degrades to the old
+# behavior rather than aborting. Node's fetch (not curl — B&N 403s curl) is
+# required; it's already on the Pi for the opencode plugins.
+#
+# Delete any prior copy first so a hard crash of the script (as opposed to a
+# per-venue failure, which it writes into the file itself) leaves no stale
+# venue-events.json for the prompt to mistake as fresh.
+rm -f "$REPO_DIR/venue-events.json"
+NODE_BIN="$(command -v node || true)"
+if [ -n "$NODE_BIN" ]; then
+  "$NODE_BIN" "$REPO_DIR/scripts/fetch-venues.mjs" \
+    || echo "event-watch: venue pre-fetch failed (non-fatal) — agent falls back to search." >&2
+else
+  echo "event-watch: node not on PATH — skipping venue pre-fetch." >&2
+fi
+
 MODEL=$(sed -n 's/^model: *//p' "$COMMAND_FILE" | head -1)
 # `c>=2; /^---$/{c++}` rather than `/^---$/{c++; next} c>=2`: the old form
 # skipped EVERY line matching ^---$, not just the two frontmatter fences, so a

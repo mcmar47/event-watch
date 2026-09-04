@@ -48,16 +48,20 @@ derived from the category name.
    (Booker Prize, International Booker, etc.), and BookTok-adjacent community
    events, in NYC, Rochester NY/upstate NY, or online.
 
-   In addition to web search, for this category also check these specific
-   event-listing pages directly and pull any qualifying future events from them:
-     - https://stores.barnesandnoble.com/store/3473?view=grid
-     - https://stores.barnesandnoble.com/store/2790?view=grid
-     - https://thesirenandthesea.com/events
-     - https://www.unreliablebooks.com/events
-   For the two Barnes & Noble store pages specifically: skip any event that is a
-   "storytime" or otherwise clearly aimed at children/toddlers (these pages mix
-   adult author events with kids' storytime) — only include adult/general-audience
-   book events from those two pages.
+   Four Rochester-area bookstore sources are covered by a pre-fetch script
+   rather than web search. Run it once at the start of this run:
+   `rm -f venue-events.json && node scripts/fetch-venues.mjs` — it writes a
+   fresh `venue-events.json`. Read that file; its `events` array covers Barnes
+   & Noble Pittsford, Barnes & Noble Eastview Mall (Victor, NY), The Siren and
+   the Sea, and The Unreliable Narrator. Treat each event there as a candidate
+   — mostly `literary-booktok`, but assign the slug by what the event actually
+   is. Each carries title, date, time, venue, location, link, and description
+   (base the one-liner on that text). Skip any event with `isChildrens: true`
+   (kids' storytime). Apply the same date check and dedup to these as to every
+   other candidate.
+   If the script fails, or the file's `venues` map shows `ok: false` for a
+   venue, fall back to one targeted name search for that venue (e.g. "Barnes &
+   Noble Pittsford NY author event 2026").
 3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
    fairs, esoteric shop pop-ups or events, in NYC, Rochester NY, or upstate NY.
 4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,

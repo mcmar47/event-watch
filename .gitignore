@@ -2,6 +2,12 @@ logs/
 .claude/worktrees/
 node_modules/
 
+# Regenerated at the start of every run by scripts/fetch-venues.mjs (a
+# pre-fetch of the four Rochester bookstore sources). Pure derived input for
+# the agent, never committed — like new-events.json, it lives in the working
+# tree the scheduled agent also commits seen-events.json from.
+venue-events.json
+
 # server/ has one dep, radar-kit, pinned only by `github:mcmar47/radar-kit`
 # (no tag). A committed lock pins a COMMIT, and a stale one (this file sat
 # at radar-kit 1.2.0 while interest-server.js grew imports only 1.7 exports)

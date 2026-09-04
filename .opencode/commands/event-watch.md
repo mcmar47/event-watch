@@ -45,27 +45,26 @@ derived from the category name.
    (Booker Prize, International Booker, etc.), and BookTok-adjacent community
    events, in Rochester NY/upstate NY, NYC, or online.
 
-   Four Rochester-area sources are worth surfacing events for but are not
-   directly fetchable — confirmed repeatedly, don't spend a fetch attempt on
-   any of these URLs, it will always fail:
-     - https://stores.barnesandnoble.com/store/3473?view=grid (Eastview Mall,
-       Victor, NY) and https://stores.barnesandnoble.com/store/2790?view=grid
-       (Pittsford, NY) — both return a hard 403 from bot protection
-       regardless of URL parameters.
-     - https://thesirenandthesea.com/events (The Siren and the Sea, South
-       Wedge, Rochester, NY) and https://www.unreliablebooks.com/events (The
-       Unreliable Narrator, N. Goodman St, Rochester, NY) — both are
-       JS-rendered single-page apps that return an empty shell to a plain
-       fetch; their third-party events platform (withfriends.co) has the same
-       problem.
-   Instead, run one targeted search per venue by name and location, e.g.
-   "Barnes & Noble Pittsford NY author event 2026", "Barnes & Noble Eastview
-   Mall Victor NY book signing 2026", "Siren and the Sea Rochester NY event",
-   "Unreliable Narrator Rochester NY event" — these four replace the old
-   direct-fetch attempts and are budgeted the same way those were: in
-   addition to, not counted against, the 3-4-searches-per-category cap above.
-   For the two Barnes & Noble locations specifically: skip any event that is
-   a "storytime" or otherwise clearly aimed at children/toddlers.
+   Four Rochester-area bookstore sources are handled by a pre-fetch step
+   instead of web search: the wrapper runs `scripts/fetch-venues.mjs` at the
+   start of every run and writes `venue-events.json`. Read that file. Its
+   `events` array (already trimmed to roughly the next few months) covers:
+     - Barnes & Noble Pittsford and Barnes & Noble Eastview Mall (Victor, NY)
+     - The Siren and the Sea (South Wedge, Rochester, NY)
+     - The Unreliable Narrator (N. Goodman St, Rochester, NY)
+   Treat each event there as a candidate — mostly `literary-booktok`, but
+   assign the slug by what the event actually is (e.g. an occult-themed book
+   club goes to `occult-esoteric`), and use `categoryHint` only as a loose
+   hint. Run `filter_future_events` and `check_dedup` on them exactly as for
+   any other candidate. Each carries title, date, time, venue, location,
+   link, and description — base the one-line description on that text. Skip
+   any event with `isChildrens: true` (kids' storytime).
+
+   Fallback: if `venue-events.json` is missing, or its `venues` map shows
+   `ok: false` for one of the four, run one targeted name search for that
+   venue ("Barnes & Noble Pittsford NY author event 2026", "Unreliable
+   Narrator Rochester NY event", etc.) — budgeted on top of, not counted
+   against, the per-category search cap.
 3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
    fairs, esoteric shop pop-ups or events, in Rochester NY, upstate NY, or NYC.
 4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,
@@ -96,9 +95,9 @@ one extra targeted search beyond the per-category cap below specifically to
 chase that region down before falling back to the other locations.
 
 For each category, run separate targeted searches — don't combine them into one
-query. Cap it at 3-4 targeted searches per category (plus the four venue
-searches listed above for literary/BookTok, and the extra Rochester/upstate NY
-search allowed above): if that isn't turning up enough candidates, move on
+query. Cap it at 3-4 targeted searches per category (plus any venue fallback
+search from the literary/BookTok note above, and the extra Rochester/upstate
+NY search allowed above): if that isn't turning up enough candidates, move on
 with what you have rather than continuing to search — extra rounds of
 searching multiply the token cost of the whole run because every prior search
 result stays in context for the rest of it. Only surface events with a

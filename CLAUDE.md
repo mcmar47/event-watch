@@ -64,6 +64,16 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
   3. **Hang**: the opencode invocation is wrapped in `timeout 45m` (skipped if `timeout(1)` is
      absent), since `Type=oneshot` has no default start timeout and a wedged run would otherwise
      hold the unit open forever with no alert.
+- **The wrapper pre-fetches four bookstore sources the agent can't read via a plain web fetch.**
+  `scripts/fetch-venues.mjs` (Node, no deps) pulls B&N Pittsford + Eastview (their calendar is
+  embedded in a Next.js RSC payload that WebFetch's markdown conversion discards) and The Siren
+  and the Sea + The Unreliable Narrator (JS SPAs backed by Bookmanager's `session/get` →
+  `event/v2/list` API), and writes `venue-events.json` (gitignored, regenerated every run). All
+  three prompt copies read that file for the literary/BookTok venues instead of name-searching;
+  the `.claude`/Codex copies run the script themselves since they don't go through the wrapper.
+  Non-fatal — every copy falls back to a per-venue name search if the file is missing or a venue
+  shows `ok: false`. B&N 403s `curl` (Akamai TLS/HTTP2 fingerprinting) but not Node's `fetch`, so
+  this can't be reduced to a shell one-liner.
 - **Category slugs are a closed, verbatim set** — see either command file for the current eight and
   their exact `category` field values. Never invent or guess a slug; an unrecognized one breaks
   `render_digest`.
