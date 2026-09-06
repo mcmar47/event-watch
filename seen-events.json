@@ -3518,5 +3518,77 @@
     "link": "https://www.eventbrite.com/e/the-haunted-pizza-hunt-tickets-1993297482428",
     "location": "Whitehall, NY",
     "title": "The Haunted Pizza Hunt at Skene Manor"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-09-20",
+    "description": "Biweekly volunteer meetup at Barnes & Noble Pittsford making handmade greeting cards for hospitalized patients.",
+    "link": "https://stores.barnesandnoble.com/event/9780062182614-20",
+    "location": "Rochester, NY",
+    "title": "Handmade Cards for Change"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-07",
+    "description": "Half-day symposium at Harvard Medical School on the biology of brain aging and the biomarkers used to track cognitive decline.",
+    "link": "https://www.bostonlongevityweek.com/",
+    "location": "Boston, MA",
+    "title": "2026 Brain Aging Symposium"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-09",
+    "description": "Full-day symposium on cross-disciplinary healthy aging research during Boston Longevity Week.",
+    "link": "https://www.bostonlongevityweek.com/",
+    "location": "Boston, MA",
+    "title": "2026 Healthy Aging Symposium @ Harvard Chan"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-23",
+    "description": "Halloween party at the Memorial Art Gallery with tarot readings, ghost tours, a costume contest, and a Scream screening.",
+    "link": "https://venunite.com/events/museum-of-the-dead",
+    "location": "Rochester, NY",
+    "title": "Museum of the Dead"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-28",
+    "description": "NYS Writers Institute talk with author Lois Lowry on her new dystopian novel Building 903 at UAlbany's Page Hall.",
+    "link": "https://www.nyswritersinstitute.org/loislowry",
+    "location": "Albany, NY",
+    "title": "Lois Lowry: Building 903"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-10-18",
+    "description": "Biweekly volunteer meetup at Barnes & Noble Pittsford making handmade greeting cards for hospitalized patients.",
+    "link": "https://stores.barnesandnoble.com/event/9780062182614-21",
+    "location": "Rochester, NY",
+    "title": "Handmade Cards for Change"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-28",
+    "description": "Open weekend of mystical activities at the Rosicrucian Cultural Center in New York City.",
+    "link": "https://www.rosicrucian.org/events/mystical-weekend-rosicrucian-cultural-center-11-28-2026-new-york-ny",
+    "location": "New York, NY",
+    "title": "Mystical Weekend at the Rosicrucian Cultural Center"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-15",
+    "description": "Biweekly volunteer meetup at Barnes & Noble Pittsford making handmade greeting cards for hospitalized patients.",
+    "link": "https://stores.barnesandnoble.com/event/9780062182614-22",
+    "location": "Rochester, NY",
+    "title": "Handmade Cards for Change"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-12-05",
+    "description": "One-day German retro gaming convention with playable consoles and home computers from the 1980s through 2010s.",
+    "link": "https://rausgegangen.de/en/events/retrogamescon-sinsheim-0/",
+    "location": "Sinsheim, Germany",
+    "title": "RetroGamesCon Sinsheim"
   }
 ]
