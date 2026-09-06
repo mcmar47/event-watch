@@ -93,6 +93,16 @@ mkdir -p "$REPO_DIR/logs"
 OUTCOME_FILE="$REPO_DIR/logs/run-outcome.json"
 rm -f "$OUTCOME_FILE"
 
+# For the scorecard footer's cost figure (radar-kit/scripts/run-cost.js).
+# RUN_START marks which run-log entry this run's cost belongs to; the "read"
+# call snapshots the OpenRouter key's lifetime spend so the post-run "record"
+# call can diff against it. Both are best-effort — a missing key or a network
+# blip just leaves the footer without a dollar figure, never fails the run.
+RADAR_KIT_DIR="$REPO_DIR/.opencode/node_modules/radar-kit"
+RUNS_FILE="$REPO_DIR/logs/digest-runs.json"
+RUN_START=$(date -u +%Y-%m-%dT%H:%M:%S)
+USAGE_BEFORE=$(node "$RADAR_KIT_DIR/scripts/run-cost.js" read 2>/dev/null || true)
+
 # Upper bound on a single run. Real runs finish in 3–25 min; one still going
 # at 45 is hung (a wedged LLM stream that never returns), not slow. Without
 # this a hang holds the systemd unit open indefinitely — `Type=oneshot` has
@@ -159,6 +169,13 @@ if [ "$EXIT_CODE" -eq 0 ] && [ ! -e "$OUTCOME_FILE" ]; then
     "before the digest pipeline completed. Treating as a failed run." >&2
   EXIT_CODE=1
   STATUS="incomplete"
+fi
+
+# Record what this run cost (usage delta since USAGE_BEFORE) onto the run
+# log, whatever the exit code — a run that spent money and then failed still
+# spent money. Never fatal.
+if [ -n "$USAGE_BEFORE" ]; then
+  node "$RADAR_KIT_DIR/scripts/run-cost.js" record "$RUNS_FILE" "$USAGE_BEFORE" "$RUN_START" || true
 fi
 
 printf '{"timestamp": "%s", "exit_code": %s, "status": "%s"}\n' \
