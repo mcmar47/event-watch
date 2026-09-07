@@ -26,6 +26,9 @@ import {
   createFilterFutureEventsTool,
   createCalibrationTool,
   markUrls,
+  makeKeyFn,
+  soleImminentItem,
+  continuumItemLink,
 } from "radar-kit"
 
 const DIGEST_RECIPIENT = "michael.cmar@gmail.com"
@@ -53,6 +56,26 @@ const FEEDBACK_BASE = process.env.EVENT_WATCH_BASE_URL || "http://100.79.18.117:
 // with read_calibration's keyFields below -- all three are ["title", "date"].
 const linksFor = (e) =>
   markUrls({ baseUrl: FEEDBACK_BASE, params: { title: e.title, date: e.date } })
+
+// NEW-IDEAS.md C4 — the one time-critical push. After the digest sends,
+// radar-kit calls this with exactly the events that went out. It returns a
+// notification only when EXACTLY ONE of them starts within 3 days (a digest
+// with two imminent events already tells you both — the push is for the
+// single "this is happening now" case, and the channel is meant to stay near
+// silent). Tapping it opens Continuum on that event via the same
+// ["title","date"] mark key the interest-server and Continuum both use.
+const eventMarkKey = makeKeyFn(["title", "date"])
+const pickEventHighlight = (events) => {
+  const today = new Date().toISOString().slice(0, 10)
+  const e = soleImminentItem(events, { dateField: "date", today, withinDays: 3 })
+  if (!e) return null
+  return {
+    title: "Event coming up",
+    message: `${e.title} — ${e.date}` + (e.location ? ` · ${e.location}` : ""),
+    clickUrl: continuumItemLink({ origin: "events", key: eventMarkKey(e) }),
+    tags: ["calendar"],
+  }
+}
 
 const CATEGORY_LABELS = {
   "biotech-longevity": "🧬 Biotech & Longevity",
@@ -168,6 +191,7 @@ export const EventWatchTools = async () => {
         digestConfig,
         stagingFileName: STAGING_FILE,
         digestRecipient: DIGEST_RECIPIENT,
+        push: { pickHighlight: pickEventHighlight },
         extraResultFields: (events) => ({
           categoryCount: new Set(events.map((e) => e.category)).size,
         }),

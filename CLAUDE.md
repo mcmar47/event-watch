@@ -77,6 +77,13 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
 - **Category slugs are a closed, verbatim set** — see either command file for the current eight and
   their exact `category` field values. Never invent or guess a slug; an unrecognized one breaks
   `render_digest`.
+- **The C4 highlight push** (NEW-IDEAS.md) — `event-tools.js` passes `push: { pickHighlight }` to
+  `send_digest_email`. After a confirmed send, radar-kit calls `pickEventHighlight` with exactly
+  the events that went out; if *precisely one* starts within 3 days it POSTs one ntfy notification
+  (topic `~/.config/pi-ops/ntfy-push-topic`) with a `continuum://item` deep link. Entirely
+  automatic and post-send — not a pipeline step the prompt manages, and only on the opencode path
+  (the `.claude`/Codex fallbacks send by hand and skip it). Best-effort: no topic file, no
+  qualifying event, or a failed POST all leave the run untouched.
 - **`interest-server.js`** (in `server/`) serves `interested.json`/`ignored.json`, written only by
   the web page and only ever read by the agent (via `read_calibration` on the opencode path). Never
   have the agent write them. It also serves `reviewed.json` (`POST /api/reviewed`, radar-kit's
