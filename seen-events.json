@@ -3590,5 +3590,45 @@
     "link": "https://rausgegangen.de/en/events/retrogamescon-sinsheim-0/",
     "location": "Sinsheim, Germany",
     "title": "RetroGamesCon Sinsheim"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-11",
+    "description": "Two-day academic conference on AI for protein structure prediction and bioinformatics, with in-person and virtual participation.",
+    "link": "https://www.wrfconference.com/event/index.php?id=100946581",
+    "location": "New York, NY",
+    "title": "ICAIPSEB-26: International Conference on AI in Protein Structure Engineering and Bioinformatics"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-02",
+    "description": "Two-day academic conference on AI-driven transcriptomics, machine learning in genomics, and biomedical predictive analytics.",
+    "link": "https://www.wrfconference.com/event/index.php?id=100946609",
+    "location": "New York, NY",
+    "title": "ICAITB-26: International Conference on AI in Transcriptomics and Bioinformatics"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-05",
+    "description": "Hybrid author reading with Robin Flanigan on her Secret Rochester guides to the city's weird and obscure history at Writers & Books.",
+    "link": "https://writersandbooks.org/readings/",
+    "location": "Rochester, NY",
+    "title": "Robin L. Flanigan: Secret Rochester (Writers & Books)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-18",
+    "description": "In-person author reading with L. J. Nightingale for her book Drawn at Writers & Books.",
+    "link": "https://writersandbooks.org/readings/",
+    "location": "Rochester, NY",
+    "title": "L. J. Nightingale: Drawn"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-06",
+    "description": "Haunted dinner series at Union Tavern pairing Rochester history and ghost stories with a ghost-hunting equipment session, running through early November.",
+    "link": "https://www.rochesterghosts.com/home/ghost-dinners",
+    "location": "Rochester, NY",
+    "title": "Dinner & Ghost Stories at Union Tavern"
   }
 ]
