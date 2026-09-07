@@ -79,7 +79,10 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
   `render_digest`.
 - **`interest-server.js`** (in `server/`) serves `interested.json`/`ignored.json`, written only by
   the web page and only ever read by the agent (via `read_calibration` on the opencode path). Never
-  have the agent write them.
+  have the agent write them. It also serves `reviewed.json` (`POST /api/reviewed`, radar-kit's
+  `createReviewedRoute`): the Continuum app's "already triaged this in the Inbox" set, keyed the same
+  `(title, date)` way. The agent **never** reads it — not a calibration signal, just a client-side
+  "stop showing me this" flag kept on the Pi so it survives a phone reinstall.
 
 ## Things that are easy to get wrong
 

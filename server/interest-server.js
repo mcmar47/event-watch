@@ -26,13 +26,22 @@
 // specific to event-watch: the (title, date) key, matching event-tools.js's
 // own check_dedup keyFields, and this endpoint's request schema.
 //
-// interested.json and ignored.json live in this repo's root, next to
-// seen-events.json, but are NOT git-tracked (see ../.gitignore) and NOT
-// touched by the scheduled
-// opencode agent at all -- keeping it fully decoupled from that agent's own
-// git pull/commit/push cycle avoids any chance of a click racing a
-// scheduled run's git operations in the same working directory. Plain
-// Pi-local state; see pi-bootstrap for how it gets backed up.
+// POST /api/reviewed (radar-kit's createReviewedRoute), added 2026-09,
+// writes a third store: reviewed.json, the Continuum app's record of which
+// events it has already shown you in its unified Inbox and you swiped past
+// without an opinion. Same (title, date) key as the marks, its own store,
+// and the scheduled agent never reads it — "reviewed" is not interest, only
+// "stop surfacing this to me". It was local-only on the phone until a
+// bundle-id change wiped the app container and hundreds of these decisions
+// with it; a store here is what makes them survive a reinstall.
+//
+// interested.json, ignored.json and reviewed.json live in this repo's root,
+// next to seen-events.json, but are NOT git-tracked (see ../.gitignore) and
+// NOT touched by the scheduled opencode agent at all (it only reads the
+// first two) -- keeping them fully decoupled from that agent's own git
+// pull/commit/push cycle avoids any chance of a click racing a scheduled
+// run's git operations in the same working directory. Plain Pi-local state;
+// see pi-bootstrap for how it gets backed up.
 //
 // nginx (see pi-bootstrap's nginx/event-watch config) proxies /api/* to
 // this process for every method, so the GET route below needed no config
@@ -45,6 +54,7 @@ import { fileURLToPath } from "node:url"
 import { createInterestServer, sendJson } from "radar-kit/server"
 import { createMarkStore } from "radar-kit/markStore"
 import { createOneClickMarkRoute } from "radar-kit/oneClickMark"
+import { createReviewedRoute } from "radar-kit/reviewedRoute"
 import { createHealthRoute } from "radar-kit/health"
 import { makeKeyFn } from "radar-kit/seenStore"
 
@@ -67,6 +77,16 @@ const marks = createMarkStore({
   // An event cannot be both starred and rejected: that would feed the
   // scorer contradictory calibration examples.
   exclusive: true,
+})
+
+// The Continuum app's "already looked at this in the Inbox" set. Its own
+// store, non-exclusive, NOT read by the scheduled agent — marking an event
+// reviewed says nothing about interest, only "stop showing it to me". Local
+// on the phone until a bundle-id change wiped hundreds of these; reviewed.json
+// on the Pi makes them survive a reinstall. Served static by nginx like the
+// mark files; written only through /api/reviewed below.
+const reviewed = createMarkStore({
+  paths: { reviewed: path.join(REPO_DIR, "reviewed.json") },
 })
 
 // The two routes differ only in which store they write and which body field
@@ -123,5 +143,9 @@ createInterestServer({
     // clears an `ignored` mark, since the stores are exclusive.
     toggleRoute("interested"),
     toggleRoute("ignored"),
+
+    // The Continuum app's Inbox "seen" set. Same (title, date) key as the
+    // marks; a store the agent never reads.
+    createReviewedRoute({ reviewed, fields: ["title", "date"], keyOf }),
   ],
 }).listen()
