@@ -18,18 +18,6 @@ carries no information at all — do not read "delivered and never starred" as a
 it. There is no such tool on the Claude Code path, so it is done by hand here; the intent
 and the weighting are the same.)
 
-BACKFILL PASS: Check every existing event in seen-events.json for a missing or
-empty "location" or "description" field (older entries, or ones added when a
-different execution environment couldn't reach a source page, may be missing
-one or both). For each event with a gap, look up its source link (or search
-the web using its title/date/category if the link can't be fetched) and fill
-in the missing field(s) directly in seen-events.json, using the same "City, ST"
-/ "Virtual" format for location and the same one-line factual style for
-description described below. If you find events with gaps, edit the file and
-commit that as its own small change — e.g. "Backfill missing fields for N
-existing events" — then push, before moving on to the search below. If nothing
-is missing, skip this step entirely and don't commit anything for it.
-
 Before searching, determine today's actual current date (do not assume or guess —
 check the current date as part of this run, e.g. via the `date` shell command). Use
 that as your reference point for "future" in everything below.
