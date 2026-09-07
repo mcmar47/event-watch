@@ -1,0 +1,141 @@
+---
+name: "source-command-event-watch"
+description: "Search for new events across all watched categories, email a digest, and update seen-events.json"
+---
+
+# source-command-event-watch
+
+Use this skill when the user asks to run the migrated source command `event-watch`.
+
+## Command Template
+
+Read seen-events.json in this repository first — it's a JSON array of events already
+reported in past runs, each with at least a "title" and "date" field.
+
+Then read `interested.json` if it exists (it is gitignored Pi-local state and may be
+missing or empty). It maps a normalized `"<title>|<date>"` key to `true` for every event
+starred on the web page. Join each key back to its full record in seen-events.json — the
+key alone is not useful — and treat those events as strong positives: they are what someone
+actually clicked, as opposed to what this prompt predicts they would like.
+
+An event in neither list was simply never marked. That is **not** a negative signal and
+carries no information at all — do not read "delivered and never starred" as a rejection.
+
+(The opencode copy of this prompt calls a `read_calibration` tool that does this join for
+it. There is no such tool on the Codex path, so it is done by hand here; the intent
+and the weighting are the same.)
+
+BACKFILL PASS: Check every existing event in seen-events.json for a missing or
+empty "location" or "description" field (older entries, or ones added when a
+different execution environment couldn't reach a source page, may be missing
+one or both). For each event with a gap, look up its source link (or search
+the web using its title/date/category if the link can't be fetched) and fill
+in the missing field(s) directly in seen-events.json, using the same "City, ST"
+/ "Virtual" format for location and the same one-line factual style for
+description described below. If you find events with gaps, edit the file and
+commit that as its own small change — e.g. "Backfill missing fields for N
+existing events" — then push, before moving on to the search below. If nothing
+is missing, skip this step entirely and don't commit anything for it.
+
+Before searching, determine today's actual current date (do not assume or guess —
+check the current date as part of this run, e.g. via the `date` shell command). Use
+that as your reference point for "future" in everything below.
+
+Search the web for newly announced events in these categories. Each category
+lists its exact `category` field value (the slug used in seen-events.json and
+recognized by the render_digest tool) — use that slug verbatim for every event
+you assign to it; never invent or guess a slug, even one that looks obviously
+derived from the category name.
+
+1. Biotech & longevity (slug: `biotech-longevity`) — conferences, public talks,
+   panels, or expos on biotech, aging/longevity research, or AI-in-biotech,
+   especially in or near NYC, Rochester NY, or available virtually.
+2. Literary / BookTok (slug: `literary-booktok`) — book festivals, author
+   readings/signings, literary award ceremonies or shortlist announcements
+   (Booker Prize, International Booker, etc.), and BookTok-adjacent community
+   events, in NYC, Rochester NY/upstate NY, or online.
+
+   Four Rochester-area bookstore sources are covered by a pre-fetch script
+   rather than web search. Run it once at the start of this run:
+   `rm -f venue-events.json && node scripts/fetch-venues.mjs` — it writes a
+   fresh `venue-events.json`. Read that file; its `events` array covers Barnes
+   & Noble Pittsford, Barnes & Noble Eastview Mall (Victor, NY), The Siren and
+   the Sea, and The Unreliable Narrator. Treat each event there as a candidate
+   — mostly `literary-booktok`, but assign the slug by what the event actually
+   is. Each carries title, date, time, venue, location, link, and description
+   (base the one-liner on that text). Skip any event with `isChildrens: true`
+   (kids' storytime). Apply the same date check and dedup to these as to every
+   other candidate.
+   If the script fails, or the file's `venues` map shows `ok: false` for a
+   venue, fall back to one targeted name search for that venue (e.g. "Barnes &
+   Noble Pittsford NY author event 2026").
+3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
+   fairs, esoteric shop pop-ups or events, in NYC, Rochester NY, or upstate NY.
+4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,
+   classic console/game conventions, regionally or nationally.
+5. Wes Anderson (slug: `wes-anderson`) — screenings, retrospectives, exhibits,
+   or fan events related to Wes Anderson's films, anywhere in the US,
+   prioritizing NYC.
+6. Pen & stationery (slug: `pen-stationery`) — pen shows, stationery expos,
+   fountain pen meetups, or maker pop-ups, in NYC, Rochester NY/upstate NY, or
+   nationally notable ones.
+7. Fall / Autumn (slug: `fall-autumn`) — fall festivals, apple/pumpkin picking
+   events, corn mazes, foliage tours, harvest fairs, and other autumn-season
+   events, ONLY in Rochester NY or upstate NY (unlike the other categories
+   above, do not surface NYC or virtual events for this one — skip a candidate
+   entirely if it's outside Rochester/upstate NY).
+8. Paranormal events (slug: `paranormal-events`) — ghost tours, haunted
+   history walks, UFO/cryptid conventions, psychic or mediumship
+   demonstrations, and other paranormal-themed events, in NYC, Rochester NY,
+   upstate NY, or available virtually.
+
+For each category, run separate targeted searches — don't combine them into one
+query. Only surface events with a concrete date.
+
+CRITICAL DATE CHECK: For every candidate event, verify its date against today's
+actual current date before including it anywhere. Discard any event whose date
+is today or earlier — it must be strictly in the future. Search results and
+cached pages frequently surface events from a past year that only look current
+(e.g. a recurring annual event's last occurrence, or an old announcement page
+still ranking in search). Do not trust a result just because it looks recent or
+because the page was indexed recently — check the actual event date printed on
+the page against today's date explicitly, and if the date is ambiguous or you
+can't confirm the year, discard the event rather than guessing.
+
+Compare every remaining (confirmed-future) event against seen-events.json by
+title + date. Only keep events NOT already in that file.
+
+For each new event, also determine its location: a short "City, ST" (or
+"City, Country" outside the US) for in-person events, or the literal string
+"Virtual" for online-only events. Keep this value short and consistently
+formatted — it feeds a location filter on a website, so avoid free-form
+descriptions, venue addresses, or neighborhood-level detail. If a specific
+city truly cannot be determined after checking the event page, use "Unknown".
+
+Also write a one-line description for each new event: one factual sentence
+(roughly 8-20 words, no marketing fluff) stating what the event actually is
+— e.g. "Annual expo for vintage video games, arcade cabinets, and pinball,
+with tournaments and vendor booths." or "Book signing and talk with novelist
+Barbara Kingsolver for her new novel Partita." This is the same description
+you use in the email digest bullet below — write it once and reuse it in
+both places.
+
+If new events are found:
+- Compose an email digest grouped by category. Send it as HTML (use the Gmail
+  connector's htmlBody field, not plain body) styled like this:
+  - A bold heading per category, optionally prefixed with a relevant emoji
+    (e.g. 🧬 Biotech & Longevity, 📚 Literary / BookTok, 🔮 Occult & Esoteric,
+    🕹️ Retro Gaming, 🎬 Wes Anderson, 🖋️ Pen & Stationery, 🍂 Fall / Autumn,
+    👻 Paranormal Events).
+  - Each event as a bullet: bolded event name, then date, location (or
+    "virtual"), and a one-line description.
+  - The source link as hyperlinked text (e.g. a "Link" or the event/venue name
+    as the anchor), never a bare pasted URL.
+  - Keep it concise and skimmable — short bullets, not long paragraphs.
+- Send it via the Gmail connector to michael.cmar@gmail.com.
+- Append the new events to seen-events.json (title, date, category, link,
+  location, description) and commit the change with a message like "Add N
+  new events from [date] run", then push to the current branch.
+
+If no new events are found in any category, do not send an email — just exit
+without committing.

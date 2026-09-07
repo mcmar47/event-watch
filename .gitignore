@@ -1,5 +1,6 @@
 logs/
 .claude/worktrees/
+.claude/settings.local.json
 node_modules/
 
 # Regenerated at the start of every run by scripts/fetch-venues.mjs (a
