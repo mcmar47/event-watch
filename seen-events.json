@@ -3630,5 +3630,85 @@
     "link": "https://www.rochesterghosts.com/home/ghost-dinners",
     "location": "Rochester, NY",
     "title": "Dinner & Ghost Stories at Union Tavern"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-19",
+    "description": "Annual honey harvest celebration with cider pressing demonstrations, live music, and lace-making displays at Henrietta's Tinker Nature Park.",
+    "link": "https://allevents.in/pittsford/harvest-festival/200030627646033",
+    "location": "Henrietta, NY",
+    "title": "Harvest Festival at Tinker Nature Park"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-05",
+    "description": "Spooky-season market with 100+ vendors plus psychic mediums, tarot readers, and reiki practitioners at Buffalo's Powerhouse.",
+    "link": "https://happeningnext.com/event/witching-hour-market-october-2026-eid1ef0l5uiwiqr",
+    "location": "Buffalo, NY",
+    "title": "Witching Hour Market, October 2026"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-09",
+    "description": "Three-day pinball tournament at Rochester Pinball Collective in East Rochester with main, classics, and women's divisions.",
+    "link": "https://stayhappening.com/e/fall-brawl-2026-E2ISYTK7SA0",
+    "location": "East Rochester, NY",
+    "title": "Fall Brawl 2026"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Halloween-themed bash at Blue Barn Cidery in Hilton with cider and family fall festivities.",
+    "link": "https://rochestermomcollective.com/fall-activities/guide-to-fall-festivals-in-rochester/",
+    "location": "Hilton, NY",
+    "title": "Boo Barn Bash at Blue Barn Cidery"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-10",
+    "description": "Interactive paranormal investigation evening at Auburn's haunted 1815 Chase Manor with experiments, pizza dinner, and optional overnight.",
+    "link": "https://allevents.in/auburn/2026-finale-paranormal-puzzle-secrets-of-chase-manor-3/200030523889710",
+    "location": "Auburn, NY",
+    "title": "Paranormal Puzzle: Secrets of Chase Manor"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-30",
+    "description": "Halloween-weekend pizza night at Whitehall's historic Skene Manor with ghost stories, a tour, and paranormal investigation.",
+    "link": "https://www.glensfalls.com/event/paranormal-pizza-night-at-skene-manor-278696/",
+    "location": "Whitehall, NY",
+    "title": "Paranormal Pizza Night at Skene Manor"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-07",
+    "description": "Free afternoon of 15-minute tarot and oracle readings from apprentice readers at Gem Goddess Emporium in Plattsburgh.",
+    "link": "https://stayhappening.com/e/plattsburgh-tarot-palooza-2026-E2ISYQU0SJN",
+    "location": "Plattsburgh, NY",
+    "title": "Plattsburgh Tarot Palooza 2026"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-19",
+    "description": "Pulitzer Prize winner Hernan Diaz presents his new science-fiction novel Ply at the NYS Writers Institute.",
+    "link": "https://newsidequest.com/albany/events/hernan-diaz",
+    "location": "Albany, NY",
+    "title": "Hernan Diaz: Ply (NYS Writers Institute)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-12",
+    "description": "Evening market showcasing the Northeast's alternative, goth, and macabre creators at Albany's Washington Park Lake House.",
+    "link": "https://stayhappening.com/e/the-twilight-market-december-E118SAUQVKMQS",
+    "location": "Albany, NY",
+    "title": "The Twilight Market - December"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2027-01-26",
+    "description": "Artist and writer Molly Crabapple discusses her new book on the Jewish Labor Bund at School of Visual Arts.",
+    "link": "https://sva.edu/events/molly-crabapple-here-where-we-live-is-our-country",
+    "location": "New York, NY",
+    "title": "Molly Crabapple: Here Where We Live is Our Country"
   }
 ]
