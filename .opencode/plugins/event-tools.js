@@ -192,6 +192,9 @@ export const EventWatchTools = async () => {
         stagingFileName: STAGING_FILE,
         digestRecipient: DIGEST_RECIPIENT,
         push: { pickHighlight: pickEventHighlight },
+        // One per-radar summary banner to the Continuum app per digest run —
+        // separate from the near-empty `push` (single imminent row) channel.
+        continuumPush: { noun: "event" },
         extraResultFields: (events) => ({
           categoryCount: new Set(events.map((e) => e.category)).size,
         }),
