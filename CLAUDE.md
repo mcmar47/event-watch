@@ -101,3 +101,18 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
 - CRITICAL DATE CHECK is not optional busywork: search results and cached pages routinely surface a
   recurring event's *past* occurrence looking current. Discard, don't guess, when a date is
   ambiguous.
+
+## Scheduling lives on the Pi — never on the Mac
+
+The Pi (`continuum`) is the canonical and only home for scheduled agent runs.
+When working in this repo, never:
+
+- register a macOS **LaunchAgent** or drop a `.plist` into `~/Library/LaunchAgents`
+- `launchctl load` / `launchctl bootstrap` any `.plist`
+- add a `cron`, `at`, or other login/startup item on the Mac
+- wire a `run-*-opencode.sh` wrapper (or any agent run) into a local scheduler
+
+The `launchd/` directories and `.plist` files in the agent repos are dead
+history, kept for reference only — the Pi's systemd timers are what actually
+run. If something needs scheduling, add a systemd unit + timer under `pi-ops`
+and deploy it to the Pi. See `pi-ops/FLEET.md`.
