@@ -3830,5 +3830,93 @@
     "link": "https://calendar.libraryweb.org/event/16770890",
     "location": "Honeoye Falls, NY",
     "title": "Paranormal Investigation 101 (Mendon)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-14",
+    "description": "Half-day community forum in Rochester with workshops on legal and financial planning for aging and long-term care.",
+    "link": "https://www.lifespan-roch.org/new-events/2026empoweredagingforum",
+    "location": "Rochester, NY",
+    "title": "Empowered Aging Forum (Lifespan)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-11",
+    "description": "Annual longevity medicine conference for clinicians and researchers on aging science, health optimization, and integrative care.",
+    "link": "https://www.a4m.com/longevity-fest-2026.html",
+    "location": "Las Vegas, NV",
+    "title": "LongevityFest 2026"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2027-01-18",
+    "description": "Industry summit on applying AI and machine learning to biologic drug discovery and protein engineering, with conference tracks and seminars.",
+    "link": "https://www.pegsummit.com/pegs-ai",
+    "location": "Carlsbad, CA",
+    "title": "PEGS AI Summit 2027"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-06",
+    "description": "Three-day horror reader retreat on the Hudson with author programming, book talks, and a book swap.",
+    "link": "https://sites.google.com/view/horrorreaderweekend/horror-on-the-hudson-2026",
+    "location": "Ossining, NY",
+    "title": "Horror on the Hudson 2026 (Horror Reader Weekend)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-12-10",
+    "description": "Final meeting of McNally Jackson's three-month reading group on Anand Giridharadas's Man in the Mirror, led with Sarah McNally.",
+    "link": "https://mcnallyjackson.com/event/2026-12-10/new-york-reads-man-mirror-book-club-three-parts",
+    "location": "New York, NY",
+    "title": "New York reads Man in the Mirror: Part III"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-12-11",
+    "description": "Fran Lebowitz returns to Town Hall for a moderated conversation and audience Q&A, presented with the Strand.",
+    "link": "https://www.strandbooks.com/events.html",
+    "location": "New York, NY",
+    "title": "An Evening with Fran Lebowitz"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-12-13",
+    "description": "Reflective writing workshop with prompts and guided exercises at Writers & Books, open to beginners.",
+    "link": "https://notaba.org/events/writing-your-way-forward-december-13/",
+    "location": "Rochester, NY",
+    "title": "Writing Your Way Forward"
+  },
+  {
+    "category": "wes-anderson",
+    "date": "2026-11-24",
+    "description": "Family Flicks screenings of Wes Anderson's Fantastic Mr. Fox at The Little Theatre, November 24 and 26.",
+    "link": "https://thelittle.org/familyflicks/",
+    "location": "Rochester, NY",
+    "title": "Fantastic Mr. Fox Screening (The Little Theatre)"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-12-05",
+    "description": "Beginner modern calligraphy class with ornament lettering at Flight Wine Bar, take-home kit included.",
+    "link": "https://www.sipandscript.com/events/modern-calligraphy-and-ornament-lettering-for-beginners-at-flight-wine-bar/",
+    "location": "Rochester, NY",
+    "title": "Sip & Script: Modern Calligraphy and Ornament Lettering at Flight Wine Bar"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-25",
+    "description": "44th annual festival on the Ithaca Commons with local farms, cider, craft vendors, food, and live entertainment.",
+    "link": "https://www.downtownithaca.com/apple-harvest-festival/",
+    "location": "Ithaca, NY",
+    "title": "Ithaca Apple Harvest Festival"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-11-06",
+    "description": "Interactive evening with medium Tessa Groff delivering audience readings, co-hosted by paranormal investigator Nick Groff.",
+    "link": "https://thebuffalohive.com/event/wny-psychics-live-with-the-other-side-tessa-nick-groff/",
+    "location": "Niagara Falls, NY",
+    "title": "WNY Psychics: Live! With The Other Side: Tessa & Nick Groff"
   }
 ]
