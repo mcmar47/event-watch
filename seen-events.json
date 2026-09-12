@@ -4022,5 +4022,117 @@
     "link": "https://venunite.com/events/theresa-caputo-live-the-experience-51",
     "location": "Huntington, NY",
     "title": "Theresa Caputo Live! The Experience (Huntington)"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-09-17",
+    "description": "Women's pinball league match-play tournament night at Rochester Pinball Collective's free-play arcade.",
+    "link": "https://rochesterpinball.com/",
+    "location": "East Rochester, NY",
+    "title": "Flower City Belles Match Play"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-09-21",
+    "description": "Social team pinball play night at Rochester Pinball Collective with pizza and discounted admission.",
+    "link": "https://rochesterpinball.com/",
+    "location": "East Rochester, NY",
+    "title": "Flour City Pinball Social"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-11",
+    "description": "Mediumship gallery evening with mediums Daisy Farrell and Arlene Mains sharing spirit messages at The Ark.",
+    "link": "https://www.daisyfarrell.com/sacred-connection-tour",
+    "location": "Tarrytown, NY",
+    "title": "An Evening With Spirit At The Ark"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-11",
+    "description": "Annual orchard celebration at Samascott Orchards with apple picking, a cider bar, food trucks, live music, and hay rides.",
+    "link": "https://www.ninepincider.com/events/cider-sunday-3/",
+    "location": "Kinderhook, NY",
+    "title": "Cider Sunday"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-17",
+    "description": "Free-to-join online psychic and healing fair with paid tarot, mediumship, and healing sessions and talks.",
+    "link": "https://consciouscityguide.com/event/the-a-r-e-of-ny-fall-psychic-healing-fair-2026/",
+    "location": "Virtual",
+    "title": "A.R.E. of NY Fall Psychic & Healing Fair 2026"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-24",
+    "description": "Special 9 PM lakeside ghost walk on Rochester's Lady in White legend, with ghost-hunting equipment interaction.",
+    "link": "https://www.rochesterghosts.com/home/ghost-walks",
+    "location": "Rochester, NY",
+    "title": "Lady in White Ghost Walk"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-28",
+    "description": "One-night ghost walk through historic West Henrietta covering its oldest settlers, Underground Railroad history, and ghosts.",
+    "link": "https://www.rochesterghosts.com/home/ghost-walks",
+    "location": "Henrietta, NY",
+    "title": "Haunts of Henrietta Ghost Walk"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-29",
+    "description": "Ghost walk of Fairport's haunted sites from the TV show Mystic Encounters, including Town Hall and the DeLand House.",
+    "link": "https://www.rochesterghosts.com/home/ghost-walks",
+    "location": "Fairport, NY",
+    "title": "Phantoms of Fairport Ghost Walk"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-30",
+    "description": "Halloween weekend of live gallery readings, workshops, and guided meditation with psychic medium Christopher Allan.",
+    "link": "https://www.hemlockneversink.com/psychic-medium-weekend",
+    "location": "Neversink, NY",
+    "title": "Psychic Medium Weekend with Christopher Allan"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-11-14",
+    "description": "Free two-day retro video game expo at Triangle Town Center with vendors, classic hardware, and game trading.",
+    "link": "https://happeningnext.com/event/retro-video-game-expo-ii-eid1ef0l69xkv7a",
+    "location": "Raleigh, NC",
+    "title": "Retro Video Game Expo II"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-19",
+    "description": "Live online author talk with Rebecca Roanhorse on her Between Earth and Sky fantasy trilogy, presented by Rochester Public Library.",
+    "link": "https://libraryc.org/roccitylibrary/220331/register",
+    "location": "Virtual",
+    "title": "Epic Worlds and Celestial Prophecies: Exploring the Between Earth and Sky Trilogy with Rebecca Roanhorse"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-11-20",
+    "description": "Brazil's largest retro gaming and retrocomputing festival, marking its 25th anniversary with play zones and collectibles.",
+    "link": "https://videogamecons.com/event/27838/canal-3-expo-2026",
+    "location": "Sao Paulo, Brazil",
+    "title": "Canal 3 Expo 2026"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-02",
+    "description": "NIH summit on campus in Bethesda uniting academic, industry, and clinical researchers around the geroscience hypothesis.",
+    "link": "https://gulfcoastconsortia.org/event/nih-5th-geroscience-summit-revisiting-the-geroscience-hypothesis-focus-on-health/",
+    "location": "Bethesda, MD",
+    "title": "NIH 5th Geroscience Summit: Revisiting the Geroscience Hypothesis - Focus on Health"
+  },
+  {
+    "category": "wes-anderson",
+    "date": "2026-12-21",
+    "description": "Ten-film Wes Anderson retrospective at VIFF Centre opening with a Grand Budapest Hotel party, running through January 5.",
+    "link": "https://do604.com/viff-wes-world",
+    "location": "Vancouver, Canada",
+    "title": "Wes World: 10 Films by Wes Anderson"
   }
 ]
