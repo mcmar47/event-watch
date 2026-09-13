@@ -4134,5 +4134,37 @@
     "link": "https://do604.com/viff-wes-world",
     "location": "Vancouver, Canada",
     "title": "Wes World: 10 Films by Wes Anderson"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-04",
+    "description": "All-week banned books read-in at The Siren and the Sea bookstore, October 4-10, with a free audiobook from Libro.FM.",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "title": "Banned Books Read-In with Libro.FM"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-19",
+    "description": "Finger Lakes farm fall festival with a five-acre corn maze, pumpkin patch, apple cannons, and 35+ attractions on weekends through November 1.",
+    "link": "https://moorefamilyfun.com/",
+    "location": "Groton, NY",
+    "title": "Moore Family Farm Fall Festival"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-30",
+    "description": "One-night murder mystery ghost walk from Rochester Candlelight Ghost Walks exploring the city's Jack the Ripper lore.",
+    "link": "https://www.rochesterghosts.com/home/ghost-walks",
+    "location": "Rochester, NY",
+    "title": "Jack the Ripper in Rochester Murder Mystery Walk"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-12-25",
+    "description": "Christmas Day performance of the immersive Lady in White ghost-story tour at Irvington's Armour-Stiner Octagon House.",
+    "link": "https://www.hudsonriver.com/hhrt/event/lady-in-white-immersive-tour/2026-12-25/",
+    "location": "Irvington, NY",
+    "title": "Lady in White Immersive Tour"
   }
 ]
