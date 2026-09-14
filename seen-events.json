@@ -4166,5 +4166,85 @@
     "link": "https://www.hudsonriver.com/hhrt/event/lady-in-white-immersive-tour/2026-12-25/",
     "location": "Irvington, NY",
     "title": "Lady in White Immersive Tour"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-01",
+    "description": "Month-long self-guided apple tasting tour across 11 Wayne County farms, cideries, and markets, with a signature tasting weekend October 9-12.",
+    "link": "https://www.appletastingtour.com/",
+    "location": "Wayne County, NY",
+    "title": "Wayne County Apple Tasting Tour"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-04",
+    "description": "Weekend rides on a century-old electric trolley through fall foliage, with hourly departures included with museum admission.",
+    "link": "https://www.nymtmuseum.org/",
+    "location": "Rush, NY",
+    "title": "Fall Foliage Trolley Rides (NY Museum of Transportation)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-18",
+    "description": "Vintage trolley ride to a pumpkin patch with pumpkin decorating, cider, donuts, and trick-or-treating in decorated trolley cars.",
+    "link": "https://www.nymtmuseum.org/halloween",
+    "location": "Rush, NY",
+    "title": "Halloween Trolley Express (NY Museum of Transportation)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-24",
+    "description": "Trick-or-treating through the 19th-century historic village with treats at eight historic porches and fall activities.",
+    "link": "https://www.gcv.org/item/trick-or-treat/2026-10-24/",
+    "location": "Mumford, NY",
+    "title": "Trick-or-Treat at Genesee Country Village & Museum"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-17",
+    "description": "Book signing with young-adult author Mackenzie Reed, known for The Rosewood Hunt and The Wilde Trials, at Barnes & Noble Pittsford.",
+    "link": "https://stores.barnesandnoble.com/event/9780062218977-0",
+    "location": "Rochester, NY",
+    "title": "Mackenzie Reed Book Signing"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-04",
+    "description": "Four-week Writers & Books memoir workshop meeting Wednesday evenings, November 4 through December 2.",
+    "link": "https://writersandbooks.org/product/the-heart-of-your-story-finding-meaning-in-your-memoir/",
+    "location": "Rochester, NY",
+    "title": "The Heart of Your Story: Finding Meaning in Your Memoir"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-08",
+    "description": "Free monthly swap where tarot readers of all levels practice readings on each other, moderated by a professional reader at Mythic Treasures.",
+    "link": "https://allevents.in/rochester/tarot-reading-swap/200030685525820",
+    "location": "Rochester, NY",
+    "title": "Tarot Reading Swap"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-22",
+    "description": "Three-hour workshop carving rubber stamps and printing custom wrapping paper at Rochester's Flower City Arts Center.",
+    "link": "https://flowercityarts.org/classes/wrapping-paper-printing-fall-2026/",
+    "location": "Rochester, NY",
+    "title": "Wrapping Paper Printing (Flower City Arts Center)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-03",
+    "description": "Nighttime paranormal investigation of the 1834 Herkimer County Jail and 1884 Suiter House with the Haunted Rooms America team.",
+    "link": "https://www.hauntedrooms.com/new-york/ghost-hunts/historic-four-corners",
+    "location": "Herkimer, NY",
+    "title": "Historic Four Corners Ghost Hunt"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-25",
+    "description": "Family-friendly haunted evening stroll through the historic gardens of Sonnenberg Mansion in Canandaigua.",
+    "link": "https://www.sonnenberg.org/event/haunted-stroll-2026/",
+    "location": "Canandaigua, NY",
+    "title": "Haunted Stroll (Sonnenberg Gardens)"
   }
 ]
