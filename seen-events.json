@@ -4246,5 +4246,53 @@
     "link": "https://www.sonnenberg.org/event/haunted-stroll-2026/",
     "location": "Canandaigua, NY",
     "title": "Haunted Stroll (Sonnenberg Gardens)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-18",
+    "description": "Opening reception for artist Jenn Libby's Record Redux exhibition at The Siren and the Sea, on display through October.",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "title": "Art Reception: Jenn Libby"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-23",
+    "description": "Launch conversation for Karishma Jobanputra's debut story collection The Body of the Thing, with Daphne Palasi Andreades, at Books Are Magic.",
+    "link": "https://daphnepalasiandreades.com/events/",
+    "location": "New York, NY",
+    "title": "Karishma Jobanputra: The Body of the Thing Book Launch"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-02",
+    "description": "Readings and conversation celebrating three new Shabby Doll House books with editors Kristen Felicetti and Lucy K Shaw at The Unreliable Narrator.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Shabby Doll House Release Party"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-04",
+    "description": "Free drop-in tarot salon at the Morbid Anatomy Library in Brooklyn, with decks to borrow and informal readings and discussion.",
+    "link": "https://www.morbidanatomy.org/events",
+    "location": "Brooklyn, NY",
+    "title": "Drop-In Tarot Salon (Morbid Anatomy Library)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-24",
+    "description": "Special six-hour fall color train excursion from Waterloo to Martisco with continental breakfast, boxed lunch, and a depot museum tour.",
+    "link": "https://flxrailexperience.com/new-york-fall-color-train/",
+    "location": "Waterloo, NY",
+    "title": "Cayuga Leaf Limited Martisco Excursion"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-12-16",
+    "description": "Ten-anniversary edition of Japan's largest stationery festival at Pacifico Yokohama, with makers, limited editions, and hands-on booths.",
+    "link": "https://www.iwafu.com/en/events/1152663",
+    "location": "Yokohama, Japan",
+    "title": "Bungu Joshi Haku 2026 (Stationery Girls' Expo)"
   }
 ]
