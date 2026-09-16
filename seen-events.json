@@ -4294,5 +4294,125 @@
     "link": "https://www.iwafu.com/en/events/1152663",
     "location": "Yokohama, Japan",
     "title": "Bungu Joshi Haku 2026 (Stationery Girls' Expo)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2027-01-11",
+    "description": "Annual invitation-only healthcare investor conference where biotech and pharma companies present to industry investors in San Francisco.",
+    "link": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference",
+    "location": "San Francisco, CA",
+    "title": "J.P. Morgan Healthcare Conference 2027"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-09-17",
+    "description": "Reading and conversation with author Sherry Dumont on her book Forest of Darkness, on the eve of National POW/MIA Recognition Day.",
+    "link": "https://writersandbooks.org/product/sherry-dumont-forest-of-darkness/",
+    "location": "Rochester, NY",
+    "title": "Sherry Dumont: Forest of Darkness"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-04",
+    "description": "Free afternoon of poetry, conversation, and community at Writers & Books' Gell creative retreat lodge in the Finger Lakes.",
+    "link": "https://writersandbooks.org/product/poetry-potluck-at-gell-october/",
+    "location": "Naples, NY",
+    "title": "Poetry Potluck at Gell featuring Rebekah Williams"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-11",
+    "description": "Free community reading at Writers & Books where survivors of childhood sexual abuse share writing on survival and healing.",
+    "link": "https://writersandbooks.org/product/survivors-speak/",
+    "location": "Rochester, NY",
+    "title": "Survivor's Speak: Language of Survival"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-23",
+    "description": "Free Rochester Reads panel discussion on how artists experience and overcome censorship at Rochester Contemporary Art Center.",
+    "link": "https://writersandbooks.org/product/surviving-suppression-how-artists-experience-and-overcome-censorship/",
+    "location": "Rochester, NY",
+    "title": "Surviving Suppression: How Artists Experience and Overcome Censorship"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-04",
+    "description": "Open mic night for stand-up comedians and humor writers at Writers & Books, hosted by Carol Roberts and Friends.",
+    "link": "https://writersandbooks.org/product/wit-an-open-mic-for-stand-ups-and-humor-writers-nov/",
+    "location": "Rochester, NY",
+    "title": "Wit: An Open Mic for Stand-ups and Humor Writers"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-09",
+    "description": "Free Rochester Reads screening of two short films on health care workers in Palestine, with author Omar El Akkad.",
+    "link": "https://writersandbooks.org/product/stop-looking-away-short-films/",
+    "location": "Rochester, NY",
+    "title": "Stop Looking Away: Two Short Films on Health Care Workers in Palestine"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-12-03",
+    "description": "Author reading and conversation with Lovell Holder for his book The Book of Luke at Writers & Books.",
+    "link": "https://writersandbooks.org/product/lovell-holder-the-book-of-luke/",
+    "location": "Rochester, NY",
+    "title": "Lovell Holder: The Book of Luke"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2027-01-07",
+    "description": "SVA gallery exhibition exploring life and existence through tarot-deck-format artworks, with a tarot card design workshop and closing reception.",
+    "link": "https://sva.edu/events/arcana",
+    "location": "New York, NY",
+    "title": "Arcana (SVA tarot exhibition)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2027-01-12",
+    "description": "Evening of psychic readings and craft cocktails hosted by The Oracle at Industry City's Barrow's Intense tasting room.",
+    "link": "https://industrycity.com/event/spirited-away-psychic-paranormal-night/2027-01-12/",
+    "location": "Brooklyn, NY",
+    "title": "Spirited Away: Psychic & Paranormal Night"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2027-02-27",
+    "description": "Open weekend of mystical activities, talks, and exercises at the Rosicrucian Cultural Center in New York City.",
+    "link": "https://www.rosicrucian.org/events/mystical-weekend-rosicrucian-cultural-center-02-27-2027-new-york-ny",
+    "location": "New York, NY",
+    "title": "Mystical Weekend at the Rosicrucian Cultural Center"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-01",
+    "description": "Women's pinball league match-play tournament night at Rochester Pinball Collective's free-play arcade.",
+    "link": "https://rochesterpinball.com/",
+    "location": "East Rochester, NY",
+    "title": "Flower City Belles Match Play"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-15",
+    "description": "Women's pinball league match-play tournament night at Rochester Pinball Collective's free-play arcade.",
+    "link": "https://rochesterpinball.com/",
+    "location": "East Rochester, NY",
+    "title": "Flower City Belles Match Play"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-31",
+    "description": "Fall-inspired wine trail day on Cayuga Lake with seasonal tastings and subtle witchy elements at participating wineries.",
+    "link": "https://cayugawinetrail.com/events",
+    "location": "Ovid, NY",
+    "title": "Sips and Spells"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2027-01-09",
+    "description": "Overnight ghost hunt of Palmyra's 19th-century Phelps General Store and St. James Hotel with guided vigils and paranormal equipment.",
+    "link": "https://www.hauntedrooms.com/new-york/ghost-hunts/historic-palmyra",
+    "location": "Palmyra, NY",
+    "title": "Historic Palmyra Ghost Hunt"
   }
 ]
