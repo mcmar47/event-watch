@@ -4414,5 +4414,77 @@
     "link": "https://www.hauntedrooms.com/new-york/ghost-hunts/historic-palmyra",
     "location": "Palmyra, NY",
     "title": "Historic Palmyra Ghost Hunt"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-06",
+    "description": "Free evening junk journal and bullet journal meetup at The Unreliable Narrator, with supplies provided.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Journaling Night"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-13",
+    "description": "Free evening junk journal and bullet journal meetup at The Unreliable Narrator, with supplies provided.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Journaling Night"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-20",
+    "description": "Free evening junk journal and bullet journal meetup at The Unreliable Narrator, with supplies provided.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Journaling Night"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-21",
+    "description": "Monthly queer open mic at The Unreliable Narrator, cohosted by Rachel Wiley and Anna Parade.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Rochester Queer Open Mic"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-11",
+    "description": "Gothic masquerade ball at the Angel Orensanz Foundation with themed cocktails, performances, and guided dances, December 11-13.",
+    "link": "https://www.secondstarevents.com/pages/blood-lace-ball",
+    "location": "New York, NY",
+    "title": "Blood & Lace Ball"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-20",
+    "description": "Ninety-minute workshop at My Little Magic Shop blending Capricorn-season planning with Winter Solstice reflection and visualization.",
+    "link": "https://stayhappening.com/e/big-planning-in-capricorn-season-winter-solstice-E118SB0UOY4JK",
+    "location": "New York, NY",
+    "title": "Big Planning in Capricorn Season (Winter Solstice)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Three-weekend Catskills mountain fall festival with scenic SkyRides, Bavarian food, artisan vendors, and family activities.",
+    "link": "https://www.greatnortherncatskills.com/events/hunter-mountain-oktoberfest-colors-in-the-catskills",
+    "location": "Hunter, NY",
+    "title": "Hunter Mountain Oktoberfest: Colors in the Catskills"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-09",
+    "description": "Free Bavarian-style village street festival with German music, dancers, artisan vendors, and carnival rides, October 9-11.",
+    "link": "https://www.lakegeorgeoktoberfest.com/lake-george-octoberfest/",
+    "location": "Lake George, NY",
+    "title": "Lake George Village Oktoberfest"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Fall festival at Lake Placid's Olympic Jumping Complex with live music, vendors, and national ski jumping championships amid peak foliage.",
+    "link": "https://www.lakeplacid.com/events/flaming-leaves-festival",
+    "location": "Lake Placid, NY",
+    "title": "Flaming Leaves Festival"
   }
 ]
