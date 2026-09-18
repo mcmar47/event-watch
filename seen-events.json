@@ -4486,5 +4486,61 @@
     "link": "https://www.lakeplacid.com/events/flaming-leaves-festival",
     "location": "Lake Placid, NY",
     "title": "Flaming Leaves Festival"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-07",
+    "description": "Two-day wellness and longevity expo with biohacking exhibits, longevity testing, and speakers at the Hyatt near Times Square.",
+    "link": "https://newlifeexpo.com/",
+    "location": "New York, NY",
+    "title": "NEWLIFE Expo New York"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-23",
+    "description": "Three-day Gothic Market at the Lyndhurst mansion with 50+ vendors of oddities, antiques, and witchy wares.",
+    "link": "https://events.leapevents.com/event/gothic-weekend-2026",
+    "location": "Tarrytown, NY",
+    "title": "Gothic Weekend 2026 (Lyndhurst)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-31",
+    "description": "First-time Halloween-weekend market with vendors, guest speakers, psychic readings, and energy healing near Utica.",
+    "link": "https://www.thealchemistgiftshop.com/alchemyandarts",
+    "location": "Remsen, NY",
+    "title": "Alchemy & Arts Market (Remsen)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Three-weekend Adirondack mountain fall festival with chairlift rides, live music, craft vendors, and family activities.",
+    "link": "https://www.visitlakegeorge.com/event/west-mountain-fall-festival/1346/",
+    "location": "Queensbury, NY",
+    "title": "West Mountain Fall Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-17",
+    "description": "Downtown Saranac Lake harvest festival with artisan vendors, live music, seasonal food, and craft beverages.",
+    "link": "https://www.saranaclake.com/events/high-peaks-harvest-fest",
+    "location": "Saranac Lake, NY",
+    "title": "High Peaks Harvest Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-24",
+    "description": "Free family harvest festival at Hunter Way Farm with craft and food vendors and a costume parade.",
+    "link": "https://allevents.in/moriah/7th-annual-harvest-halloween-festival/200030530421554",
+    "location": "Moriah, NY",
+    "title": "7th Annual Harvest Halloween Festival (Hunter Way Farm)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Free farm harvest festival with hayrides, sheep showmanship, artisan demonstrations, and hands-on crafts.",
+    "link": "https://stonykill.org/harvest-fest/",
+    "location": "Wappingers Falls, NY",
+    "title": "Harvest Fest at Stony Kill Farm"
   }
 ]
