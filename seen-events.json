@@ -4542,5 +4542,253 @@
     "link": "https://stonykill.org/harvest-fest/",
     "location": "Wappingers Falls, NY",
     "title": "Harvest Fest at Stony Kill Farm"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2027-02-18",
+    "description": "Three-day integrative healthcare conference at the New York Hilton Midtown with a keynote on the emerging science of longevity.",
+    "link": "https://www.ihsymposium.com/",
+    "location": "New York, NY",
+    "title": "Integrative Healthcare Symposium 2027"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2027-01-16",
+    "description": "Afternoon reading, signing, and Q&A with novelist Lisajoy Sachs for Golden Flight at the Windham Main Street Community Center.",
+    "link": "https://www.authorlisajoysachs.com/events-2-1/event-three-pw9kx-njgrs",
+    "location": "Windham, NY",
+    "title": "Book Reading and Signing with Lisajoy Sachs"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2027-01-22",
+    "description": "Annual celebration of Robert Burns at the Brae Loch Inn with a traditional Burns supper, poetry recitations, and live Celtic rock.",
+    "link": "https://www.braelochinn.com/robert-burns",
+    "location": "Cazenovia, NY",
+    "title": "Robert Burns Weekend 2027"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2027-02-16",
+    "description": "Rochester's Plutzik Reading Series hosts poet Lindsay Turner for a reading, Q&A, and book signing at Rush Rhees Library.",
+    "link": "https://events.rochester.edu/event/plutzik-reading-series-lindsay-turner",
+    "location": "Rochester, NY",
+    "title": "Plutzik Reading Series: Lindsay Turner"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2027-03-18",
+    "description": "Just Buffalo's BABEL author series hosts novelist Amor Towles for an evening at Kleinhans Music Hall.",
+    "link": "https://kleinhansbuffalo.org/event/amor-towles/",
+    "location": "Buffalo, NY",
+    "title": "Amor Towles at BABEL"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-20",
+    "description": "Crystal author Philip Permutt leads an introductory workshop on The Crystal Tarot, pairing crystal meanings with tarot imagery.",
+    "link": "https://www.meetup.com/guidedmeditation-soundbath-wellnessworkshops/events/315734749/",
+    "location": "Rochester, NY",
+    "title": "The Crystal Tarot Workshop (Philip Permutt)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-27",
+    "description": "Hands-on workshop at haunted Rolling Hills Asylum where participants make their own witch's broom while learning broom folklore.",
+    "link": "https://hauntedhistorytrail.com/events/art-in-the-asylum",
+    "location": "East Bethany, NY",
+    "title": "Art in the Asylum: Make Your Own Witch's Broom"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-09-27",
+    "description": "Creative afternoon at Rolling Hills Asylum designing and decorating a custom mystical witch hat.",
+    "link": "https://hauntedhistorytrail.com/events/art-in-the-asylum-2",
+    "location": "East Bethany, NY",
+    "title": "Art in the Asylum: Create Your Own Mystical Witch Hat"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-02",
+    "description": "Poe-themed masquerade party at Lyndhurst mansion with themed rooms, a feast, sweets, and drinks inspired by The Masque of the Red Death.",
+    "link": "https://hauntedhistorytrail.com/events/masquerade-of-the-red-death",
+    "location": "Tarrytown, NY",
+    "title": "Masquerade of the Red Death (Lyndhurst)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-03",
+    "description": "Evening spooky vendor market at Rolling Hills Asylum with paranormal entertainment and haunted experiences.",
+    "link": "https://hauntedhistorytrail.com/events/shopping-with-the-spirits-40c43f0b",
+    "location": "East Bethany, NY",
+    "title": "Shopping With The Spirits (Rolling Hills Asylum)"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2027-01-07",
+    "description": "Four-day 24-hour music and gaming festival with a massive free-play arcade, console halls, video game cover bands, and panels.",
+    "link": "https://super.magfest.org/",
+    "location": "National Harbor, MD",
+    "title": "Super MAGFest 2027"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2027-02-20",
+    "description": "Belgian vintage game and toy fair with retro video games, consoles, and collectible toys in Herzele.",
+    "link": "https://retrogamebeurzen.nl/en/events/glitchmania-2027-vintage-game--toy-fair-20-02-2027/",
+    "location": "Herzele, Belgium",
+    "title": "GlitchMania 2027 Vintage Game & Toy Fair"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2027-02-27",
+    "description": "One-day Dutch retro game convention with retro consoles, arcade games, and traders in Zwolle.",
+    "link": "https://retrogamebeurzen.nl/en/events/retro-game-convention-zwolle-27-02-2027/",
+    "location": "Zwolle, Netherlands",
+    "title": "Retro Game Convention Zwolle"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2027-03-20",
+    "description": "Tenth-anniversary Connecticut gaming and anime convention at Mohegan Sun with tournaments, retro arcade games, and tabletop gaming.",
+    "link": "https://www.ctgamercon.com/",
+    "location": "Uncasville, CT",
+    "title": "CT Gamer Con 2027"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-04-17",
+    "description": "Two-day pen show in Ankara for fountain pen and stationery collectors and dealers.",
+    "link": "https://www.penhero.com/PenBookmarks_PenShows.htm",
+    "location": "Ankara, Turkey",
+    "title": "Ankara Pen Show 2027"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-04-24",
+    "description": "One-day northern England pen show in Chester with vintage and modern pens, inks, and stationery vendors.",
+    "link": "https://www.penhero.com/PenBookmarks_PenShows.htm",
+    "location": "Chester, UK",
+    "title": "Northern Pen Show 2027"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-04-29",
+    "description": "Four-day Chicago-area pen show in Oak Brook with vendors of vintage and modern fountain pens, inks, and paper.",
+    "link": "https://www.penhero.com/PenBookmarks_PenShows.htm",
+    "location": "Oak Brook, IL",
+    "title": "Chicago Pen Show 2027"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-06-05",
+    "description": "Two-day Dutch pen show in Utrecht for fountain pen and stationery collectors and dealers.",
+    "link": "https://www.dutchpenshow.com/",
+    "location": "Utrecht, Netherlands",
+    "title": "Dutch Pen Show 2027"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-06-24",
+    "description": "Four-day St. Louis pen show with vendors, pen repair, and collector tables at the Sheraton Westport Chalet.",
+    "link": "https://www.penhero.com/PenBookmarks_PenShows.htm",
+    "location": "St. Louis, MO",
+    "title": "St. Louis Pen Show 2027"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2027-06-26",
+    "description": "One-day pen show at Cheltenham Racecourse with vintage and modern writing instruments.",
+    "link": "https://www.penhero.com/PenBookmarks_PenShows.htm",
+    "location": "Cheltenham, UK",
+    "title": "Cheltenham Pen Show 2027"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-20",
+    "description": "Season-long Cazenovia farm celebration with apple and pumpkin picking, wagon rides, and a corn maze, running through October 25.",
+    "link": "https://www.critzfarms.com/event/fall-harvest-celebration/2026-09-12/",
+    "location": "Cazenovia, NY",
+    "title": "Critz Farms Fall Harvest Celebration"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Two-day free pumpkin festival in downtown Cortland with live music, vendors, and family activities, named a top-10 US fall festival.",
+    "link": "https://www.cortlandpumpkinfest.org/",
+    "location": "Cortland, NY",
+    "title": "The Great Cortland Pumpkinfest"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-24",
+    "description": "One-day artisan craft show in Henrietta with quality handmade goods and baked treats from local artisans, bakers, and crafters.",
+    "link": "https://allevents.in/henrietta/henrietta-artisan-craft-harvest/200030101232534",
+    "location": "Henrietta, NY",
+    "title": "Henrietta Artisan Craft Harvest"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-11-07",
+    "description": "Community fall festival with crafts, educational activities, and a bake sale at the Mamakating Environmental Education Center.",
+    "link": "https://allevents.in/wurtsboro/fall-festival/200030633425042",
+    "location": "Wurtsboro, NY",
+    "title": "Fall Festival (Mamakating Environmental Education Center)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-01",
+    "description": "Ninety-minute guided trolley tour of Saratoga's ghostly locations, including the second floor of the Canfield Casino.",
+    "link": "https://hauntedhistorytrail.com/events/ghosts-of-saratoga-trolley-tour",
+    "location": "Saratoga Springs, NY",
+    "title": "Ghosts of Saratoga Trolley Tour"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-02",
+    "description": "Supernatural magic show summoning the spirits of Sleepy Hollow legends like Hulda, Major André, and the Headless Horseman.",
+    "link": "https://hauntedhistorytrail.com/events/the-spirits-of-sleepy-hollow-country",
+    "location": "Sleepy Hollow, NY",
+    "title": "The Spirits of Sleepy Hollow Country"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-03",
+    "description": "Annual guided walk through Farmington's South Farmington Friends Cemetery sharing Civil War-era local history among the graves.",
+    "link": "https://hauntedhistorytrail.com/events/civil-war-themed-cemetery-walk-03af155d",
+    "location": "Farmington, NY",
+    "title": "Civil War Themed Cemetery Walk (South Farmington)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-03",
+    "description": "21st annual guided walking tours through Jamestown's Lake View Cemetery sharing stories of its early residents before Halloween.",
+    "link": "https://hauntedhistorytrail.com/events/saints-sinners-cemetery-walking-tours-0140a1b8",
+    "location": "Jamestown, NY",
+    "title": "Saints & Sinners Cemetery Walking Tours"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-10",
+    "description": "Evening show in Williamson where costumed spirits share the triumphs and tragedies of Pultneyville and Williamson's past residents.",
+    "link": "https://hauntedhistorytrail.com/events/meet-the-spirits-of-pultneyville-and-williamson",
+    "location": "Williamson, NY",
+    "title": "Meet the Spirits of Pultneyville and Williamson"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-11",
+    "description": "Evening with TV psychic medium Karyn Reece combining psychic bingo, mediumship messages, and a ghost hunt at Rolling Hills Asylum.",
+    "link": "https://hauntedhistorytrail.com/events/psychic-medium-karyn-reece-psychic-bingo-ghost-hunt-rolling-hills-asylum",
+    "location": "East Bethany, NY",
+    "title": "Psychic Bingo & Ghost Hunt with Karyn Reece"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-16",
+    "description": "After-dark walk through Old Fort Niagara's darkened historic buildings sharing true tales of ghostly apparitions and unexplained phenomena.",
+    "link": "https://hauntedhistorytrail.com/events/ghosts-of-the-garrison-old-fort-niagara",
+    "location": "Youngstown, NY",
+    "title": "Ghosts of the Garrison (Old Fort Niagara)"
   }
 ]
