@@ -53,13 +53,17 @@ derived from the category name.
 3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
    fairs, esoteric shop pop-ups or events, in NYC, Rochester NY, or upstate NY.
 4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,
-   classic console/game conventions, regionally or nationally.
+   classic console/game conventions, ONLY in Rochester NY, upstate NY, or NYC
+   (unlike some other categories above, do not surface regional/national
+   events for this one — skip a candidate entirely if it's outside those
+   areas).
 5. Wes Anderson (slug: `wes-anderson`) — screenings, retrospectives, exhibits,
    or fan events related to Wes Anderson's films, anywhere in the US,
    prioritizing NYC.
 6. Pen & stationery (slug: `pen-stationery`) — pen shows, stationery expos,
-   fountain pen meetups, or maker pop-ups, in NYC, Rochester NY/upstate NY, or
-   nationally notable ones.
+   fountain pen meetups, or maker pop-ups, ONLY in NYC, Rochester NY, or
+   upstate NY (do not surface nationally notable ones outside that area —
+   skip a candidate entirely if it's outside those areas).
 7. Fall / Autumn (slug: `fall-autumn`) — fall festivals, apple/pumpkin picking
    events, corn mazes, foliage tours, harvest fairs, and other autumn-season
    events, ONLY in Rochester NY or upstate NY (unlike the other categories
