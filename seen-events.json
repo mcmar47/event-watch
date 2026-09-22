@@ -5022,5 +5022,85 @@
     "link": "https://www.hauntedrooms.com/new-york/ghost-hunts/haunted-hinsdale-house",
     "location": "Hinsdale, NY",
     "title": "Haunted Hinsdale House Ghost Hunt"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-04",
+    "description": "Pagan community gathering with metaphysical vendors, workshops, live entertainment, and raffles at Grapevine Banquets in Depew.",
+    "link": "https://www.eventbrite.com/e/wny-pagan-collective-pagan-extravaganza-tickets-1991314225453",
+    "location": "Depew, NY",
+    "title": "WNY Pagan Collective Pagan Extravaganza!"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-08",
+    "description": "Evening of psychic readings and craft cocktails hosted by The Oracle at Industry City's Barrow's Intense tasting room.",
+    "link": "https://industrycity.com/event/spirited-away-psychic-paranormal-night/2026-12-08/",
+    "location": "Brooklyn, NY",
+    "title": "Spirited Away: Psychic & Paranormal Night (Winter Edition)"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-07",
+    "description": "Two-day Society of Scribes workshop adding pizzazz to calligraphy with pastel dust, gilding, and lettering on ornaments.",
+    "link": "https://www.societyofscribes.org/workshop-listing/p/pizzazz-with-marcy-robinson",
+    "location": "New York, NY",
+    "title": "Adding Pizzazz to Your Calligraphy with Marcy Robinson"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-15",
+    "description": "Three-session Society of Scribes course introducing pointed-pen copperplate calligraphy, Sundays November 15 through December 6.",
+    "link": "https://www.societyofscribes.org/workshop-listing/p/copperplate-holland-fall2026-",
+    "location": "New York, NY",
+    "title": "Curvaceous Copperplate Calligraphy with Elinor Holland"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-04",
+    "description": "Academic conference on AI and data science applied to genomic medicine, bioinformatics, and machine learning in biology.",
+    "link": "https://conferenceinusa.com/event_detail/100915509",
+    "location": "New York, NY",
+    "title": "International Conference on AI and Data Science for Genomic Medicine (ICAIDSGM)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-27",
+    "description": "Interdisciplinary healthcare and biotech conference covering medical innovation, clinical research, and med-tech.",
+    "link": "http://biofora.org/Conference/12589/ICHIMS/",
+    "location": "New York, NY",
+    "title": "International Conference on Healthcare Innovation and Medical Sciences"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-24",
+    "description": "Downtown Canandaigua fall festival with a farmers market, pumpkin decorating, wagon rides, magic show, and kids' costume parade.",
+    "link": "https://www.visitfingerlakes.com/blog/post/fall-festivals-finger-lakes/",
+    "location": "Canandaigua, NY",
+    "title": "Fall Into Canandaigua Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-26",
+    "description": "Village-wide handmade scarecrow display on Main Street with People's Choice voting on Liftbridge Lane West.",
+    "link": "https://finditinfairport.com/events-festivals/",
+    "location": "Fairport, NY",
+    "title": "Fairport Scarecrow Festival"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-03",
+    "description": "Boroughs of the Dead co-sponsored walking tour of East Village ghost lore, from Stuyvesant's phantom to Houdini's haunts.",
+    "link": "https://merchantshouse.org/calendar/",
+    "location": "New York, NY",
+    "title": "East Village Ghosts Walking Tour (Merchant's House Museum)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-30",
+    "description": "Extra-spooky candlelit night tour of Genesee Country Village's 19th-century streets themed on Edgar Allan Poe's macabre tales.",
+    "link": "https://www.gcv.org/spirits/",
+    "location": "Mumford, NY",
+    "title": "Spirits of the Past: Edgar Allan Poe Night"
   }
 ]
