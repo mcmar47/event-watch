@@ -5102,5 +5102,117 @@
     "link": "https://www.gcv.org/spirits/",
     "location": "Mumford, NY",
     "title": "Spirits of the Past: Edgar Allan Poe Night"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-27",
+    "description": "Reading and Q&A with fiction writer Lauren Acampora, author of The Wonder Garden, in the Plutzik Series at Rush Rhees Library.",
+    "link": "https://www.sas.rochester.edu/eng/plutzik/index.html",
+    "location": "Rochester, NY",
+    "title": "Plutzik Reading Series: Lauren Acampora"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2027-03-18",
+    "description": "Plutzik Reading Series evening with writer Joy Williams, author of The Changeling and Harrow, at Rush Rhees Library.",
+    "link": "https://www.sas.rochester.edu/eng/plutzik/index.html",
+    "location": "Rochester, NY",
+    "title": "Plutzik Reading Series: Joy Williams"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-12-04",
+    "description": "Annual Center for Fiction benefit celebrating the First Novel Prize shortlist with readings from the finalists in Brooklyn.",
+    "link": "https://benefit.centerforfiction.org/first-novel-fete",
+    "location": "Brooklyn, NY",
+    "title": "The Center for Fiction First Novel Fête"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-23",
+    "description": "Book launch conversation with Tanaïs on their new novel Stellar Smoke, with Kiese Laymon, at The Center for Fiction.",
+    "link": "https://www.pw.org/literary_events/the_center_for_fiction_presents_tanais_on_stellar_smoke_with_kiese_laymon",
+    "location": "Brooklyn, NY",
+    "title": "The Center for Fiction Presents Tanaïs on Stellar Smoke with Kiese Laymon"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-12-12",
+    "description": "Second night of Fran Lebowitz's return to Town Hall for a moderated conversation and audience Q&A, presented with the Strand.",
+    "link": "https://www.strandbooks.com/events.html",
+    "location": "New York, NY",
+    "title": "An Evening With Fran Lebowitz Night 2"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-10",
+    "description": "Annual holistic mystic fair with tarot, oracle, and angel card readings plus metaphysical vendors at Om Shanti Yoga & Healing Arts.",
+    "link": "https://www.angelicrealmtarot.com/events",
+    "location": "Castleton-on-Hudson, NY",
+    "title": "11th Annual Holistic Mystic Faire"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-22",
+    "description": "Ninety-minute Spiritual Tools 101 workshop on Sagittarius-season belief work with guided visualization at My Little Magic Shop.",
+    "link": "https://www.universe.com/events/expanding-your-beliefs-in-sagittarius-season-tickets-QN1HPF",
+    "location": "New York, NY",
+    "title": "Expanding Your Beliefs in Sagittarius Season"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Festival-style autumn celebration in downtown Ticonderoga with live music, fire performances, food trucks, and a beer garden.",
+    "link": "https://www.adirondackhub.com/events/fireside-folk-festival",
+    "location": "Ticonderoga, NY",
+    "title": "Fireside Folk Fest 2026"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-11-08",
+    "description": "Artisan and wellness makers market at the historic Wadsworth Homestead in Geneseo marking the seasonal shift from autumn to winter.",
+    "link": "https://www.magicheldhere.com/event-info/a-mindful-market-for-the-seasonal-shift",
+    "location": "Geneseo, NY",
+    "title": "A Mindful Market for the Seasonal Shift"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-12-10",
+    "description": "Gallery spirit-message reading with psychic medium Chanel Russell at The Lincoln Loft in Watertown.",
+    "link": "https://happeningnext.com/event/gallery-reading-w-psychic-medium-chanel-russell-eid3a0dh1ncvs",
+    "location": "Watertown, NY",
+    "title": "Gallery Reading with Psychic Medium Chanel Russell"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-11-29",
+    "description": "Ninety-minute Lower Manhattan walking tour exploring the darker side of Christmas history, folklore, and colonial traditions.",
+    "link": "https://happeningnext.com/event/the-dark-christmas-tour-holiday-history-in-lower-manhattan-eid1afw9d5fhbt",
+    "location": "New York, NY",
+    "title": "The Dark Christmas Tour: Holiday History in Lower Manhattan"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-12-05",
+    "description": "Monthly bring-your-own-team tournament for Killer Queen, a ten-player arcade strategy game, at Wonderville in Brooklyn.",
+    "link": "https://www.wonderville.nyc/events/kq-monthly-byot-12-5-26",
+    "location": "Brooklyn, NY",
+    "title": "KQ Wonderville Monthly BYOT (Bring Your Own Team)!"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-12-12",
+    "description": "Beginner modern calligraphy class with ornament lettering at Jojo Bistro and Wine Bar in Webster, take-home kit included.",
+    "link": "https://www.sipandscript.com/events/beginner-calligraphy-and-ornament-lettering-at-jojo-bistro-and-wine-bar/",
+    "location": "Webster, NY",
+    "title": "Sip & Script: Beginner Calligraphy and Ornament Lettering at Jojo Bistro"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-07",
+    "description": "Inaugural consortium summit at Stanford on developing and standardizing senescence biomarkers for clinical translation in aging biology.",
+    "link": "https://www.phaedon.institute/summit/sbc-2026/",
+    "location": "Palo Alto, CA",
+    "title": "Senotherapeutics Biomarker Consortium Inaugural Summit"
   }
 ]
