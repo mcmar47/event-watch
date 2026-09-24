@@ -5214,5 +5214,53 @@
     "link": "https://www.phaedon.institute/summit/sbc-2026/",
     "location": "Palo Alto, CA",
     "title": "Senotherapeutics Biomarker Consortium Inaugural Summit"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-06",
+    "description": "National Book Foundation announces the finalists for the 77th National Book Awards in five categories, ahead of the November 18 ceremony.",
+    "link": "https://www.nationalbook.org/awards/",
+    "location": "Virtual",
+    "title": "2026 National Book Awards Finalists Announced"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-23",
+    "description": "Monthly works-in-translation book club discussing Sigrún Pálsdóttir's Boudoir at The Siren and the Sea.",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "title": "October Works in Translation Book Club"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-22",
+    "description": "Grown-up school-book-fair style event at Watertown's Strand Theater with 40+ bookish vendors, author readings and Q&As, and book-inspired crafts.",
+    "link": "https://happeningnext.com/event/grown-up-book-fair-eid3a0di8s947",
+    "location": "Watertown, NY",
+    "title": "Grown-Up Book Fair"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-12-03",
+    "description": "Retro fighting-game arcade night where the Red Parry NYC community takes on Wonderville, focused on Capcom and SNK classics.",
+    "link": "https://www.wonderville.nyc/events/red-parry-12-3-26",
+    "location": "Brooklyn, NY",
+    "title": "Red Parry NYC vs. Wonderville"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2027-01-29",
+    "description": "Gallery-style mediumship event with certified medium Brandon Russ sharing messages from passed loved ones at the Gathering Place in Cobleskill.",
+    "link": "https://spirittreeconnections.ticketspice.com/medium-brandon-russ-at-the-gathering-place-in-cobleskill-129",
+    "location": "Cobleskill, NY",
+    "title": "Medium Brandon Russ at the Gathering Place"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2027-02-10",
+    "description": "Live mediumship event with psychic medium John Edward delivering audience readings on Staten Island.",
+    "link": "https://johnedward.net/events/",
+    "location": "Staten Island, NY",
+    "title": "John Edward Live (Staten Island)"
   }
 ]
