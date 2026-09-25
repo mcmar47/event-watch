@@ -5262,5 +5262,61 @@
     "link": "https://johnedward.net/events/",
     "location": "Staten Island, NY",
     "title": "John Edward Live (Staten Island)"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-09",
+    "description": "Wilmot Cancer Institute's free daylong survivorship symposium on cancer recovery, brain health, and wellness at the Memorial Art Gallery.",
+    "link": "https://event.urmc.edu/survivorship-symposium",
+    "location": "Rochester, NY",
+    "title": "2026 Survivorship Symposium"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-08",
+    "description": "JCC Cover to Cover Book Festival event where author Margot Tohn presents her picture book Murray Goes to the Playground with her sheepadoodle Murray.",
+    "link": "https://www.jccbuffalo.org/events/2026/11/08/cover-to-cover-book-festival/author-margot-tohn/",
+    "location": "Amherst, NY",
+    "title": "Author Margot Tohn with Murray the Sheepadoodle (JCC Cover to Cover)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-28",
+    "description": "Launch party and signing for Danny Lettieri's humorous Christmas memoir Ho Ho, OH NO! at the Corner Bookstore.",
+    "link": "https://cornerbookstorenyc.com/event/danny-lettieri-launches-his-debut-collection-oh-ho-oh-no-twelve-true-tales-of-tinsel-bedlam-and-unconditional-love/",
+    "location": "New York, NY",
+    "title": "Danny Lettieri launches Ho Ho, OH NO! (Corner Bookstore)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-03",
+    "description": "Weekend psychic fair at Rochester's Purple Door Soul Source with local vendor shopping and private psychic-medium readings.",
+    "link": "https://purpledoorsoulsource.com/pages/current-events",
+    "location": "Brighton, NY",
+    "title": "2026 BOO FEST Psychic Fair (Purple Door Soul Source)"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-22",
+    "description": "Immersive afternoon workshop on crystal wisdom and candle magick exploring love, connection, and intention at Moxy Williamsburg.",
+    "link": "https://happeningnext.com/event/lovesexmagick-lumina-crystals-candles-eid1ef0l67l86ca",
+    "location": "Brooklyn, NY",
+    "title": "LOVE.SEX.MAGICK. LUMINA: Crystals + Candles"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-20",
+    "description": "Monthly Heidelberg Society social night at Rohrbach's Railroad Street beer hall with local ghost stories and paranormal equipment.",
+    "link": "https://www.rochesterghosts.com/home/events-classes",
+    "location": "Rochester, NY",
+    "title": "Heidelberg Society Spooky Social at Rohrbach Brewing"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-11-27",
+    "description": "Intimate six-guest mediumship gallery evening with three experienced mediums sharing spirit messages at Purple Door Soul Source.",
+    "link": "https://purpledoorsoulsource.com/pages/current-events",
+    "location": "Brighton, NY",
+    "title": "THREE for THEE Psychic Medium Message Gallery Event"
   }
 ]
