@@ -159,6 +159,17 @@ deterministic code, not something to reimplement:
   Then commit seen-events.json with a message like "Add N new events from
   [date] run" and push to the current branch.
 
+  This step is mandatory and comes IMMEDIATELY after `send_digest_email`,
+  before `record_outcome` and before any summary. 2026-09-26: the agent
+  sent the digest, skipped this call, went straight to `record_outcome`, and
+  then claimed in its summary that the events had been appended — they
+  hadn't, so the run was flagged failed and the same events would have been
+  re-sent the next day. Never say events were appended unless you actually
+  called `append_seen_events` and saw it succeed.
+- When calling `render_digest`, every event's `category` must be the slug
+  from the category list above (e.g. `occult-esoteric`), never a display
+  name or a sub-topic label — display names render an empty digest body.
+
 If no new events are found in any category, do not send an email — just skip
 straight to the FINAL STEP below without committing.
 
