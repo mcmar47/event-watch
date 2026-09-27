@@ -5374,5 +5374,125 @@
     "link": "https://www.meetup.com/nyc-storytelling/events/2026-11-21/",
     "location": "New York, NY",
     "title": "Baba Yaga Nights Storytelling Circle"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-15",
+    "description": "Annual University of Rochester research symposium on musculoskeletal biology with trainee talks, posters, and a keynote lecture.",
+    "link": "https://events.rochester.edu/event/16th-annual-center-for-musculoskeletal-research-symposium",
+    "location": "Rochester, NY",
+    "title": "16th Annual Center for Musculoskeletal Research Symposium"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-26",
+    "description": "28th annual immunology research conference bringing upstate New York scientists together for talks and posters at Lake Ontario Event Center.",
+    "link": "https://www.amc.edu/education/basic-science-ms-phd/immunology-and-microbial-disease/about-imd/upstate-new-york-immunology-conference/",
+    "location": "Oswego, NY",
+    "title": "Upstate New York Immunology Conference"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-10",
+    "description": "One-year anniversary celebration at the South Wedge bookstore bar with flash tattoos, a scavenger hunt, and new store merchandise.",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "title": "The Siren & The Sea Birthday Bash!"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-04",
+    "description": "Launch party for Girls Write Now's annual anthology of young women's writing at McNally Jackson Seaport.",
+    "link": "https://mcnallyjackson.com/event/2026-11-04/girls-write-now-metamorphosis-anthology-launch-party",
+    "location": "New York, NY",
+    "title": "Girls Write Now: Metamorphosis Anthology Launch Party"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-06",
+    "description": "Photo-book launch celebrating the working cats of New York's bodegas, with author Dan Rimada at POWERHOUSE Arena.",
+    "link": "https://powerhousearena.com/events/book-launch-bodega-cats-of-new-york-by-dan-rimada/",
+    "location": "Brooklyn, NY",
+    "title": "Book Launch: Bodega Cats of New York by Dan Rimada"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-17",
+    "description": "Center for Fiction book launch conversation with novelist Chinelo Okparanta on her new novel This Impossible Life.",
+    "link": "https://www.pw.org/literary_events/the_center_for_fiction_presents_chinelo_okparanta_on_this_impossible_life_with",
+    "location": "Brooklyn, NY",
+    "title": "Chinelo Okparanta on This Impossible Life with Angela Flournoy"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-21",
+    "description": "Grown-up book fair and vendor market with a cafe at Two Cousins Pinball in the Mohawk Valley.",
+    "link": "https://allevents.in/marcy/pages-and-pastries-at-the-pinball-hall-a-grown-up-book-fair-and-vendor-market/200030663532157",
+    "location": "Marcy, NY",
+    "title": "Pages and Pastries at the Pinball Hall: A Grown-Up Book Fair and Vendor Market"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-10",
+    "description": "Evening of psychic readings and craft cocktails hosted by The Oracle at Industry City's Barrow's Intense tasting room.",
+    "link": "https://industrycity.com/event/spirited-away-psychic-paranormal-night/2026-11-10/",
+    "location": "Brooklyn, NY",
+    "title": "Spirited Away: Psychic & Paranormal Night"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-21",
+    "description": "Monthly full moon ceremony led by Alex Grey and Allyson Grey at the Chapel of Sacred Mirrors, with live music and art.",
+    "link": "https://www.universe.com/events/2026-november-full-moon-gathering-298-tickets-QD90NH",
+    "location": "Wappingers Falls, NY",
+    "title": "2026 November Full Moon Gathering #298"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-24",
+    "description": "Overnight BYOC gaming marathon in Troy with a free-play retro arcade zone, pinball, tabletop, and tournaments.",
+    "link": "https://capitallan.net/",
+    "location": "Troy, NY",
+    "title": "Capital LAN VDO After Dark"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "Annual community harvest festival at Helmer Nature Center with games, crafts, pony rides, cider-making, and live music.",
+    "link": "https://rochester.kidsoutandabout.com/content/fall-harvest-festival-15",
+    "location": "Rochester, NY",
+    "title": "Helmer Nature Center Fall Harvest Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Fall festival and HalloweenFest at Lincoln Hill Farms with games, animal encounters, food, and a nighttime zombie hunt.",
+    "link": "https://www.lincolnhillfarms.com/event-details/fall-festival-halloweenfest",
+    "location": "Canandaigua, NY",
+    "title": "Lincoln Hill Farms Fall Festival & HalloweenFest"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Vintage train rides to a pumpkin patch where kids take home a free pumpkin at the Rochester & Genesee Valley Railroad Museum.",
+    "link": "https://rochestertrainrides.com/events/",
+    "location": "Rush, NY",
+    "title": "Pumpkin Patch Train Rides"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-28",
+    "description": "Interactive evening with TV psychic medium Karyn Reece pairing psychic bingo and a guided ghost hunt at Rolling Hills Asylum.",
+    "link": "https://www.freshairadventuresny.com/events/psychic-medium-karyn-reece-psychic-bingo-and-ghost-hunt-rolling-hills-asylum-1",
+    "location": "East Bethany, NY",
+    "title": "Psychic Bingo & Ghost Hunt with Karyn Reece"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-11-13",
+    "description": "Hands-on after-dark paranormal investigation of historic Fort Decker with Full Moon Paranormal on Friday the 13th.",
+    "link": "https://happeningnext.com/event/friday-the-13th-paranormal-investigation-at-historic-fort-decker-eid1ef0l7k0ewma",
+    "location": "Port Jervis, NY",
+    "title": "Friday the 13th: Paranormal Investigation at Historic Fort Decker"
   }
 ]
