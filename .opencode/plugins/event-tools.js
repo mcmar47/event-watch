@@ -20,6 +20,7 @@ import {
   safeUrl,
   createCheckDedupTool,
   createAppendSeenTool,
+  createSeenRecorder,
   createRenderDigestTool,
   createValidateDigestTool,
   createSendDigestEmailTool,
@@ -195,6 +196,11 @@ export const EventWatchTools = async () => {
         // One per-radar summary banner to the Continuum app per digest run —
         // separate from the near-empty `push` (single imminent row) channel.
         continuumPush: { noun: "event" },
+        // Record the sent items in the seen store the moment the send is
+        // confirmed (from the staging file, not retyped args), so a run that
+        // sends and then stops before the append call can't re-send them
+        // next time. The append call still runs and finds nothing new.
+        recordSent: createSeenRecorder({ seenFileName: SEEN_FILE, keyFields: ["title", "date"] }),
         extraResultFields: (events) => ({
           categoryCount: new Set(events.map((e) => e.category)).size,
         }),
