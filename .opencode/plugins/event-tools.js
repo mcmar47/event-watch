@@ -31,6 +31,7 @@ import {
   soleImminentItem,
   continuumItemLink,
 } from "radar-kit"
+import { KEY_FIELDS } from "../../markKey.mjs"
 
 const DIGEST_RECIPIENT = "michael.cmar@gmail.com"
 const SEEN_FILE = "seen-events.json"
@@ -53,10 +54,10 @@ const STAGING_FILE = "new-events.json"
 // where the reading happens. See radar-kit/src/oneClickMark.js.
 const FEEDBACK_BASE = process.env.EVENT_WATCH_BASE_URL || "http://100.79.18.117:8010"
 
-// The key fields here MUST stay in step with the interest-server's keyOf and
-// with read_calibration's keyFields below -- all three are ["title", "date"].
+// The link params are the mark key's own fields (../../markKey.mjs), the
+// same ones the interest-server keys by.
 const linksFor = (e) =>
-  markUrls({ baseUrl: FEEDBACK_BASE, params: { title: e.title, date: e.date } })
+  markUrls({ baseUrl: FEEDBACK_BASE, params: Object.fromEntries(KEY_FIELDS.map((f) => [f, e[f]])) })
 
 // NEW-IDEAS.md C4 — the one time-critical push. After the digest sends,
 // radar-kit calls this with exactly the events that went out. It returns a
@@ -64,8 +65,8 @@ const linksFor = (e) =>
 // with two imminent events already tells you both — the push is for the
 // single "this is happening now" case, and the channel is meant to stay near
 // silent). Tapping it opens Continuum on that event via the same
-// ["title","date"] mark key the interest-server and Continuum both use.
-const eventMarkKey = makeKeyFn(["title", "date"])
+// mark key (markKey.mjs) the interest-server and Continuum both use.
+const eventMarkKey = makeKeyFn(KEY_FIELDS)
 const pickEventHighlight = (events) => {
   const today = new Date().toISOString().slice(0, 10)
   const e = soleImminentItem(events, { dateField: "date", today, withinDays: 3 })
@@ -150,7 +151,7 @@ export const EventWatchTools = async () => {
     tool: {
       check_dedup: createCheckDedupTool({
         seenFileName: SEEN_FILE,
-        keyFields: ["title", "date"],
+        keyFields: KEY_FIELDS,
         argsShape: candidateSchema,
         description:
           "Check candidate events against seen-events.json and return which are genuinely new. Use this instead of manually comparing titles/dates by eye — it does exact normalized (trimmed, case-folded) matching on title+date so nothing is missed or double-counted.",
@@ -165,7 +166,7 @@ export const EventWatchTools = async () => {
       // together.
       read_calibration: createCalibrationTool({
         seenFileName: SEEN_FILE,
-        keyFields: ["title", "date"],
+        keyFields: KEY_FIELDS,
         describe: (e) =>
           `[${CATEGORY_LABELS[e.category] ?? e.category}] ${e.title}` +
           (e.location ? ` (${e.location})` : "") +
@@ -201,7 +202,7 @@ export const EventWatchTools = async () => {
         // confirmed (from the staging file, not retyped args), so a run that
         // sends and then stops before the append call can't re-send them
         // next time. The append call still runs and finds nothing new.
-        recordSent: createSeenRecorder({ seenFileName: SEEN_FILE, keyFields: ["title", "date"] }),
+        recordSent: createSeenRecorder({ seenFileName: SEEN_FILE, keyFields: KEY_FIELDS }),
         extraResultFields: (events) => ({
           categoryCount: new Set(events.map((e) => e.category)).size,
         }),
@@ -212,7 +213,7 @@ export const EventWatchTools = async () => {
       append_seen_events: createAppendSeenTool({
         seenFileName: SEEN_FILE,
         stagingFileName: STAGING_FILE,
-        keyFields: ["title", "date"],
+        keyFields: KEY_FIELDS,
         argsShape: eventSchema,
         description:
           "Append new events to seen-events.json and write the file, skipping any exact duplicates as a final safety net. Use this instead of writing your own merge script. Call this only after the digest email has been sent successfully. Also deletes new-events.json (written by render_digest) as cleanup.",
