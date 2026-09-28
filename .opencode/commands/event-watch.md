@@ -76,6 +76,21 @@ derived from the category name.
    history walks, UFO/cryptid conventions, psychic or mediumship
    demonstrations, and other paranormal-themed events, in Rochester NY,
    upstate NY, NYC, or available virtually.
+9. Rochester venues (slug: `rochester-venues`) — the calendars of two Rochester
+   venues, checked directly every run: the **Dryden Theatre** at the George
+   Eastman Museum (film screenings) and **Writers & Books** (Rochester's
+   literary center: readings, author talks, literary events). Run one targeted
+   search per venue for its current calendar (e.g. "Dryden Theatre George
+   Eastman Museum screenings <month> <year>", "Writers & Books Rochester events
+   <year>"), budgeted on top of, not counted against, the per-category cap.
+   Assign each event to the existing category it fits (a Wes Anderson screening
+   is `wes-anderson`, a reading is `literary-booktok`, a ghost-story night is
+   `paranormal-events`); use `rochester-venues` only for what fits none of the
+   others. The Dryden screens nearly every day, so surface only its special
+   programming (a series opening, a guest introduction or Q&A, a new
+   restoration, a festival or one-night event), not every routine screening.
+   Skip Writers & Books' multi-week classes and workshops. At most 5 events
+   from this category per run.
 
 Rochester NY and upstate NY are the priority region across every category
 above that lists more than one location — weight the search process toward
