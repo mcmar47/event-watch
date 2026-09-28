@@ -24,6 +24,7 @@ No build/lint/test tooling — the only "command" is the agent itself.
 
 ## Architecture — three parallel runners, opencode is primary
 
+- **`markKey.mjs` is the mark key, and the only place it's written down** (since 2026-09-28). The tools, the interest-server, feed-radar's mark-rate report and pi-ops' quality-lab all import `KEY_FIELDS` from it; changing it orphans every existing mark. The interest-server is a radar-kit `createMarkServer` declaration, and `launchd/run-event-watch-opencode.sh` sources radar-kit's `scripts/agent-run.sh` for its shared plumbing (pull, command parsing, timeout, completion guards, heartbeat): see radar-kit's CLAUDE.md.
 Unusually for the fleet, this repo has **three** copies of essentially the same prompt, not two:
 
 - **`.opencode/commands/event-watch.md`** (primary, day-to-day) — the richer version. It calls
