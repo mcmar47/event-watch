@@ -5494,5 +5494,93 @@
     "link": "https://happeningnext.com/event/friday-the-13th-paranormal-investigation-at-historic-fort-decker-eid1ef0l7k0ewma",
     "location": "Port Jervis, NY",
     "title": "Friday the 13th: Paranormal Investigation at Historic Fort Decker"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-07",
+    "description": "America's longest-running health expo at the NYC Hyatt covering longevity, biohacking, wellness, and consciousness with exhibitors and speakers.",
+    "link": "https://newlifeexpo.com/",
+    "location": "New York, NY",
+    "title": "NEWLIFE Expo"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-17",
+    "description": "Free interdisciplinary conference at UAlbany exploring aging through connection, wellness, recovery, and lived experience.",
+    "link": "https://happeningnext.com/event/aging-well-together-conference-eid1ef0l2el096r",
+    "location": "Albany, NY",
+    "title": "Aging Well Together Conference"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-01",
+    "description": "Author readings and conversations celebrating three new Shabby Doll House books at The Unreliable Narrator bookstore.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Shabby Doll House Release Party"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-16",
+    "description": "Crossover book club meeting at The Siren and the Sea discussing horror-romance novel Open Wide by Jessica Gross.",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "title": "Horror & Homies x Romantasy Book Club CROSSOVER EPISODE"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-28",
+    "description": "Monthly book club at The Unreliable Narrator pairing discussion of Nettle and Bone by T. Kingfisher with fiber-arts crafting.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Stitchcraft as Witchcraft October 2026"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-11",
+    "description": "Two-hour ritual workshop at My Little Magic Shop using guided visualization and creative exercises to reconnect with the inner child.",
+    "link": "https://www.universe.com/events/inner-child-integration-rituals-tickets-9T7YDQ",
+    "location": "New York, NY",
+    "title": "Inner Child & Integration Rituals"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-21",
+    "description": "Full moon ceremony at the Chapel of Sacred Mirrors led by Alex Grey and Allyson Grey, with music, art, and community gathering.",
+    "link": "https://www.universe.com/events/2026-november-full-moon-gathering-298-tickets-QD90NH",
+    "location": "Wappingers Falls, NY",
+    "title": "November Full Moon Gathering"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-12-09",
+    "description": "Holiday pop-up fair at Balance Arts Center featuring esoteric healers, readers, and artisans with free lectures all day.",
+    "link": "http://www.spiritwalkny.com/",
+    "location": "New York, NY",
+    "title": "Spiritwalk Holiday Fair"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-03",
+    "description": "44th annual free community festival in Hilton celebrating the apple harvest with craft vendors, food, music, and an auto show.",
+    "link": "https://hiltonapplefest.org/",
+    "location": "Hilton, NY",
+    "title": "Hilton Apple Fest"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-04",
+    "description": "Sunday haunted dinner at Union Tavern's Bradstreet Speakeasy with Prohibition-era ghost stories and ghost-hunting equipment demos.",
+    "link": "https://www.rochesterghosts.com/home/ghost-dinners",
+    "location": "Rochester, NY",
+    "title": "Haunted Speakeasy at The Bradstreet"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-11-05",
+    "description": "Guided ghost hunt at Fairport's haunted DeLand mansion led by X9 Paranormal with professional investigation equipment.",
+    "link": "https://www.rochesterghosts.com/home/public-ghost-hunts",
+    "location": "Fairport, NY",
+    "title": "Paranormal Investigation at DeLand Mansion"
   }
 ]
