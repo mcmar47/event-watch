@@ -4,13 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) and other AI coding 
 
 ## What this repo is
 
-A scheduled agent: search the web for newly announced events across eight watched categories
+A scheduled agent: search the web for newly announced events across nine watched categories
 (biotech/longevity, literary/BookTok, occult/esoteric, retro gaming, Wes Anderson, pen/stationery,
-fall/autumn, paranormal), dedup against `seen-events.json`, email an HTML digest of what's new, and
+fall/autumn, paranormal, and Rochester venues), dedup against `seen-events.json`, email an HTML digest of what's new, and
 update the store. This is the repo `job-radar` and `release-radar` are modeled on (same shape:
-scheduled run, JSON store, emailed digest) — read this one first if working across the fleet, since
-its own README is intentionally just a title and this file plus `.opencode/commands/event-watch.md`
-are the real documentation. `radar-kit` (`../radar-kit`) holds the plugin code this repo's own
+scheduled run, JSON store, emailed digest) — read this one first if working across the fleet.
+README.md is the overview; this file plus `.opencode/commands/event-watch.md` hold the detail. `radar-kit` (`../radar-kit`) holds the plugin code this repo's own
 `.opencode/plugins/event-tools.js` builds on.
 
 ## Commands
@@ -75,7 +74,7 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
   Non-fatal — every copy falls back to a per-venue name search if the file is missing or a venue
   shows `ok: false`. B&N 403s `curl` (Akamai TLS/HTTP2 fingerprinting) but not Node's `fetch`, so
   this can't be reduced to a shell one-liner.
-- **Category slugs are a closed, verbatim set** — see either command file for the current eight and
+- **Category slugs are a closed, verbatim set** — see any command file for the current nine and
   their exact `category` field values. Never invent or guess a slug; an unrecognized one breaks
   `render_digest`.
 - **The C4 highlight push** (NEW-IDEAS.md) — `event-tools.js` passes `push: { pickHighlight }` to
