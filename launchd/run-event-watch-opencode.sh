@@ -1,185 +1,52 @@
 #!/bin/bash
-# Wrapper for the scheduler (launchd on macOS, systemd on Linux/the Raspberry Pi),
-# needed because `opencode run` does not resolve custom slash commands (open
-# upstream bug, confirmed as of opencode 1.17.20 —
-# https://github.com/anomalyco/opencode/issues/7345): passing "/event-watch" as
-# the prompt just forwards that literal text to the model instead of loading
-# .opencode/commands/event-watch.md.
+# Run wrapper for event-watch, called by event-watch.service (systemd on the
+# Pi; the launchd/ directory name is historical). Daily, 06:00.
 #
-# Workaround: pull the model and prompt body out of that command file's
-# frontmatter ourselves and pass them directly via -m/argv, so this file is the
-# only place that needs to change if the invocation trick stops being necessary
-# (once upstream fixes it, this can go back to a plain
-# `opencode run --auto "/event-watch"`).
+# Why a wrapper at all: `opencode run` doesn't resolve custom slash commands
+# (upstream bug, confirmed as of opencode 1.17.20), so the model and prompt
+# are read out of .opencode/commands/event-watch.md here and passed directly.
 #
-# Host-portable on purpose: REPO_DIR/OPENCODE_BIN are derived rather than
-# hardcoded, and PATH/OPENCODE_ENABLE_EXA are exported here so this same file
-# runs unmodified from either machine's scheduler AND from a manual terminal
-# run on either machine, with no environment gaps between them.
+# The shared plumbing (PATH, git pull, command parsing, cost logging, the
+# timeout, the completion guards, the heartbeat pi-ops reads) lives in
+# radar-kit's scripts/agent-run.sh since 2026-09-28; this file keeps only
+# what's specific to event-watch.
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-COMMAND_FILE="$REPO_DIR/.opencode/commands/event-watch.md"
+. "$REPO_DIR/.opencode/node_modules/radar-kit/scripts/agent-run.sh" \
+  || { echo "event-watch: radar-kit's scripts/agent-run.sh is missing -- run pi-ops/update-radar-kit.sh" >&2; exit 1; }
 
-export PATH="$HOME/.opencode/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:$PATH"
-OPENCODE_BIN="$(command -v opencode || echo "$HOME/.opencode/bin/opencode")"
-
-# Turns on opencode's built-in Exa-hosted web search/fetch tools. This used to
-# live only in the launchd plist's EnvironmentVariables block, which meant a
-# manual run of this script from a terminal (no launchd involved) silently
-# lost web search entirely and fell back to hand-fetching known URLs or
-# scraping search engine result pages directly (which mostly just get
-# blocked). Setting it here makes it work the same way regardless of how this
-# script is invoked.
+rk_init event-watch
+# opencode's built-in Exa web search/fetch: exported here, not only in the
+# unit, so a manual terminal run searches too.
 export OPENCODE_ENABLE_EXA=true
+rk_pull
 
-cd "$REPO_DIR"
-
-# This repo is the sync channel between edits made elsewhere (e.g. on the Mac)
-# and execution here — without this, a scheduled runner's checkout goes stale
-# the first time someone edits a prompt/tool file and pushes from another
-# machine.
-git pull --ff-only origin main
-
-# Pre-fetch the four Rochester bookstore sources (B&N Pittsford/Eastview, The
-# Siren and the Sea, The Unreliable Narrator) that a plain web fetch can't
-# read — B&N embeds its calendar in an RSC payload that WebFetch's markdown
-# conversion discards; the two indie shops are JS SPAs backed by Bookmanager's
-# API. scripts/fetch-venues.mjs pulls all four and writes venue-events.json,
-# which the prompt reads instead of running blind name-searches for them.
-#
-# Non-fatal on purpose: if the pre-fetch fails, the prompt still has a
-# fallback ("if venue-events.json is missing or a venue shows ok:false, run a
-# name search for that venue"), so a bad run here just degrades to the old
-# behavior rather than aborting. Node's fetch (not curl — B&N 403s curl) is
-# required; it's already on the Pi for the opencode plugins.
-#
-# Delete any prior copy first so a hard crash of the script (as opposed to a
-# per-venue failure, which it writes into the file itself) leaves no stale
-# venue-events.json for the prompt to mistake as fresh.
+# The four Rochester bookstore calendars are fetched by script, not searched
+# for: the agent reads venue-events.json. Removed first so a failed fetch
+# can't leave yesterday's file looking current; a failure is non-fatal (the
+# prompt falls back to one targeted search per venue).
 rm -f "$REPO_DIR/venue-events.json"
-NODE_BIN="$(command -v node || true)"
-if [ -n "$NODE_BIN" ]; then
-  "$NODE_BIN" "$REPO_DIR/scripts/fetch-venues.mjs" \
+if command -v node >/dev/null; then
+  node "$REPO_DIR/scripts/fetch-venues.mjs" \
     || echo "event-watch: venue pre-fetch failed (non-fatal) — agent falls back to search." >&2
 else
   echo "event-watch: node not on PATH — skipping venue pre-fetch." >&2
 fi
 
-MODEL=$(sed -n 's/^model: *//p' "$COMMAND_FILE" | head -1)
-# `c>=2; /^---$/{c++}` rather than `/^---$/{c++; next} c>=2`: the old form
-# skipped EVERY line matching ^---$, not just the two frontmatter fences, so a
-# horizontal rule (or a nested YAML block) anywhere in the prompt body was
-# silently dropped from what the model actually received. Printing before
-# incrementing keeps the two fences out and everything after them in.
-PROMPT=$(awk 'c>=2; /^---$/{c++}' "$COMMAND_FILE")
+rk_load_command "$REPO_DIR/.opencode/commands/event-watch.md"
 
-# radar-kit's digest scorecard footer labels each run with the model that
-# produced it; sourcing it from the same frontmatter line keeps them in step.
-export DIGEST_MODEL="$MODEL"
-
-if [ -z "$MODEL" ] || [ -z "$PROMPT" ]; then
-  echo "Failed to extract model/prompt from $COMMAND_FILE — aborting." >&2
-  exit 1
-fi
-
-mkdir -p "$REPO_DIR/logs"
-
-# record_outcome (an .opencode/plugins/event-tools.js tool) writes this on
-# the way out of every run that reaches a real conclusion — digest sent OR
-# nothing new found. Clear any stale copy now so the post-run check below is
-# a plain "did this run produce one" test, with no timestamp arithmetic (and
-# so no `date -r` / `stat` portability split between macOS and the Pi).
+# The silent-stall guard: record_outcome writes this as the run's last step,
+# on both the sent and the nothing-new paths.
 OUTCOME_FILE="$REPO_DIR/logs/run-outcome.json"
 rm -f "$OUTCOME_FILE"
 
-# For the scorecard footer's cost figure (radar-kit/scripts/run-cost.js).
-# RUN_START marks which run-log entry this run's cost belongs to; the "read"
-# call snapshots the OpenRouter key's lifetime spend so the post-run "record"
-# call can diff against it. Both are best-effort — a missing key or a network
-# blip just leaves the footer without a dollar figure, never fails the run.
-RADAR_KIT_DIR="$REPO_DIR/.opencode/node_modules/radar-kit"
-RUNS_FILE="$REPO_DIR/logs/digest-runs.json"
-RUN_START=$(date -u +%Y-%m-%dT%H:%M:%S)
-USAGE_BEFORE=$(node "$RADAR_KIT_DIR/scripts/run-cost.js" read 2>/dev/null || true)
-
-# Upper bound on a single run. Real runs finish in 3–25 min; one still going
-# at 45 is hung (a wedged LLM stream that never returns), not slow. Without
-# this a hang holds the systemd unit open indefinitely — `Type=oneshot` has
-# no default start timeout — and no alert ever fires. `timeout` exits 124
-# when it trips; handled below. Skipped gracefully if timeout(1) isn't on
-# PATH (some macOS setups).
-TIMEOUT_BIN="$(command -v timeout || true)"
-RUN_CMD=("$OPENCODE_BIN" run -m "$MODEL" --auto "$PROMPT")
-if [ -n "$TIMEOUT_BIN" ]; then
-  RUN_CMD=("$TIMEOUT_BIN" --kill-after=2m 45m "${RUN_CMD[@]}")
-fi
-
-# Not `exec`'d (unlike before pi-ops/README.md's heartbeat mechanism existed)
-# because a heartbeat needs to be written after opencode exits, whatever its
-# exit code — see https://github.com/mcmar47/pi-ops for why. The `if` guards
-# capturing a non-zero exit code from tripping `set -e` above.
-if "${RUN_CMD[@]}"; then
-  EXIT_CODE=0
-  STATUS="success"
-else
-  EXIT_CODE=$?
-  STATUS="failure"
-  if [ "$EXIT_CODE" -eq 124 ]; then
-    echo "event-watch: opencode run exceeded the 45m timeout and was killed" \
-      "-- treating as a hung run." >&2
-    STATUS="timeout"
-  fi
-fi
-
-# `opencode run` exits 0 even when the model abandons a run partway through
-# without raising an error. 2026-08-30: send_digest_email failed twice on an
-# expired Gmail token, the agent gave up, and opencode still exited clean --
-# so `OnFailure=` never fired and no alert went out, even though the digest
-# was built and never sent. (feed-radar grew the equivalent guard a day
-# earlier, keyed on its state.json; this repo has no such timestamp, so it
-# keys on the staging file instead.)
-#
-# render_digest writes new-events.json; append_seen_events deletes it only
-# after the digest has actually been sent and seen-events.json advanced. A
-# run that finds nothing new never calls render_digest, so the file is
-# absent then too. new-events.json still sitting here after a clean exit
-# therefore means the pipeline stopped between render and finalize -- force a
-# non-zero exit so agent-alert@event-watch.service fires.
-if [ "$EXIT_CODE" -eq 0 ] && [ -e "$REPO_DIR/new-events.json" ]; then
-  echo "event-watch: opencode exited 0 but new-events.json was left behind" \
-    "-- render_digest ran but append_seen_events did not, so the digest was" \
-    "not sent (or seen-events.json not advanced). Treating as a failed run." >&2
-  EXIT_CODE=1
-  STATUS="incomplete"
-fi
-
-# Second silent-failure mode (2026-09-01): the model stalls mid-run — the LLM
-# stream just stops — and `opencode run` still exits 0 without ever reaching
-# render_digest. Nothing is left in new-events.json, so the guard above can't
-# see it, and it's indistinguishable from a legitimate "nothing new today"
-# run. record_outcome is the tie-breaker: the prompt calls it as the final
-# action of BOTH clean paths and never on an aborted one, and we cleared any
-# stale copy before the run. So a clean exit with no run-outcome.json means
-# the run stopped before finishing — force a non-zero exit so
-# agent-alert@event-watch.service fires.
-if [ "$EXIT_CODE" -eq 0 ] && [ ! -e "$OUTCOME_FILE" ]; then
-  echo "event-watch: opencode exited 0 but logs/run-outcome.json was not" \
-    "written -- the model never called record_outcome, so the run stopped" \
-    "before the digest pipeline completed. Treating as a failed run." >&2
-  EXIT_CODE=1
-  STATUS="incomplete"
-fi
-
-# Record what this run cost (usage delta since USAGE_BEFORE) onto the run
-# log, whatever the exit code — a run that spent money and then failed still
-# spent money. Never fatal.
-if [ -n "$USAGE_BEFORE" ]; then
-  node "$RADAR_KIT_DIR/scripts/run-cost.js" record "$RUNS_FILE" "$USAGE_BEFORE" "$RUN_START" || true
-fi
-
-printf '{"timestamp": "%s", "exit_code": %s, "status": "%s"}\n' \
-  "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$EXIT_CODE" "$STATUS" \
-  > "$REPO_DIR/logs/last-run.json"
-
+rk_cost_begin
+rk_run_opencode 45m "$MODEL" "$PROMPT"
+rk_fail_if_exists "$REPO_DIR/new-events.json" \
+  "new-events.json was left behind -- render_digest ran but append_seen_events did not, so the digest was not sent (or seen-events.json not advanced)."
+rk_fail_unless_exists "$OUTCOME_FILE" \
+  "logs/run-outcome.json was not written -- the model never called record_outcome, so the run stopped before the digest pipeline completed."
+rk_cost_record
+rk_heartbeat
 exit "$EXIT_CODE"
