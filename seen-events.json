@@ -5582,5 +5582,109 @@
     "link": "https://www.rochesterghosts.com/home/public-ghost-hunts",
     "location": "Fairport, NY",
     "title": "Paranormal Investigation at DeLand Mansion"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-21",
+    "description": "Intimate three-day gathering at Fairmont Sonoma Mission Inn on neuroscience, longevity science, and applied medical AI.",
+    "link": "https://events.doc.health/2026/",
+    "location": "Sonoma, CA",
+    "title": "DOC 2026: Longevity Science & Medical AI"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-01",
+    "description": "Two-day longevity innovation summit in Washington DC with skill-building bootcamps, startup pitches, and investor sessions.",
+    "link": "https://www.eventbrite.com/e/2026-whats-next-longevity-innovation-summit-tickets-1995997873370",
+    "location": "Washington, DC",
+    "title": "What's Next Longevity Innovation Summit"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-01",
+    "description": "Virtual Rochester Public Library author talk with dystopian fiction writer Veronica Roth on courage and choice.",
+    "link": "https://libraryc.org/roccitylibrary",
+    "location": "Virtual",
+    "title": "Courage, Choice, and What Comes Next with Veronica Roth"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-02",
+    "description": "Strand release event with filmmaker, climber, and photographer Jimmy Chin discussing his new book Rules to Live By.",
+    "link": "https://www.strandbooks.com/jimmy-chin-rules-to-live-by.html",
+    "location": "New York, NY",
+    "title": "Jimmy Chin: Rules to Live By"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-03",
+    "description": "Local author Ethan Ketterer signs his books A Seat at the Table and Delayed Not Denied at Barnes & Noble Eastview Mall.",
+    "link": "https://stores.barnesandnoble.com/event/9780062223537-0",
+    "location": "Victor, NY",
+    "title": "Author Signing with Ethan Ketterer"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-15",
+    "description": "Author conversation between Esther Yi, author of Y/N, and critic Katy Waldman at McNally Jackson Seaport.",
+    "link": "https://mcnallyjackson.com/event/2026-10-15/esther-yi-katy-waldman",
+    "location": "New York, NY",
+    "title": "Esther Yi & Katy Waldman"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-28",
+    "description": "Strand release event with Grammy-winning countertenor Anthony Roth Costanzo discussing his new book Countertenor.",
+    "link": "https://www.strandbooks.com/anthony-roth-costanzo-countertenor.html",
+    "location": "New York, NY",
+    "title": "Anthony Roth Costanzo: Countertenor"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-05",
+    "description": "Free book club at The Unreliable Narrator centering somatics and embodiment, reading Abigail Rose Clarke's Returning Home to Our Bodies.",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "title": "Healing Pages Bookclub"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-10",
+    "description": "Astrology book signing and tarot evening with author Jill Dearman at the Witch, Please shop in Beacon.",
+    "link": "https://jilldearman.com/events/",
+    "location": "Beacon, NY",
+    "title": "Witch, Please in Beacon"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-09-26",
+    "description": "Central New York pumpkin farm fall festival with a giant corn maze, wagon rides, and fall activities running through November 1.",
+    "link": "https://maxwellspumpkinfarm.ticketspice.com/maxwells-2026-fall-festival",
+    "location": "Fabius, NY",
+    "title": "Maxwell's 2026 Fall Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-15",
+    "description": "Family-friendly Halloween event at Seneca Park Zoo with animal meet-and-greets, crafts, and pumpkin carving demonstrations.",
+    "link": "https://senecaparkzoo.org/spooktacular-2026/",
+    "location": "Rochester, NY",
+    "title": "Spooktacular at Seneca Park Zoo"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-28",
+    "description": "Live psychic mediumship readings with medium Rhonda Lilly at CC's Tavern in Auburn.",
+    "link": "https://venunite.com/events/psychic-medium-rhonda-lilly-at-ccs-tavern",
+    "location": "Auburn, NY",
+    "title": "Psychic Medium Rhonda Lilly at CC's Tavern"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-11-28",
+    "description": "Retro gaming afternoon playing classic PlayStation 1 games at Dave & Buster's Rochester.",
+    "link": "https://happeningnext.com/event/playstation-1-eid1ef0l1aogecr",
+    "location": "Rochester, NY",
+    "title": "PlayStation 1 at Dave & Buster's Rochester"
   }
 ]
