@@ -5870,5 +5870,141 @@
     "link": "https://www.1014.nyc/events/engineered-evolution",
     "location": "New York, NY",
     "description": "Evening symposium on synthetic biology and neuroscience merging to augment human capability in New York."
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-14",
+    "description": "Panel discussion and startup pitches on longevity science and healthspan medicine at The Globe Bar in Manhattan.",
+    "link": "https://www.medstartr.ai/events/longevity-medicine-beyond-the-buzz",
+    "location": "New York, NY",
+    "title": "Longevity Medicine: Beyond the Buzz"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-11-12",
+    "description": "Two-day academic conference on bioinformatics-driven control systems in biotech engineering at a Bayside, Queens hotel.",
+    "link": "https://internationalconferencealerts.com/event-icbdcsbe-new-york-us-202611-101349525",
+    "location": "New York, NY",
+    "title": "International Conference on Bioinformatics-Driven Control Systems in Biotech Engineering"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-20",
+    "description": "Strand release event with actress and author Bethany Joy Lenz discussing her novel The Betrayal of Cora Wexford.",
+    "link": "https://www.strandbooks.com/bethany-joy-lenz-the-betrayal-of-cora-wexford.html",
+    "location": "New York, NY",
+    "title": "Bethany Joy Lenz: The Betrayal of Cora Wexford"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-20",
+    "description": "Irish poet and author Doireann Ni Ghriofa gives the 21st annual Hassett Reading at Canisius University in Buffalo.",
+    "link": "https://www.canisius.edu/events/21st-annual-hassett-reading-doireann-ni-ghriofa",
+    "location": "Buffalo, NY",
+    "title": "Doireann Ni Ghriofa Hassett Reading at Canisius"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-22",
+    "description": "Strand release event with Neal Stephenson discussing his new historical novel D: Heavy Water, second in the Bomb Light series.",
+    "link": "https://www.strandbooks.com/neal-stephenson-d-heavy-water.html",
+    "location": "New York, NY",
+    "title": "Neal Stephenson: D: Heavy Water"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-10",
+    "description": "Strand release event with Call Her Daddy co-creator Sofia Franklyn discussing her new memoir Daddy Issues.",
+    "link": "https://www.strandbooks.com/sofia-franklyn-daddy-issues.html",
+    "location": "New York, NY",
+    "title": "Sofia Franklyn: Daddy Issues"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-11",
+    "description": "Reflective writing workshop at Writers & Books with prompts and guided exercises, open to beginners.",
+    "link": "https://writersandbooks.org/events/",
+    "location": "Rochester, NY",
+    "title": "Writing Your Way Forward | October 11"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-07",
+    "description": "One-day Writers & Books workshop on writing the self and nature through the poetry of Mary Oliver.",
+    "link": "https://writersandbooks.org/events-calendar/",
+    "location": "Rochester, NY",
+    "title": "The Family of Things: Writing the Self and Nature through the Work of Mary Oliver"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-10",
+    "description": "Evening of psychic and medium messages with Reverend Josey at the Mystic Mermaid Artisan Collective in Canandaigua.",
+    "link": "https://allevents.in/canandaigua/psychic-and-medium-messages-with-rev-josey/100002000317796376",
+    "location": "Canandaigua, NY",
+    "title": "Psychic & Medium Messages with Rev Josey"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-13",
+    "description": "Workshop at Brooklyn's Flower Cat weaving journaling, astrology, tarot, and the four elements for the fall season.",
+    "link": "https://luma.com/fall2026flowercat",
+    "location": "Brooklyn, NY",
+    "title": "Journaling + Intuitive Astrology Workshop: Exploring the Elements"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-24",
+    "description": "Witchy ball at Syracuse's Gilded Club with ritual, live performances, intuitive readers, DJ, and a costume contest.",
+    "link": "https://stayhappening.com/e/6th-annual-witches-ball-of-cny-E2ISYG3PP6I",
+    "location": "Syracuse, NY",
+    "title": "6th Annual Witches Ball of CNY"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-10-31",
+    "description": "Rochester Pokemon trading card and collectibles convention with 300+ vendor tables at RIT's Gordon Field House.",
+    "link": "https://www.rocpokecon.com/events/tickets",
+    "location": "Rochester, NY",
+    "title": "RocPokeCon"
+  },
+  {
+    "category": "wes-anderson",
+    "date": "2027-02-24",
+    "description": "Exhibition at the Racine Art Museum inviting visitors to find Wisconsin places with a Wes Anderson film aesthetic.",
+    "link": "http://www.milwaukeeindependent.com/featured/racine-art-museums-accidentally-wes-anderson-exhibit-asks-visitors-find-wisconsins-cinematic-beauty/",
+    "location": "Racine, WI",
+    "title": "Accidentally Wes Anderson: Adventures in Wisconsin"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-17",
+    "description": "46th annual harvest festival at East Palmyra Christian School with farmers market, games, BBQ, and a live auction.",
+    "link": "https://rochester.kidsoutandabout.com/content/46th-annual-harvest-festival",
+    "location": "Palmyra, NY",
+    "title": "46th Annual Harvest Festival (East Palmyra Christian School)"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-22",
+    "description": "South Wedge neighborhood trick-or-treat evening with participating Rochester stores handing out treats.",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "title": "Night of the Living Wedge"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-17",
+    "description": "First public paranormal investigation of the historic 1709 Madam Brett Homestead, led by Full Moon Paranormal.",
+    "link": "https://www.iloveny.com/event/first-public-ghost-hunt-with-full-moon-paranormal/82146/",
+    "location": "Beacon, NY",
+    "title": "First Public Ghost Hunt at Madam Brett Homestead"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-24",
+    "description": "Ninety-minute walking tour tracing Houdini's dime-museum roots and his battle with spiritualists, co-sponsored by Boroughs of the Dead.",
+    "link": "https://villagepreservation.org/event/houdini-in-greenwich-village-dime-museums-spiritualists-seances-walking-tour-2/",
+    "location": "New York, NY",
+    "title": "Houdini in Greenwich Village: Dime Museums, Spiritualists & Seances Walking Tour"
   }
 ]
