@@ -6006,5 +6006,85 @@
     "link": "https://villagepreservation.org/event/houdini-in-greenwich-village-dime-museums-spiritualists-seances-walking-tour-2/",
     "location": "New York, NY",
     "title": "Houdini in Greenwich Village: Dime Museums, Spiritualists & Seances Walking Tour"
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-10-15",
+    "description": "Two-day Mount Sinai CME conference on whole-body MRI imaging and inflammaging science for early disease detection and healthy aging.",
+    "link": "https://mssm.cloud-cme.com/course/courseoverview?EID=60861&P=5",
+    "location": "New York, NY",
+    "title": "Visualizing Longevity: Whole-Body Imaging and the Science of InflammAging"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-10-09",
+    "description": "Evening of readings and conversation with writers Jo Ann Beard and Mary-Beth Hughes at Kaatsbaan Cultural Park.",
+    "link": "https://kaatsbaan.org/seasonal-events-list/2026/3/5/6qukil8fcvltw6izwozsx0f5v49nnu-bwrrj-efjcz",
+    "location": "Tivoli, NY",
+    "title": "What Inspires: Readings and Conversation with Jo Ann Beard and Mary-Beth Hughes"
+  },
+  {
+    "category": "retro-gaming",
+    "date": "2026-11-08",
+    "description": "Pokémon-focused gaming convention with retro video games, panels, tournaments, cosplay, and vendors in Albany.",
+    "link": "https://fancons.com/events/schedule.php?loc=usNY&type=videogames&year=2026",
+    "location": "Albany, NY",
+    "title": "PokeKon Fest Albany 2026"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Annual Catskills fall festival with craft vendors, live music, kids' activities, and scenic gondola rides for fall foliage.",
+    "link": "https://www.belleayre.com/todo/fall-festival/",
+    "location": "Highmount, NY",
+    "title": "Belleayre Mountain Fall Festival"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Harvest-season weekend on a Catskills farm with local artisans, food, drinks, games, and interactive experiences.",
+    "link": "https://purecatskills.com/event/the-maple-shade-hootenanny/",
+    "location": "Oak Hill, NY",
+    "title": "The Maple Shade Hootenanny"
+  },
+  {
+    "category": "fall-autumn",
+    "date": "2026-10-10",
+    "description": "Peak-fall weekend at a Capital Region farm with a 10-acre corn maze, pumpkin patch, pig races, and bonus activities.",
+    "link": "https://libertyridgefarm.com/calendar/harvest-festival-weekend-10-10-26",
+    "location": "Schaghticoke, NY",
+    "title": "Liberty Ridge Farm Harvest Festival Weekend"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-13",
+    "description": "One-night haunted speakeasy at the DeLand House in Fairport with Prohibition-era ghost stories and ghost-hunting demos.",
+    "link": "https://www.rochesterghosts.com/home/ghost-dinners",
+    "location": "Fairport, NY",
+    "title": "Haunted Speakeasy at The Blind Pig"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-20",
+    "description": "Evening of local ghost stories and paranormal equipment demos at the haunted Rohrbach Brewing beer hall.",
+    "link": "https://www.rochesterghosts.com/home/events-classes",
+    "location": "Rochester, NY",
+    "title": "Ghost Stories at Rohrbach Brewing Co."
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-10-30",
+    "description": "Halloween-weekend screening of the 1925 silent horror classic The Phantom of the Opera in the Dryden's From Rochester, With Love series.",
+    "link": "https://www.eastman.org/rochester-love",
+    "location": "Rochester, NY",
+    "title": "From Rochester, With Love: The Phantom of the Opera"
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-10-25",
+    "description": "One-night screening of Joel Schumacher's vampire classic The Lost Boys at the Dryden Theatre, part of its From Rochester, With Love series.",
+    "link": "https://www.eastman.org/rochester-love",
+    "location": "Rochester, NY",
+    "title": "From Rochester, With Love: The Lost Boys"
   }
 ]
