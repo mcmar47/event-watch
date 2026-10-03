@@ -88,6 +88,22 @@ derived from the category name.
    restoration, a festival or one-night event), not every routine screening.
    Skip Writers & Books' multi-week classes and workshops. At most 5 events
    from this category per run.
+10. Theatre (slug: `theatre`) — live-theatre season and production
+    announcements from a short list of venues within reach of Rochester:
+    the **Stratford Festival** (Stratford, Ontario), the **Shaw Festival**
+    (Niagara-on-the-Lake, Ontario), **Geva Theatre Center** (Rochester),
+    **Shakespeare in Delaware Park** (Buffalo, in summer), and **NT Live /
+    RSC Live** cinema screenings of stage productions at Rochester-area
+    cinemas. Run one targeted search per source (e.g. "Stratford Festival
+    <year> season", "Geva Theatre Center <year> season", "NT Live Rochester NY
+    <year>"), budgeted on top of, not counted against, the per-category cap.
+    Weight toward Shakespeare, the classics, and the RSC/NT repertoire.
+    Report season and production announcements, not every performance date:
+    one event per production, dated its opening night (or its first
+    screening), never one per performance. Skip children's and holiday
+    shows and one-off rentals. Note in the event's description when it is
+    across the border (the Ontario festivals need a passport). At most 5
+    events from this category per run.
 
 For each category, run separate targeted searches — don't combine them into one
 query. Only surface events with a concrete date.

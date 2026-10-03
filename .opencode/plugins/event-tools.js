@@ -89,6 +89,7 @@ const CATEGORY_LABELS = {
   "fall-autumn": "🍂 Fall / Autumn",
   "paranormal-events": "👻 Paranormal Events",
   "rochester-venues": "🎟️ Rochester Venues",
+  "theatre": "🎭 Theatre",
 }
 const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS)
 

@@ -1,7 +1,7 @@
 # event-watch
 
 A daily digest of newly announced events worth knowing about, weighted toward Rochester and
-upstate New York. Every morning at 06:00 an agent on the Pi searches the web across nine
+upstate New York. Every morning at 06:00 an agent on the Pi searches the web across ten
 categories, drops anything already reported or already past, and emails what's new. The first
 of the fleet's radars: `job-radar`, `release-radar` and the rest copied this shape.
 
@@ -21,7 +21,7 @@ No email on a day with nothing new. That's normal, not a failure.
 ## The categories
 
 Biotech & longevity · Literary / BookTok · Occult & esoteric · Retro gaming · Wes Anderson ·
-Pen & stationery · Fall / autumn · Paranormal events · Rochester venues.
+Pen & stationery · Fall / autumn · Paranormal events · Rochester venues · Theatre.
 
 Each has its own search rules (some are Rochester/upstate-only, some take NYC or virtual events
 too), written in the prompt, `.opencode/commands/event-watch.md`. Two sources are read directly
@@ -32,6 +32,10 @@ rather than searched:
   because their pages don't survive a normal web fetch.
 - **The Dryden Theatre and Writers & Books** (the "Rochester venues" category, since 2026-09-28):
   one targeted search each per run, for special programming only, capped at 5 events.
+- **Theatre** (since 2026-10-03): one targeted search each per run for the Stratford and Shaw
+  festivals (Ontario; passport), Geva Theatre Center, Shakespeare in Delaware Park and NT Live /
+  RSC Live cinema screenings. Season and production announcements only (one event per
+  production, dated its opening night), capped at 5 events.
 
 ## How a run works
 
