@@ -34,7 +34,7 @@ rather than searched:
   one targeted search each per run, for special programming only, capped at 5 events.
 - **Theatre** (since 2026-10-03): one targeted search each per run for the Stratford and Shaw
   festivals (Ontario; passport), Geva Theatre Center, Shakespeare in Delaware Park and NT Live /
-  RSC Live cinema screenings. Season and production announcements only (one event per
+  RSC Live screenings at the Little Theatre. Season and production announcements only (one event per
   production, dated its opening night), capped at 5 events.
 
 ## How a run works

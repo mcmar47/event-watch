@@ -100,10 +100,10 @@ derived from the category name.
     the **Stratford Festival** (Stratford, Ontario), the **Shaw Festival**
     (Niagara-on-the-Lake, Ontario), **Geva Theatre Center** (Rochester),
     **Shakespeare in Delaware Park** (Buffalo, in summer), and **NT Live /
-    RSC Live** cinema screenings of stage productions at Rochester-area
-    cinemas. Run one targeted search per source (e.g. "Stratford Festival
-    <year> season", "Geva Theatre Center <year> season", "NT Live Rochester NY
-    <year>"), budgeted on top of, not counted against, the per-category cap.
+    RSC Live** cinema screenings of stage productions, which the **Little
+    Theatre** (Rochester) shows, plus any other Rochester-area cinema that does. Run one targeted search per source (e.g. "Stratford Festival
+    <year> season", "Geva Theatre Center <year> season", "NT Live Little Theatre
+    Rochester <year>"), budgeted on top of, not counted against, the per-category cap.
     Weight toward Shakespeare, the classics, and the RSC/NT repertoire.
     Report season and production announcements, not every performance date:
     one event per production, dated its opening night (or its first
