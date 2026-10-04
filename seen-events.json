@@ -6086,5 +6086,133 @@
     "link": "https://www.eastman.org/rochester-love",
     "location": "Rochester, NY",
     "title": "From Rochester, With Love: The Lost Boys"
+  },
+  {
+    "title": "Dr. Rocco Vivenzio Memorial Symposium: Age-Friendly Health Care",
+    "date": "2026-10-13",
+    "category": "biotech-longevity",
+    "link": "https://www.lifespan-roch.org/new-events/2026/10/13/dr-rocco-vivenzio-memorial-symposium-age-friendly-health-care",
+    "location": "Rochester, NY",
+    "description": "Community symposium on age-friendly health care with Dr. Jane Carmody of the John A. Hartford Foundation, at Rochester's JCC."
+  },
+  {
+    "title": "New Life Expo in NYC 2026",
+    "date": "2026-11-07",
+    "category": "biotech-longevity",
+    "link": "https://www.chancity.ai/events/new-life-expo-in-nyc/2026",
+    "location": "New York, NY",
+    "description": "NYC expo on wellness, longevity, biohacking, and holistic health with exhibitors and speakers at the Hyatt Conference Center."
+  },
+  {
+    "title": "Eve Sneider & Alexandra Schwartz",
+    "date": "2026-11-10",
+    "category": "literary-booktok",
+    "link": "https://mcnallyjackson.com/event/2026-11-10/eve-sneider-alexandra-schwartz",
+    "location": "New York, NY",
+    "description": "McNally Jackson conversation with Eve Sneider and Alexandra Schwartz on Sneider's biography of New Yorker journalist Janet Malcolm."
+  },
+  {
+    "title": "Chinelo Okparanta: This Impossible Life",
+    "date": "2026-11-17",
+    "category": "literary-booktok",
+    "link": "https://centerforfiction.org/event/the-center-for-fiction-presents-chinelo-okparanta-on-this-impossible-life-with-angela-flournoy/",
+    "location": "Brooklyn, NY",
+    "description": "Center for Fiction launch conversation for Chinelo Okparanta's new novel This Impossible Life, with Angela Flournoy."
+  },
+  {
+    "title": "Mieko Kawakami: Sisters in Yellow",
+    "date": "2026-11-11",
+    "category": "literary-booktok",
+    "link": "https://centerforfiction.org/event/the-international-library-mieko-kawakami-on-sisters-in-yellow-with-hitomi-yoshio/",
+    "location": "Brooklyn, NY",
+    "description": "Center for Fiction launch of the English edition of Mieko Kawakami's Sisters in Yellow, with translator Hitomi Yoshio."
+  },
+  {
+    "title": "Evelyn Iritani: Safe Passage",
+    "date": "2026-11-06",
+    "category": "literary-booktok",
+    "link": "https://www.nypl.org/events/programs/2026/11/06/evelyn-iritani",
+    "location": "New York, NY",
+    "description": "NYPL talk with Pulitzer-winning journalist Evelyn Iritani on her wartime-rescue book Safe Passage."
+  },
+  {
+    "title": "L.J. Nightingale: Drawn",
+    "date": "2026-11-18",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/product/lj-nightingale-drawn/",
+    "location": "Rochester, NY",
+    "description": "Reading and conversation with author L.J. Nightingale on his book Drawn, at Rochester's Writers & Books."
+  },
+  {
+    "title": "Book Signing with Zachary Finn",
+    "date": "2026-10-31",
+    "category": "literary-booktok",
+    "link": "https://stores.barnesandnoble.com/event/9780062223770-0",
+    "location": "Rochester, NY",
+    "description": "Halloween book signing with Zachary Finn for The Lady in White: A Tale Set in Rochester, NY at Barnes & Noble Pittsford."
+  },
+  {
+    "title": "Wes Anderson's Rarely-Seen Short Films (Paris Theatre)",
+    "date": "2026-11-04",
+    "category": "wes-anderson",
+    "link": "https://www.imdb.com/news/ni64299198/",
+    "location": "New York, NY",
+    "description": "One-night screening of Wes Anderson's rarely-seen short films, including The Wonderful Story of Henry Sugar, at the Paris Theatre."
+  },
+  {
+    "title": "Wayne County Apple Tasting Tour",
+    "date": "2026-10-09",
+    "category": "fall-autumn",
+    "link": "https://www.fingerlakestravelny.com/events-festivals/fall-events/",
+    "location": "Wayne County, NY",
+    "description": "Self-guided Finger Lakes apple tasting tour with stops sampling apple varieties, foods, and drinks over Columbus Day weekend."
+  },
+  {
+    "title": "Miyazaki at the Dryden (The Dryden gets animated)",
+    "date": "2026-11-02",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/dryden-gets-animated-november",
+    "location": "Rochester, NY",
+    "description": "Dryden Theatre series of five Hayao Miyazaki films, opening with Castle in the Sky and running Fridays and Sundays in November."
+  },
+  {
+    "title": "Hamlet (Stratford Festival 2027)",
+    "date": "2027-07-13",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Des McAnuff directs Hamlet as the centerpiece of Stratford Festival's 75th anniversary season; passport needed across the border."
+  },
+  {
+    "title": "The Merchant of Venice (Stratford Festival 2027)",
+    "date": "2027-05-08",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Chris Abraham directs The Merchant of Venice, part of Stratford's three-play exploration of Jewish identity; passport needed."
+  },
+  {
+    "title": "The Taming of the Shrew (Stratford Festival 2027)",
+    "date": "2027-08-11",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Krista Jackson directs The Taming of the Shrew, set in today's reality-TV world, in Stratford's 75th season; passport needed."
+  },
+  {
+    "title": "Arms and the Man (Shaw Festival 2027)",
+    "date": "2027-05-28",
+    "category": "theatre",
+    "link": "https://media.shawfest.com/media/releases/release/shaw-festival-announces-2027-playbill/",
+    "location": "Niagara-on-the-Lake, Canada",
+    "description": "Bernard Shaw's Arms and the Man returns to the Court House Theatre in the Shaw Festival's 65th season; passport needed."
+  },
+  {
+    "title": "NT Live: The Misanthrope",
+    "date": "2026-11-28",
+    "category": "theatre",
+    "link": "https://thelittle.org/misanthrope-ntlive/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live cinema screening of Molière's The Misanthrope starring Sandra Oh, at Rochester's Little Theatre."
   }
 ]
