@@ -6358,5 +6358,101 @@
     "link": "https://gevatheatre.org/show/the-da-vinci-code/",
     "location": "Rochester, NY",
     "description": "Geva Theatre season-closing stage adaptation of Dan Brown's best-selling thriller The Da Vinci Code."
+  },
+  {
+    "category": "biotech-longevity",
+    "date": "2026-12-12",
+    "description": "Forum on AI-driven healthy longevity at Harvard uniting aging science, clinical translation, and the investment ecosystem.",
+    "link": "https://longevity121.org/en-US/event/2026",
+    "location": "Boston, MA",
+    "title": "Longevity 121 Boston 2026"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-06",
+    "description": "Dominican novelist Rita Indiana reads from her new thriller Asmodeus in conversation with Alex V. Cruz at Alianza Dominicana Cultural Center.",
+    "link": "https://wordupbooks.com/event/2026-11-06/rita-indiana-washington-heights-celebrating-asmodeus",
+    "location": "New York, NY",
+    "title": "Rita Indiana in Washington Heights: Celebrating Asmodeus"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-09",
+    "description": "Launch of Seth Fleisher's novel The Farther Shore in conversation with National Jewish Book Award winner Zeeva Bukai at Barnes & Noble Upper West Side.",
+    "link": "https://luma.com/qzjiunx5",
+    "location": "New York, NY",
+    "title": "The Farther Shore Book Launch (Seth Fleisher)"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-20",
+    "description": "Bestselling author of Wild Swans discusses her new memoir Fly, Wild Swans with New Yorker writer Jiayang Fan at Asia Society.",
+    "link": "https://asiasociety.org/center-us-china-relations/events/jung-chang-my-life-after-china",
+    "location": "New York, NY",
+    "title": "Jung Chang: Fly, Wild Swans"
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-10-20",
+    "description": "Pola Negri silent comedy The Wildcat screens for the first time at the Dryden, opening its Polish Film Festival celebration.",
+    "link": "https://www.eastman.org/dryden-theatre",
+    "location": "Rochester, NY",
+    "title": "The Wildcat (Dryden Theatre)"
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-10-29",
+    "description": "35mm screening of Andrzej Wajda's classic Ashes and Diamonds in the Dryden's centennial tribute ahead of the Polish Film Festival.",
+    "link": "https://www.eastman.org/dryden-theatre",
+    "location": "Rochester, NY",
+    "title": "Ashes and Diamonds (Dryden Theatre)"
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-10-31",
+    "description": "Halloween-night 35mm screening of John Carpenter's horror classic In the Mouth of Madness at the Dryden Theatre.",
+    "link": "https://www.eastman.org/event/film-screenings/mouth-madness-35mm",
+    "location": "Rochester, NY",
+    "title": "In the Mouth of Madness (Dryden Theatre)"
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-11-14",
+    "description": "Dryden Theatre screening of the classic horror adaptation Dr. Jekyll and Mr. Hyde.",
+    "link": "https://www.eastman.org/dryden-theatre",
+    "location": "Rochester, NY",
+    "title": "Dr. Jekyll and Mr. Hyde (Dryden Theatre)"
+  },
+  {
+    "category": "theatre",
+    "date": "2027-04-06",
+    "description": "Pulitzer and Tony-winning Branden Jacobs-Jenkins family drama plays Geva's Wilson Stage, co-produced with Philadelphia Theatre Company.",
+    "link": "https://gevatheatre.org/show/purpose/",
+    "location": "Rochester, NY",
+    "title": "Purpose (Geva Theatre)"
+  },
+  {
+    "category": "theatre",
+    "date": "2027-06-04",
+    "description": "Canadian premiere of Hilary Mantel's Tudor epic, adapted by Mike Poulton and directed by Jonathan Church at the Stratford Festival; passport needed across the border.",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "title": "Wolf Hall (Stratford Festival 2027)"
+  },
+  {
+    "category": "theatre",
+    "date": "2027-06-19",
+    "description": "Canadian premiere of the second Hilary Mantel Cromwell epic, directed by Jonathan Church in the Stratford Festival's 75th season; passport needed.",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "title": "Bring Up the Bodies (Stratford Festival 2027)"
+  },
+  {
+    "category": "theatre",
+    "date": "2027-08-11",
+    "description": "Tom Stoppard's philosophical satire staged by artistic director Tim Carroll on the Shaw Festival's Festival Theatre stage; passport needed.",
+    "link": "https://www.shawfest.com/",
+    "location": "Niagara-on-the-Lake, Canada",
+    "title": "Jumpers (Shaw Festival 2027)"
   }
 ]
