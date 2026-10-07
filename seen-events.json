@@ -6454,5 +6454,53 @@
     "link": "https://www.shawfest.com/",
     "location": "Niagara-on-the-Lake, Canada",
     "title": "Jumpers (Shaw Festival 2027)"
+  },
+  {
+    "title": "Fall Fest at the Zoo",
+    "date": "2026-10-10",
+    "category": "fall-autumn",
+    "link": "https://senecaparkzoo.org/fallfest/",
+    "location": "Rochester, NY",
+    "description": "Weekend-long fall festival at Seneca Park Zoo with a hay maze, scarecrow contest, themed weekends, and animal chats every weekend in October."
+  },
+  {
+    "title": "Frances Tepper: After All",
+    "date": "2026-10-24",
+    "category": "literary-booktok",
+    "link": "https://pittsfordvillage.com/events/after-all-pittsford-author-frances-tepper-reads-her-new-book-at-the-library-octo",
+    "location": "Pittsford, NY",
+    "description": "Free author reading and talk with Pittsford author Frances Tepper on her new book After All at Pittsford Community Library."
+  },
+  {
+    "title": "The 2026 Deborah Pease Prize",
+    "date": "2026-10-28",
+    "category": "literary-booktok",
+    "link": "https://apublicspace.org/events/the-2026-deborah-pease-prize",
+    "location": "New York, NY",
+    "description": "Cocktails-and-conversation celebration honoring Kelly Link, recipient of A Public Space's Deborah Pease Prize for advancing literature."
+  },
+  {
+    "title": "1UpState Game Developer Expo",
+    "date": "2026-11-07",
+    "category": "retro-gaming",
+    "link": "https://1upstate.com/home/",
+    "location": "Albany, NY",
+    "description": "Fourth annual video game developer expo at Albany Capital Center with panels, exhibits, game demonstrations, and gaming vendors."
+  },
+  {
+    "title": "Haunted Fort William Henry Ghost Hunt",
+    "date": "2026-11-20",
+    "category": "paranormal-events",
+    "link": "https://www.hauntedrooms.com/new-york/ghost-hunts/fort-william-henry",
+    "location": "Lake George, NY",
+    "description": "Six-hour after-hours paranormal investigation of haunted Fort William Henry with professional ghost-hunting equipment and structured sessions."
+  },
+  {
+    "title": "Dear Guides Live Event",
+    "date": "2026-11-21",
+    "category": "occult-esoteric",
+    "link": "https://gabbybernstein.com/dear-guides-live-event/",
+    "location": "New York, NY",
+    "description": "Daylong live channeling, guided meditation, and practice with Gabrielle Bernstein and four psychic mediums at SVA Theatre."
   }
 ]
