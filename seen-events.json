@@ -6702,5 +6702,77 @@
     "link": "https://www.eastman.org/dryden-theatre",
     "location": "Rochester, NY",
     "description": "Special 35mm nitrate screening of the 1954 Judy Garland musical A Star is Born at the Dryden Theatre."
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-11-28",
+    "description": "Immersive Halloween-vs-Christmas themed market at ARTISANworks with 100+ vendors, tarot readers, and permanent jewelry.",
+    "link": "https://artisanworks.net/event-list/",
+    "location": "Rochester, NY",
+    "title": "Nightmare Before Christmas: An Immersive Shopping Experience"
+  },
+  {
+    "category": "occult-esoteric",
+    "date": "2026-10-18",
+    "description": "Sunday afternoon drop-in tarot readings by independent readers at Katboocha Booch Bar, each Sunday in October.",
+    "link": "https://www.katboocha.com/event-details/psychic-sundays-katboocha-2026-10-18-12-00",
+    "location": "Rochester, NY",
+    "title": "Psychic Sundays @ Katboocha"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-24",
+    "description": "Paranormal investigation evening at the haunted 1890 House with Empirical Paranormal, benefitting the Special Olympics torch run.",
+    "link": "https://the1890house.org/event/paranormal-lockdown-2026/",
+    "location": "Cortland, NY",
+    "title": "Paranormal Lockdown 2026 (1890 House Museum)"
+  },
+  {
+    "category": "paranormal-events",
+    "date": "2026-10-17",
+    "description": "After-dark all-floor paranormal investigation of the haunted Union Tavern with the Monroe County Paranormal Investigators.",
+    "link": "https://uniontavernseabreeze.com/irondequoit-sea-breeze-the-union-tavern-events",
+    "location": "Rochester, NY",
+    "title": "Paranormal Investigation at Union Tavern (MCPI)"
+  },
+  {
+    "category": "rochester-venues",
+    "date": "2026-11-21",
+    "description": "Rare 35mm nitrate screening of Laurence Olivier's Oscar-winning Hamlet during the Dryden's November Nitrate Weekend.",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "title": "Hamlet (35mm Nitrate) at the Dryden Theatre"
+  },
+  {
+    "category": "literary-booktok",
+    "date": "2026-11-08",
+    "description": "Reflective writing workshop at Writers & Books with prompts and guided exercises, open to beginners.",
+    "link": "https://writersandbooks.org/product/writing-your-way-forward-november-8/",
+    "location": "Rochester, NY",
+    "title": "Writing Your Way Forward | November 8"
+  },
+  {
+    "category": "theatre",
+    "date": "2027-01-29",
+    "description": "PUSH Physical Theatre's hilarious acrobatic retelling of Jekyll & Hyde from the villain's perspective, on Geva's Fielding Stage.",
+    "link": "https://gevatheatre.org/show/hyde/",
+    "location": "Rochester, NY",
+    "title": "Hyde (PUSH Physical Theatre at Geva)"
+  },
+  {
+    "category": "theatre",
+    "date": "2026-12-15",
+    "description": "National Theatre Live cinema screening of Jodie Comer's Olivier and Tony-winning one-woman play Prima Facie.",
+    "link": "https://thelittle.org/ntl/",
+    "location": "Rochester, NY",
+    "title": "NT Live: Prima Facie at The Little Theatre"
+  },
+  {
+    "category": "pen-stationery",
+    "date": "2026-11-15",
+    "description": "One-day Society of Scribes workshop on the 16th-century Secretary Hand calligraphy script at SVA Annex.",
+    "link": "https://www.societyofscribes.org/workshop-listing/p/secretary-hand-barry-morentz-2026",
+    "location": "New York, NY",
+    "title": "Secretary Hand with Barry Morentz"
   }
 ]
