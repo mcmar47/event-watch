@@ -7078,5 +7078,101 @@
     "link": "https://www.eventbrite.com/e/healing-arts-festival-psychic-fair-tickets-2002760543699",
     "location": "New York, NY",
     "description": "Afternoon of tarot, astrology, reiki, and meditation sessions at Quest Bookshop NYC."
+  },
+  {
+    "title": "RCBU Biomedical Ultrasound Symposium Day 2026",
+    "date": "2026-11-12",
+    "category": "biotech-longevity",
+    "link": "https://events.rochester.edu/event/rcbu-biomedical-ultrasound-symposium-day-2026",
+    "location": "Rochester, NY",
+    "description": "University of Rochester symposium on diagnostic and therapeutic ultrasound with lectures, poster sessions, and networking."
+  },
+  {
+    "title": "Silent Reading Night",
+    "date": "2026-11-19",
+    "category": "literary-booktok",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "description": "Free silent reading evening with discussion breaks at The Siren and the Sea bookstore bar."
+  },
+  {
+    "title": "December Horror & Homies Book Club",
+    "date": "2026-12-18",
+    "category": "literary-booktok",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "description": "Monthly horror book club meeting at The Siren and the Sea, book to be announced."
+  },
+  {
+    "title": "Mona Chalabi: Ten Lives",
+    "date": "2026-11-12",
+    "category": "literary-booktok",
+    "link": "https://www.eventbrite.com/e/offsite-mona-chalabi-ten-lives-w-jia-tolentino-tickets-2002315615908",
+    "location": "Brooklyn, NY",
+    "description": "Book talk with Pulitzer-winning data journalist Mona Chalabi on Ten Lives, in conversation with Jia Tolentino at Books Are Magic."
+  },
+  {
+    "title": "Nikki Ervice: Roadshow",
+    "date": "2026-11-10",
+    "category": "literary-booktok",
+    "link": "https://www.eventbrite.com/e/book-launch-nikki-ervice-with-anna-north-tickets-2001647468461",
+    "location": "Brooklyn, NY",
+    "description": "Book launch with debut novelist Nikki Ervice for Roadshow, in conversation with Anna North at Greenlight Bookstore."
+  },
+  {
+    "title": "Friends of The Purple Door Psychic Fair",
+    "date": "2026-12-05",
+    "category": "occult-esoteric",
+    "link": "https://purpledoorsoulsource.com/pages/current-events",
+    "location": "Brighton, NY",
+    "description": "Psychic fair with local psychic-mediums and intuitive readers offering individual readings at Purple Door Soul Source."
+  },
+  {
+    "title": "PlayStation 1 (Dave & Buster's Rochester)",
+    "date": "2026-11-28",
+    "category": "retro-gaming",
+    "link": "https://www.eventbrite.com/e/playstation-1-tickets-1992108595435",
+    "location": "Rochester, NY",
+    "description": "Retro PlayStation 1 gaming afternoon with classic games and old-school vibes at Dave & Buster's Rochester."
+  },
+  {
+    "title": "The French Dispatch at Upstate Films Starr Theatre",
+    "date": "2026-12-11",
+    "category": "wes-anderson",
+    "link": "https://www.thedailycatch.org/events/upstate-films-presents-the-french-dispatch/",
+    "location": "Rhinebeck, NY",
+    "description": "Upstate Films screening of Wes Anderson's The French Dispatch at the Starr Theatre, with multiple December showings."
+  },
+  {
+    "title": "Julius Caesar (Shakespeare in Delaware Park 2027)",
+    "date": "2027-06-17",
+    "category": "theatre",
+    "link": "https://shakespeareindelawarepark.org/auditions/",
+    "location": "Buffalo, NY",
+    "description": "Free outdoor Shakespeare production of Julius Caesar in Delaware Park, opening the 2027 season June 17."
+  },
+  {
+    "title": "Shakespeare in Love (Shakespeare in Delaware Park 2027)",
+    "date": "2027-07-22",
+    "category": "theatre",
+    "link": "https://shakespeareindelawarepark.org/auditions/",
+    "location": "Buffalo, NY",
+    "description": "Free outdoor stage adaptation of Shakespeare in Love in Delaware Park, playing late July through mid-August 2027."
+  },
+  {
+    "title": "The Color Purple (Shaw Festival 2027)",
+    "date": "2027-06-26",
+    "category": "theatre",
+    "link": "https://media.shawfest.com/media/releases/",
+    "location": "Niagara-on-the-Lake, Canada",
+    "description": "Shaw Festival musical based on Alice Walker's The Color Purple at the Festival Theatre; across the border, passport required."
+  },
+  {
+    "title": "Almighty Voice and His Wife (Stratford Festival 2027)",
+    "date": "2027-06-11",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "New indigenous play by Daniel David Moses at Stratford's Studio Theatre in the festival's 75th season; across the border, passport required."
   }
 ]
