@@ -1,6 +1,6 @@
 ---
 description: Search for new events across all watched categories, email a digest, and update seen-events.json
-model: openrouter/deepseek/deepseek-v4-flash-0731
+model: opencode/deepseek-v4.1-flash-free
 ---
 
 seen-events.json in this repository is the store of events already reported in past
