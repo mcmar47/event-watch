@@ -3,10 +3,12 @@ description: Search for new events across all watched categories, email a digest
 model: openrouter/deepseek/deepseek-v4-flash-0731
 ---
 
-Read seen-events.json in this repository first — it's a JSON array of events already
-reported in past runs, each with at least a "title" and "date" field.
+seen-events.json in this repository is the store of events already reported in past
+runs. It is large (hundreds of KB) and grows every run — **never read it**, not whole
+and not in chunks. `check_dedup` and `read_calibration` read it for you, and
+`append_seen_events` updates it; those tools are the only way you touch it.
 
-Then call `read_calibration`. It reads `interested.json` (events starred on the web page)
+Start by calling `read_calibration`. It reads `interested.json` (events starred on the web page)
 and joins each mark back to its full record in seen-events.json, returning the events that
 were actually wanted. Treat those as strong positives when deciding what to surface: they
 are what someone clicked, as opposed to what this prompt predicts they would like.
