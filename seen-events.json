@@ -7366,5 +7366,133 @@
     "link": "https://espenshow.com/",
     "location": "New York, NY",
     "description": "Two-day NYC pen show with makers, collectors, fountain pens, paper, and ink at the New York Hilton Midtown."
+  },
+  {
+    "title": "Together '26 Annual Conference",
+    "date": "2026-11-04",
+    "category": "biotech-longevity",
+    "link": "https://lifesciencesny.org/events/together26conference/",
+    "location": "Albany, NY",
+    "description": "Annual Life Sciences NY conference in Albany with a member dinner, awards, and a day of presentations and networking."
+  },
+  {
+    "title": "Apex Congress — Long Island: Medical Longevity Congress",
+    "date": "2027-07-26",
+    "category": "biotech-longevity",
+    "link": "https://www.apexmasterexpos.com/longevity/congress/usa/long-island/",
+    "location": "Long Island, NY",
+    "description": "Two-day congress on medical longevity, biotech, regenerative medicine, and AI in healthcare, with panels and executive roundtables."
+  },
+  {
+    "title": "Experience Psychic Fair: Rochester",
+    "date": "2026-11-14",
+    "category": "occult-esoteric",
+    "link": "https://www.awakened.lifestyle/events/experience-psychic-fair-rochester-ny-595",
+    "location": "Webster, NY",
+    "description": "Two-day psychic fair with mediums, tarot, astrology, and crystal-healing readers plus aura photography at the Damascus Shriners."
+  },
+  {
+    "title": "Fortunes Told (Nightwing Healing Arts)",
+    "date": "2026-10-24",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/fortunes-told-tickets-2003112252670",
+    "location": "Rochester, NY",
+    "description": "Halloween-season reader event offering sample tarot, palm, mediumship, and intuitive readings from multiple practitioners."
+  },
+  {
+    "title": "Hippie Mandala Tarot Readings with Jenna",
+    "date": "2026-11-11",
+    "category": "occult-esoteric",
+    "link": "https://www.mythictreasures.com/event-details/reader-hippie-mandala-tarot-readings-with-jenna-2026-11-11-13-00",
+    "location": "Rochester, NY",
+    "description": "Walk-in afternoon of free one-card tarot and oracle readings with Jenna at Mythic Treasures."
+  },
+  {
+    "title": "Long Island Retro Gaming Expo",
+    "date": "2027-08-13",
+    "category": "retro-gaming",
+    "link": "https://liretro.com/",
+    "location": "Garden City, NY",
+    "description": "Three-day retro gaming convention with arcades, console and PC free-play, tournaments, panels, and vendors at the Cradle of Aviation."
+  },
+  {
+    "title": "Lake Erie Wine Country Harvest Weekends",
+    "date": "2026-11-06",
+    "category": "fall-autumn",
+    "link": "https://www.tourchautauqua.com/events/lake-erie-wine-country-harvest-weekends",
+    "location": "Westfield, NY",
+    "description": "Fall harvest weekends along the Lake Erie Wine Trail pairing member wineries' wines with harvest-inspired food."
+  },
+  {
+    "title": "Hermann J. Wiemer Harvest Festival Open House",
+    "date": "2026-11-07",
+    "category": "fall-autumn",
+    "link": "https://www.wiemer.com/event/harvest-festival-open-house-2026/",
+    "location": "Dundee, NY",
+    "description": "Finger Lakes winery open house with cellar tastings of the full range of wines during the fall harvest."
+  },
+  {
+    "title": "Taste of CNY",
+    "date": "2026-11-07",
+    "category": "fall-autumn",
+    "link": "https://cceoneida.com/events/2026/11/07/taste-of-cny",
+    "location": "Westmoreland, NY",
+    "description": "Free fall community festival at North Star Orchards with local farmers, artisan vendors, food trucks, and live music."
+  },
+  {
+    "title": "The Historic Bundy House Ghost Tours",
+    "date": "2026-11-20",
+    "category": "paranormal-events",
+    "link": "https://hauntedhistorytrail.com/events/the-historic-bundy-house-ghost-tours-hosted-by-phantom-visions-paranormal-3",
+    "location": "Binghamton, NY",
+    "description": "Monthly lantern ghost tours of Binghamton's historic Bundy House led by Phantom Visions Paranormal, every third Friday."
+  },
+  {
+    "title": "Private 16-Hour Investigation: The Chase Manor",
+    "date": "2026-11-13",
+    "category": "paranormal-events",
+    "link": "https://www.eventbrite.com/e/private-16-hour-investigation-the-chase-manor-tickets-2002906893435",
+    "location": "Auburn, NY",
+    "description": "Overnight paranormal investigation of Auburn's 1800s Chase Manor with ghost-hunting gear placed throughout the property."
+  },
+  {
+    "title": "Hamlet (Stratford Festival)",
+    "date": "2027-07-13",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Des McAnuff directs Shakespeare's Hamlet, set in postwar Europe, as the centrepiece of the Stratford Festival's 75th season. Ontario, Canada — passport required."
+  },
+  {
+    "title": "The Merchant of Venice (Stratford Festival)",
+    "date": "2027-05-08",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Chris Abraham directs Shakespeare's The Merchant of Venice, part of a three-play Stratford exploration of Jewish identity. Ontario, Canada — passport required."
+  },
+  {
+    "title": "Arms and the Man (Shaw Festival)",
+    "date": "2027-05-28",
+    "category": "theatre",
+    "link": "https://www.shawfest.com/",
+    "location": "Niagara-on-the-Lake, Canada",
+    "description": "Bernard Shaw's romantic comedy Arms and the Man, the first Shaw to play the festival's Court House Theatre since 2017. Ontario, Canada — passport required."
+  },
+  {
+    "title": "Julius Caesar (Shakespeare in Delaware Park)",
+    "date": "2027-06-17",
+    "category": "theatre",
+    "link": "https://shakespeareindelawarepark.org/auditions/",
+    "location": "Buffalo, NY",
+    "description": "Shakespeare's Julius Caesar opens Shakespeare in Delaware Park's 52nd free outdoor summer season in Buffalo."
+  },
+  {
+    "title": "The Misanthrope (National Theatre Live)",
+    "date": "2026-11-28",
+    "category": "theatre",
+    "link": "https://thelittle.org/misanthrope-ntlive/",
+    "location": "Rochester, NY",
+    "description": "Sandra Oh stars in an NT Live reimagining of Molière's The Misanthrope, screened at The Little Theatre."
   }
 ]
