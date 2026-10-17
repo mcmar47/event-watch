@@ -68,7 +68,9 @@ const linksFor = (e) =>
 // mark key (markKey.mjs) the interest-server and Continuum both use.
 const eventMarkKey = makeKeyFn(KEY_FIELDS)
 const pickEventHighlight = (events) => {
-  const today = new Date().toISOString().slice(0, 10)
+  // The Pi's local calendar date (en-CA formats as YYYY-MM-DD), not UTC: an
+  // evening run would otherwise count from tomorrow.
+  const today = new Date().toLocaleDateString("en-CA")
   const e = soleImminentItem(events, { dateField: "date", today, withinDays: 3 })
   if (!e) return null
   return {
