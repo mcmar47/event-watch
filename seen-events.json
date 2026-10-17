@@ -7494,5 +7494,125 @@
     "link": "https://thelittle.org/misanthrope-ntlive/",
     "location": "Rochester, NY",
     "description": "Sandra Oh stars in an NT Live reimagining of Molière's The Misanthrope, screened at The Little Theatre."
+  },
+  {
+    "title": "Together '26 LifeSciencesNY Annual Conference",
+    "date": "2026-11-04",
+    "category": "biotech-longevity",
+    "link": "https://events.humanitix.com/together-26-lifesciencesny-annual-conference",
+    "location": "Albany, NY",
+    "description": "Annual Albany gathering of New York's life-sciences industry with a networking reception, awards dinner, and full day of sessions."
+  },
+  {
+    "title": "Forbes Healthcare Summit 2026",
+    "date": "2026-12-02",
+    "category": "biotech-longevity",
+    "link": "https://www.forbes.com/connect/event/2026-forbes-healthcare-summit/",
+    "location": "New York, NY",
+    "description": "Forbes' 15th annual healthcare summit on AI, precision medicine, and extending lifespan, in NYC with virtual attendance."
+  },
+  {
+    "title": "Healthcare, Biotech, Life Sciences & AI Conference",
+    "date": "2026-12-03",
+    "category": "biotech-longevity",
+    "link": "https://www.silversteindreamfoundation.com/events/healthcare-biotech-ai-conference-36lj2",
+    "location": "New York, NY",
+    "description": "One-day NYC conference for C-level leaders on emerging innovations across healthcare, biotech, life sciences, and AI."
+  },
+  {
+    "title": "Robin L. Flanigan: Secret Rochester",
+    "date": "2026-11-05",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/product/robin-l-flanigan-secret-rochester/",
+    "location": "Rochester, NY",
+    "description": "Reading and conversation at Writers & Books on Robin Flanigan's guidebook Secret Rochester, with CITY editor Leah Stacy."
+  },
+  {
+    "title": "Experience Psychic Fair Cortland NY",
+    "date": "2026-11-07",
+    "category": "occult-esoteric",
+    "link": "https://happeningnext.com/event/experience-psychic-fair~-cortland-ny-eid3a0dhb25kg",
+    "location": "Cortland, NY",
+    "description": "Weekend psychic fair at the Port Watson Mini-Conference Center with mediums, aura photos, and metaphysical vendors."
+  },
+  {
+    "title": "Wickham Farms Fall Festival",
+    "date": "2026-11-01",
+    "category": "fall-autumn",
+    "link": "https://wickhamfarms.com/",
+    "location": "Penfield, NY",
+    "description": "Seasonal fall festival at Wickham Farms with apple picking, a pumpkin house, hayrides, games, and hard cider through November 1."
+  },
+  {
+    "title": "Pick'n Patch Fall Festival",
+    "date": "2026-10-31",
+    "category": "fall-autumn",
+    "link": "https://www.picknpatch.com/",
+    "location": "Stanley, NY",
+    "description": "Finger Lakes fall festival with apple and pumpkin picking, farm attractions, animals, and seasonal treats in Stanley."
+  },
+  {
+    "title": "Stokoe Farms Harvest Fest",
+    "date": "2026-10-25",
+    "category": "fall-autumn",
+    "link": "https://rochester.beyondthenest.com/content/harvest-fest-2026-stokoe-farms",
+    "location": "Scottsville, NY",
+    "description": "Farm harvest festival with 40-plus activities, hayrides, a petting zoo, candy cannon, and pick-your-own pumpkins."
+  },
+  {
+    "title": "Kesicke Farm Fall Festival",
+    "date": "2026-11-01",
+    "category": "fall-autumn",
+    "link": "http://www.kesickefarms.com/fall-festival.html",
+    "location": "Rhinebeck, NY",
+    "description": "Weekend farm fall festival in Rhinebeck with a corn maze, wagon rides, pumpkin picking, live animals, and farm food."
+  },
+  {
+    "title": "November Nitrate",
+    "date": "2026-11-20",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/november-nitrate",
+    "location": "Rochester, NY",
+    "description": "Two-day festival of 35mm nitrate film projection at the Dryden Theatre featuring four restored classics, November 20-21."
+  },
+  {
+    "title": "The Misanthrope",
+    "date": "2026-11-28",
+    "category": "theatre",
+    "link": "https://thelittle.org/misanthrope-ntlive/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live screening of Molière's The Misanthrope starring Sandra Oh, shown at The Little Theatre."
+  },
+  {
+    "title": "Golden Boy",
+    "date": "2027-01-17",
+    "category": "theatre",
+    "link": "https://thelittle.org/category/series/ntl/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live screening of Clifford Odets' Golden Boy starring Josh O'Connor, at The Little Theatre."
+  },
+  {
+    "title": "Purpose",
+    "date": "2027-04-06",
+    "category": "theatre",
+    "link": "https://gevatheatre.org/shows/",
+    "location": "Rochester, NY",
+    "description": "Geva Theatre production of Branden Jacobs-Jenkins' Pulitzer Prize-winning family drama on the Wilson Stage."
+  },
+  {
+    "title": "Shaw Festival 2027 Season",
+    "date": "2027-03-31",
+    "category": "theatre",
+    "link": "https://www.shawfest.com/",
+    "location": "Niagara-on-the-Lake, ON",
+    "description": "Shaw Festival's 65th season opens with South Pacific, The Color Purple, Arsenic and Old Lace, and Stoppard's Jumpers; Ontario, passport required."
+  },
+  {
+    "title": "Stratford Festival 2027 Season",
+    "date": "2027-07-13",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, ON",
+    "description": "Stratford Festival's 2027 season of Shakespeare and classics opens July 13; Stratford, Ontario, passport required."
   }
 ]
