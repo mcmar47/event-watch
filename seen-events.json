@@ -7614,5 +7614,141 @@
     "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
     "location": "Stratford, ON",
     "description": "Stratford Festival's 2027 season of Shakespeare and classics opens July 13; Stratford, Ontario, passport required."
+  },
+  {
+    "title": "NEWLIFE Longevity Wellness Summit",
+    "date": "2026-11-07",
+    "category": "biotech-longevity",
+    "link": "https://newlifeexpo.com/",
+    "location": "New York, NY",
+    "description": "Two-day New York City wellness expo on biohacking, longevity, holistic health, and consciousness, with exhibits and speakers."
+  },
+  {
+    "title": "New York BCI Symposium",
+    "date": "2026-11-05",
+    "category": "biotech-longevity",
+    "link": "https://www.nybci.com/event/89b162b4-f421-443d-9b58-7de48b3d5562/NYBCI26",
+    "location": "New York, NY",
+    "description": "Two-day symposium on brain-computer interface research, clinical translation, and commercialization at the New York Academy of Medicine."
+  },
+  {
+    "title": "Rochester Children & Teen Book Festival",
+    "date": "2026-11-07",
+    "category": "literary-booktok",
+    "link": "https://www.rcbfest.com/",
+    "location": "Rochester, NY",
+    "description": "Free Rochester festival with 50+ children's and teen authors, book signings, panels, and activities at Monroe Community College."
+  },
+  {
+    "title": "Experience Psychic Fair ~ Cortland NY",
+    "date": "2026-11-07",
+    "category": "occult-esoteric",
+    "link": "https://happeningnext.com/event/experience-psychic-fair~-cortland-ny-eid3a0dhb25kg",
+    "location": "Cortland, NY",
+    "description": "Two-day Cortland psychic fair with mediums, tarot and aura readings, metaphysical vendors, and a free gemstone with admission."
+  },
+  {
+    "title": "Public Ghost Hunts at DeLand Mansion",
+    "date": "2026-11-05",
+    "category": "paranormal-events",
+    "link": "https://www.rochesterghosts.com/home/public-ghost-hunts",
+    "location": "Fairport, NY",
+    "description": "Guided paranormal investigation of Fairport's historic DeLand mansion with professional ghost-hunting equipment; ages 18+."
+  },
+  {
+    "title": "Searching for Spirits: A Ghost Hunt",
+    "date": "2026-11-01",
+    "category": "paranormal-events",
+    "link": "https://www.eventbrite.com/e/searching-for-spirits-a-ghost-hunt-tickets-2003389221090",
+    "location": "Rochester, NY",
+    "description": "Guided ghost hunt with psychic medium Carol Cieslinski exploring a historic Rochester building using paranormal investigation equipment."
+  },
+  {
+    "title": "Ghosts of Rochester: Explore the Haunted Past!",
+    "date": "2026-11-01",
+    "category": "paranormal-events",
+    "link": "https://hunthalloween.com/event/ghosts-of-rochester-explore-the-haunted-past-eid1p5qiekgoe5",
+    "location": "Rochester, NY",
+    "description": "Self-guided outdoor ghost-hunting game using a smartphone as a paranormal detector across ten haunted Rochester locations; ages 14+."
+  },
+  {
+    "title": "PlayStation 1",
+    "date": "2026-11-28",
+    "category": "retro-gaming",
+    "link": "https://www.eventbrite.com/e/playstation-1-tickets-1992108595435",
+    "location": "Rochester, NY",
+    "description": "Two-hour retro gaming session celebrating classic PlayStation 1 titles at Dave & Buster's Rochester; all ages."
+  },
+  {
+    "title": "The Rec Room",
+    "date": "2026-12-26",
+    "category": "retro-gaming",
+    "link": "https://newsidequest.com/rochester/events/the-rec-room",
+    "location": "Rochester, NY",
+    "description": "Free-to-play retro arcade classics at Rochester's Roc Holiday Village, running December 26-28."
+  },
+  {
+    "title": "Native American Cinematic Heritage: Smoke Signals",
+    "date": "2026-11-04",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/native-american-cinematic-heritage",
+    "location": "Rochester, NY",
+    "description": "Free screening of the 1998 film Smoke Signals, opening the Dryden Theatre's Native American Cinematic Heritage series."
+  },
+  {
+    "title": "Dr. Jekyll and Mr. Hyde",
+    "date": "2026-11-14",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/special-events",
+    "location": "Rochester, NY",
+    "description": "Screening of John Barrymore's 1920 silent classic Dr. Jekyll and Mr. Hyde at the Dryden Theatre."
+  },
+  {
+    "title": "November Nitrate Weekend: Hamlet (35mm Nitrate)",
+    "date": "2026-11-21",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/dryden-theatre",
+    "location": "Rochester, NY",
+    "description": "35mm nitrate screening of Laurence Olivier's Oscar-winning 1948 Hamlet during the Dryden's November Nitrate Weekend."
+  },
+  {
+    "title": "November Nitrate Weekend: Daisy Kenyon (35mm Nitrate)",
+    "date": "2026-11-21",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/event/film-screenings-special-events/daisy-kenyon-35mm-nitrate",
+    "location": "Rochester, NY",
+    "description": "35mm nitrate screening of Otto Preminger's Daisy Kenyon with an introduction and post-screening discussion by Julie Grossman."
+  },
+  {
+    "title": "The Misanthrope (NT Live)",
+    "date": "2026-11-28",
+    "category": "theatre",
+    "link": "https://thelittle.org/misanthrope-ntlive/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live screening of Molière's The Misanthrope starring Sandra Oh, filmed live at the National Theatre."
+  },
+  {
+    "title": "Golden Boy (NT Live)",
+    "date": "2027-01-17",
+    "category": "theatre",
+    "link": "https://thelittle.org/ntl/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live screening of Clifford Odets' Golden Boy starring Josh O'Connor, filmed at London's Almeida Theatre."
+  },
+  {
+    "title": "South Pacific (Shaw Festival 2027)",
+    "date": "2027-04-10",
+    "category": "theatre",
+    "link": "https://www.shawfest.com/",
+    "location": "Niagara-on-the-Lake, Canada",
+    "description": "Rodgers and Hammerstein's South Pacific opens the Shaw Festival's 2027 season in Ontario, Canada; passport required."
+  },
+  {
+    "title": "The Merchant of Venice (Stratford Festival 2027)",
+    "date": "2027-06-01",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Shakespeare's The Merchant of Venice starring Saul Rubinek opens at the Stratford Festival's Tom Patterson Theatre in Ontario, Canada; passport required."
   }
 ]
