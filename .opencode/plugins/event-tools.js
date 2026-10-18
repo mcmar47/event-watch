@@ -19,6 +19,7 @@ import {
   escapeHtml,
   safeUrl,
   createCheckDedupTool,
+  makeNearDuplicateFn,
   createAppendSeenTool,
   createSeenRecorder,
   createRenderDigestTool,
@@ -156,8 +157,20 @@ export const EventWatchTools = async () => {
         seenFileName: SEEN_FILE,
         keyFields: KEY_FIELDS,
         argsShape: candidateSchema,
+        // The same event under a reworded title ("NT Live: The Misanthrope"
+        // vs "The Misanthrope (National Theatre Live)") went out five times
+        // before this (2026-10-18). The stop words are the venue/format/
+        // series words those rewordings add or drop.
+        isNearDuplicate: makeNearDuplicateFn({
+          stopWords: [
+            "live", "nt", "national", "theatre", "theater", "festival", "fair", "show",
+            "tour", "event", "events", "presents", "annual", "edition", "book", "club",
+            "january", "february", "march", "april", "may", "june", "july", "august",
+            "september", "october", "november", "december",
+          ],
+        }),
         description:
-          "Check candidate events against seen-events.json and return which are genuinely new. Use this instead of manually comparing titles/dates by eye — it does exact normalized (trimmed, case-folded) matching on title+date so nothing is missed or double-counted.",
+          "Check candidate events against seen-events.json and return which are genuinely new. Use this instead of manually comparing titles/dates by eye — it matches exact normalized title+date, and also the same event on the same date under a reworded title (a `duplicates` entry with `matched` names the title it matched). Trust it: don't re-add a duplicate under yet another title.",
       }),
 
       filter_future_events: createFilterFutureEventsTool(),

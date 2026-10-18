@@ -120,6 +120,10 @@ can't confirm the year, discard the event rather than guessing.
 
 Compare every remaining (confirmed-future) event against seen-events.json by
 title + date. Only keep events NOT already in that file.
+Treat a reworded title on the same date as already seen too: "The Misanthrope
+(NT Live)" is the same event as a stored "NT Live: The Misanthrope" — if one
+title's words (ignoring venue, series, year and month words) are all in the
+other's, it's a duplicate.
 
 For each new event, also determine its location: a short "City, ST" (or
 "City, Country" outside the US) for in-person events, or the literal string
