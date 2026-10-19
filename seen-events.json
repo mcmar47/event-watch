@@ -7750,5 +7750,77 @@
     "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
     "location": "Stratford, Canada",
     "description": "Shakespeare's The Merchant of Venice starring Saul Rubinek opens at the Stratford Festival's Tom Patterson Theatre in Ontario, Canada; passport required."
+  },
+  {
+    "title": "Brian Schaefer: Town & Country",
+    "date": "2026-11-04",
+    "category": "literary-booktok",
+    "link": "https://jccrochester.org/authors-festival/",
+    "location": "Rochester, NY",
+    "description": "Author talk on Schaefer's debut novel Town & Country at the JCC's Lane Dworkin Authors + Innovators Festival."
+  },
+  {
+    "title": "Barak Benaryeh: The Vet Will See You Now",
+    "date": "2026-11-10",
+    "category": "literary-booktok",
+    "link": "https://jccrochester.org/authors-festival/",
+    "location": "Rochester, NY",
+    "description": "Veterinarian and author Barak Benaryeh discusses his behind-the-scenes book about life inside a veterinary hospital."
+  },
+  {
+    "title": "Caroline Bock: The Other Beautiful People",
+    "date": "2026-11-12",
+    "category": "literary-booktok",
+    "link": "https://jccrochester.org/authors-festival/",
+    "location": "Rochester, NY",
+    "description": "Author talk on Bock's novel about a cable-network publicist in the weeks after 9/11."
+  },
+  {
+    "title": "Rochester's Own: Roundtable and Bagels",
+    "date": "2026-11-15",
+    "category": "literary-booktok",
+    "link": "https://jccrochester.org/authors-festival/",
+    "location": "Rochester, NY",
+    "description": "Local authors Harry Reis, Nora Rubel, and Stephen Schottenfeld discuss their new books in a moderated roundtable."
+  },
+  {
+    "title": "Spirits of Union Tavern",
+    "date": "2026-10-28",
+    "category": "paranormal-events",
+    "link": "https://www.monroeghost.com/upcoming-events",
+    "location": "Irondequoit, NY",
+    "description": "Paranormal presentation at Union Tavern pairing Rochester history and ghost stories with investigator-led discussion."
+  },
+  {
+    "title": "Paranormal Investigation at DeLand Mansion",
+    "date": "2026-11-19",
+    "category": "paranormal-events",
+    "link": "https://www.rochesterghosts.com/home/public-ghost-hunts",
+    "location": "Fairport, NY",
+    "description": "Guided three-hour ghost hunt with professional investigators at Fairport's historic DeLand mansion; pre-registration required."
+  },
+  {
+    "title": "The Grand Budapest Hotel Outdoor Screening (Archtober Newburgh)",
+    "date": "2026-10-30",
+    "category": "wes-anderson",
+    "link": "https://archtobernewburgh.org/events/urban-film-screening-the-grand-budapest-hotel/",
+    "location": "Newburgh, NY",
+    "description": "Free outdoor screening of Wes Anderson's The Grand Budapest Hotel with a pre-film talk on film and architecture."
+  },
+  {
+    "title": "Pumpkin Patch Train Rides",
+    "date": "2026-10-24",
+    "category": "fall-autumn",
+    "link": "https://rochestertrainrides.com/events/",
+    "location": "Rush, NY",
+    "description": "Vintage train rides to a pumpkin patch with museum exhibits, model trains, and a petting zoo."
+  },
+  {
+    "title": "Chronovisor (Rochester Premiere)",
+    "date": "2026-11-19",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Rochester premiere at the Dryden of a film about an academic obsessed with an occult device said to show the past."
   }
 ]
