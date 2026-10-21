@@ -7902,5 +7902,37 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "Special program of films that treat landscape itself as subject, presented in 16mm and 35mm at the Dryden."
+  },
+  {
+    "title": "The Hole (Rochester Premiere)",
+    "date": "2026-11-06",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/dryden-theatre",
+    "location": "Rochester, NY",
+    "description": "Rochester premiere of Tsai Ming-liang's 1998 film The Hole, screened in a new 35mm print at the Dryden Theatre."
+  },
+  {
+    "title": "Long Acre Farms Fall Festival Weekend",
+    "date": "2026-10-24",
+    "category": "fall-autumn",
+    "link": "https://www.longacrefarms.com/calendar",
+    "location": "Macedon, NY",
+    "description": "Weekend fall festival at Long Acre Farms with a corn maze, hayrides, pumpkin picking, and family farm activities."
+  },
+  {
+    "title": "Liberty Ridge Farm Final Fall Festival",
+    "date": "2026-11-01",
+    "category": "fall-autumn",
+    "link": "https://libertyridgefarm.com/calendar/fall-festival-11-1-26",
+    "location": "Schaghticoke, NY",
+    "description": "Closing weekend of Liberty Ridge Farm's fall festival with a 10-acre corn maze, pumpkin picking, shows, and barnyard attractions."
+  },
+  {
+    "title": "Lake Erie Wine Country Harvest Weekend",
+    "date": "2026-11-06",
+    "category": "fall-autumn",
+    "link": "https://www.tourchautauqua.com/events/lake-erie-wine-country-harvest-weekends",
+    "location": "Westfield, NY",
+    "description": "Fall harvest weekend across 20 Lake Erie Wine Country wineries pairing wines with harvest-inspired foods."
   }
 ]
