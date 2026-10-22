@@ -7934,5 +7934,29 @@
     "link": "https://www.tourchautauqua.com/events/lake-erie-wine-country-harvest-weekends",
     "location": "Westfield, NY",
     "description": "Fall harvest weekend across 20 Lake Erie Wine Country wineries pairing wines with harvest-inspired foods."
+  },
+  {
+    "title": "Long Acre Farms Moonlight Maze",
+    "date": "2026-10-30",
+    "category": "fall-autumn",
+    "link": "https://www.longacrefarms.com/calendar",
+    "location": "Macedon, NY",
+    "description": "Evening run of Long Acre Farms' Amazing Maize corn maze, open 5-11 PM."
+  },
+  {
+    "title": "Permission Slip Project",
+    "date": "2026-11-13",
+    "category": "literary-booktok",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "description": "Creative workshop at The Unreliable Narrator on crafting a permission slip to be exactly who you want to be."
+  },
+  {
+    "title": "Filmi Fest 2000: Asoka (35mm)",
+    "date": "2026-11-07",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Opening of the Dryden Theatre's Filmi Fest 2000 series with a 35mm screening of the Shah Rukh Khan epic Asoka."
   }
 ]
