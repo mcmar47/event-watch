@@ -7958,5 +7958,85 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "Opening of the Dryden Theatre's Filmi Fest 2000 series with a 35mm screening of the Shah Rukh Khan epic Asoka."
+  },
+  {
+    "title": "Gamay Days",
+    "date": "2026-11-21",
+    "category": "fall-autumn",
+    "link": "https://www.20deep.com/events/gamay-days",
+    "location": "Honeoye Falls, NY",
+    "description": "Second annual Beaujolais Nouveau-style Gamay release with tastings, a European-style holiday market, live music, and fireworks."
+  },
+  {
+    "title": "Rochester Queer Open Mic",
+    "date": "2026-11-18",
+    "category": "literary-booktok",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "description": "Monthly LGBTQ+ open mic for poetry and spoken word at The Unreliable Narrator, with featured guests and a listening room."
+  },
+  {
+    "title": "Dan Kraines with Chen Chen and Anastasia Nikolis",
+    "date": "2026-12-10",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/product/dan-kraines-with-chen-chen-and-anastasia-nikolis/",
+    "location": "Rochester, NY",
+    "description": "Hybrid poetry reading and conversation celebrating Dan Kraines's collection Strap, with Chen Chen and Anastasia Nikolis at Writers & Books."
+  },
+  {
+    "title": "The Taming of the Shrew (Stratford Festival 2027)",
+    "date": "2027-08-26",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, Canada",
+    "description": "Krista Jackson directs Shakespeare's comedy as a reality-TV satire at the Stratford Festival's Tom Patterson Theatre; passport required."
+  },
+  {
+    "title": "Intimate Apparel (Shaw Festival 2027)",
+    "date": "2027-08-05",
+    "category": "theatre",
+    "link": "https://www.shawfest.com/",
+    "location": "Niagara-on-the-Lake, Canada",
+    "description": "Lynn Nottage's drama about a Black seamstress in 1905 New York, directed by Philip Akin at the Shaw Festival; passport required."
+  },
+  {
+    "title": "Chronovisor (Dryden Theatre)",
+    "date": "2026-11-19",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/event/film-screenings/chronovisor-dcp",
+    "location": "Rochester, NY",
+    "description": "Rochester premiere of a film about an academic beguiled by the legend of the Chronovisor, an occult device said to show any moment in history."
+  },
+  {
+    "title": "Powwow People (DCP) – Free to All",
+    "date": "2026-11-18",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/event/film-screenings/powwow-people-dcp",
+    "location": "Rochester, NY",
+    "description": "Free vérité documentary made by the organizers of a contemporary Native gathering, part of the Dryden's Native American Cinematic Heritage series."
+  },
+  {
+    "title": "Zu: Warriors from the Magic Mountain (35mm)",
+    "date": "2026-11-12",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/event/film-screenings/zu-warriors-magic-mountain-35mm",
+    "location": "Rochester, NY",
+    "description": "35mm screening of Tsui Hark's 1983 swordplay fantasy epic, a key influence on Crouching Tiger, Hidden Dragon, at the Anomaly Film Festival."
+  },
+  {
+    "title": "Smoke Signals (35mm) – Free to All",
+    "date": "2026-11-04",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/event/free-all-film-screenings/smoke-signals-35mm-free-all",
+    "location": "Rochester, NY",
+    "description": "Free 35mm screening of the landmark 1998 Indigenous road-trip drama, part of the Dryden's Native American Cinematic Heritage series."
+  },
+  {
+    "title": "Heel (Polish Film Festival)",
+    "date": "2026-11-03",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/event/film-screenings/heel-dcp",
+    "location": "Rochester, NY",
+    "description": "Jan Komasa's black comedy-thriller about a couple who abduct a young criminal, screening in the Dryden's Polish Film Festival."
   }
 ]
