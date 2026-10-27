@@ -8190,5 +8190,37 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "Silent Tuesdays screening of a new Library of Congress 35mm restoration, with live piano accompaniment."
+  },
+  {
+    "title": "Red Parry NYC Retro Fighting Game Tournament",
+    "date": "2026-11-05",
+    "category": "retro-gaming",
+    "link": "https://www.wonderville.nyc/events",
+    "location": "Brooklyn, NY",
+    "description": "Free retro fighting-game tournament at Wonderville in Brooklyn, featuring Street Fighter V and classic arcade fighters."
+  },
+  {
+    "title": "Anomaly Film Festival 2026",
+    "date": "2026-11-11",
+    "category": "rochester-venues",
+    "link": "https://www.anomalyfilmfest.com",
+    "location": "Rochester, NY",
+    "description": "Five-day Rochester genre film festival with independent horror, sci-fi, fantasy, and cult features plus short-film programs."
+  },
+  {
+    "title": "Native American Cinematic Heritage Series",
+    "date": "2026-11-04",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/native-american-cinematic-heritage",
+    "location": "Rochester, NY",
+    "description": "Free November series at the Dryden Theatre presenting five Indigenous-made films for Native American Heritage Month."
+  },
+  {
+    "title": "The Beerocracy Bonfire Night 2026",
+    "date": "2026-11-07",
+    "category": "fall-autumn",
+    "link": "https://www.senecalakebrewing.com/event-details/the-beerocracy-bonfire-night-2026",
+    "location": "Rock Stream, NY",
+    "description": "Guy Fawkes bonfire night at Seneca Lake Brewing with the region's biggest bonfire, live music, food trucks, and bagpipes."
   }
 ]
