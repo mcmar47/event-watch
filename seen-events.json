@@ -8222,5 +8222,69 @@
     "link": "https://www.senecalakebrewing.com/event-details/the-beerocracy-bonfire-night-2026",
     "location": "Rock Stream, NY",
     "description": "Guy Fawkes bonfire night at Seneca Lake Brewing with the region's biggest bonfire, live music, food trucks, and bagpipes."
+  },
+  {
+    "title": "Rushmore (Metrograph)",
+    "date": "2026-10-30",
+    "category": "wes-anderson",
+    "link": "https://balkon.film/director/wes-anderson",
+    "location": "New York, NY",
+    "description": "Metrograph screening of Wes Anderson's 1998 film Rushmore, about a precocious private-school student and his rival."
+  },
+  {
+    "title": "Fall Harvest Festival Weekends at Fishkill Farms",
+    "date": "2026-11-01",
+    "category": "fall-autumn",
+    "link": "https://www.fishkillfarms.com/event/fall-harvest-festival-weekends/",
+    "location": "Hopewell Junction, NY",
+    "description": "Final weekend of Fishkill Farms' fall harvest festival with apple picking, wagon rides, corn maze, and hard cider."
+  },
+  {
+    "title": "The Apple Pie Experience (Adirondack Winery)",
+    "date": "2026-11-04",
+    "category": "fall-autumn",
+    "link": "https://www.lakegeorge.com/event/the-apple-pie-experience-279263/",
+    "location": "Queensbury, NY",
+    "description": "Fall wine and cider tasting flight paired with apple pie treats at Adirondack Winery's Queensbury tasting room."
+  },
+  {
+    "title": "Red Parry NYC vs. Wonderville",
+    "date": "2026-11-05",
+    "category": "retro-gaming",
+    "link": "https://www.wonderville.nyc/events",
+    "location": "Brooklyn, NY",
+    "description": "Monthly retro fighting-game tournament night at Wonderville in Brooklyn, with free play and a Street Fighter V bracket."
+  },
+  {
+    "title": "The Mysteries of Tarot, Astrology and Qabalah study group",
+    "date": "2026-11-07",
+    "category": "occult-esoteric",
+    "link": "https://www.meetup.com/ohm-ordo-hermeticus-mysteriorum-study-group-nyc/events/317030722/",
+    "location": "New York, NY",
+    "description": "New York City study group exploring tarot, astrology, and Qabalah symbolism through Paul Foster Case's teachings."
+  },
+  {
+    "title": "Author Event: Tori Einher",
+    "date": "2026-11-07",
+    "category": "literary-booktok",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "description": "Book signing and meet-and-greet with fantasy author Tori Einher for her Wings of Alchemy series at The Siren and the Sea."
+  },
+  {
+    "title": "Quest Bookshop's Psychic Fair",
+    "date": "2026-11-14",
+    "category": "occult-esoteric",
+    "link": "https://www.naturalawakeningsny.com/events/349566/quest-bookshops-psychic-fair",
+    "location": "New York, NY",
+    "description": "Afternoon psychic fair with tarot, astrology, and numerology readings plus guided meditations at Quest Books in Manhattan."
+  },
+  {
+    "title": "Sunday Funday @ Barcade",
+    "date": "2026-11-22",
+    "category": "retro-gaming",
+    "link": "https://www.meetup.com/group-carpe-diem/events/317089522/",
+    "location": "New York, NY",
+    "description": "Meetup for retro arcade games and craft beer at Barcade in Chelsea, featuring 1980s and 1990s cabinets."
   }
 ]
