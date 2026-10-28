@@ -42,9 +42,10 @@ const STAGING_FILE = "new-events.json"
 // the nginx vhost (port 8010), which proxies /api/ to interest-server.js --
 // NOT the interest-server's own port, which listens on 127.0.0.1 only.
 // Tailscale-only, so these links work from a phone on the tailnet and are
-// unreachable from the public internet. Pinned to the Pi's Tailscale IP
-// rather than its hostname so a host rename can't break the email's links;
-// override with EVENT_WATCH_BASE_URL if the address ever changes.
+// unreachable from the public internet. Uses the MagicDNS name, not the Pi's
+// Tailscale IP: a rebuilt Pi gets a new IP (2026-10-26) and every email button
+// pinned to the old one died. Override with EVENT_WATCH_BASE_URL if the name
+// ever changes.
 //
 // Putting the feedback controls in the EMAIL rather than only on the web
 // page is the whole point. This repo had the star on index.html for weeks
@@ -53,7 +54,7 @@ const STAGING_FILE = "new-events.json"
 // controls in its digest and had 11 marks within days. read_calibration is
 // the only training signal this agent has, so the controls have to live
 // where the reading happens. See radar-kit/src/oneClickMark.js.
-const FEEDBACK_BASE = process.env.EVENT_WATCH_BASE_URL || "http://100.79.18.117:8010"
+const FEEDBACK_BASE = process.env.EVENT_WATCH_BASE_URL || "http://continuum.tail54385e.ts.net:8010"
 
 // The link params are the mark key's own fields (../../markKey.mjs), the
 // same ones the interest-server keys by.
