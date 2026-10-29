@@ -8286,5 +8286,69 @@
     "link": "https://www.meetup.com/group-carpe-diem/events/317089522/",
     "location": "New York, NY",
     "description": "Meetup for retro arcade games and craft beer at Barcade in Chelsea, featuring 1980s and 1990s cabinets."
+  },
+  {
+    "title": "Feral Rising Book Launch",
+    "date": "2026-11-21",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/product/feral-rising-book-launch/",
+    "location": "Rochester, NY",
+    "description": "Rochester launch of Michael Solis's YA sci-fi sequel Feral Rising, in conversation with author Ben Francisco."
+  },
+  {
+    "title": "Brooklyn Rare Book Fair",
+    "date": "2026-12-04",
+    "category": "literary-booktok",
+    "link": "https://www.brooklynrarebookfair.com/",
+    "location": "Brooklyn, NY",
+    "description": "New two-day antiquarian fair with 50 dealers in rare books, ephemera, and photography in Williamsburg."
+  },
+  {
+    "title": "ABAA Virtual Book Fair: Holiday Edition",
+    "date": "2026-12-03",
+    "category": "literary-booktok",
+    "link": "https://www.abaa.org/events/abaa-virtual-book-fair-holiday-edition-4",
+    "location": "Virtual",
+    "description": "Three-day online fair of rare and antiquarian books, prints, maps, and ephemera from international dealers."
+  },
+  {
+    "title": "Phelps Colloquium: Brain Clearance Across Sleep and Aging",
+    "date": "2026-11-11",
+    "category": "biotech-longevity",
+    "link": "https://www.rochester.edu/provost/faculty-support/faculty-development/phelps-colloquium/",
+    "location": "Rochester, NY",
+    "description": "University of Rochester lecture by Maiken Nedergaard on brain fluid clearance, sleep, aging, and neurodegeneration."
+  },
+  {
+    "title": "Fantastic Mr. Fox (New Beverly Cinema)",
+    "date": "2026-11-21",
+    "category": "wes-anderson",
+    "link": "https://thenewbev.com/program/november-21-fantastic-mr-fox-family-matinee/",
+    "location": "Los Angeles, CA",
+    "description": "Family matinee 35mm screening of Wes Anderson's stop-motion adaptation of Roald Dahl's Fantastic Mr. Fox."
+  },
+  {
+    "title": "Rochester Paranormal Legends and Lore",
+    "date": "2026-11-10",
+    "category": "paranormal-events",
+    "link": "https://calendar.libraryweb.org/event/17780701",
+    "location": "Brockport, NY",
+    "description": "Monroe County Paranormal Investigations talk on local legends including the Fox Sisters and the White Lady."
+  },
+  {
+    "title": "Sacred Geometry Magic",
+    "date": "2026-12-01",
+    "category": "occult-esoteric",
+    "link": "https://centeringtools.com/2026/09/fall-2026-workshop-details/",
+    "location": "Rochester, NY",
+    "description": "Three-hour in-person workshop on sacred geometry as a tool for spiritual insight and personal transformation."
+  },
+  {
+    "title": "In the Stars for YOU with Cassandra Butler",
+    "date": "2026-12-28",
+    "category": "occult-esoteric",
+    "link": "https://www.lilydaleassembly.org/event-details/in-the-stars-for-you-with-cassandra-butler-2026-12-28-19-00",
+    "location": "Virtual",
+    "description": "Monthly online astrology class reading current planetary energies and participants' natal charts with Cassandra Butler."
   }
 ]
