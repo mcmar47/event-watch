@@ -9,6 +9,10 @@ node_modules/
 # tree the scheduled agent also commits seen-events.json from.
 venue-events.json
 
+# Written at the start of every run by shelf's bin/canon-gaps.js (the plays
+# and films not yet read or seen). Derived input, never committed.
+canon-gaps.json
+
 # server/ has one dep, radar-kit, pinned only by `github:mcmar47/radar-kit`
 # (no tag). A committed lock pins a COMMIT, and a stale one (this file sat
 # at radar-kit 1.2.0 while interest-server.js grew imports only 1.7 exports)

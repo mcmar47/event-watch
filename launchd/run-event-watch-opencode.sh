@@ -34,6 +34,17 @@ else
   echo "event-watch: node not on PATH — skipping venue pre-fetch." >&2
 fi
 
+# The canon gaps (shelf's bin/canon-gaps.js): the Shakespeare plays and Wes
+# Anderson films not yet read or seen, so the theatre and Wes Anderson
+# categories can put those first. Read-only on shelf.json; removed first so a
+# failure can't leave a stale list, and a failure is non-fatal (the prompt
+# treats a missing file as "no steer").
+rm -f "$REPO_DIR/canon-gaps.json"
+if command -v node >/dev/null && [ -f "$REPO_DIR/../shelf/bin/canon-gaps.js" ]; then
+  node "$REPO_DIR/../shelf/bin/canon-gaps.js" --out "$REPO_DIR/canon-gaps.json" \
+    || echo "event-watch: canon-gaps failed (non-fatal) — no canon steer this run." >&2
+fi
+
 rk_load_command "$REPO_DIR/.opencode/commands/event-watch.md"
 
 # The silent-stall guard: record_outcome writes this as the run's last step,

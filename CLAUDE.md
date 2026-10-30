@@ -91,6 +91,11 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
   `(title, date)` way. The agent **never** reads it — not a calibration signal, just a client-side
   "stop showing me this" flag kept on the Pi so it survives a phone reinstall.
 
+- **Canon gaps** (2026-10-30). The wrapper also runs shelf's `bin/canon-gaps.js` into
+  `canon-gaps.json` (gitignored, removed first, non-fatal). The theatre and Wes Anderson
+  categories put productions/screenings of the plays and films you haven't read or seen first
+  and say so in the description. It only reorders what the searches find; it never adds searches.
+
 ## Things that are easy to get wrong
 
 - The `launchd/` directory does not mean launchd — nothing is scheduled on the Mac. The wrapper

@@ -65,6 +65,10 @@ derived from the category name.
 5. Wes Anderson (slug: `wes-anderson`) — screenings, retrospectives, exhibits,
    or fan events related to Wes Anderson's films, anywhere in the US,
    prioritizing Rochester NY/upstate NY and NYC.
+   If `canon-gaps.json` exists in this repository, its `wes-anderson`
+   canon's `gaps` are the films I haven't seen: a screening of one of those
+   comes first, and its description ends with "(a Wes Anderson film you
+   haven't seen yet)".
 6. Pen & stationery (slug: `pen-stationery`) — pen shows, stationery expos,
    fountain pen meetups, or maker pop-ups, ONLY in Rochester NY, upstate NY,
    or NYC (do not surface nationally notable ones outside that area — skip a
@@ -103,6 +107,12 @@ derived from the category name.
     <year> season", "Geva Theatre Center <year> season", "NT Live Little Theatre
     Rochester <year>"), budgeted on top of, not counted against, the per-category cap.
     Weight toward Shakespeare, the classics, and the RSC/NT repertoire.
+    If `canon-gaps.json` exists in this repository, its `shakespeare`
+    canon's `gaps` are the plays I have neither read nor seen: a production
+    or screening of one of those beats any other Shakespeare, and its
+    description ends with "(a Shakespeare play you haven't seen yet)". Don't
+    search for gap plays one by one, and don't pad the category with them;
+    this only decides which of the productions you find come first.
     Report season and production announcements, not every performance date:
     one event per production, dated its opening night (or its first
     screening), never one per performance. Skip children's and holiday
