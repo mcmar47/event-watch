@@ -8390,5 +8390,45 @@
     "link": "https://longevitylabreport.com/events",
     "location": "New York, NY",
     "description": "Live longevity talk and audience Q&A with human biologist Gary Brecka at the Hammerstein Ballroom."
+  },
+  {
+    "title": "Book Signing with L J Nightingale (Barnes & Noble Pittsford)",
+    "date": "2026-11-14",
+    "category": "literary-booktok",
+    "link": "https://stores.barnesandnoble.com/event/9780062223899-0",
+    "location": "Rochester, NY",
+    "description": "Author L. J. Nightingale signs Drawn, her historical novel set in 1950s America."
+  },
+  {
+    "title": "Haunted History Pub Crawl: Williamsville",
+    "date": "2026-11-05",
+    "category": "paranormal-events",
+    "link": "https://www.masonwinfield.com/ghost-walks-2",
+    "location": "Williamsville, NY",
+    "description": "Guided haunted-history pub crawl with storyteller John Snodgrass through Williamsville's historic taverns and ghost lore."
+  },
+  {
+    "title": "Haunted History Pub Crawl: East Aurora",
+    "date": "2026-11-06",
+    "category": "paranormal-events",
+    "link": "https://www.masonwinfield.com/ghost-walks-2",
+    "location": "East Aurora, NY",
+    "description": "Haunted-history pub crawl through East Aurora's historic bars and ghost stories, led by playwright John Snodgrass."
+  },
+  {
+    "title": "Pumpkin Destruction Weekend at Wickham Farms",
+    "date": "2026-11-01",
+    "category": "fall-autumn",
+    "link": "https://wickhamfarms.com/pages/tickets-family-fun-in-rochester-ny-wickham-farms",
+    "location": "Penfield, NY",
+    "description": "Season-closing weekend at Wickham Farms with pumpkin-smashing fun and the farm's fall attractions."
+  },
+  {
+    "title": "Powwow People (Dryden Theatre)",
+    "date": "2026-11-18",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Free screening of Sky Hopinka's vérité documentary about a contemporary Native powwow at the Dryden Theatre."
   }
 ]
