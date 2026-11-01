@@ -8430,5 +8430,45 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "Free screening of Sky Hopinka's vérité documentary about a contemporary Native powwow at the Dryden Theatre."
+  },
+  {
+    "title": "BiotechGo Industry Speaker Series: Scott Tenenbaum",
+    "date": "2026-11-19",
+    "category": "biotech-longevity",
+    "link": "https://syracuse.campuslabs.com/engage/event/12773306",
+    "location": "Syracuse, NY",
+    "description": "Industry talk with sxRNA Technologies CEO Scott Tenenbaum on RNA biology, drug development, and biotech entrepreneurship at Syracuse University."
+  },
+  {
+    "title": "Bookish Block Printing Workshop",
+    "date": "2026-11-13",
+    "category": "literary-booktok",
+    "link": "https://thesirenandthesea.com/events",
+    "location": "Rochester, NY",
+    "description": "Hands-on workshop at The Siren and the Sea carving book-themed block prints with Clover & Fox; $40."
+  },
+  {
+    "title": "Wednesdays with Wes: The Grand Budapest Hotel",
+    "date": "2026-11-25",
+    "category": "wes-anderson",
+    "link": "https://www.ccasantafe.org/calendar/wednesdays-with-wes-the-grand-budapest-hotel",
+    "location": "Santa Fe, NM",
+    "description": "Wes Anderson's The Grand Budapest Hotel screens as part of CCA Santa Fe's six-film Wednesdays with Wes series."
+  },
+  {
+    "title": "Ghosts of Rochester: Explore the Haunted Past!",
+    "date": "2026-12-01",
+    "category": "paranormal-events",
+    "link": "https://whogoin.com/event/ghosts-of-rochester-explore-the-haunted-past-cc59bdfdff",
+    "location": "Rochester, NY",
+    "description": "Smartphone-guided outdoor ghost hunt through ten haunted Rochester locations, with escape-room-style puzzles."
+  },
+  {
+    "title": "Purpose (Geva Theatre)",
+    "date": "2027-04-10",
+    "category": "theatre",
+    "link": "https://gevatheatre.org/shows/",
+    "location": "Rochester, NY",
+    "description": "Branden Jacobs-Jenkins' Pulitzer- and Tony-winning family drama opens on Geva's Wilson Stage in April 2027."
   }
 ]
