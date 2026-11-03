@@ -8486,5 +8486,61 @@
     "link": "https://writersandbooks.org/readings/",
     "location": "Rochester, NY",
     "description": "Hybrid reading and conversation at Writers & Books with Robin L. Flanigan on her guidebook Secret Rochester, also available via Zoom."
+  },
+  {
+    "title": "RetroGameCon: Spring Edition 2027",
+    "date": "2027-05-15",
+    "category": "retro-gaming",
+    "link": "https://www.retrogamecon.com/event-details/retrogamecon-spring-edition",
+    "location": "Syracuse, NY",
+    "description": "Two-day video game expo at Syracuse's Oncenter with retro vendors, guests, panels, free play, and tournaments."
+  },
+  {
+    "title": "RetroGameCon XIV",
+    "date": "2027-10-08",
+    "category": "retro-gaming",
+    "link": "https://www.retrogamecon.com/",
+    "location": "Syracuse, NY",
+    "description": "New York's largest gaming expo returns for three days of retro games, arcade cabinets, vendors, panels, and tournaments."
+  },
+  {
+    "title": "Anomaly Film Festival at the Dryden",
+    "date": "2026-11-12",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Dryden's Anomaly Film Festival screens Tsui Hark's Zu: Warriors from the Magic Mountain on 35mm, preceded by Rainbow War."
+  },
+  {
+    "title": "Queer Borders: Writing Narratives of LGBTQ Identity and Migration",
+    "date": "2026-11-21",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/events-calendar/",
+    "location": "Rochester, NY",
+    "description": "Free Writers & Books panel with M.M. DeVoe, Ben Francisco, and Michael Solis on writing LGBTQ identity and migration."
+  },
+  {
+    "title": "Million Dollar Quartet (Geva Theatre)",
+    "date": "2027-02-27",
+    "category": "theatre",
+    "link": "https://gevatheatre.org/shows/",
+    "location": "Rochester, NY",
+    "description": "Geva's Wilson Stage production of the Sun Records jukebox musical about the legendary 1956 jam session."
+  },
+  {
+    "title": "Laughs in Spanish (Geva Theatre)",
+    "date": "2027-05-01",
+    "category": "theatre",
+    "link": "https://gevatheatre.org/shows/",
+    "location": "Rochester, NY",
+    "description": "Alexis Scheer's fast-paced comedy about an art gallery opening gone wrong, on Geva's Fielding Stage."
+  },
+  {
+    "title": "The Da Vinci Code (Geva Theatre)",
+    "date": "2027-05-29",
+    "category": "theatre",
+    "link": "https://gevatheatre.org/shows/",
+    "location": "Rochester, NY",
+    "description": "Stage adaptation of Dan Brown's bestselling thriller, opening on Geva's Wilson Stage."
   }
 ]
