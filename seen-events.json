@@ -8542,5 +8542,69 @@
     "link": "https://gevatheatre.org/shows/",
     "location": "Rochester, NY",
     "description": "Stage adaptation of Dan Brown's bestselling thriller, opening on Geva's Wilson Stage."
+  },
+  {
+    "title": "NewYorkBIO November Mini-Pitch Day",
+    "date": "2026-11-09",
+    "category": "biotech-longevity",
+    "link": "https://www.newyorkbio.org/event",
+    "location": "New York, NY",
+    "description": "Life-science startup pitch event hosted by NewYorkBIO, with company presentations and investor networking."
+  },
+  {
+    "title": "The Royal Tenenbaums Screening (Proctors Theatre)",
+    "date": "2026-11-05",
+    "category": "wes-anderson",
+    "link": "https://events.yodel.today/albany-ny/event/Proctors-Theater/ICFS-Presents-The-Royal-Tenenbaums--2001-/6ac49c173774e483009d4bbc",
+    "location": "Albany, NY",
+    "description": "Screening of Wes Anderson's The Royal Tenenbaums (2001) at Proctors Theatre in Albany."
+  },
+  {
+    "title": "November Women's Circle: What's Your Sign?",
+    "date": "2026-11-13",
+    "category": "occult-esoteric",
+    "link": "https://www.magicheldhere.com/event-info/november-womens-circle",
+    "location": "Caledonia, NY",
+    "description": "Astrology-themed women's circle with personalized birth charts covering Sun, Moon, and Rising signs."
+  },
+  {
+    "title": "TACCIA Pen Show at Yoseka",
+    "date": "2026-11-05",
+    "category": "pen-stationery",
+    "link": "https://www.yosekaland.com/upcoming-events",
+    "location": "Brooklyn, NY",
+    "description": "Two-day TACCIA pen show at Yoseka Land featuring raden and maki-e pens, 18k nibs, and nib adjustments."
+  },
+  {
+    "title": "Kakuno Choice at Yoseka",
+    "date": "2026-11-21",
+    "category": "pen-stationery",
+    "link": "https://www.yosekaland.com/upcoming-events",
+    "location": "Brooklyn, NY",
+    "description": "Build-your-own Pilot Kakuno event at Yoseka Land with limited body, grip, and cap colors."
+  },
+  {
+    "title": "Schutt's Apple Mill Holiday Market",
+    "date": "2026-11-14",
+    "category": "fall-autumn",
+    "link": "https://ontariokettlecorn.com/events/2026-11-14-schutt-s-holiday-market",
+    "location": "Webster, NY",
+    "description": "Holiday market at Schutt's Apple Mill with apples, cider, baked goods, and local vendors."
+  },
+  {
+    "title": "Rolling Hills Asylum Guided Flashlight Tour + Ghost Hunt",
+    "date": "2026-11-06",
+    "category": "paranormal-events",
+    "link": "https://www.rollinghillsasylum.com/calendar/2026/11",
+    "location": "East Bethany, NY",
+    "description": "After-dark guided flashlight tour and ghost hunt through the historic Rolling Hills Asylum."
+  },
+  {
+    "title": "NT Live: Hamlet (The Little Theatre)",
+    "date": "2027-03-21",
+    "category": "theatre",
+    "link": "https://thelittle.org/ntl/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live screening of Hamlet starring Hiran Abeysekera, filmed live in London. (a Shakespeare play you haven't seen yet)"
   }
 ]
