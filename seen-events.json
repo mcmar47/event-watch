@@ -8718,5 +8718,93 @@
     "link": "https://www.booksaremagic.net/events/6631420261203",
     "location": "Brooklyn, NY",
     "description": "Book launch conversation for Bex Frankeberger's Antigone at the Rot Party with Molly McGhee, plus signing."
+  },
+  {
+    "title": "BABEL: Tayari Jones",
+    "date": "2027-04-29",
+    "category": "literary-booktok",
+    "link": "https://www.justbuffalo.org/literary-events-in-buffalo/babel-author-events/",
+    "location": "Buffalo, NY",
+    "description": "Just Buffalo's BABEL series presents novelist Tayari Jones in conversation at Kleinhans Music Hall."
+  },
+  {
+    "title": "NewYorkBIO Year-End Summit",
+    "date": "2026-12-10",
+    "category": "biotech-longevity",
+    "link": "https://www.newyorkbio.org/event",
+    "location": "New York, NY",
+    "description": "Year-end life sciences summit at the New York Stock Exchange for biotech founders, investors, and partners."
+  },
+  {
+    "title": "70+ Social Space: Insights From Studying Longevity and Genetics with Dr. Nir Barzilai",
+    "date": "2026-12-02",
+    "category": "biotech-longevity",
+    "link": "https://pasyn.org/events/2026-27/adult-engagement/december/70plus-social-space-insights-from-studying-longevity-and-genetics-with-dr-nir-barzilai/",
+    "location": "New York, NY",
+    "description": "Talk by geroscience researcher Dr. Nir Barzilai on longevity, genetics, and centenarian families."
+  },
+  {
+    "title": "Distinguished Scientist Seminar: Age, Immunity, and Cancer Immunophenotype",
+    "date": "2026-11-12",
+    "category": "biotech-longevity",
+    "link": "https://www.roswellpark.org/education/professional-training/distinguished-lecture-series",
+    "location": "Buffalo, NY",
+    "description": "Research seminar by Dr. Mary Helen Barcellos-Hoff on how aging and immunity shape cancer immunophenotypes."
+  },
+  {
+    "title": "Distinguished Scientist Seminar: Metabolic Anomalies in Cancer and other Diseases",
+    "date": "2026-12-03",
+    "category": "biotech-longevity",
+    "link": "https://www.roswellpark.org/education/professional-training/distinguished-lecture-series",
+    "location": "Buffalo, NY",
+    "description": "Research seminar by Dr. Ralph DeBerardinis on metabolic abnormalities in cancer and other diseases."
+  },
+  {
+    "title": "CPRC Seminar: Recent Insights into the U.S. Life Expectancy Stagnation",
+    "date": "2026-11-10",
+    "category": "biotech-longevity",
+    "link": "https://cprc.columbia.edu/events/cprc-seminar-series-neil-mehta",
+    "location": "New York, NY",
+    "description": "Columbia population research seminar on why U.S. life expectancy gains have stalled and what comes next."
+  },
+  {
+    "title": "HITLAB Innovators Summit Fall 2026",
+    "date": "2026-12-01",
+    "category": "biotech-longevity",
+    "link": "https://www.hitlab.org/fallsummit26/symp-agenda/",
+    "location": "New York, NY",
+    "description": "Three-day healthcare innovation summit on AI, digital health, and investment, with symposia and networking."
+  },
+  {
+    "title": "The Explorers Club: UAP Phenomenon",
+    "date": "2026-11-20",
+    "category": "paranormal-events",
+    "link": "https://www.unxnetwork.com/conferences",
+    "location": "New York, NY",
+    "description": "Leslie Kean and Rear Admiral Tim Gallaudet discuss the UAP phenomenon at The Explorers Club, also streamed online."
+  },
+  {
+    "title": "Tarot 101 Workshop at Hummingbird's Blooms",
+    "date": "2026-11-14",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/tarot-101-workshop-at-hummingbirds-blooms-tickets-2001882065146",
+    "location": "Glens Falls, NY",
+    "description": "Beginner tarot workshop covering card symbolism, history, and intuition practice at The Shirt Factory."
+  },
+  {
+    "title": "Spiritual Book and Deck Swap",
+    "date": "2026-11-29",
+    "category": "occult-esoteric",
+    "link": "https://www.spiralmirror.com/events/book-deck-swap-november",
+    "location": "Kingston, NY",
+    "description": "Community swap of metaphysical books and tarot or oracle decks at Spiral Mirror in Kingston."
+  },
+  {
+    "title": "Tipsy Tarot - Intuition Social",
+    "date": "2026-12-05",
+    "category": "occult-esoteric",
+    "link": "https://whogoin.com/event/tipsy-tarot-intuition-social-e53a1dd475c3",
+    "location": "New York, NY",
+    "description": "Playful 90-minute tarot and intuition workshop with group games, partner readings, and mini card pulls."
   }
 ]
