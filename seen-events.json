@@ -8918,5 +8918,61 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "New 4K restoration of Charles Burnett's 1983 tragicomedy My Brother's Wedding, screening in the Dryden's Black Cinema Series."
+  },
+  {
+    "title": "Fifth Geroscience Summit: Revisiting the Geroscience Hypothesis",
+    "date": "2026-12-02",
+    "category": "biotech-longevity",
+    "link": "https://www.nia.nih.gov/research/dab/workshops/fifth-geroscience-summit-revisiting-geroscience-hypothesis-focus-health",
+    "location": "Virtual",
+    "description": "Hybrid NIH summit on the geroscience hypothesis, aging biomarkers, gerotherapeutics, and measuring healthspan."
+  },
+  {
+    "title": "Rochester Kwanzaa Nia Black Book Fair",
+    "date": "2026-12-30",
+    "category": "literary-booktok",
+    "link": "https://www.rochesterkwanzaa.org/events",
+    "location": "Rochester, NY",
+    "description": "Kwanzaa Nia celebration book fair featuring African American authors, poets, booksellers, and a poetry program."
+  },
+  {
+    "title": "Psychic Fair at Plymouth Spiritualist Church",
+    "date": "2026-12-12",
+    "category": "occult-esoteric",
+    "link": "https://www.plymouthspiritualist.org/happenings/p/psychic-fair",
+    "location": "Rochester, NY",
+    "description": "Psychic fair with mediumship, tarot and oracle readings, plus energy healings at $35 per 15-minute session."
+  },
+  {
+    "title": "Mekko (DCP) - Free to All",
+    "date": "2026-11-13",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/native-american-cinematic-heritage",
+    "location": "Rochester, NY",
+    "description": "Free screening of Sterlin Harjo's 2015 drama about post-incarceration reintegration, part of the Dryden's Native American film series."
+  },
+  {
+    "title": "Fancy Dance (DCP) - Free to All",
+    "date": "2026-11-25",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/native-american-cinematic-heritage",
+    "location": "Rochester, NY",
+    "description": "Free screening of Erica Tremblay's 2023 drama starring Lily Gladstone, part of the Dryden's Native American Cinematic Heritage series."
+  },
+  {
+    "title": "Raiders of the Lost Ark (35mm, Indy @ 45)",
+    "date": "2026-12-26",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/dryden-theatre",
+    "location": "Rochester, NY",
+    "description": "35mm holiday-week screening of the 1981 Indiana Jones adventure, celebrating the film's 45th anniversary."
+  },
+  {
+    "title": "Wolf Hall / Bring Up the Bodies (Stratford Festival 2027)",
+    "date": "2027-06-27",
+    "category": "theatre",
+    "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
+    "location": "Stratford, ON",
+    "description": "Two-part Canadian premiere of Hilary Mantel's Wolf Hall and Bring Up the Bodies; crossing into Canada requires a passport."
   }
 ]
