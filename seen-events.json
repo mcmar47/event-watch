@@ -8974,5 +8974,69 @@
     "link": "https://www.stratfordfestival.ca/landingpages/The-Season",
     "location": "Stratford, ON",
     "description": "Two-part Canadian premiere of Hilary Mantel's Wolf Hall and Bring Up the Bodies; crossing into Canada requires a passport."
+  },
+  {
+    "title": "Translational Science Grand Rounds: Nonsense-mediated mRNA decay in Fragile X Syndrome",
+    "date": "2026-11-12",
+    "category": "biotech-longevity",
+    "link": "https://www.urmc.rochester.edu/clinical-translational-science-institute/education/translational-science-grand-rounds",
+    "location": "Virtual",
+    "description": "Virtual monthly translational science seminar by URMC's Lynne Maquat on mRNA decay and its role in Fragile X Syndrome."
+  },
+  {
+    "title": "Geriatric Medicine Grand Rounds: Hope Surrounding Alzheimer's Research",
+    "date": "2027-01-27",
+    "category": "biotech-longevity",
+    "link": "https://events.rochester.edu/event/geriatric-medicine-community-wide-grand-rounds-8843",
+    "location": "Virtual",
+    "description": "Virtual grand rounds talk by Alzheimer's Association scientist Christopher Weber on Alzheimer's research, prevention, and risk reduction."
+  },
+  {
+    "title": "Rochester Reads 2027: Gabriela Garcia",
+    "date": "2027-03-11",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/upcoming-events/",
+    "location": "Rochester, NY",
+    "description": "Rochester Reads 2027 keynote with Gabriela Garcia, author of Of Women and Salt, at Third Presbyterian Church."
+  },
+  {
+    "title": "Meet Author Debi Bower at Mescolata",
+    "date": "2026-12-12",
+    "category": "literary-booktok",
+    "link": "https://www.livingrochestersuburbs.com/events/meet-author-debi-bower-at-mescolata-in-fairport-20261212",
+    "location": "Fairport, NY",
+    "description": "Debi Bower, author of Day Trips Around Rochester, meets readers and signs her regional guidebooks at Mescolata in Fairport."
+  },
+  {
+    "title": "Ruth In Shadow and Light by Sally F. Cutler Launch Event",
+    "date": "2026-12-15",
+    "category": "literary-booktok",
+    "link": "https://book.usesession.com/s/5KoQGdUTYg",
+    "location": "Syracuse, NY",
+    "description": "Launch event for Sally F. Cutler's debut novel Ruth in Shadow and in Light, with an open signing and after-hours conversation."
+  },
+  {
+    "title": "Psychic Fair I Scorpio",
+    "date": "2026-11-18",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/psychic-fair-i-scorpio-tickets-2004432692140",
+    "location": "Buffalo, NY",
+    "description": "Scorpio-themed evening psychic fair with tarot, astrology, palm, and tea-leaf readers plus mystical vendors at Gallery 451."
+  },
+  {
+    "title": "Psychic Fair l Sagittarius",
+    "date": "2026-12-16",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/psychic-fair-l-sagittarius-tickets-2004433038175",
+    "location": "Buffalo, NY",
+    "description": "Sagittarius-season psychic fair with tarot, astrology, palm, and tea-leaf readings plus local metaphysical vendors at Gallery 451."
+  },
+  {
+    "title": "RetroGameCon Winter Quest",
+    "date": "2027-01-23",
+    "category": "retro-gaming",
+    "link": "https://www.retrogamecon.com/",
+    "location": "Syracuse, NY",
+    "description": "Retro gaming night with Rock Band karaoke, trivia, free-play games, vendors, and a casual cosplay contest at The Song & Dance."
   }
 ]
