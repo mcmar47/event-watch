@@ -9038,5 +9038,29 @@
     "link": "https://www.retrogamecon.com/",
     "location": "Syracuse, NY",
     "description": "Retro gaming night with Rock Band karaoke, trivia, free-play games, vendors, and a casual cosplay contest at The Song & Dance."
+  },
+  {
+    "title": "Cancer AI Symposium 2026",
+    "date": "2026-12-10",
+    "category": "biotech-longevity",
+    "link": "https://cloud.google.com/events/cancer-ai-symposium-26",
+    "location": "New York, NY",
+    "description": "Full-day Google Cloud symposium in Manhattan on AI for cancer diagnostics, drug discovery, and clinical workflows."
+  },
+  {
+    "title": "Rushmore (Metrograph)",
+    "date": "2026-11-16",
+    "category": "wes-anderson",
+    "link": "https://metrograph.com/film/9999005049-rushmore/",
+    "location": "New York, NY",
+    "description": "Single Metrograph screening of Wes Anderson's 1998 prep-school comedy Rushmore, part of its Leaves Are Falling series."
+  },
+  {
+    "title": "Pizza Party + Book Swap + Letter Writing",
+    "date": "2026-11-19",
+    "category": "literary-booktok",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "description": "Free pizza night at The Unreliable Narrator with a used-book swap and a letter-writing station."
   }
 ]
