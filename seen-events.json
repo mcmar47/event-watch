@@ -9062,5 +9062,85 @@
     "link": "https://www.unreliablebooks.com/events",
     "location": "Rochester, NY",
     "description": "Free pizza night at The Unreliable Narrator with a used-book swap and a letter-writing station."
+  },
+  {
+    "title": "Genetics Day 2027",
+    "date": "2027-04-12",
+    "category": "biotech-longevity",
+    "link": "https://events.rochester.edu/event/genetics-day-2027",
+    "location": "Rochester, NY",
+    "description": "University of Rochester's 38th annual genetics conference with research talks, poster sessions, and a keynote by Harmit Malik."
+  },
+  {
+    "title": "Buffalo RNA Symposium 2027",
+    "date": "2027-06-16",
+    "category": "biotech-longevity",
+    "link": "https://www.buffalorna.org/post/save-the-date-june-16-17-for-the-buffalo-rna-symposium-2027",
+    "location": "Buffalo, NY",
+    "description": "Two-day Upstate New York symposium on RNA research with talks, posters, and networking."
+  },
+  {
+    "title": "Stitchcraft as Witchcraft December Meeting",
+    "date": "2026-12-01",
+    "category": "occult-esoteric",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "description": "Monthly book club pairing fiber arts with magical practice, discussing Threads of Life by Clare M. Hunter."
+  },
+  {
+    "title": "An Evening of Reiki & Tarot with Mario & Zachary",
+    "date": "2027-01-21",
+    "category": "occult-esoteric",
+    "link": "https://www.the-aligned-collective.com/events/an-evening-of-reiki-tarot-with-mario-zachary-dmtgb",
+    "location": "Rochester, NY",
+    "description": "Evening of 15-minute reiki sessions and tarot readings at a Rochester wellness collective."
+  },
+  {
+    "title": "Capricorn New Moon Ceremony 2027",
+    "date": "2027-01-08",
+    "category": "occult-esoteric",
+    "link": "https://www.heat.center/events-1/2027/1/8/capricorn-new-moon-ceremony-2027",
+    "location": "Buffalo, NY",
+    "description": "Guided Capricorn new-moon ceremony with astrology reflection, meditation, and journaling, in Buffalo and on Zoom."
+  },
+  {
+    "title": "Winter Solstice Community Celebration",
+    "date": "2026-12-20",
+    "category": "occult-esoteric",
+    "link": "https://www.wamc.org/community-calendar/event/winter-solstice-community-celebration-05-11-2026-18-31-28",
+    "location": "High Falls, NY",
+    "description": "Winter solstice gathering with self-guided rituals, tarot and astrology readings, local vendors, and tea."
+  },
+  {
+    "title": "Ancestral Lineage Healing Intensive",
+    "date": "2027-04-09",
+    "category": "occult-esoteric",
+    "link": "https://thealtarhealing.com/intensive",
+    "location": "Rochester, NY",
+    "description": "Three-day group ritual and teaching intensive on connecting with ancestors for lineage healing."
+  },
+  {
+    "title": "Private 16 Hour Investigation - The Chase Manor",
+    "date": "2026-12-12",
+    "category": "paranormal-events",
+    "link": "https://www.eventbrite.com/e/private-16-hour-investigation-the-chase-manor-tickets-2004536690201",
+    "location": "Auburn, NY",
+    "description": "Overnight private paranormal investigation of a historic 1800s manor in the Finger Lakes."
+  },
+  {
+    "title": "Friday the 13th! 4 Hr Detained Ghost Hunt - Rolling Hills Asylum",
+    "date": "2026-11-13",
+    "category": "paranormal-events",
+    "link": "https://www.rollinghillsasylum.com/experience-it/ghost-hunts",
+    "location": "East Bethany, NY",
+    "description": "Four-hour Friday the 13th ghost hunt through the darkened halls of Rolling Hills Asylum."
+  },
+  {
+    "title": "Dr. Jekyll and Mr. Hyde with Cornell Chamber Orchestra",
+    "date": "2026-11-13",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "John Barrymore's 1920 silent Dr. Jekyll and Mr. Hyde screened with live accompaniment by the Cornell Chamber Orchestra."
   }
 ]
