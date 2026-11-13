@@ -9142,5 +9142,77 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "John Barrymore's 1920 silent Dr. Jekyll and Mr. Hyde screened with live accompaniment by the Cornell Chamber Orchestra."
+  },
+  {
+    "title": "Speedy (35mm, Silent Tuesdays)",
+    "date": "2026-12-01",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Harold Lloyd's 1928 silent comedy Speedy on 35mm, with live piano accompaniment by Philip C. Carli."
+  },
+  {
+    "title": "Hen (Rochester Premiere)",
+    "date": "2026-12-03",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Rochester premiere of György Pálfi's film following a black-feathered chicken through the human world."
+  },
+  {
+    "title": "zi (Rochester Premiere)",
+    "date": "2026-12-04",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Rochester premiere of Kogonada's film about a Hong Kong violinist haunted by visions of her future self."
+  },
+  {
+    "title": "Devdas (35mm)",
+    "date": "2026-12-05",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "35mm screening of Sanjay Leela Bhansali's 2002 Bollywood romance Devdas, part of Filmi Fest 2000."
+  },
+  {
+    "title": "Mrs. Warren's Profession (NT Live)",
+    "date": "2027-01-18",
+    "category": "theatre",
+    "link": "https://thelittle.org/ntl/",
+    "location": "Rochester, NY",
+    "description": "National Theatre Live screening of Shaw's Mrs. Warren's Profession, starring Imelda Staunton, at The Little Theatre."
+  },
+  {
+    "title": "Tarot Practice Circle at Mythic Treasures",
+    "date": "2026-12-10",
+    "category": "occult-esoteric",
+    "link": "https://stayhappening.com/e/tarot-practice-circle-at-mythic-treasures-~-henrietta-E2IT00H5DWI",
+    "location": "Henrietta, NY",
+    "description": "Free monthly tarot practice circle at Mythic Treasures in Henrietta, open to readers of all experience levels."
+  },
+  {
+    "title": "Group Psychic Readings with Psychic Rev. Josey",
+    "date": "2026-12-12",
+    "category": "occult-esoteric",
+    "link": "https://www.eventbrite.com/e/group-psychic-readings-with-psychic-rev-josey-tickets-2004169718579",
+    "location": "Canandaigua, NY",
+    "description": "Small-group psychic reading session with Rev. Josey at Canandaigua's Mystic Mermaid Artisan Collective."
+  },
+  {
+    "title": "Late Autumn in Highland Park: A Guided Tour",
+    "date": "2026-11-14",
+    "category": "fall-autumn",
+    "link": "https://www.eventbrite.com/e/late-autumn-in-highland-park-a-guided-tour-tickets-2003711621398",
+    "location": "Rochester, NY",
+    "description": "Guided walking tour through Highland Park's arboretum as autumn foliage gives way to winter."
+  },
+  {
+    "title": "Tuesday Arcade Happy Hour at Hyperspace Starcade",
+    "date": "2026-11-17",
+    "category": "retro-gaming",
+    "link": "https://rochesterlocal.com/series/tuesday-arcade-happy-hour-hyperspace-starcade/",
+    "location": "Rochester, NY",
+    "description": "Weekly Tuesday happy-hour arcade meetup at Hyperspace Starcade in Rochester."
   }
 ]
