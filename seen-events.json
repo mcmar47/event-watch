@@ -9214,5 +9214,29 @@
     "link": "https://rochesterlocal.com/series/tuesday-arcade-happy-hour-hyperspace-starcade/",
     "location": "Rochester, NY",
     "description": "Weekly Tuesday happy-hour arcade meetup at Hyperspace Starcade in Rochester."
+  },
+  {
+    "title": "New York NEWLIFE Expo 2027",
+    "date": "2027-04-10",
+    "category": "biotech-longevity",
+    "link": "https://newlifeexpo.com/",
+    "location": "New York, NY",
+    "description": "Long-running longevity and wellness expo with exhibitors, speakers, and biohacking and holistic health demonstrations."
+  },
+  {
+    "title": "AI Transformations of Optics, Photonics, Imaging & Semiconductors",
+    "date": "2026-12-03",
+    "category": "biotech-longevity",
+    "link": "https://www.eventbrite.com/e/ai-transformations-of-optics-photonics-imaging-semiconductors-tickets-2003517302184",
+    "location": "Rochester, NY",
+    "description": "Industry-university networking event on AI applications in optics, photonics, and medical imaging at the University of Rochester."
+  },
+  {
+    "title": "Hamlet (1921 silent film, Dryden)",
+    "date": "2026-11-17",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/silent-tuesdays-6",
+    "location": "Rochester, NY",
+    "description": "1921 German silent adaptation of Hamlet screened in 35mm with live piano accompaniment at the Dryden Theatre."
   }
 ]
