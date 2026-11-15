@@ -9238,5 +9238,77 @@
     "link": "https://www.eastman.org/silent-tuesdays-6",
     "location": "Rochester, NY",
     "description": "1921 German silent adaptation of Hamlet screened in 35mm with live piano accompaniment at the Dryden Theatre."
+  },
+  {
+    "title": "The Missing Layer: Genomics to Accelerate Precision Care",
+    "date": "2027-01-23",
+    "category": "biotech-longevity",
+    "link": "https://intellxxdna.com/2027-virtual-conference/",
+    "location": "Virtual",
+    "description": "Two-day virtual conference on using genomics and peptides to guide precision care and longevity protocols."
+  },
+  {
+    "title": "Neuroscience Innovation Forum Virtual Week",
+    "date": "2027-01-19",
+    "category": "biotech-longevity",
+    "link": "https://sachsforum.com/events/10th-nif",
+    "location": "Virtual",
+    "description": "Virtual week of biotech partnering meetings and on-demand company showcases tied to the Neuroscience Innovation Forum."
+  },
+  {
+    "title": "World Oddities Expo Syracuse",
+    "date": "2027-02-06",
+    "category": "occult-esoteric",
+    "link": "https://worldodditiesexpo.com/",
+    "location": "Syracuse, NY",
+    "description": "Traveling oddities convention with taxidermy, macabre art, vendors, performers, and speakers at The Oncenter."
+  },
+  {
+    "title": "Clear the way for 2027 with Mario & Zachary",
+    "date": "2027-01-21",
+    "category": "occult-esoteric",
+    "link": "https://www.the-aligned-collective.com/events/an-evening-of-reiki-tarot-with-mario-zachary-dmtgb",
+    "location": "Rochester, NY",
+    "description": "Evening of short tarot readings and reiki sessions to set intentions for 2027 at The Aligned Collective."
+  },
+  {
+    "title": "Monthly at Lily Dale: In the Stars for YOU",
+    "date": "2026-11-30",
+    "category": "occult-esoteric",
+    "link": "https://cassandrajoanbutler.com/events/category/lily-dale/",
+    "location": "Virtual",
+    "description": "Monthly online astrology class walking through the month's planetary transits using your own natal chart."
+  },
+  {
+    "title": "November Nitrate Weekend: Mutiny on the Bounty",
+    "date": "2026-11-20",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/special-events",
+    "location": "Rochester, NY",
+    "description": "Dryden Theatre opens its November Nitrate Weekend with a 35mm nitrate print of Mutiny on the Bounty."
+  },
+  {
+    "title": "Joyeux Noel: The Umbrellas of Cherbourg",
+    "date": "2026-12-02",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Dryden Theatre opens its Joyeux Noel holiday series with a 35mm screening of The Umbrellas of Cherbourg."
+  },
+  {
+    "title": "Filmi Fest 2000: Devdas",
+    "date": "2026-12-05",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "35mm screening of Sanjay Leela Bhansali's Devdas as part of the Dryden's Filmi Fest 2000."
+  },
+  {
+    "title": "Indiana Jones @ 45: Raiders of the Lost Ark",
+    "date": "2026-12-26",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "35mm holiday-week screening of Raiders of the Lost Ark opening the Dryden's Indiana Jones at 45 series."
   }
 ]
