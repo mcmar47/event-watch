@@ -9310,5 +9310,37 @@
     "link": "https://www.eastman.org/events/film-screenings",
     "location": "Rochester, NY",
     "description": "35mm holiday-week screening of Raiders of the Lost Ark opening the Dryden's Indiana Jones at 45 series."
+  },
+  {
+    "title": "BINGO: Five in a Row Down Memory Lane with Melissa Pheterson",
+    "date": "2027-01-09",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/events-calendar/",
+    "location": "Rochester, NY",
+    "description": "Melissa Pheterson presents her original bingo-style storytelling show about memory and nostalgia at Writers & Books."
+  },
+  {
+    "title": "Atonement (Rochester Premiere)",
+    "date": "2026-12-10",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Rochester premiere of Kenneth Branagh's true-story drama about an Iraq War-displaced family, at the Dryden Theatre."
+  },
+  {
+    "title": "Brain Longevity Mastermind",
+    "date": "2027-02-06",
+    "category": "biotech-longevity",
+    "link": "https://news.longevitydocs.org/events",
+    "location": "New York, NY",
+    "description": "One-day physicians-only mastermind on brain longevity, held in New York City and streamed live."
+  },
+  {
+    "title": "Tarot & Tea (Sacred Sister Circles)",
+    "date": "2027-01-17",
+    "category": "occult-esoteric",
+    "link": "https://www.meetup.com/sacred-sister-circles/events/317387148/",
+    "location": "Ballston Spa, NY",
+    "description": "Guided tarot workshop with tea, teaching a year-ahead spread at Saha Yoga in Ballston Spa."
   }
 ]
