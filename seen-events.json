@@ -9342,5 +9342,53 @@
     "link": "https://www.meetup.com/sacred-sister-circles/events/317387148/",
     "location": "Ballston Spa, NY",
     "description": "Guided tarot workshop with tea, teaching a year-ahead spread at Saha Yoga in Ballston Spa."
+  },
+  {
+    "title": "Advancing the Dark Proteome Towards Clinical Impact",
+    "date": "2027-02-25",
+    "category": "biotech-longevity",
+    "link": "https://events.nyas.org/darkproteome27",
+    "location": "New York, NY",
+    "description": "Full-day New York Academy of Sciences symposium on poorly characterized proteins and their emerging role in disease and drug development."
+  },
+  {
+    "title": "Sci Fi or Sci Fact: Alcor Life Extension Foundation",
+    "date": "2027-02-25",
+    "category": "biotech-longevity",
+    "link": "https://wasserman.nyu.edu/events/2027/02/25/sci-fi-or-sci-fact-alcor-life-extension-foundation/",
+    "location": "New York, NY",
+    "description": "Free NYU talk from the Alcor Life Extension Foundation on cryonics, organ preservation, and life-extension research."
+  },
+  {
+    "title": "Flower City Poetry Festival",
+    "date": "2027-06-10",
+    "category": "literary-booktok",
+    "link": "https://writersandbooks.org/poetry-festival/",
+    "location": "Rochester, NY",
+    "description": "Three-night open-air poetry and music festival at Rochester's Highland Park Bowl with regional and national poets."
+  },
+  {
+    "title": "Winter Faire 2026 (Fortunes and Familiars)",
+    "date": "2026-12-06",
+    "category": "occult-esoteric",
+    "link": "https://www.fortunesandfamiliars.com/new-page",
+    "location": "Rochester, NY",
+    "description": "Second annual witchy holiday market at the Strathallan's Century Club with mystical vendors and seasonal shopping."
+  },
+  {
+    "title": "Wicked Wonderland (Fortunes and Familiars)",
+    "date": "2026-12-12",
+    "category": "occult-esoteric",
+    "link": "https://www.fortunesandfamiliars.com/new-page",
+    "location": "East Aurora, NY",
+    "description": "Free witchy holiday market at The Bank of East Aurora with magical vendors, mischief, and seasonal shopping."
+  },
+  {
+    "title": "The Unknown Expo 2027",
+    "date": "2027-09-25",
+    "category": "paranormal-events",
+    "link": "https://grimreaperparanormal.com/the-unknown-expo",
+    "location": "Albany, NY",
+    "description": "Daylong Albany expo exploring the paranormal, unexplained, metaphysical, and oddities with speakers and vendors."
   }
 ]
