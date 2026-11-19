@@ -9430,5 +9430,45 @@
     "link": "https://stationeryfestival.com/",
     "location": "Brooklyn, NY",
     "description": "Three-day stationery festival at Industry City with 200+ paper, pen, and journaling brands, workshops, and meetups."
+  },
+  {
+    "title": "Secret Rochester: A Guide to the Weird, Wonderful, and Obscure",
+    "date": "2027-01-21",
+    "category": "literary-booktok",
+    "link": "https://hpl.libcal.com/event/17072154",
+    "location": "Henrietta, NY",
+    "description": "Journalist Robin L. Flanigan discusses her guidebook Secret Rochester at Henrietta Public Library."
+  },
+  {
+    "title": "Sagittarius New Moon Ceremony",
+    "date": "2026-12-09",
+    "category": "occult-esoteric",
+    "link": "https://www.heat.center/events-1/2026/12/9/sagittarius-new-moon-ceremony",
+    "location": "Buffalo, NY",
+    "description": "Guided new-moon ceremony with astrology, meditation, and journaling, in person in Buffalo and over Zoom."
+  },
+  {
+    "title": "Buffalo Discussion Group (Rosicrucians)",
+    "date": "2026-12-12",
+    "category": "occult-esoteric",
+    "link": "https://www.meetup.com/rosicrucians-in-new-york-city/events/317160821/",
+    "location": "Buffalo, NY",
+    "description": "Open Rosicrucian meeting on First Steps in Mysticism with group leader Dr. Willie J. Keaton."
+  },
+  {
+    "title": "Tarot Tuesday in the Grosvenor Room",
+    "date": "2026-12-15",
+    "category": "occult-esoteric",
+    "link": "https://buffalolib.libcal.com/event/16189625",
+    "location": "Buffalo, NY",
+    "description": "Monthly showcase of tarot decks from the library's Rare Book collection; bring your own deck to share."
+  },
+  {
+    "title": "Rochester Ghost Tour: Ghosts of Christmas Past",
+    "date": "2026-12-02",
+    "category": "paranormal-events",
+    "link": "https://www.eventbrite.com/o/downtown-tarot-company-103899926781",
+    "location": "Rochester, NY",
+    "description": "Guided downtown Rochester ghost tour exploring Christmas-themed local hauntings, also offered December 12."
   }
 ]
