@@ -9470,5 +9470,53 @@
     "link": "https://www.eventbrite.com/o/downtown-tarot-company-103899926781",
     "location": "Rochester, NY",
     "description": "Guided downtown Rochester ghost tour exploring Christmas-themed local hauntings, also offered December 12."
+  },
+  {
+    "title": "Journaling Night",
+    "date": "2026-12-08",
+    "category": "literary-booktok",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "description": "Free community journaling night at The Unreliable Narrator with junk-journal and bullet-journal supplies provided; RSVP required."
+  },
+  {
+    "title": "Rochester Queer Open Mic",
+    "date": "2026-12-16",
+    "category": "literary-booktok",
+    "link": "https://www.unreliablebooks.com/events",
+    "location": "Rochester, NY",
+    "description": "Monthly queer open mic at The Unreliable Narrator; doors at 6:30, sharing at 7, all welcome to perform or listen."
+  },
+  {
+    "title": "Discover Book Group",
+    "date": "2027-01-20",
+    "category": "literary-booktok",
+    "link": "https://stores.barnesandnoble.com/event/9780062148491-29",
+    "location": "Rochester, NY",
+    "description": "Barnes & Noble Pittsford book group meeting every other month to discuss debut authors and their work."
+  },
+  {
+    "title": "\"No Fear\" Tarot Basics",
+    "date": "2026-11-21",
+    "category": "occult-esoteric",
+    "link": "https://purpledoorsoulsource.com/collections/classes",
+    "location": "Brighton, NY",
+    "description": "Beginner tarot workshop at Purple Door Soul Source covering card basics in a hands-on, no-fear session."
+  },
+  {
+    "title": "Learn How to Journey Workshop",
+    "date": "2026-12-06",
+    "category": "occult-esoteric",
+    "link": "https://purpledoorsoulsource.com/collections/classes",
+    "location": "Brighton, NY",
+    "description": "Full-day workshop at Purple Door Soul Source on learning to journey, part of its psychic-medium class series."
+  },
+  {
+    "title": "Burn Brae Mansion Ghosts of Christmas Past",
+    "date": "2026-12-06",
+    "category": "paranormal-events",
+    "link": "https://burnbraemansion.com/event-our/ghosts-of-christmas-past-2026/",
+    "location": "Glen Spey, NY",
+    "description": "Holiday open house at Burn Brae Mansion with buffet, ghost-story tours, vendors, and angel-card readings."
   }
 ]
