@@ -295,7 +295,6 @@
     color: var(--border);
   }
   .star-btn.on { color: #a2760a; }
-  .chip.starred { font-weight: 700; }
 
   @media (max-width: 480px) {
     .day { min-height: 58px; }
@@ -600,7 +599,7 @@
       <div class="event-item${past ? ' past' : ''}">
         <div class="item-title-row">
           <p class="title">${escapeHtml(e.title)}</p>
-          <button type="button" class="star-btn${isStarred ? ' on' : ''}" aria-pressed="${isStarred}" title="${isStarred ? 'Remove from interested' : 'Mark as interested'}" data-title="${escapeAttr(e.title)}" data-date="${escapeAttr(e.date)}">${isStarred ? '★' : '☆'}</button>
+          <button type="button" class="star-btn${isStarred ? ' on' : ''}" aria-pressed="${isStarred}" title="${isStarred ? 'Remove good-pick mark' : 'Good pick (teaches the picker; does not add to a calendar)'}" data-title="${escapeAttr(e.title)}" data-date="${escapeAttr(e.date)}">${isStarred ? '★' : '☆'}</button>
         </div>
         <p class="meta"><span class="cat-badge">${escapeHtml(titleCase(e.category))}</span>${e.location ? `<span class="loc-badge">${escapeHtml(e.location)}</span>` : ''}${escapeHtml(e.date)}</p>
 ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ''}
@@ -608,7 +607,7 @@ ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ''
       </div>
     `;
     }).join('');
-    els.panel.innerHTML = `<h3>${key}</h3>${items}`;
+    els.panel.innerHTML = `<h3>${key}</h3><p class="placeholder">★ marks a good pick. It teaches the picker what to find and does not add anything to a calendar.</p>${items}`;
     els.panel.querySelectorAll('.star-btn').forEach(btn => {
       btn.addEventListener('click', () => toggleInterested({ title: btn.dataset.title, date: btn.dataset.date }));
     });

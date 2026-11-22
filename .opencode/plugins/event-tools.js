@@ -184,6 +184,7 @@ export const EventWatchTools = async () => {
       read_calibration: createCalibrationTool({
         seenFileName: SEEN_FILE,
         keyFields: KEY_FIELDS,
+        groupOf: (e) => CATEGORY_LABELS[e.category] ?? e.category,
         describe: (e) =>
           `[${CATEGORY_LABELS[e.category] ?? e.category}] ${e.title}` +
           (e.location ? ` (${e.location})` : "") +

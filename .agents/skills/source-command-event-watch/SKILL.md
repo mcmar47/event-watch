@@ -36,8 +36,12 @@ you assign to it; never invent or guess a slug, even one that looks obviously
 derived from the category name.
 
 1. Biotech & longevity (slug: `biotech-longevity`) — conferences, public talks,
-   panels, or expos on biotech, aging/longevity research, or AI-in-biotech,
-   especially in or near NYC, Rochester NY, or available virtually.
+   panels, grand rounds, or expos on biotech, aging/longevity research, or
+   AI-in-biotech, ONLY in Rochester NY or upstate NY (University of Rochester,
+   RIT, the Rochester biotech community). Do not surface NYC, national or
+   virtual events for this one — skip a candidate entirely if it's outside
+   Rochester/upstate NY. (Narrowed from a wider net: it drew 4 stars and 22
+   rejections.)
 2. Literary / BookTok (slug: `literary-booktok`) — book festivals, author
    readings/signings, literary award ceremonies or shortlist announcements
    (Booker Prize, International Booker, etc.), and BookTok-adjacent community
@@ -60,10 +64,11 @@ derived from the category name.
 3. Occult & esoteric (slug: `occult-esoteric`) — tarot, astrology, occult book
    fairs, esoteric shop pop-ups or events, in NYC, Rochester NY, or upstate NY.
 4. Retro gaming (slug: `retro-gaming`) — retro gaming expos, arcade meetups,
-   classic console/game conventions, ONLY in Rochester NY, upstate NY, or NYC
-   (unlike some other categories above, do not surface regional/national
-   events for this one — skip a candidate entirely if it's outside those
-   areas).
+   classic console/game conventions, ONLY in Rochester NY or upstate NY (do
+   not surface NYC, regional or national events for this one — skip a
+   candidate entirely if it's outside Rochester/upstate NY). Only real
+   gatherings count: a convention, expo, arcade or pinball event, or a
+   meetup. (Narrowed from a wider net: 0 stars and 18 rejections.)
 5. Wes Anderson (slug: `wes-anderson`) — screenings, retrospectives, exhibits,
    or fan events related to Wes Anderson's films, anywhere in the US,
    prioritizing NYC.
@@ -114,6 +119,17 @@ derived from the category name.
 
 For each category, run separate targeted searches — don't combine them into one
 query. Only surface events with a concrete date.
+
+QUALITY BAR — applies to every category. The digest is for notable things,
+not an exhaustive local listing. Skip generic recurring meetups that happen
+every week or month with nothing special about this date (a weekly tarot
+night, a standing book group, an open mic, a regular journaling or
+discussion night, a recurring ghost tour with no new theme). Keep one-off or
+limited-run events: a guest, a premiere, a festival, a new season, an event
+with a clear reason to go on this date. Send at most 8 events in a digest;
+if more qualify, keep the ones closest to what `read_calibration` says was
+starred and the Rochester/upstate NY ones, and drop the rest. The calibration
+block's hit-rate table is real data on which groups are worth surfacing.
 
 CRITICAL DATE CHECK: For every candidate event, verify its date against today's
 actual current date before including it anywhere. Discard any event whose date
