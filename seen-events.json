@@ -9566,5 +9566,37 @@
     "link": "https://www.yosekaland.com/upcoming-events",
     "location": "Brooklyn, NY",
     "description": "Free monthly journaling meetup at Yoseka Land with shared supplies, creative prompts, and stationery community."
+  },
+  {
+    "title": "HHBe Grand Rounds: Polygenic Scores Will Never Be Portable",
+    "date": "2026-12-10",
+    "category": "biotech-longevity",
+    "link": "https://events.rochester.edu/event/hhbe-grand-rounds-polygenic-scores-will-never-be-portable",
+    "location": "Rochester, NY",
+    "description": "Free public lecture by bioethicist Lucas Matthews on why polygenic disease-risk scores are not fully portable across populations."
+  },
+  {
+    "title": "Caro Claire Burke: Time, Truth, and Yesteryear",
+    "date": "2027-01-14",
+    "category": "literary-booktok",
+    "link": "https://libraryc.org/roccitylibrary/upcoming",
+    "location": "Virtual",
+    "description": "Virtual author talk with #1 New York Times bestselling novelist and podcaster Caro Claire Burke, hosted by Rochester Public Library."
+  },
+  {
+    "title": "Purple Door Starry Nights Double-Double Reading Event",
+    "date": "2026-12-11",
+    "category": "occult-esoteric",
+    "link": "https://purpledoorsoulsource.com/pages/current-events",
+    "location": "Brighton, NY",
+    "description": "Gallery-style psychic-medium reading night with Sue Fiandach and Connie Wake; every attendee receives a reading, pre-registration required."
+  },
+  {
+    "title": "Foraging Walk at Seminary Hill",
+    "date": "2026-11-28",
+    "category": "fall-autumn",
+    "link": "https://www.seminaryhill.co/calendar-of-events",
+    "location": "Callicoon, NY",
+    "description": "Guided fall-foliage foraging walk through Seminary Hill's 12-acre organic orchard with a cooking demonstration at the tasting room."
   }
 ]
