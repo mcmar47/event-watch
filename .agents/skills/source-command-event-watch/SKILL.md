@@ -130,6 +130,9 @@ with a clear reason to go on this date. Send at most 8 events in a digest;
 if more qualify, keep the ones closest to what `read_calibration` says was
 starred and the Rochester/upstate NY ones, and drop the rest. The calibration
 block's hit-rate table is real data on which groups are worth surfacing.
+Exception: theatre and rochester-venues are kept on purpose for awareness, so
+low star counts there are not a reason to surface fewer of them (their
+per-run caps still apply); they also count toward the 8-event limit last.
 
 CRITICAL DATE CHECK: For every candidate event, verify its date against today's
 actual current date before including it anywhere. Discard any event whose date
