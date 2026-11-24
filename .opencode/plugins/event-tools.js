@@ -33,6 +33,7 @@ import {
   continuumItemLink,
 } from "radar-kit"
 import { KEY_FIELDS } from "../../markKey.mjs"
+import { trimSearchOutput } from "../../src/searchTrim.mjs"
 
 const DIGEST_RECIPIENT = "michael.cmar@gmail.com"
 const SEEN_FILE = "seen-events.json"
@@ -153,6 +154,16 @@ const validateItemSchema = tool.schema
 
 export const EventWatchTools = async () => {
   return {
+    // A run does ~40 websearches and every later turn re-sends all of them, so
+    // keep each result's header (title/URL/date) and first passages only. See
+    // src/searchTrim.mjs (a copy of release-radar's). Event dates tend to sit
+    // in the first passage, but allow a little more than release-radar does:
+    // the run's CRITICAL DATE CHECK depends on dates surviving the trim.
+    "tool.execute.after": async (input, output) => {
+      if (input.tool === "websearch" && typeof output?.output === "string") {
+        output.output = trimSearchOutput(output.output, { maxResults: 8, maxHighlightChars: 1500 })
+      }
+    },
     tool: {
       check_dedup: createCheckDedupTool({
         seenFileName: SEEN_FILE,

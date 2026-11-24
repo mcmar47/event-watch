@@ -96,6 +96,8 @@ Unusually for the fleet, this repo has **three** copies of essentially the same 
   categories put productions/screenings of the plays and films you haven't read or seen first
   and say so in the description. It only reorders what the searches find; it never adds searches.
 
+- **Websearch results are trimmed before the model sees them (2026-11-24).** `.opencode/plugins/event-tools.js` has a `tool.execute.after` hook that runs `websearch` output through `src/searchTrim.mjs` (a copy of `release-radar/src/searchTrim.js`; keep the two in step): top 8 results, title/URL/date header plus the first ~1500 chars of highlights each. A run does ~40 searches and every later turn re-sends them all. If events start losing dates, raise `maxHighlightChars` in the hook first.
+
 ## Things that are easy to get wrong
 
 - The `launchd/` directory does not mean launchd — nothing is scheduled on the Mac. The wrapper
