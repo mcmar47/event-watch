@@ -9670,5 +9670,45 @@
     "link": "https://gpstationeryshop.com/",
     "location": "Hamburg, NY",
     "description": "Three-day in-store workshop to build a Kaweco Sport fountain pen and mix a custom ink color."
+  },
+  {
+    "title": "Rochester Book and Paper Fair (RABA)",
+    "date": "2027-09-11",
+    "category": "literary-booktok",
+    "link": "https://www.rochesterbooksellers.com/",
+    "location": "Rochester, NY",
+    "description": "Annual Rochester rare and vintage book and paper fair with dealers, ephemera, and local authors."
+  },
+  {
+    "title": "Book Signing with Robin Flanigan at The Bird House",
+    "date": "2026-12-19",
+    "category": "literary-booktok",
+    "link": "https://www.thebirdhouseny.com/event/book-signing-with-robin-flanigan-author-of-100-things-to-do-in-rochester-before-you-die-2/",
+    "location": "Rochester, NY",
+    "description": "Book signing with Rochester author Robin Flanigan for her local guides 100 Things to Do in Rochester and Secret Rochester."
+  },
+  {
+    "title": "Secret Rochester with Robin Flanigan (Irondequoit Public Library)",
+    "date": "2026-12-17",
+    "category": "literary-booktok",
+    "link": "https://irondequoitlibrary.libcal.com/event/17557615",
+    "location": "Rochester, NY",
+    "description": "Author reading with Robin Flanigan on Secret Rochester, her guide to the city's weird and obscure history."
+  },
+  {
+    "title": "New Year, Old Rituals DeTOUR: Warding off Evil in the Ancient World",
+    "date": "2027-01-14",
+    "category": "occult-esoteric",
+    "link": "https://mag.rochester.edu/event/new-year-old-rituals-detour/",
+    "location": "Rochester, NY",
+    "description": "Guided MAG tour with archaeologist Dr. Alexander J. Smith on ancient objects used to ward off evil."
+  },
+  {
+    "title": "2027 Upstate New York RNA Symposium",
+    "date": "2027-03-11",
+    "category": "biotech-longevity",
+    "link": "https://www.rna-cerrt.org/2027rnasymposium",
+    "location": "Albany, NY",
+    "description": "Two-day upstate New York RNA research symposium at UAlbany with keynotes, trainee talks, and posters."
   }
 ]
