@@ -9710,5 +9710,61 @@
     "link": "https://www.rna-cerrt.org/2027rnasymposium",
     "location": "Albany, NY",
     "description": "Two-day upstate New York RNA research symposium at UAlbany with keynotes, trainee talks, and posters."
+  },
+  {
+    "title": "Buffalo Books & Beer: The Birder Murder / Unbelievable",
+    "date": "2026-12-03",
+    "category": "literary-booktok",
+    "link": "https://tleavesbooks.com/event/2026-12-03/buffalo-books-beer-birder-murder-unbelievable",
+    "location": "Buffalo, NY",
+    "description": "Free barroom reading series at Buffalo Distilling with novelists Michael Northrop and Greg Bauch, books for sale and signing."
+  },
+  {
+    "title": "Wende Essrow: The Key Keeper (Dog Ears Bookstore)",
+    "date": "2026-12-05",
+    "category": "literary-booktok",
+    "link": "http://dogearsbookstore.org/2026/11/15/dog-ears-bookstore-to-host-local-author-wende-essrow/",
+    "location": "Buffalo, NY",
+    "description": "Book signing with Buffalo author Wende Essrow for her memoir The Key Keeper at Dog Ears Bookstore & Cafe."
+  },
+  {
+    "title": "Local Author: Peter Shaffer (Hamburg Public Library)",
+    "date": "2026-12-12",
+    "category": "literary-booktok",
+    "link": "https://buffalolib.libcal.com/event/17544749",
+    "location": "Hamburg, NY",
+    "description": "Book talk and signing with debut novelist Peter Shaffer at the Hamburg Public Library."
+  },
+  {
+    "title": "A Very Wes Anderson Christmas: 10th Anniversary Edition",
+    "date": "2026-12-12",
+    "category": "wes-anderson",
+    "link": "https://www.okcmoa.com/film-series/wesanderson/",
+    "location": "Oklahoma City, OK",
+    "description": "10th-anniversary seven-film Wes Anderson retrospective with 35mm screenings at the Oklahoma City Museum of Art."
+  },
+  {
+    "title": "Festivus Fair at Mythic Treasures",
+    "date": "2026-12-19",
+    "category": "occult-esoteric",
+    "link": "https://allevents.in/rochester/festivus-fair-at-mythic-treasures/200031131390156",
+    "location": "Rochester, NY",
+    "description": "Evening Yule market at Mythic Treasures with vendors, psychic readers, crafts, and a Yule ritual calling back the light."
+  },
+  {
+    "title": "Gail Hosking: No Glory (Bleak House Books)",
+    "date": "2027-01-23",
+    "category": "literary-booktok",
+    "link": "https://www.kentuckypress.com/events/",
+    "location": "Honeoye Falls, NY",
+    "description": "Signing and discussion with Gail Hosking on her memoir No Glory at Bleak House Books."
+  },
+  {
+    "title": "RetroGameCon's Winter Quest",
+    "date": "2027-01-23",
+    "category": "retro-gaming",
+    "link": "https://www.retrogamecon.com/event-details/retrogamecons-winter-quest-at-the-song-dance",
+    "location": "Syracuse, NY",
+    "description": "Retro gaming night with Rock Band karaoke, trivia, artist and craft vendors, and free-play gaming at The Song & Dance."
   }
 ]
