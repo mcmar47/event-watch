@@ -9766,5 +9766,29 @@
     "link": "https://www.retrogamecon.com/event-details/retrogamecons-winter-quest-at-the-song-dance",
     "location": "Syracuse, NY",
     "description": "Retro gaming night with Rock Band karaoke, trivia, artist and craft vendors, and free-play gaming at The Song & Dance."
+  },
+  {
+    "title": "Top Shelf: 2026 Fiction All-Stars",
+    "date": "2026-12-03",
+    "category": "literary-booktok",
+    "link": "https://www.nypl.org/events/programs/2026/12/03/top-shelf-2026-fiction-all-stars",
+    "location": "New York, NY",
+    "description": "Free NYPL panel with novelists Valeria Luiselli, Douglas Stuart, and Vincent Yu, moderated by Isaac Fitzgerald, plus book giveaways and signing."
+  },
+  {
+    "title": "Rochester Ghost Tour: Ghosts of Christmas Past",
+    "date": "2026-12-12",
+    "category": "paranormal-events",
+    "link": "https://stayhappening.com/e/rochester-ghost-tour-ghosts-of-christmas-past-E118SB7UL0JPT",
+    "location": "Rochester, NY",
+    "description": "Guided downtown walking tour of Rochester's holiday hauntings and ghost stories, led by local historian Chris Brown."
+  },
+  {
+    "title": "Nitrate Picture Show",
+    "date": "2027-06-03",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/nitrate-picture-show-returns-george-eastman-museum-june-3-6-2027",
+    "location": "Rochester, NY",
+    "description": "Eleventh annual festival at the Dryden Theatre screening rare vintage nitrate film prints from international archives, with archivist lectures."
   }
 ]
