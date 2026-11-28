@@ -9790,5 +9790,45 @@
     "link": "https://www.eastman.org/nitrate-picture-show-returns-george-eastman-museum-june-3-6-2027",
     "location": "Rochester, NY",
     "description": "Eleventh annual festival at the Dryden Theatre screening rare vintage nitrate film prints from international archives, with archivist lectures."
+  },
+  {
+    "title": "Rochester Kwanzaa Coalition Black Book Fair",
+    "date": "2026-12-30",
+    "category": "literary-booktok",
+    "link": "https://www.rochesterkwanzaa.org/events-1/rochester-kwanzaa-coalition-black-book-fair-author-bookseller-registration",
+    "location": "Rochester, NY",
+    "description": "Free community book fair at Rundel Memorial Library with local authors, a book giveaway, food, and children's activities."
+  },
+  {
+    "title": "Fallout Launch Party",
+    "date": "2026-12-05",
+    "category": "retro-gaming",
+    "link": "https://www.ifpapinball.com/tournaments/view.php?t=122646",
+    "location": "East Rochester, NY",
+    "description": "Pinball launch party and tournament for Stern's Fallout at Rochester Pinball Collective, with match play across four eras of machines."
+  },
+  {
+    "title": "Wes Anderson's The Grand Budapest Hotel (2014) - on the big screen!",
+    "date": "2026-12-18",
+    "category": "wes-anderson",
+    "link": "https://allevents.in/huntington/wes-andersons-the-grand-budapest-hotel-2014-on-the-big-screen/200031088683307",
+    "location": "Huntington, NY",
+    "description": "One-night big-screen screening of Wes Anderson's The Grand Budapest Hotel at the Cinema Arts Centre."
+  },
+  {
+    "title": "The Umbrellas of Cherbourg (35mm)",
+    "date": "2026-12-02",
+    "category": "rochester-venues",
+    "link": "https://www.eastman.org/events/film-screenings",
+    "location": "Rochester, NY",
+    "description": "Opening night of the Dryden's Joyeux Noel series: Jacques Demy's 35mm French musical romance."
+  },
+  {
+    "title": "Shaw Festival: Grimm Tales",
+    "date": "2027-06-09",
+    "category": "theatre",
+    "link": "https://www.shawfest.com/",
+    "location": "Niagara-on-the-Lake, ON",
+    "description": "Shaw Festival staging of Carol Ann Duffy's adaptation of the Brothers Grimm fairy tales, across the border in Ontario (passport needed)."
   }
 ]
